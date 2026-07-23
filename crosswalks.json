@@ -1,0 +1,894 @@
+{
+  "meta": {
+    "name": "Keel compliance crosswalks",
+    "description": "Canonical, framework-agnostic security and quality controls, each mapped (crosswalked) to the clauses it satisfies across multiple compliance frameworks. Maintained by Keel.",
+    "source": "https://keelgrc.com/open-source/",
+    "license": "CC-BY-4.0",
+    "attribution": "Keel GRC LLC (https://keelgrc.com)",
+    "controlCount": 42,
+    "frameworks": [
+      {
+        "key": "cis-controls",
+        "name": "CIS Controls"
+      },
+      {
+        "key": "esg-essentials",
+        "name": "ESG Essentials"
+      },
+      {
+        "key": "gdpr",
+        "name": "GDPR"
+      },
+      {
+        "key": "hipaa",
+        "name": "HIPAA"
+      },
+      {
+        "key": "iso-27001",
+        "name": "ISO/IEC 27001"
+      },
+      {
+        "key": "iso-9001",
+        "name": "ISO 9001"
+      },
+      {
+        "key": "nist-800-171",
+        "name": "NIST SP 800-171"
+      },
+      {
+        "key": "nist-csf",
+        "name": "NIST Cybersecurity Framework"
+      },
+      {
+        "key": "pci-dss",
+        "name": "PCI DSS"
+      },
+      {
+        "key": "soc-2",
+        "name": "SOC 2"
+      }
+    ]
+  },
+  "controls": [
+    {
+      "key": "information-security-policy",
+      "name": "Information security policy",
+      "description": "A board-approved information security policy set, reviewed at least annually and communicated to the workforce.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.5.1"
+        ],
+        "soc-2": [
+          "CC5.3"
+        ],
+        "nist-csf": [
+          "GV.PO-01"
+        ],
+        "pci-dss": [
+          "12.1"
+        ],
+        "hipaa": [
+          "164.316(a)"
+        ],
+        "esg-essentials": [
+          "G.9"
+        ]
+      }
+    },
+    {
+      "key": "risk-assessment",
+      "name": "Risk assessment & treatment",
+      "description": "A documented process to identify, analyze, evaluate, and treat information security risks on a defined cadence.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.5.7"
+        ],
+        "soc-2": [
+          "CC3.1",
+          "CC3.2"
+        ],
+        "nist-csf": [
+          "ID.RA-01"
+        ],
+        "pci-dss": [
+          "12.3"
+        ],
+        "hipaa": [
+          "164.308(a)(1)"
+        ],
+        "iso-9001": [
+          "6.1"
+        ],
+        "esg-essentials": [
+          "G.6"
+        ],
+        "nist-800-171": [
+          "3.11",
+          "3.11.1"
+        ],
+        "cis-controls": [
+          "18"
+        ],
+        "gdpr": [
+          "Art.35"
+        ]
+      }
+    },
+    {
+      "key": "access-control-policy",
+      "name": "Access control policy",
+      "description": "Rules for granting, reviewing, and revoking access to systems and data based on business need and least privilege.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.5.15"
+        ],
+        "soc-2": [
+          "CC6.1",
+          "CC6.3"
+        ],
+        "nist-csf": [
+          "PR.AA-05"
+        ],
+        "pci-dss": [
+          "7.1",
+          "7.2"
+        ],
+        "hipaa": [
+          "164.312(a)(1)"
+        ],
+        "nist-800-171": [
+          "3.1",
+          "3.1.5"
+        ],
+        "cis-controls": [
+          "5",
+          "6"
+        ],
+        "gdpr": [
+          "Art.32"
+        ]
+      }
+    },
+    {
+      "key": "user-lifecycle",
+      "name": "User provisioning & deprovisioning",
+      "description": "Joiner/mover/leaver process to grant, change, and promptly remove access across systems.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.8.3"
+        ],
+        "soc-2": [
+          "CC6.2",
+          "CC6.3"
+        ],
+        "nist-csf": [
+          "PR.AA-01"
+        ],
+        "pci-dss": [
+          "8.2"
+        ],
+        "hipaa": [
+          "164.308(a)(4)"
+        ],
+        "nist-800-171": [
+          "3.5",
+          "3.1.5"
+        ],
+        "cis-controls": [
+          "5.3",
+          "6"
+        ]
+      }
+    },
+    {
+      "key": "mfa",
+      "name": "Multi-factor authentication",
+      "description": "MFA enforced for remote access, administrative access, and access to sensitive systems and data.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.8.5"
+        ],
+        "soc-2": [
+          "CC6.1"
+        ],
+        "nist-csf": [
+          "PR.AA-03"
+        ],
+        "pci-dss": [
+          "8.4",
+          "8.5"
+        ],
+        "hipaa": [
+          "164.312(d)"
+        ],
+        "nist-800-171": [
+          "3.5.3"
+        ],
+        "cis-controls": [
+          "6.3",
+          "6.5"
+        ],
+        "gdpr": [
+          "Art.32"
+        ]
+      }
+    },
+    {
+      "key": "encryption",
+      "name": "Encryption in transit & at rest",
+      "description": "Strong cryptography protects sensitive data in transit over public networks and at rest in storage.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.8.24"
+        ],
+        "soc-2": [
+          "CC6.7"
+        ],
+        "nist-csf": [
+          "PR.DS-01",
+          "PR.DS-02"
+        ],
+        "pci-dss": [
+          "3.5",
+          "4.2"
+        ],
+        "hipaa": [
+          "164.312(a)(1)",
+          "164.312(e)(1)"
+        ],
+        "nist-800-171": [
+          "3.13.11",
+          "3.13.8"
+        ],
+        "cis-controls": [
+          "3.11"
+        ],
+        "gdpr": [
+          "Art.32"
+        ]
+      }
+    },
+    {
+      "key": "logging-monitoring",
+      "name": "Logging & monitoring",
+      "description": "Security-relevant events are logged, protected, retained, and reviewed for anomalies.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.8.15",
+          "A.8.16"
+        ],
+        "soc-2": [
+          "CC7.2"
+        ],
+        "nist-csf": [
+          "DE.CM-09"
+        ],
+        "pci-dss": [
+          "10.2",
+          "10.3",
+          "10.4"
+        ],
+        "hipaa": [
+          "164.312(b)"
+        ],
+        "nist-800-171": [
+          "3.3",
+          "3.3.1"
+        ],
+        "cis-controls": [
+          "8.1",
+          "8.2"
+        ]
+      }
+    },
+    {
+      "key": "vulnerability-management",
+      "name": "Vulnerability management",
+      "description": "Regular scanning, prioritization, and remediation of vulnerabilities across systems and applications.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.8.8"
+        ],
+        "soc-2": [
+          "CC7.1"
+        ],
+        "nist-csf": [
+          "ID.RA-01"
+        ],
+        "pci-dss": [
+          "6.3",
+          "11.3"
+        ],
+        "nist-800-171": [
+          "3.11.2",
+          "3.11.3"
+        ],
+        "cis-controls": [
+          "7.1",
+          "7.3"
+        ]
+      }
+    },
+    {
+      "key": "malware-protection",
+      "name": "Malware protection",
+      "description": "Anti-malware controls prevent, detect, and respond to malicious software on endpoints and servers.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.8.7"
+        ],
+        "soc-2": [
+          "CC6.8"
+        ],
+        "nist-csf": [
+          "PR.PS-05"
+        ],
+        "pci-dss": [
+          "5.2",
+          "5.3"
+        ],
+        "cis-controls": [
+          "9",
+          "10"
+        ]
+      }
+    },
+    {
+      "key": "backups",
+      "name": "Backups",
+      "description": "Regular, tested backups of critical data and systems with defined retention.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.8.13"
+        ],
+        "soc-2": [
+          "A1.2"
+        ],
+        "nist-csf": [
+          "PR.DS-11"
+        ],
+        "hipaa": [
+          "164.308(a)(7)"
+        ],
+        "cis-controls": [
+          "11"
+        ]
+      }
+    },
+    {
+      "key": "business-continuity",
+      "name": "Business continuity & disaster recovery",
+      "description": "BC/DR plans with defined RTO/RPO, tested periodically, to restore service after disruption.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.5.30"
+        ],
+        "soc-2": [
+          "A1.2",
+          "A1.3"
+        ],
+        "nist-csf": [
+          "RC.RP-01"
+        ],
+        "hipaa": [
+          "164.308(a)(7)"
+        ]
+      }
+    },
+    {
+      "key": "incident-response",
+      "name": "Incident response",
+      "description": "A documented, tested plan to detect, triage, contain, remediate, and communicate security incidents.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.5.24",
+          "A.5.26"
+        ],
+        "soc-2": [
+          "CC7.3",
+          "CC7.4"
+        ],
+        "nist-csf": [
+          "RS.MA-01"
+        ],
+        "pci-dss": [
+          "12.10"
+        ],
+        "hipaa": [
+          "164.308(a)(6)"
+        ],
+        "nist-800-171": [
+          "3.6",
+          "3.6.1"
+        ],
+        "cis-controls": [
+          "17.1",
+          "17.4"
+        ],
+        "gdpr": [
+          "Art.33",
+          "Art.34"
+        ]
+      }
+    },
+    {
+      "key": "change-management",
+      "name": "Change management",
+      "description": "Changes to systems and software are requested, reviewed, tested, approved, and tracked.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.8.32"
+        ],
+        "soc-2": [
+          "CC8.1"
+        ],
+        "pci-dss": [
+          "6.5"
+        ],
+        "nist-csf": [
+          "PR.PS-01"
+        ],
+        "iso-9001": [
+          "6.3"
+        ]
+      }
+    },
+    {
+      "key": "vendor-management",
+      "name": "Third-party / vendor risk management",
+      "description": "Due diligence, contractual safeguards, and ongoing monitoring of vendors that handle your data.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.5.19"
+        ],
+        "soc-2": [
+          "CC9.2"
+        ],
+        "nist-csf": [
+          "GV.SC-01"
+        ],
+        "pci-dss": [
+          "12.8"
+        ],
+        "hipaa": [
+          "164.308(b)(1)"
+        ],
+        "iso-9001": [
+          "8.4"
+        ],
+        "esg-essentials": [
+          "G.7",
+          "E.7",
+          "S.6"
+        ],
+        "cis-controls": [
+          "15"
+        ],
+        "gdpr": [
+          "Art.28"
+        ]
+      }
+    },
+    {
+      "key": "security-awareness-training",
+      "name": "Security awareness training",
+      "description": "Ongoing security awareness training for all personnel, with completion tracking.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.6.3"
+        ],
+        "soc-2": [
+          "CC1.4"
+        ],
+        "nist-csf": [
+          "PR.AT-01"
+        ],
+        "pci-dss": [
+          "12.6"
+        ],
+        "hipaa": [
+          "164.308(a)(5)"
+        ],
+        "iso-9001": [
+          "7.2",
+          "7.3"
+        ],
+        "esg-essentials": [
+          "S.5"
+        ],
+        "nist-800-171": [
+          "3.2",
+          "3.2.1"
+        ],
+        "cis-controls": [
+          "14"
+        ]
+      }
+    },
+    {
+      "key": "asset-inventory",
+      "name": "Asset inventory",
+      "description": "An inventory of hardware, software, and information assets with assigned owners.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.5.9"
+        ],
+        "soc-2": [
+          "CC6.1"
+        ],
+        "nist-csf": [
+          "ID.AM-01",
+          "ID.AM-02"
+        ],
+        "pci-dss": [
+          "12.5"
+        ],
+        "nist-800-171": [
+          "3.4",
+          "3.4.1"
+        ],
+        "cis-controls": [
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "key": "data-classification",
+      "name": "Data classification & handling",
+      "description": "Information is classified and handled per its sensitivity, with rules for labeling and protection.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.5.12"
+        ],
+        "soc-2": [
+          "C1.1"
+        ],
+        "nist-csf": [
+          "ID.AM-05"
+        ],
+        "nist-800-171": [
+          "3.8"
+        ],
+        "cis-controls": [
+          "3"
+        ],
+        "gdpr": [
+          "Art.5",
+          "Art.30"
+        ]
+      }
+    },
+    {
+      "key": "physical-security",
+      "name": "Physical security",
+      "description": "Physical access to facilities and equipment holding sensitive data is restricted and monitored.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.7.1",
+          "A.7.2"
+        ],
+        "soc-2": [
+          "CC6.4"
+        ],
+        "pci-dss": [
+          "9.2"
+        ],
+        "hipaa": [
+          "164.310(a)(1)"
+        ]
+      }
+    },
+    {
+      "key": "secure-development",
+      "name": "Secure software development",
+      "description": "Secure coding, review, and testing practices across the development lifecycle.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.8.25"
+        ],
+        "soc-2": [
+          "CC8.1"
+        ],
+        "pci-dss": [
+          "6.2"
+        ],
+        "cis-controls": [
+          "16"
+        ]
+      }
+    },
+    {
+      "key": "network-security",
+      "name": "Network security controls",
+      "description": "Firewalls/segmentation and network controls restrict traffic to and from sensitive environments.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.8.20",
+          "A.8.22"
+        ],
+        "soc-2": [
+          "CC6.6"
+        ],
+        "nist-csf": [
+          "PR.IR-01"
+        ],
+        "pci-dss": [
+          "1.2",
+          "1.3"
+        ],
+        "cis-controls": [
+          "12",
+          "13",
+          "4.4",
+          "4.5"
+        ]
+      }
+    },
+    {
+      "key": "data-retention-disposal",
+      "name": "Data retention & secure disposal",
+      "description": "Data is retained per policy and securely destroyed when no longer needed.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.8.10"
+        ],
+        "soc-2": [
+          "C1.2"
+        ],
+        "pci-dss": [
+          "3.2"
+        ],
+        "hipaa": [
+          "164.310(d)(1)"
+        ],
+        "cis-controls": [
+          "3.5"
+        ]
+      }
+    },
+    {
+      "key": "hr-security",
+      "name": "Personnel security (HR)",
+      "description": "Background screening, confidentiality agreements, and onboarding/offboarding security steps.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.6.1",
+          "A.6.5"
+        ],
+        "soc-2": [
+          "CC1.4"
+        ],
+        "pci-dss": [
+          "12.7"
+        ],
+        "hipaa": [
+          "164.308(a)(3)"
+        ]
+      }
+    },
+    {
+      "key": "quality-policy",
+      "name": "Quality policy & objectives",
+      "description": "A leadership-endorsed quality policy with measurable quality objectives, communicated across the organization.",
+      "crosswalks": {
+        "iso-9001": [
+          "5.2",
+          "6.2"
+        ]
+      }
+    },
+    {
+      "key": "document-control",
+      "name": "Document & records control",
+      "description": "Documented information is created, approved, versioned, and controlled; records are retained and protected.",
+      "crosswalks": {
+        "iso-9001": [
+          "7.5"
+        ],
+        "soc-2": [
+          "CC5.3"
+        ],
+        "iso-27001": [
+          "A.5.37"
+        ]
+      }
+    },
+    {
+      "key": "competence-management",
+      "name": "Competence management",
+      "description": "Roles requiring competence are defined; training and evaluation ensure personnel are qualified.",
+      "crosswalks": {
+        "iso-9001": [
+          "7.2"
+        ]
+      }
+    },
+    {
+      "key": "internal-audit-program",
+      "name": "Internal audit program",
+      "description": "A risk-based internal audit program evaluates conformity and effectiveness at planned intervals.",
+      "crosswalks": {
+        "iso-9001": [
+          "9.2"
+        ],
+        "soc-2": [
+          "CC4.1"
+        ],
+        "iso-27001": [
+          "A.5.35"
+        ]
+      }
+    },
+    {
+      "key": "management-review",
+      "name": "Management review",
+      "description": "Leadership reviews management-system performance at planned intervals and drives improvement decisions.",
+      "crosswalks": {
+        "iso-9001": [
+          "9.3"
+        ],
+        "soc-2": [
+          "CC4.1"
+        ]
+      }
+    },
+    {
+      "key": "nonconformity-capa",
+      "name": "Nonconformity & corrective action (CAPA)",
+      "description": "Nonconforming outputs are controlled; root causes are analyzed and corrective actions tracked to closure.",
+      "crosswalks": {
+        "iso-9001": [
+          "8.7",
+          "10.2"
+        ]
+      }
+    },
+    {
+      "key": "customer-requirements",
+      "name": "Customer requirements & satisfaction",
+      "description": "Requirements for products/services are determined and reviewed; customer satisfaction is monitored.",
+      "crosswalks": {
+        "iso-9001": [
+          "8.2",
+          "9.1"
+        ]
+      }
+    },
+    {
+      "key": "environmental-policy",
+      "name": "Environmental policy",
+      "description": "A written environmental policy stating the organization’s commitments, scope, and responsibilities.",
+      "crosswalks": {
+        "esg-essentials": [
+          "E.1"
+        ]
+      }
+    },
+    {
+      "key": "energy-emissions-tracking",
+      "name": "Energy & emissions tracking",
+      "description": "Regular measurement of energy consumption and an operational (Scope 1 & 2) greenhouse-gas inventory.",
+      "crosswalks": {
+        "esg-essentials": [
+          "E.2",
+          "E.3"
+        ]
+      }
+    },
+    {
+      "key": "waste-recycling",
+      "name": "Waste & recycling program",
+      "description": "Waste streams are tracked and recycling or diversion is implemented where practical.",
+      "crosswalks": {
+        "esg-essentials": [
+          "E.4"
+        ]
+      }
+    },
+    {
+      "key": "environmental-targets",
+      "name": "Environmental reduction targets",
+      "description": "At least one measurable environmental reduction target is set and progress is reviewed.",
+      "crosswalks": {
+        "esg-essentials": [
+          "E.6"
+        ]
+      }
+    },
+    {
+      "key": "health-safety",
+      "name": "Health & safety program",
+      "description": "A safe working environment with incident recording, review, and corrective action.",
+      "crosswalks": {
+        "esg-essentials": [
+          "S.1"
+        ]
+      }
+    },
+    {
+      "key": "dei-commitment",
+      "name": "Diversity, equity & inclusion commitment",
+      "description": "A DEI commitment with representation tracked where lawful and appropriate.",
+      "crosswalks": {
+        "esg-essentials": [
+          "S.2"
+        ]
+      }
+    },
+    {
+      "key": "fair-labor-practices",
+      "name": "Fair labor practices",
+      "description": "Compliance with wage, hour, and anti-discrimination obligations for all workers.",
+      "crosswalks": {
+        "esg-essentials": [
+          "S.3"
+        ]
+      }
+    },
+    {
+      "key": "individual-privacy",
+      "name": "Personal data privacy",
+      "description": "Personal data of employees and customers is protected with clear, honored privacy practices.",
+      "crosswalks": {
+        "esg-essentials": [
+          "S.8"
+        ],
+        "iso-27001": [
+          "A.5.34"
+        ]
+      }
+    },
+    {
+      "key": "esg-oversight",
+      "name": "ESG leadership oversight",
+      "description": "Leadership accountability for the ESG program with periodic review of performance.",
+      "crosswalks": {
+        "esg-essentials": [
+          "G.1"
+        ]
+      }
+    },
+    {
+      "key": "code-of-conduct",
+      "name": "Code of business conduct",
+      "description": "A code of conduct - including conflicts of interest - acknowledged by staff.",
+      "crosswalks": {
+        "esg-essentials": [
+          "G.2",
+          "G.4"
+        ]
+      }
+    },
+    {
+      "key": "anti-bribery",
+      "name": "Anti-corruption & bribery",
+      "description": "Bribery and facilitation payments are prohibited, with training for relevant staff.",
+      "crosswalks": {
+        "esg-essentials": [
+          "G.3"
+        ]
+      }
+    },
+    {
+      "key": "whistleblower-channel",
+      "name": "Whistleblower channel",
+      "description": "A confidential, non-retaliatory channel to report misconduct.",
+      "crosswalks": {
+        "esg-essentials": [
+          "G.5"
+        ]
+      }
+    },
+    {
+      "key": "esg-reporting",
+      "name": "ESG reporting & disclosure",
+      "description": "An accurate summary of ESG performance is maintained or published for stakeholders.",
+      "crosswalks": {
+        "esg-essentials": [
+          "G.8"
+        ]
+      }
+    }
+  ]
+}
