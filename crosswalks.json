@@ -8,12 +8,20 @@
     "controlCount": 45,
     "frameworks": [
       {
+        "key": "ai-governance-essentials",
+        "name": "AI Governance Essentials"
+      },
+      {
         "key": "cis-controls",
         "name": "CIS Controls"
       },
       {
         "key": "esg-essentials",
         "name": "ESG Essentials"
+      },
+      {
+        "key": "eu-ai-act",
+        "name": "EU AI Act"
       },
       {
         "key": "gdpr",
@@ -949,6 +957,12 @@
         ],
         "nist-ai-rmf": [
           "MAP-1"
+        ],
+        "eu-ai-act": [
+          "HOBL-5"
+        ],
+        "ai-governance-essentials": [
+          "GV.3"
         ]
       }
     },
@@ -963,6 +977,13 @@
         ],
         "nist-ai-rmf": [
           "MAP-5"
+        ],
+        "eu-ai-act": [
+          "HREQ-1"
+        ],
+        "ai-governance-essentials": [
+          "RM.1",
+          "RM.2"
         ]
       }
     },
@@ -974,6 +995,13 @@
         "iso-42001": [
           "A.6.2.6",
           "A.9.2"
+        ],
+        "eu-ai-act": [
+          "HREQ-6"
+        ],
+        "ai-governance-essentials": [
+          "HO.1",
+          "HO.2"
         ]
       }
     }

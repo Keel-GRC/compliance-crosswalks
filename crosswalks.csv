@@ -232,10 +232,18 @@ code-of-conduct,Code of business conduct,esg-essentials,ESG Essentials,G.4
 anti-bribery,Anti-corruption & bribery,esg-essentials,ESG Essentials,G.3
 whistleblower-channel,Whistleblower channel,esg-essentials,ESG Essentials,G.5
 esg-reporting,ESG reporting & disclosure,esg-essentials,ESG Essentials,G.8
+ai-system-inventory,AI system inventory,ai-governance-essentials,AI Governance Essentials,GV.3
+ai-system-inventory,AI system inventory,eu-ai-act,EU AI Act,HOBL-5
 ai-system-inventory,AI system inventory,iso-42001,ISO/IEC 42001,A.4.2
 ai-system-inventory,AI system inventory,nist-ai-rmf,NIST AI Risk Management Framework,MAP-1
+ai-impact-assessment,AI system impact assessment,ai-governance-essentials,AI Governance Essentials,RM.1
+ai-impact-assessment,AI system impact assessment,ai-governance-essentials,AI Governance Essentials,RM.2
+ai-impact-assessment,AI system impact assessment,eu-ai-act,EU AI Act,HREQ-1
 ai-impact-assessment,AI system impact assessment,iso-42001,ISO/IEC 42001,A.5.2
 ai-impact-assessment,AI system impact assessment,iso-42001,ISO/IEC 42001,A.5.4
 ai-impact-assessment,AI system impact assessment,nist-ai-rmf,NIST AI Risk Management Framework,MAP-5
+human-oversight,Human oversight of AI,ai-governance-essentials,AI Governance Essentials,HO.1
+human-oversight,Human oversight of AI,ai-governance-essentials,AI Governance Essentials,HO.2
+human-oversight,Human oversight of AI,eu-ai-act,EU AI Act,HREQ-6
 human-oversight,Human oversight of AI,iso-42001,ISO/IEC 42001,A.6.2.6
 human-oversight,Human oversight of AI,iso-42001,ISO/IEC 42001,A.9.2
