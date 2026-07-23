@@ -1,5 +1,6 @@
 control_key,control_name,framework_key,framework_name,clause_ref
 information-security-policy,Information security policy,esg-essentials,ESG Essentials,G.9
+information-security-policy,Information security policy,gdpr,GDPR,Art.24
 information-security-policy,Information security policy,hipaa,HIPAA,164.316(a)
 information-security-policy,Information security policy,iso-27001,ISO/IEC 27001,A.5.1
 information-security-policy,Information security policy,nist-csf,NIST Cybersecurity Framework,GV.PO-01
@@ -31,6 +32,7 @@ access-control-policy,Access control policy,soc-2,SOC 2,CC6.1
 access-control-policy,Access control policy,soc-2,SOC 2,CC6.3
 user-lifecycle,User provisioning & deprovisioning,cis-controls,CIS Controls,5.3
 user-lifecycle,User provisioning & deprovisioning,cis-controls,CIS Controls,6
+user-lifecycle,User provisioning & deprovisioning,gdpr,GDPR,Art.32
 user-lifecycle,User provisioning & deprovisioning,hipaa,HIPAA,164.308(a)(4)
 user-lifecycle,User provisioning & deprovisioning,iso-27001,ISO/IEC 27001,A.8.3
 user-lifecycle,User provisioning & deprovisioning,nist-800-171,NIST SP 800-171,3.5
@@ -63,6 +65,7 @@ encryption,Encryption in transit & at rest,pci-dss,PCI DSS,4.2
 encryption,Encryption in transit & at rest,soc-2,SOC 2,CC6.7
 logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,8.1
 logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,8.2
+logging-monitoring,Logging & monitoring,gdpr,GDPR,Art.32
 logging-monitoring,Logging & monitoring,hipaa,HIPAA,164.312(b)
 logging-monitoring,Logging & monitoring,iso-27001,ISO/IEC 27001,A.8.15
 logging-monitoring,Logging & monitoring,iso-27001,ISO/IEC 27001,A.8.16
@@ -75,6 +78,7 @@ logging-monitoring,Logging & monitoring,pci-dss,PCI DSS,10.4
 logging-monitoring,Logging & monitoring,soc-2,SOC 2,CC7.2
 vulnerability-management,Vulnerability management,cis-controls,CIS Controls,7.1
 vulnerability-management,Vulnerability management,cis-controls,CIS Controls,7.3
+vulnerability-management,Vulnerability management,gdpr,GDPR,Art.32
 vulnerability-management,Vulnerability management,iso-27001,ISO/IEC 27001,A.8.8
 vulnerability-management,Vulnerability management,nist-800-171,NIST SP 800-171,3.11.2
 vulnerability-management,Vulnerability management,nist-800-171,NIST SP 800-171,3.11.3
@@ -90,10 +94,12 @@ malware-protection,Malware protection,pci-dss,PCI DSS,5.2
 malware-protection,Malware protection,pci-dss,PCI DSS,5.3
 malware-protection,Malware protection,soc-2,SOC 2,CC6.8
 backups,Backups,cis-controls,CIS Controls,11
+backups,Backups,gdpr,GDPR,Art.32
 backups,Backups,hipaa,HIPAA,164.308(a)(7)
 backups,Backups,iso-27001,ISO/IEC 27001,A.8.13
 backups,Backups,nist-csf,NIST Cybersecurity Framework,PR.DS-11
 backups,Backups,soc-2,SOC 2,A1.2
+business-continuity,Business continuity & disaster recovery,gdpr,GDPR,Art.32
 business-continuity,Business continuity & disaster recovery,hipaa,HIPAA,164.308(a)(7)
 business-continuity,Business continuity & disaster recovery,iso-27001,ISO/IEC 27001,A.5.30
 business-continuity,Business continuity & disaster recovery,nist-csf,NIST Cybersecurity Framework,RC.RP-01
@@ -130,6 +136,7 @@ vendor-management,Third-party / vendor risk management,pci-dss,PCI DSS,12.8
 vendor-management,Third-party / vendor risk management,soc-2,SOC 2,CC9.2
 security-awareness-training,Security awareness training,cis-controls,CIS Controls,14
 security-awareness-training,Security awareness training,esg-essentials,ESG Essentials,S.5
+security-awareness-training,Security awareness training,gdpr,GDPR,Art.32
 security-awareness-training,Security awareness training,hipaa,HIPAA,164.308(a)(5)
 security-awareness-training,Security awareness training,iso-27001,ISO/IEC 27001,A.6.3
 security-awareness-training,Security awareness training,iso-9001,ISO 9001,7.2
@@ -155,12 +162,14 @@ data-classification,Data classification & handling,iso-27001,ISO/IEC 27001,A.5.1
 data-classification,Data classification & handling,nist-800-171,NIST SP 800-171,3.8
 data-classification,Data classification & handling,nist-csf,NIST Cybersecurity Framework,ID.AM-05
 data-classification,Data classification & handling,soc-2,SOC 2,C1.1
+physical-security,Physical security,gdpr,GDPR,Art.32
 physical-security,Physical security,hipaa,HIPAA,164.310(a)(1)
 physical-security,Physical security,iso-27001,ISO/IEC 27001,A.7.1
 physical-security,Physical security,iso-27001,ISO/IEC 27001,A.7.2
 physical-security,Physical security,pci-dss,PCI DSS,9.2
 physical-security,Physical security,soc-2,SOC 2,CC6.4
 secure-development,Secure software development,cis-controls,CIS Controls,16
+secure-development,Secure software development,gdpr,GDPR,Art.25
 secure-development,Secure software development,iso-27001,ISO/IEC 27001,A.8.25
 secure-development,Secure software development,pci-dss,PCI DSS,6.2
 secure-development,Secure software development,soc-2,SOC 2,CC8.1
@@ -175,10 +184,13 @@ network-security,Network security controls,pci-dss,PCI DSS,1.2
 network-security,Network security controls,pci-dss,PCI DSS,1.3
 network-security,Network security controls,soc-2,SOC 2,CC6.6
 data-retention-disposal,Data retention & secure disposal,cis-controls,CIS Controls,3.5
+data-retention-disposal,Data retention & secure disposal,gdpr,GDPR,Art.5
+data-retention-disposal,Data retention & secure disposal,gdpr,GDPR,Art.17
 data-retention-disposal,Data retention & secure disposal,hipaa,HIPAA,164.310(d)(1)
 data-retention-disposal,Data retention & secure disposal,iso-27001,ISO/IEC 27001,A.8.10
 data-retention-disposal,Data retention & secure disposal,pci-dss,PCI DSS,3.2
 data-retention-disposal,Data retention & secure disposal,soc-2,SOC 2,C1.2
+hr-security,Personnel security (HR),gdpr,GDPR,Art.32
 hr-security,Personnel security (HR),hipaa,HIPAA,164.308(a)(3)
 hr-security,Personnel security (HR),iso-27001,ISO/IEC 27001,A.6.1
 hr-security,Personnel security (HR),iso-27001,ISO/IEC 27001,A.6.5
@@ -208,6 +220,11 @@ health-safety,Health & safety program,esg-essentials,ESG Essentials,S.1
 dei-commitment,"Diversity, equity & inclusion commitment",esg-essentials,ESG Essentials,S.2
 fair-labor-practices,Fair labor practices,esg-essentials,ESG Essentials,S.3
 individual-privacy,Personal data privacy,esg-essentials,ESG Essentials,S.8
+individual-privacy,Personal data privacy,gdpr,GDPR,Art.12
+individual-privacy,Personal data privacy,gdpr,GDPR,Art.15
+individual-privacy,Personal data privacy,gdpr,GDPR,Art.16
+individual-privacy,Personal data privacy,gdpr,GDPR,Art.17
+individual-privacy,Personal data privacy,gdpr,GDPR,Art.21
 individual-privacy,Personal data privacy,iso-27001,ISO/IEC 27001,A.5.34
 esg-oversight,ESG leadership oversight,esg-essentials,ESG Essentials,G.1
 code-of-conduct,Code of business conduct,esg-essentials,ESG Essentials,G.2
