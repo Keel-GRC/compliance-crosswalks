@@ -5,7 +5,7 @@
     "source": "https://keelgrc.com/open-source/",
     "license": "CC-BY-4.0",
     "attribution": "Keel GRC LLC (https://keelgrc.com)",
-    "controlCount": 42,
+    "controlCount": 45,
     "frameworks": [
       {
         "key": "cis-controls",
@@ -28,12 +28,20 @@
         "name": "ISO/IEC 27001"
       },
       {
+        "key": "iso-42001",
+        "name": "ISO/IEC 42001"
+      },
+      {
         "key": "iso-9001",
         "name": "ISO 9001"
       },
       {
         "key": "nist-800-171",
         "name": "NIST SP 800-171"
+      },
+      {
+        "key": "nist-ai-rmf",
+        "name": "NIST AI Risk Management Framework"
       },
       {
         "key": "nist-csf",
@@ -928,6 +936,44 @@
       "crosswalks": {
         "esg-essentials": [
           "G.8"
+        ]
+      }
+    },
+    {
+      "key": "ai-system-inventory",
+      "name": "AI system inventory",
+      "description": "A maintained inventory of the AI systems the organization develops, deploys, or uses, with each system's purpose, owner, and risk classification.",
+      "crosswalks": {
+        "iso-42001": [
+          "A.4.2"
+        ],
+        "nist-ai-rmf": [
+          "MAP-1"
+        ]
+      }
+    },
+    {
+      "key": "ai-impact-assessment",
+      "name": "AI system impact assessment",
+      "description": "A process to assess the potential impacts of AI systems on individuals, groups, and society, and to document and act on the results.",
+      "crosswalks": {
+        "iso-42001": [
+          "A.5.2",
+          "A.5.4"
+        ],
+        "nist-ai-rmf": [
+          "MAP-5"
+        ]
+      }
+    },
+    {
+      "key": "human-oversight",
+      "name": "Human oversight of AI",
+      "description": "Appropriate human oversight of AI systems, so people can understand, monitor, and intervene in how an AI system operates.",
+      "crosswalks": {
+        "iso-42001": [
+          "A.6.2.6",
+          "A.9.2"
         ]
       }
     }

@@ -5,9 +5,10 @@ An open dataset of canonical, framework-agnostic security and quality controls, 
 is the "collect once, comply everywhere" mapping that powers [Keel](https://keelgrc.com),
 published as open data.
 
-- **42 controls** mapped across **10 frameworks**, **233 control-to-clause mappings**.
+- **45 controls** mapped across **12 frameworks**, **240 control-to-clause mappings**.
 - Frameworks covered: ISO/IEC 27001, SOC 2, NIST Cybersecurity Framework, PCI DSS,
-  HIPAA, ISO 9001, ESG Essentials, NIST SP 800-171, CIS Controls, GDPR.
+  HIPAA, ISO 9001, ESG Essentials, NIST SP 800-171, CIS Controls, GDPR, ISO/IEC 42001,
+  NIST AI Risk Management Framework.
 
 > Counts reflect the current dataset in this repo and update when it is regenerated.
 
