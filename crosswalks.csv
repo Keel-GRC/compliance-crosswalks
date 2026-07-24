@@ -3,6 +3,7 @@ information-security-policy,Information security policy,esg-essentials,ESG Essen
 information-security-policy,Information security policy,gdpr,GDPR,Art.24
 information-security-policy,Information security policy,hipaa,HIPAA,164.316(a)
 information-security-policy,Information security policy,iso-27001,ISO/IEC 27001,A.5.1
+information-security-policy,Information security policy,nist-800-53,NIST SP 800-53,PL-1
 information-security-policy,Information security policy,nist-csf,NIST Cybersecurity Framework,GV.PO-01
 information-security-policy,Information security policy,pci-dss,PCI DSS,12.1
 information-security-policy,Information security policy,soc-2,SOC 2,CC5.3
@@ -14,6 +15,8 @@ risk-assessment,Risk assessment & treatment,iso-27001,ISO/IEC 27001,A.5.7
 risk-assessment,Risk assessment & treatment,iso-9001,ISO 9001,6.1
 risk-assessment,Risk assessment & treatment,nist-800-171,NIST SP 800-171,3.11
 risk-assessment,Risk assessment & treatment,nist-800-171,NIST SP 800-171,3.11.1
+risk-assessment,Risk assessment & treatment,nist-800-53,NIST SP 800-53,RA-3
+risk-assessment,Risk assessment & treatment,nist-800-53,NIST SP 800-53,RA-7
 risk-assessment,Risk assessment & treatment,nist-csf,NIST Cybersecurity Framework,ID.RA-01
 risk-assessment,Risk assessment & treatment,pci-dss,PCI DSS,12.3
 risk-assessment,Risk assessment & treatment,soc-2,SOC 2,CC3.1
@@ -25,6 +28,10 @@ access-control-policy,Access control policy,hipaa,HIPAA,164.312(a)(1)
 access-control-policy,Access control policy,iso-27001,ISO/IEC 27001,A.5.15
 access-control-policy,Access control policy,nist-800-171,NIST SP 800-171,3.1
 access-control-policy,Access control policy,nist-800-171,NIST SP 800-171,3.1.5
+access-control-policy,Access control policy,nist-800-53,NIST SP 800-53,AC-1
+access-control-policy,Access control policy,nist-800-53,NIST SP 800-53,AC-2
+access-control-policy,Access control policy,nist-800-53,NIST SP 800-53,AC-3
+access-control-policy,Access control policy,nist-800-53,NIST SP 800-53,AC-6
 access-control-policy,Access control policy,nist-csf,NIST Cybersecurity Framework,PR.AA-05
 access-control-policy,Access control policy,pci-dss,PCI DSS,7.1
 access-control-policy,Access control policy,pci-dss,PCI DSS,7.2
@@ -37,6 +44,9 @@ user-lifecycle,User provisioning & deprovisioning,hipaa,HIPAA,164.308(a)(4)
 user-lifecycle,User provisioning & deprovisioning,iso-27001,ISO/IEC 27001,A.8.3
 user-lifecycle,User provisioning & deprovisioning,nist-800-171,NIST SP 800-171,3.5
 user-lifecycle,User provisioning & deprovisioning,nist-800-171,NIST SP 800-171,3.1.5
+user-lifecycle,User provisioning & deprovisioning,nist-800-53,NIST SP 800-53,AC-2
+user-lifecycle,User provisioning & deprovisioning,nist-800-53,NIST SP 800-53,PS-4
+user-lifecycle,User provisioning & deprovisioning,nist-800-53,NIST SP 800-53,PS-5
 user-lifecycle,User provisioning & deprovisioning,nist-csf,NIST Cybersecurity Framework,PR.AA-01
 user-lifecycle,User provisioning & deprovisioning,pci-dss,PCI DSS,8.2
 user-lifecycle,User provisioning & deprovisioning,soc-2,SOC 2,CC6.2
@@ -47,6 +57,7 @@ mfa,Multi-factor authentication,gdpr,GDPR,Art.32
 mfa,Multi-factor authentication,hipaa,HIPAA,164.312(d)
 mfa,Multi-factor authentication,iso-27001,ISO/IEC 27001,A.8.5
 mfa,Multi-factor authentication,nist-800-171,NIST SP 800-171,3.5.3
+mfa,Multi-factor authentication,nist-800-53,NIST SP 800-53,IA-2
 mfa,Multi-factor authentication,nist-csf,NIST Cybersecurity Framework,PR.AA-03
 mfa,Multi-factor authentication,pci-dss,PCI DSS,8.4
 mfa,Multi-factor authentication,pci-dss,PCI DSS,8.5
@@ -58,6 +69,9 @@ encryption,Encryption in transit & at rest,hipaa,HIPAA,164.312(e)(1)
 encryption,Encryption in transit & at rest,iso-27001,ISO/IEC 27001,A.8.24
 encryption,Encryption in transit & at rest,nist-800-171,NIST SP 800-171,3.13.11
 encryption,Encryption in transit & at rest,nist-800-171,NIST SP 800-171,3.13.8
+encryption,Encryption in transit & at rest,nist-800-53,NIST SP 800-53,SC-13
+encryption,Encryption in transit & at rest,nist-800-53,NIST SP 800-53,SC-28
+encryption,Encryption in transit & at rest,nist-800-53,NIST SP 800-53,SC-8
 encryption,Encryption in transit & at rest,nist-csf,NIST Cybersecurity Framework,PR.DS-01
 encryption,Encryption in transit & at rest,nist-csf,NIST Cybersecurity Framework,PR.DS-02
 encryption,Encryption in transit & at rest,pci-dss,PCI DSS,3.5
@@ -71,6 +85,9 @@ logging-monitoring,Logging & monitoring,iso-27001,ISO/IEC 27001,A.8.15
 logging-monitoring,Logging & monitoring,iso-27001,ISO/IEC 27001,A.8.16
 logging-monitoring,Logging & monitoring,nist-800-171,NIST SP 800-171,3.3
 logging-monitoring,Logging & monitoring,nist-800-171,NIST SP 800-171,3.3.1
+logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,AU-2
+logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,AU-6
+logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,AU-12
 logging-monitoring,Logging & monitoring,nist-csf,NIST Cybersecurity Framework,DE.CM-09
 logging-monitoring,Logging & monitoring,pci-dss,PCI DSS,10.2
 logging-monitoring,Logging & monitoring,pci-dss,PCI DSS,10.3
@@ -82,6 +99,8 @@ vulnerability-management,Vulnerability management,gdpr,GDPR,Art.32
 vulnerability-management,Vulnerability management,iso-27001,ISO/IEC 27001,A.8.8
 vulnerability-management,Vulnerability management,nist-800-171,NIST SP 800-171,3.11.2
 vulnerability-management,Vulnerability management,nist-800-171,NIST SP 800-171,3.11.3
+vulnerability-management,Vulnerability management,nist-800-53,NIST SP 800-53,RA-5
+vulnerability-management,Vulnerability management,nist-800-53,NIST SP 800-53,SI-2
 vulnerability-management,Vulnerability management,nist-csf,NIST Cybersecurity Framework,ID.RA-01
 vulnerability-management,Vulnerability management,pci-dss,PCI DSS,6.3
 vulnerability-management,Vulnerability management,pci-dss,PCI DSS,11.3
@@ -89,6 +108,7 @@ vulnerability-management,Vulnerability management,soc-2,SOC 2,CC7.1
 malware-protection,Malware protection,cis-controls,CIS Controls,9
 malware-protection,Malware protection,cis-controls,CIS Controls,10
 malware-protection,Malware protection,iso-27001,ISO/IEC 27001,A.8.7
+malware-protection,Malware protection,nist-800-53,NIST SP 800-53,SI-3
 malware-protection,Malware protection,nist-csf,NIST Cybersecurity Framework,PR.PS-05
 malware-protection,Malware protection,pci-dss,PCI DSS,5.2
 malware-protection,Malware protection,pci-dss,PCI DSS,5.3
@@ -97,11 +117,14 @@ backups,Backups,cis-controls,CIS Controls,11
 backups,Backups,gdpr,GDPR,Art.32
 backups,Backups,hipaa,HIPAA,164.308(a)(7)
 backups,Backups,iso-27001,ISO/IEC 27001,A.8.13
+backups,Backups,nist-800-53,NIST SP 800-53,CP-9
 backups,Backups,nist-csf,NIST Cybersecurity Framework,PR.DS-11
 backups,Backups,soc-2,SOC 2,A1.2
 business-continuity,Business continuity & disaster recovery,gdpr,GDPR,Art.32
 business-continuity,Business continuity & disaster recovery,hipaa,HIPAA,164.308(a)(7)
 business-continuity,Business continuity & disaster recovery,iso-27001,ISO/IEC 27001,A.5.30
+business-continuity,Business continuity & disaster recovery,nist-800-53,NIST SP 800-53,CP-2
+business-continuity,Business continuity & disaster recovery,nist-800-53,NIST SP 800-53,CP-10
 business-continuity,Business continuity & disaster recovery,nist-csf,NIST Cybersecurity Framework,RC.RP-01
 business-continuity,Business continuity & disaster recovery,soc-2,SOC 2,A1.2
 business-continuity,Business continuity & disaster recovery,soc-2,SOC 2,A1.3
@@ -114,12 +137,17 @@ incident-response,Incident response,iso-27001,ISO/IEC 27001,A.5.24
 incident-response,Incident response,iso-27001,ISO/IEC 27001,A.5.26
 incident-response,Incident response,nist-800-171,NIST SP 800-171,3.6
 incident-response,Incident response,nist-800-171,NIST SP 800-171,3.6.1
+incident-response,Incident response,nist-800-53,NIST SP 800-53,IR-4
+incident-response,Incident response,nist-800-53,NIST SP 800-53,IR-5
+incident-response,Incident response,nist-800-53,NIST SP 800-53,IR-6
+incident-response,Incident response,nist-800-53,NIST SP 800-53,IR-8
 incident-response,Incident response,nist-csf,NIST Cybersecurity Framework,RS.MA-01
 incident-response,Incident response,pci-dss,PCI DSS,12.10
 incident-response,Incident response,soc-2,SOC 2,CC7.3
 incident-response,Incident response,soc-2,SOC 2,CC7.4
 change-management,Change management,iso-27001,ISO/IEC 27001,A.8.32
 change-management,Change management,iso-9001,ISO 9001,6.3
+change-management,Change management,nist-800-53,NIST SP 800-53,CM-3
 change-management,Change management,nist-csf,NIST Cybersecurity Framework,PR.PS-01
 change-management,Change management,pci-dss,PCI DSS,6.5
 change-management,Change management,soc-2,SOC 2,CC8.1
@@ -131,6 +159,9 @@ vendor-management,Third-party / vendor risk management,gdpr,GDPR,Art.28
 vendor-management,Third-party / vendor risk management,hipaa,HIPAA,164.308(b)(1)
 vendor-management,Third-party / vendor risk management,iso-27001,ISO/IEC 27001,A.5.19
 vendor-management,Third-party / vendor risk management,iso-9001,ISO 9001,8.4
+vendor-management,Third-party / vendor risk management,nist-800-53,NIST SP 800-53,SA-9
+vendor-management,Third-party / vendor risk management,nist-800-53,NIST SP 800-53,SR-3
+vendor-management,Third-party / vendor risk management,nist-800-53,NIST SP 800-53,SR-6
 vendor-management,Third-party / vendor risk management,nist-csf,NIST Cybersecurity Framework,GV.SC-01
 vendor-management,Third-party / vendor risk management,pci-dss,PCI DSS,12.8
 vendor-management,Third-party / vendor risk management,soc-2,SOC 2,CC9.2
@@ -143,6 +174,9 @@ security-awareness-training,Security awareness training,iso-9001,ISO 9001,7.2
 security-awareness-training,Security awareness training,iso-9001,ISO 9001,7.3
 security-awareness-training,Security awareness training,nist-800-171,NIST SP 800-171,3.2
 security-awareness-training,Security awareness training,nist-800-171,NIST SP 800-171,3.2.1
+security-awareness-training,Security awareness training,nist-800-53,NIST SP 800-53,AT-2
+security-awareness-training,Security awareness training,nist-800-53,NIST SP 800-53,AT-3
+security-awareness-training,Security awareness training,nist-800-53,NIST SP 800-53,AT-4
 security-awareness-training,Security awareness training,nist-csf,NIST Cybersecurity Framework,PR.AT-01
 security-awareness-training,Security awareness training,pci-dss,PCI DSS,12.6
 security-awareness-training,Security awareness training,soc-2,SOC 2,CC1.4
@@ -151,6 +185,7 @@ asset-inventory,Asset inventory,cis-controls,CIS Controls,2
 asset-inventory,Asset inventory,iso-27001,ISO/IEC 27001,A.5.9
 asset-inventory,Asset inventory,nist-800-171,NIST SP 800-171,3.4
 asset-inventory,Asset inventory,nist-800-171,NIST SP 800-171,3.4.1
+asset-inventory,Asset inventory,nist-800-53,NIST SP 800-53,CM-8
 asset-inventory,Asset inventory,nist-csf,NIST Cybersecurity Framework,ID.AM-01
 asset-inventory,Asset inventory,nist-csf,NIST Cybersecurity Framework,ID.AM-02
 asset-inventory,Asset inventory,pci-dss,PCI DSS,12.5
@@ -160,17 +195,24 @@ data-classification,Data classification & handling,gdpr,GDPR,Art.5
 data-classification,Data classification & handling,gdpr,GDPR,Art.30
 data-classification,Data classification & handling,iso-27001,ISO/IEC 27001,A.5.12
 data-classification,Data classification & handling,nist-800-171,NIST SP 800-171,3.8
+data-classification,Data classification & handling,nist-800-53,NIST SP 800-53,RA-2
 data-classification,Data classification & handling,nist-csf,NIST Cybersecurity Framework,ID.AM-05
 data-classification,Data classification & handling,soc-2,SOC 2,C1.1
 physical-security,Physical security,gdpr,GDPR,Art.32
 physical-security,Physical security,hipaa,HIPAA,164.310(a)(1)
 physical-security,Physical security,iso-27001,ISO/IEC 27001,A.7.1
 physical-security,Physical security,iso-27001,ISO/IEC 27001,A.7.2
+physical-security,Physical security,nist-800-53,NIST SP 800-53,PE-2
+physical-security,Physical security,nist-800-53,NIST SP 800-53,PE-3
+physical-security,Physical security,nist-800-53,NIST SP 800-53,PE-6
 physical-security,Physical security,pci-dss,PCI DSS,9.2
 physical-security,Physical security,soc-2,SOC 2,CC6.4
 secure-development,Secure software development,cis-controls,CIS Controls,16
 secure-development,Secure software development,gdpr,GDPR,Art.25
 secure-development,Secure software development,iso-27001,ISO/IEC 27001,A.8.25
+secure-development,Secure software development,nist-800-53,NIST SP 800-53,SA-3
+secure-development,Secure software development,nist-800-53,NIST SP 800-53,SA-8
+secure-development,Secure software development,nist-800-53,NIST SP 800-53,SA-11
 secure-development,Secure software development,pci-dss,PCI DSS,6.2
 secure-development,Secure software development,soc-2,SOC 2,CC8.1
 network-security,Network security controls,cis-controls,CIS Controls,12
@@ -179,6 +221,8 @@ network-security,Network security controls,cis-controls,CIS Controls,4.4
 network-security,Network security controls,cis-controls,CIS Controls,4.5
 network-security,Network security controls,iso-27001,ISO/IEC 27001,A.8.20
 network-security,Network security controls,iso-27001,ISO/IEC 27001,A.8.22
+network-security,Network security controls,nist-800-53,NIST SP 800-53,SC-7
+network-security,Network security controls,nist-800-53,NIST SP 800-53,AC-4
 network-security,Network security controls,nist-csf,NIST Cybersecurity Framework,PR.IR-01
 network-security,Network security controls,pci-dss,PCI DSS,1.2
 network-security,Network security controls,pci-dss,PCI DSS,1.3
@@ -188,12 +232,18 @@ data-retention-disposal,Data retention & secure disposal,gdpr,GDPR,Art.5
 data-retention-disposal,Data retention & secure disposal,gdpr,GDPR,Art.17
 data-retention-disposal,Data retention & secure disposal,hipaa,HIPAA,164.310(d)(1)
 data-retention-disposal,Data retention & secure disposal,iso-27001,ISO/IEC 27001,A.8.10
+data-retention-disposal,Data retention & secure disposal,nist-800-53,NIST SP 800-53,MP-6
+data-retention-disposal,Data retention & secure disposal,nist-800-53,NIST SP 800-53,SI-12
 data-retention-disposal,Data retention & secure disposal,pci-dss,PCI DSS,3.2
 data-retention-disposal,Data retention & secure disposal,soc-2,SOC 2,C1.2
 hr-security,Personnel security (HR),gdpr,GDPR,Art.32
 hr-security,Personnel security (HR),hipaa,HIPAA,164.308(a)(3)
 hr-security,Personnel security (HR),iso-27001,ISO/IEC 27001,A.6.1
 hr-security,Personnel security (HR),iso-27001,ISO/IEC 27001,A.6.5
+hr-security,Personnel security (HR),nist-800-53,NIST SP 800-53,PS-2
+hr-security,Personnel security (HR),nist-800-53,NIST SP 800-53,PS-3
+hr-security,Personnel security (HR),nist-800-53,NIST SP 800-53,PS-6
+hr-security,Personnel security (HR),nist-800-53,NIST SP 800-53,PS-7
 hr-security,Personnel security (HR),pci-dss,PCI DSS,12.7
 hr-security,Personnel security (HR),soc-2,SOC 2,CC1.4
 quality-policy,Quality policy & objectives,iso-9001,ISO 9001,5.2
@@ -203,7 +253,9 @@ document-control,Document & records control,iso-9001,ISO 9001,7.5
 document-control,Document & records control,soc-2,SOC 2,CC5.3
 competence-management,Competence management,iso-9001,ISO 9001,7.2
 internal-audit-program,Internal audit program,iso-27001,ISO/IEC 27001,A.5.35
+internal-audit-program,Internal audit program,iso-42001,ISO/IEC 42001,9.2
 internal-audit-program,Internal audit program,iso-9001,ISO 9001,9.2
+internal-audit-program,Internal audit program,nist-800-53,NIST SP 800-53,CA-2
 internal-audit-program,Internal audit program,soc-2,SOC 2,CC4.1
 management-review,Management review,iso-9001,ISO 9001,9.3
 management-review,Management review,soc-2,SOC 2,CC4.1
