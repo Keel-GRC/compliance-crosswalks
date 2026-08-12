@@ -236,6 +236,9 @@ data-retention-disposal,Data retention & secure disposal,nist-800-53,NIST SP 800
 data-retention-disposal,Data retention & secure disposal,nist-800-53,NIST SP 800-53,SI-12
 data-retention-disposal,Data retention & secure disposal,pci-dss,PCI DSS,3.2
 data-retention-disposal,Data retention & secure disposal,soc-2,SOC 2,C1.2
+data-retention-disposal,Data retention & secure disposal,us-employment-federal,US Employment Law (federal baseline),us.wage-hour.recordkeeping
+data-retention-disposal,Data retention & secure disposal,us-employment-federal,US Employment Law (federal baseline),us.recordkeeping.eeo
+data-retention-disposal,Data retention & secure disposal,us-employment-federal,US Employment Law (federal baseline),us.recordkeeping.i9-retention
 hr-security,Personnel security (HR),gdpr,GDPR,Art.32
 hr-security,Personnel security (HR),hipaa,HIPAA,164.308(a)(3)
 hr-security,Personnel security (HR),iso-27001,ISO/IEC 27001,A.6.1
@@ -246,6 +249,9 @@ hr-security,Personnel security (HR),nist-800-53,NIST SP 800-53,PS-6
 hr-security,Personnel security (HR),nist-800-53,NIST SP 800-53,PS-7
 hr-security,Personnel security (HR),pci-dss,PCI DSS,12.7
 hr-security,Personnel security (HR),soc-2,SOC 2,CC1.4
+hr-security,Personnel security (HR),us-employment-federal,US Employment Law (federal baseline),us.hiring-onboarding.i9
+hr-security,Personnel security (HR),us-employment-federal,US Employment Law (federal baseline),us.hiring-onboarding.fcra-background
+hr-security,Personnel security (HR),us-employment-federal,US Employment Law (federal baseline),us.privacy.polygraph
 quality-policy,Quality policy & objectives,iso-9001,ISO 9001,5.2
 quality-policy,Quality policy & objectives,iso-9001,ISO 9001,6.2
 document-control,Document & records control,iso-27001,ISO/IEC 27001,A.5.37
@@ -269,8 +275,16 @@ energy-emissions-tracking,Energy & emissions tracking,esg-essentials,ESG Essenti
 waste-recycling,Waste & recycling program,esg-essentials,ESG Essentials,E.4
 environmental-targets,Environmental reduction targets,esg-essentials,ESG Essentials,E.6
 health-safety,Health & safety program,esg-essentials,ESG Essentials,S.1
+health-safety,Health & safety program,us-employment-federal,US Employment Law (federal baseline),us.health-safety.general-duty
+health-safety,Health & safety program,us-employment-federal,US Employment Law (federal baseline),us.health-safety.injury-recordkeeping
+health-safety,Health & safety program,us-employment-federal,US Employment Law (federal baseline),us.health-safety.severe-incident-reporting
 dei-commitment,"Diversity, equity & inclusion commitment",esg-essentials,ESG Essentials,S.2
 fair-labor-practices,Fair labor practices,esg-essentials,ESG Essentials,S.3
+fair-labor-practices,Fair labor practices,us-employment-federal,US Employment Law (federal baseline),us.wage-hour.minimum-wage
+fair-labor-practices,Fair labor practices,us-employment-federal,US Employment Law (federal baseline),us.wage-hour.overtime
+fair-labor-practices,Fair labor practices,us-employment-federal,US Employment Law (federal baseline),us.wage-hour.child-labor
+fair-labor-practices,Fair labor practices,us-employment-federal,US Employment Law (federal baseline),us.pay-equity.equal-pay-act
+fair-labor-practices,Fair labor practices,us-employment-federal,US Employment Law (federal baseline),us.pay-equity.title-vii-compensation
 individual-privacy,Personal data privacy,esg-essentials,ESG Essentials,S.8
 individual-privacy,Personal data privacy,gdpr,GDPR,Art.12
 individual-privacy,Personal data privacy,gdpr,GDPR,Art.15
@@ -278,6 +292,7 @@ individual-privacy,Personal data privacy,gdpr,GDPR,Art.16
 individual-privacy,Personal data privacy,gdpr,GDPR,Art.17
 individual-privacy,Personal data privacy,gdpr,GDPR,Art.21
 individual-privacy,Personal data privacy,iso-27001,ISO/IEC 27001,A.5.34
+individual-privacy,Personal data privacy,us-employment-federal,US Employment Law (federal baseline),us.privacy.electronic-monitoring
 esg-oversight,ESG leadership oversight,esg-essentials,ESG Essentials,G.1
 code-of-conduct,Code of business conduct,esg-essentials,ESG Essentials,G.2
 code-of-conduct,Code of business conduct,esg-essentials,ESG Essentials,G.4
@@ -299,3 +314,71 @@ human-oversight,Human oversight of AI,ai-governance-essentials,AI Governance Ess
 human-oversight,Human oversight of AI,eu-ai-act,EU AI Act,HREQ-6
 human-oversight,Human oversight of AI,iso-42001,ISO/IEC 42001,A.6.2.6
 human-oversight,Human oversight of AI,iso-42001,ISO/IEC 42001,A.9.2
+ai-policy,AI policy,iso-42001,ISO/IEC 42001,A.2.2
+ai-policy,AI policy,iso-42001,ISO/IEC 42001,A.2.3
+ai-policy,AI policy,iso-42001,ISO/IEC 42001,A.2.4
+ai-policy,AI policy,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-1
+ai-roles-responsibilities,AI roles & accountability,iso-42001,ISO/IEC 42001,A.3.2
+ai-roles-responsibilities,AI roles & accountability,iso-42001,ISO/IEC 42001,A.3.3
+ai-roles-responsibilities,AI roles & accountability,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-2
+ai-risk-management,AI risk management process,eu-ai-act,EU AI Act,HREQ-1
+ai-risk-management,AI risk management process,nist-ai-rmf,NIST AI Risk Management Framework,MAP-4
+ai-risk-management,AI risk management process,nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-1
+ai-risk-management,AI risk management process,nist-ai-rmf,NIST AI Risk Management Framework,MANAGE-1
+ai-data-governance,Data governance for AI,eu-ai-act,EU AI Act,HREQ-2
+ai-data-governance,Data governance for AI,iso-42001,ISO/IEC 42001,A.4.3
+ai-data-governance,Data governance for AI,iso-42001,ISO/IEC 42001,A.7.2
+ai-data-governance,Data governance for AI,iso-42001,ISO/IEC 42001,A.7.3
+ai-data-governance,Data governance for AI,iso-42001,ISO/IEC 42001,A.7.4
+ai-data-governance,Data governance for AI,iso-42001,ISO/IEC 42001,A.7.5
+ai-data-governance,Data governance for AI,iso-42001,ISO/IEC 42001,A.7.6
+ai-responsible-development,Responsible AI development lifecycle,iso-42001,ISO/IEC 42001,A.6.1.2
+ai-responsible-development,Responsible AI development lifecycle,iso-42001,ISO/IEC 42001,A.6.1.3
+ai-responsible-development,Responsible AI development lifecycle,iso-42001,ISO/IEC 42001,A.6.2.2
+ai-responsible-development,Responsible AI development lifecycle,iso-42001,ISO/IEC 42001,A.6.2.3
+ai-responsible-development,Responsible AI development lifecycle,iso-42001,ISO/IEC 42001,A.6.2.5
+ai-verification-validation,"AI verification, validation & robustness",eu-ai-act,EU AI Act,HREQ-7
+ai-verification-validation,"AI verification, validation & robustness",iso-42001,ISO/IEC 42001,A.6.2.4
+ai-verification-validation,"AI verification, validation & robustness",nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-2
+ai-technical-documentation,AI technical documentation,eu-ai-act,EU AI Act,HREQ-3
+ai-technical-documentation,AI technical documentation,iso-42001,ISO/IEC 42001,A.5.3
+ai-technical-documentation,AI technical documentation,iso-42001,ISO/IEC 42001,A.6.2.7
+ai-logging-records,AI system logging & record-keeping,eu-ai-act,EU AI Act,HREQ-4
+ai-logging-records,AI system logging & record-keeping,iso-42001,ISO/IEC 42001,A.6.2.8
+ai-transparency-disclosure,AI transparency & disclosure,eu-ai-act,EU AI Act,TRANS-1
+ai-transparency-disclosure,AI transparency & disclosure,eu-ai-act,EU AI Act,HREQ-5
+ai-transparency-disclosure,AI transparency & disclosure,iso-42001,ISO/IEC 42001,A.8.2
+ai-transparency-disclosure,AI transparency & disclosure,iso-42001,ISO/IEC 42001,A.8.5
+ai-monitoring-incidents,AI monitoring & malfunction reporting,eu-ai-act,EU AI Act,HOBL-6
+ai-monitoring-incidents,AI monitoring & malfunction reporting,eu-ai-act,EU AI Act,HOBL-7
+ai-monitoring-incidents,AI monitoring & malfunction reporting,iso-42001,ISO/IEC 42001,A.6.2.6
+ai-monitoring-incidents,AI monitoring & malfunction reporting,iso-42001,ISO/IEC 42001,A.8.4
+ai-monitoring-incidents,AI monitoring & malfunction reporting,nist-ai-rmf,NIST AI Risk Management Framework,MANAGE-4
+ai-responsible-use,Responsible use of AI,iso-42001,ISO/IEC 42001,A.9.2
+ai-responsible-use,Responsible use of AI,iso-42001,ISO/IEC 42001,A.9.3
+ai-responsible-use,Responsible use of AI,iso-42001,ISO/IEC 42001,A.9.4
+ai-supplier-management,AI supplier & third-party management,iso-42001,ISO/IEC 42001,A.10.2
+ai-supplier-management,AI supplier & third-party management,iso-42001,ISO/IEC 42001,A.10.3
+ai-supplier-management,AI supplier & third-party management,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-6
+ai-supplier-management,AI supplier & third-party management,nist-ai-rmf,NIST AI Risk Management Framework,MANAGE-3
+employment-classification,Worker classification review,us-employment-federal,US Employment Law (federal baseline),us.classification.exempt
+employment-classification,Worker classification review,us-employment-federal,US Employment Law (federal baseline),us.classification.independent-contractor
+leave-administration,Statutory leave administration,us-employment-federal,US Employment Law (federal baseline),us.leave.fmla
+leave-administration,Statutory leave administration,us-employment-federal,US Employment Law (federal baseline),us.leave.pump-act
+leave-administration,Statutory leave administration,us-employment-federal,US Employment Law (federal baseline),us.leave.userra
+leave-administration,Statutory leave administration,us-employment-federal,US Employment Law (federal baseline),us.leave.federal-jury
+benefits-administration,Benefit plan administration,us-employment-federal,US Employment Law (federal baseline),us.benefits.cobra
+benefits-administration,Benefit plan administration,us-employment-federal,US Employment Law (federal baseline),us.benefits.erisa
+benefits-administration,Benefit plan administration,us-employment-federal,US Employment Law (federal baseline),us.benefits.aca-employer
+benefits-administration,Benefit plan administration,us-employment-federal,US Employment Law (federal baseline),us.termination.cobra-election-notice
+anti-discrimination-program,Anti-discrimination & accommodation program,esg-essentials,ESG Essentials,S.3
+anti-discrimination-program,Anti-discrimination & accommodation program,us-employment-federal,US Employment Law (federal baseline),us.antidiscrim.title-vii
+anti-discrimination-program,Anti-discrimination & accommodation program,us-employment-federal,US Employment Law (federal baseline),us.antidiscrim.ada
+anti-discrimination-program,Anti-discrimination & accommodation program,us-employment-federal,US Employment Law (federal baseline),us.antidiscrim.adea
+anti-discrimination-program,Anti-discrimination & accommodation program,us-employment-federal,US Employment Law (federal baseline),us.antidiscrim.gina
+anti-discrimination-program,Anti-discrimination & accommodation program,us-employment-federal,US Employment Law (federal baseline),us.antidiscrim.pregnancy
+anti-discrimination-program,Anti-discrimination & accommodation program,us-employment-federal,US Employment Law (federal baseline),us.antidiscrim.pwfa
+anti-discrimination-program,Anti-discrimination & accommodation program,us-employment-federal,US Employment Law (federal baseline),us.hiring-onboarding.ada-preoffer
+workplace-notices,Workplace notices & postings,us-employment-federal,US Employment Law (federal baseline),us.posting.federal-workplace-posters
+labor-relations-practice,Protected activity & labor relations,us-employment-federal,US Employment Law (federal baseline),us.labor.nlra-protected-activity
+workforce-reduction-notice,Workforce reduction notice assessment,us-employment-federal,US Employment Law (federal baseline),us.termination.warn
