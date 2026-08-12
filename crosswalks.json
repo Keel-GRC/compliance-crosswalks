@@ -5,7 +5,7 @@
     "source": "https://keelgrc.com/open-source/",
     "license": "CC-BY-4.0",
     "attribution": "Keel GRC LLC (https://keelgrc.com)",
-    "controlCount": 45,
+    "controlCount": 64,
     "frameworks": [
       {
         "key": "ai-governance-essentials",
@@ -66,6 +66,10 @@
       {
         "key": "soc-2",
         "name": "SOC 2"
+      },
+      {
+        "key": "us-employment-federal",
+        "name": "US Employment Law (federal baseline)"
       }
     ]
   },
@@ -783,6 +787,11 @@
         "nist-800-53": [
           "MP-6",
           "SI-12"
+        ],
+        "us-employment-federal": [
+          "us.wage-hour.recordkeeping",
+          "us.recordkeeping.eeo",
+          "us.recordkeeping.i9-retention"
         ]
       }
     },
@@ -812,6 +821,11 @@
           "PS-3",
           "PS-6",
           "PS-7"
+        ],
+        "us-employment-federal": [
+          "us.hiring-onboarding.i9",
+          "us.hiring-onboarding.fcra-background",
+          "us.privacy.polygraph"
         ]
       }
     },
@@ -957,6 +971,11 @@
       "crosswalks": {
         "esg-essentials": [
           "S.1"
+        ],
+        "us-employment-federal": [
+          "us.health-safety.general-duty",
+          "us.health-safety.injury-recordkeeping",
+          "us.health-safety.severe-incident-reporting"
         ]
       }
     },
@@ -977,6 +996,13 @@
       "crosswalks": {
         "esg-essentials": [
           "S.3"
+        ],
+        "us-employment-federal": [
+          "us.wage-hour.minimum-wage",
+          "us.wage-hour.overtime",
+          "us.wage-hour.child-labor",
+          "us.pay-equity.equal-pay-act",
+          "us.pay-equity.title-vii-compensation"
         ]
       }
     },
@@ -997,6 +1023,9 @@
           "Art.16",
           "Art.17",
           "Art.21"
+        ],
+        "us-employment-federal": [
+          "us.privacy.electronic-monitoring"
         ]
       }
     },
@@ -1106,6 +1135,271 @@
         "ai-governance-essentials": [
           "HO.1",
           "HO.2"
+        ]
+      }
+    },
+    {
+      "key": "ai-policy",
+      "name": "AI policy",
+      "description": "A documented, leadership-approved policy for the responsible development and use of AI, aligned with the organization’s other policies and reviewed at planned intervals.",
+      "crosswalks": {
+        "iso-42001": [
+          "A.2.2",
+          "A.2.3",
+          "A.2.4"
+        ],
+        "nist-ai-rmf": [
+          "GOVERN-1"
+        ]
+      }
+    },
+    {
+      "key": "ai-roles-responsibilities",
+      "name": "AI roles & accountability",
+      "description": "Defined and allocated responsibilities for AI across the organization, plus a way for staff to raise concerns about the organization’s AI.",
+      "crosswalks": {
+        "iso-42001": [
+          "A.3.2",
+          "A.3.3"
+        ],
+        "nist-ai-rmf": [
+          "GOVERN-2"
+        ]
+      }
+    },
+    {
+      "key": "ai-risk-management",
+      "name": "AI risk management process",
+      "description": "A process to identify, analyze, prioritize, and treat the risks an AI system can pose, tracked over its lifecycle.",
+      "crosswalks": {
+        "nist-ai-rmf": [
+          "MAP-4",
+          "MEASURE-1",
+          "MANAGE-1"
+        ],
+        "eu-ai-act": [
+          "HREQ-1"
+        ]
+      }
+    },
+    {
+      "key": "ai-data-governance",
+      "name": "Data governance for AI",
+      "description": "Governance of the data used to develop and operate AI systems: sourcing, quality, provenance, and preparation of training and operational data.",
+      "crosswalks": {
+        "iso-42001": [
+          "A.4.3",
+          "A.7.2",
+          "A.7.3",
+          "A.7.4",
+          "A.7.5",
+          "A.7.6"
+        ],
+        "eu-ai-act": [
+          "HREQ-2"
+        ]
+      }
+    },
+    {
+      "key": "ai-responsible-development",
+      "name": "Responsible AI development lifecycle",
+      "description": "Objectives and processes for responsible design and development of AI systems, including requirements, design documentation, and controlled deployment.",
+      "crosswalks": {
+        "iso-42001": [
+          "A.6.1.2",
+          "A.6.1.3",
+          "A.6.2.2",
+          "A.6.2.3",
+          "A.6.2.5"
+        ]
+      }
+    },
+    {
+      "key": "ai-verification-validation",
+      "name": "AI verification, validation & robustness",
+      "description": "Testing that an AI system meets its requirements and performs with appropriate accuracy, robustness, and security before and during use.",
+      "crosswalks": {
+        "iso-42001": [
+          "A.6.2.4"
+        ],
+        "nist-ai-rmf": [
+          "MEASURE-2"
+        ],
+        "eu-ai-act": [
+          "HREQ-7"
+        ]
+      }
+    },
+    {
+      "key": "ai-technical-documentation",
+      "name": "AI technical documentation",
+      "description": "Maintained technical documentation of an AI system’s design, development, and impact assessments, sufficient to demonstrate how it works and was built.",
+      "crosswalks": {
+        "iso-42001": [
+          "A.5.3",
+          "A.6.2.7"
+        ],
+        "eu-ai-act": [
+          "HREQ-3"
+        ]
+      }
+    },
+    {
+      "key": "ai-logging-records",
+      "name": "AI system logging & record-keeping",
+      "description": "Automatic recording of events over an AI system’s lifetime, retained to support traceability, monitoring, and post-incident review.",
+      "crosswalks": {
+        "iso-42001": [
+          "A.6.2.8"
+        ],
+        "eu-ai-act": [
+          "HREQ-4"
+        ]
+      }
+    },
+    {
+      "key": "ai-transparency-disclosure",
+      "name": "AI transparency & disclosure",
+      "description": "Clear information for users and interested parties, including disclosing when people are interacting with an AI system and how to use it appropriately.",
+      "crosswalks": {
+        "iso-42001": [
+          "A.8.2",
+          "A.8.5"
+        ],
+        "eu-ai-act": [
+          "TRANS-1",
+          "HREQ-5"
+        ]
+      }
+    },
+    {
+      "key": "ai-monitoring-incidents",
+      "name": "AI monitoring & malfunction reporting",
+      "description": "Ongoing monitoring of AI systems in operation, with a process to detect, communicate, and report malfunctions and serious incidents.",
+      "crosswalks": {
+        "iso-42001": [
+          "A.6.2.6",
+          "A.8.4"
+        ],
+        "eu-ai-act": [
+          "HOBL-6",
+          "HOBL-7"
+        ],
+        "nist-ai-rmf": [
+          "MANAGE-4"
+        ]
+      }
+    },
+    {
+      "key": "ai-responsible-use",
+      "name": "Responsible use of AI",
+      "description": "Processes and objectives for using AI systems responsibly and within their intended purpose, so deployment stays inside approved boundaries.",
+      "crosswalks": {
+        "iso-42001": [
+          "A.9.2",
+          "A.9.3",
+          "A.9.4"
+        ]
+      }
+    },
+    {
+      "key": "ai-supplier-management",
+      "name": "AI supplier & third-party management",
+      "description": "Allocation of responsibilities with, and oversight of, the suppliers and third parties involved in developing or providing AI systems and components.",
+      "crosswalks": {
+        "iso-42001": [
+          "A.10.2",
+          "A.10.3"
+        ],
+        "nist-ai-rmf": [
+          "GOVERN-6",
+          "MANAGE-3"
+        ]
+      }
+    },
+    {
+      "key": "employment-classification",
+      "name": "Worker classification review",
+      "description": "Exempt/non-exempt and employee/contractor determinations are documented against the governing tests and re-reviewed when a role or engagement changes.",
+      "crosswalks": {
+        "us-employment-federal": [
+          "us.classification.exempt",
+          "us.classification.independent-contractor"
+        ]
+      }
+    },
+    {
+      "key": "leave-administration",
+      "name": "Statutory leave administration",
+      "description": "A consistent process for statutory leave: eligibility determination, employee and employer notices, designation, and reinstatement on return.",
+      "crosswalks": {
+        "us-employment-federal": [
+          "us.leave.fmla",
+          "us.leave.pump-act",
+          "us.leave.userra",
+          "us.leave.federal-jury"
+        ]
+      }
+    },
+    {
+      "key": "benefits-administration",
+      "name": "Benefit plan administration",
+      "description": "Benefit plans are administered against their plan documents, with participant disclosures and continuation-coverage notices issued within the required windows.",
+      "crosswalks": {
+        "us-employment-federal": [
+          "us.benefits.cobra",
+          "us.benefits.erisa",
+          "us.benefits.aca-employer",
+          "us.termination.cobra-election-notice"
+        ]
+      }
+    },
+    {
+      "key": "anti-discrimination-program",
+      "name": "Anti-discrimination & accommodation program",
+      "description": "A published anti-discrimination and anti-harassment policy with reporting routes, a documented investigation procedure, and a consistent process for handling accommodation requests.",
+      "crosswalks": {
+        "esg-essentials": [
+          "S.3"
+        ],
+        "us-employment-federal": [
+          "us.antidiscrim.title-vii",
+          "us.antidiscrim.ada",
+          "us.antidiscrim.adea",
+          "us.antidiscrim.gina",
+          "us.antidiscrim.pregnancy",
+          "us.antidiscrim.pwfa",
+          "us.hiring-onboarding.ada-preoffer"
+        ]
+      }
+    },
+    {
+      "key": "workplace-notices",
+      "name": "Workplace notices & postings",
+      "description": "Required workplace notices are posted where employees can see them, including for remote staff, and individual notices are delivered when a triggering event occurs.",
+      "crosswalks": {
+        "us-employment-federal": [
+          "us.posting.federal-workplace-posters"
+        ]
+      }
+    },
+    {
+      "key": "labor-relations-practice",
+      "name": "Protected activity & labor relations",
+      "description": "Policies, handbooks, and manager practice are reviewed so they do not restrain employees acting together on terms and conditions of employment.",
+      "crosswalks": {
+        "us-employment-federal": [
+          "us.labor.nlra-protected-activity"
+        ]
+      }
+    },
+    {
+      "key": "workforce-reduction-notice",
+      "name": "Workforce reduction notice assessment",
+      "description": "Layoffs, closures, and relocations are assessed against advance-notice thresholds before the decision is executed, so any required notice period can still be met.",
+      "crosswalks": {
+        "us-employment-federal": [
+          "us.termination.warn"
         ]
       }
     }
