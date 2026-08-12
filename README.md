@@ -5,12 +5,19 @@ An open dataset of canonical, framework-agnostic security and quality controls, 
 is the "collect once, comply everywhere" mapping that powers [Keel](https://keelgrc.com),
 published as open data.
 
-- **45 controls** mapped across **15 frameworks**, **300 control-to-clause mappings**.
-- Frameworks covered: ISO/IEC 27001, SOC 2, NIST Cybersecurity Framework, PCI DSS,
-  HIPAA, ISO 9001, ESG Essentials, NIST SP 800-171, NIST SP 800-53, CIS Controls, GDPR,
-  ISO/IEC 42001, NIST AI Risk Management Framework, EU AI Act, AI Governance Essentials.
+**The authoritative counts live in the data, not in this file.** Coverage grows as Keel's
+control library does, and a number written in prose here is wrong the week after it is
+written — which is exactly what happened: this README claimed 45 controls across 15
+frameworks while the files beside it already held 64 across 16. Read them from the data
+instead:
 
-> Counts reflect the current dataset in this repo and update when it is regenerated.
+```bash
+jq '.meta | {controlCount, frameworks: (.frameworks | length)}' crosswalks.json
+jq '[.controls[].crosswalks | to_entries[].value | length] | add' crosswalks.json  # mappings
+tail -n +2 crosswalks.csv | wc -l                                                  # same, from the CSV
+```
+
+The framework list is likewise in `meta.frameworks`, so it cannot fall behind the mappings.
 
 ## Files
 
@@ -27,7 +34,7 @@ published as open data.
     "name": "Keel compliance crosswalks",
     "license": "CC-BY-4.0",
     "attribution": "Keel GRC LLC (https://keelgrc.com)",
-    "controlCount": 45,
+    "controlCount": 64,          // read this, don't trust a number in prose
     "frameworks": [{ "key": "iso-27001", "name": "ISO/IEC 27001" }, ...]
   },
   "controls": [
@@ -56,8 +63,21 @@ coverage; confirm against the authoritative standard for your scope.
 ## Regenerating
 
 This dataset is generated from Keel's canonical control library (the single source of
-truth), so the open data can never drift from what the product actually maps. Keel
-regenerates and republishes it as the library grows.
+truth), so the open data can never drift from what the product actually maps.
+
+That guarantee used to stop at the repository boundary: a generator check confirmed the
+copy inside Keel matched the library, and nothing confirmed that *this* repo matched
+either. It didn't — the published files sat nineteen controls behind, with a whole
+framework missing, for long enough that the invitation below to check the mappings was
+not really answerable. `crosswalks.json` and `crosswalks.csv` are now pushed here
+automatically whenever the library changes, and the job refuses to publish a copy the
+generator would not reproduce.
+
+## Found a mapping you disagree with?
+
+Open an issue. A crosswalk is a judgment call about whether one control genuinely
+satisfies a given clause, and a wrong mapping is worth more to us than a polite one —
+it is the reason this is published rather than described.
 
 ## License
 
