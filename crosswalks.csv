@@ -298,9 +298,6 @@ fair-labor-practices,Fair labor practices,us-employment-federal,US Employment La
 fair-labor-practices,Fair labor practices,us-employment-federal,US Employment Law (federal baseline),us.wage-hour.child-labor
 fair-labor-practices,Fair labor practices,us-employment-federal,US Employment Law (federal baseline),us.pay-equity.equal-pay-act
 fair-labor-practices,Fair labor practices,us-employment-federal,US Employment Law (federal baseline),us.pay-equity.title-vii-compensation
-individual-privacy,Personal data privacy,apple-kids,Apple App Store Kids Category,5.1.1(iv)
-individual-privacy,Personal data privacy,apple-kids,Apple App Store Kids Category,5.1.1(vii)
-individual-privacy,Personal data privacy,apple-kids,Apple App Store Kids Category,5.1.1(viii)
 individual-privacy,Personal data privacy,esg-essentials,ESG Essentials,S.8
 individual-privacy,Personal data privacy,gdpr,GDPR,Art.12
 individual-privacy,Personal data privacy,gdpr,GDPR,Art.15
@@ -414,7 +411,6 @@ childrens-privacy-notice,Children’s privacy notice (direct & online),coppa,COP
 childrens-privacy-notice,Children’s privacy notice (direct & online),coppa,COPPA,312.4(c)(4)
 childrens-privacy-notice,Children’s privacy notice (direct & online),coppa,COPPA,312.4(d)
 childrens-privacy-notice,Children’s privacy notice (direct & online),google-play-families,Google Play Families,families/requirements/data-disclosure
-parental-consent,Verifiable parental consent,apple-kids,Apple App Store Kids Category,5.1.1(ii)
 parental-consent,Verifiable parental consent,apple-kids,Apple App Store Kids Category,5.1.4(a)/birthdate-parental-contact
 parental-consent,Verifiable parental consent,coppa,COPPA,312.5(a)(1)
 parental-consent,Verifiable parental consent,coppa,COPPA,312.5(a)(2)
@@ -430,15 +426,12 @@ childrens-consent-exceptions,Consent-exception handling for children’s data,co
 childrens-consent-exceptions,Consent-exception handling for children’s data,coppa,COPPA,312.5(c)(7)
 childrens-consent-exceptions,Consent-exception handling for children’s data,coppa,COPPA,312.5(c)(8)
 childrens-consent-exceptions,Consent-exception handling for children’s data,coppa,COPPA,312.5(c)(9)
-parent-review-deletion,"Parent review, refusal & deletion requests",apple-kids,Apple App Store Kids Category,5.1.1(v)
 parent-review-deletion,"Parent review, refusal & deletion requests",coppa,COPPA,312.6(a)(1)
 parent-review-deletion,"Parent review, refusal & deletion requests",coppa,COPPA,312.6(a)(2)
 parent-review-deletion,"Parent review, refusal & deletion requests",coppa,COPPA,312.6(a)(3)
 parent-review-deletion,"Parent review, refusal & deletion requests",gdpr,GDPR,Art.15(1)
 parent-review-deletion,"Parent review, refusal & deletion requests",gdpr,GDPR,Art.17(1)
 child-data-minimization,Minimised collection in children’s activities,apple-kids,Apple App Store Kids Category,1.3/no-third-party-transfer
-child-data-minimization,Minimised collection in children’s activities,apple-kids,Apple App Store Kids Category,5.1.1(iii)
-child-data-minimization,Minimised collection in children’s activities,apple-kids,Apple App Store Kids Category,5.1.1(x)
 child-data-minimization,Minimised collection in children’s activities,coppa,COPPA,312.7
 child-data-minimization,Minimised collection in children’s activities,gdpr,GDPR,Art.5(1)
 child-data-minimization,Minimised collection in children’s activities,google-play-families,Google Play Families,families/requirements/child-only-identifiers
