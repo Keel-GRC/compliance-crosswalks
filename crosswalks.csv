@@ -1,4 +1,6 @@
 control_key,control_name,framework_key,framework_name,clause_ref
+information-security-policy,Information security policy,coppa,COPPA,312.8(a)
+information-security-policy,Information security policy,coppa,COPPA,312.8(b)(1)
 information-security-policy,Information security policy,esg-essentials,ESG Essentials,G.9
 information-security-policy,Information security policy,gdpr,GDPR,Art.24
 information-security-policy,Information security policy,hipaa,HIPAA,164.316(a)
@@ -8,6 +10,7 @@ information-security-policy,Information security policy,nist-csf,NIST Cybersecur
 information-security-policy,Information security policy,pci-dss,PCI DSS,12.1
 information-security-policy,Information security policy,soc-2,SOC 2,CC5.3
 risk-assessment,Risk assessment & treatment,cis-controls,CIS Controls,18
+risk-assessment,Risk assessment & treatment,coppa,COPPA,312.8(b)(2)
 risk-assessment,Risk assessment & treatment,esg-essentials,ESG Essentials,G.6
 risk-assessment,Risk assessment & treatment,gdpr,GDPR,Art.35
 risk-assessment,Risk assessment & treatment,hipaa,HIPAA,164.308(a)(1)
@@ -23,6 +26,7 @@ risk-assessment,Risk assessment & treatment,soc-2,SOC 2,CC3.1
 risk-assessment,Risk assessment & treatment,soc-2,SOC 2,CC3.2
 access-control-policy,Access control policy,cis-controls,CIS Controls,5
 access-control-policy,Access control policy,cis-controls,CIS Controls,6
+access-control-policy,Access control policy,coppa,COPPA,312.8(b)(3)
 access-control-policy,Access control policy,gdpr,GDPR,Art.32
 access-control-policy,Access control policy,hipaa,HIPAA,164.312(a)(1)
 access-control-policy,Access control policy,iso-27001,ISO/IEC 27001,A.5.15
@@ -53,6 +57,7 @@ user-lifecycle,User provisioning & deprovisioning,soc-2,SOC 2,CC6.2
 user-lifecycle,User provisioning & deprovisioning,soc-2,SOC 2,CC6.3
 mfa,Multi-factor authentication,cis-controls,CIS Controls,6.3
 mfa,Multi-factor authentication,cis-controls,CIS Controls,6.5
+mfa,Multi-factor authentication,coppa,COPPA,312.8(b)(3)
 mfa,Multi-factor authentication,gdpr,GDPR,Art.32
 mfa,Multi-factor authentication,hipaa,HIPAA,164.312(d)
 mfa,Multi-factor authentication,iso-27001,ISO/IEC 27001,A.8.5
@@ -63,6 +68,7 @@ mfa,Multi-factor authentication,pci-dss,PCI DSS,8.4
 mfa,Multi-factor authentication,pci-dss,PCI DSS,8.5
 mfa,Multi-factor authentication,soc-2,SOC 2,CC6.1
 encryption,Encryption in transit & at rest,cis-controls,CIS Controls,3.11
+encryption,Encryption in transit & at rest,coppa,COPPA,312.8(b)(3)
 encryption,Encryption in transit & at rest,gdpr,GDPR,Art.32
 encryption,Encryption in transit & at rest,hipaa,HIPAA,164.312(a)(1)
 encryption,Encryption in transit & at rest,hipaa,HIPAA,164.312(e)(1)
@@ -79,6 +85,7 @@ encryption,Encryption in transit & at rest,pci-dss,PCI DSS,4.2
 encryption,Encryption in transit & at rest,soc-2,SOC 2,CC6.7
 logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,8.1
 logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,8.2
+logging-monitoring,Logging & monitoring,coppa,COPPA,312.8(b)(3)
 logging-monitoring,Logging & monitoring,gdpr,GDPR,Art.32
 logging-monitoring,Logging & monitoring,hipaa,HIPAA,164.312(b)
 logging-monitoring,Logging & monitoring,iso-27001,ISO/IEC 27001,A.8.15
@@ -95,6 +102,7 @@ logging-monitoring,Logging & monitoring,pci-dss,PCI DSS,10.4
 logging-monitoring,Logging & monitoring,soc-2,SOC 2,CC7.2
 vulnerability-management,Vulnerability management,cis-controls,CIS Controls,7.1
 vulnerability-management,Vulnerability management,cis-controls,CIS Controls,7.3
+vulnerability-management,Vulnerability management,coppa,COPPA,312.8(b)(4)
 vulnerability-management,Vulnerability management,gdpr,GDPR,Art.32
 vulnerability-management,Vulnerability management,iso-27001,ISO/IEC 27001,A.8.8
 vulnerability-management,Vulnerability management,nist-800-171,NIST SP 800-171,3.11.2
@@ -130,6 +138,7 @@ business-continuity,Business continuity & disaster recovery,soc-2,SOC 2,A1.2
 business-continuity,Business continuity & disaster recovery,soc-2,SOC 2,A1.3
 incident-response,Incident response,cis-controls,CIS Controls,17.1
 incident-response,Incident response,cis-controls,CIS Controls,17.4
+incident-response,Incident response,coppa,COPPA,312.8(a)
 incident-response,Incident response,gdpr,GDPR,Art.33
 incident-response,Incident response,gdpr,GDPR,Art.34
 incident-response,Incident response,hipaa,HIPAA,164.308(a)(6)
@@ -152,6 +161,7 @@ change-management,Change management,nist-csf,NIST Cybersecurity Framework,PR.PS-
 change-management,Change management,pci-dss,PCI DSS,6.5
 change-management,Change management,soc-2,SOC 2,CC8.1
 vendor-management,Third-party / vendor risk management,cis-controls,CIS Controls,15
+vendor-management,Third-party / vendor risk management,coppa,COPPA,312.8(c)
 vendor-management,Third-party / vendor risk management,esg-essentials,ESG Essentials,G.7
 vendor-management,Third-party / vendor risk management,esg-essentials,ESG Essentials,E.7
 vendor-management,Third-party / vendor risk management,esg-essentials,ESG Essentials,S.6
@@ -191,6 +201,7 @@ asset-inventory,Asset inventory,nist-csf,NIST Cybersecurity Framework,ID.AM-02
 asset-inventory,Asset inventory,pci-dss,PCI DSS,12.5
 asset-inventory,Asset inventory,soc-2,SOC 2,CC6.1
 data-classification,Data classification & handling,cis-controls,CIS Controls,3
+data-classification,Data classification & handling,coppa,COPPA,312.8(b)(2)
 data-classification,Data classification & handling,gdpr,GDPR,Art.5
 data-classification,Data classification & handling,gdpr,GDPR,Art.30
 data-classification,Data classification & handling,iso-27001,ISO/IEC 27001,A.5.12
@@ -228,6 +239,7 @@ network-security,Network security controls,pci-dss,PCI DSS,1.2
 network-security,Network security controls,pci-dss,PCI DSS,1.3
 network-security,Network security controls,soc-2,SOC 2,CC6.6
 data-retention-disposal,Data retention & secure disposal,cis-controls,CIS Controls,3.5
+data-retention-disposal,Data retention & secure disposal,coppa,COPPA,312.10
 data-retention-disposal,Data retention & secure disposal,gdpr,GDPR,Art.5
 data-retention-disposal,Data retention & secure disposal,gdpr,GDPR,Art.17
 data-retention-disposal,Data retention & secure disposal,hipaa,HIPAA,164.310(d)(1)
@@ -258,6 +270,7 @@ document-control,Document & records control,iso-27001,ISO/IEC 27001,A.5.37
 document-control,Document & records control,iso-9001,ISO 9001,7.5
 document-control,Document & records control,soc-2,SOC 2,CC5.3
 competence-management,Competence management,iso-9001,ISO 9001,7.2
+internal-audit-program,Internal audit program,coppa,COPPA,312.8(b)(5)
 internal-audit-program,Internal audit program,iso-27001,ISO/IEC 27001,A.5.35
 internal-audit-program,Internal audit program,iso-42001,ISO/IEC 42001,9.2
 internal-audit-program,Internal audit program,iso-9001,ISO 9001,9.2
@@ -382,3 +395,32 @@ anti-discrimination-program,Anti-discrimination & accommodation program,us-emplo
 workplace-notices,Workplace notices & postings,us-employment-federal,US Employment Law (federal baseline),us.posting.federal-workplace-posters
 labor-relations-practice,Protected activity & labor relations,us-employment-federal,US Employment Law (federal baseline),us.labor.nlra-protected-activity
 workforce-reduction-notice,Workforce reduction notice assessment,us-employment-federal,US Employment Law (federal baseline),us.termination.warn
+childrens-privacy-program,Children’s online privacy programme,coppa,COPPA,312.3
+childrens-privacy-notice,Children’s privacy notice (direct & online),coppa,COPPA,312.4(a)
+childrens-privacy-notice,Children’s privacy notice (direct & online),coppa,COPPA,312.4(b)
+childrens-privacy-notice,Children’s privacy notice (direct & online),coppa,COPPA,312.4(c)(1)
+childrens-privacy-notice,Children’s privacy notice (direct & online),coppa,COPPA,312.4(c)(2)
+childrens-privacy-notice,Children’s privacy notice (direct & online),coppa,COPPA,312.4(c)(3)
+childrens-privacy-notice,Children’s privacy notice (direct & online),coppa,COPPA,312.4(c)(4)
+childrens-privacy-notice,Children’s privacy notice (direct & online),coppa,COPPA,312.4(d)
+parental-consent,Verifiable parental consent,coppa,COPPA,312.5(a)(1)
+parental-consent,Verifiable parental consent,coppa,COPPA,312.5(a)(2)
+parental-consent,Verifiable parental consent,coppa,COPPA,312.5(b)(1)
+parental-consent,Verifiable parental consent,gdpr,GDPR,Art.8(1)
+parental-consent,Verifiable parental consent,gdpr,GDPR,Art.8(2)
+childrens-consent-exceptions,Consent-exception handling for children’s data,coppa,COPPA,312.5(c)(1)
+childrens-consent-exceptions,Consent-exception handling for children’s data,coppa,COPPA,312.5(c)(2)
+childrens-consent-exceptions,Consent-exception handling for children’s data,coppa,COPPA,312.5(c)(3)
+childrens-consent-exceptions,Consent-exception handling for children’s data,coppa,COPPA,312.5(c)(4)
+childrens-consent-exceptions,Consent-exception handling for children’s data,coppa,COPPA,312.5(c)(5)
+childrens-consent-exceptions,Consent-exception handling for children’s data,coppa,COPPA,312.5(c)(6)
+childrens-consent-exceptions,Consent-exception handling for children’s data,coppa,COPPA,312.5(c)(7)
+childrens-consent-exceptions,Consent-exception handling for children’s data,coppa,COPPA,312.5(c)(8)
+childrens-consent-exceptions,Consent-exception handling for children’s data,coppa,COPPA,312.5(c)(9)
+parent-review-deletion,"Parent review, refusal & deletion requests",coppa,COPPA,312.6(a)(1)
+parent-review-deletion,"Parent review, refusal & deletion requests",coppa,COPPA,312.6(a)(2)
+parent-review-deletion,"Parent review, refusal & deletion requests",coppa,COPPA,312.6(a)(3)
+parent-review-deletion,"Parent review, refusal & deletion requests",gdpr,GDPR,Art.15(1)
+parent-review-deletion,"Parent review, refusal & deletion requests",gdpr,GDPR,Art.17(1)
+child-data-minimization,Minimised collection in children’s activities,coppa,COPPA,312.7
+child-data-minimization,Minimised collection in children’s activities,gdpr,GDPR,Art.5(1)

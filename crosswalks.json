@@ -5,7 +5,7 @@
     "source": "https://keelgrc.com/open-source/",
     "license": "CC-BY-4.0",
     "attribution": "Keel GRC LLC (https://keelgrc.com)",
-    "controlCount": 64,
+    "controlCount": 70,
     "frameworks": [
       {
         "key": "ai-governance-essentials",
@@ -14,6 +14,10 @@
       {
         "key": "cis-controls",
         "name": "CIS Controls"
+      },
+      {
+        "key": "coppa",
+        "name": "COPPA"
       },
       {
         "key": "esg-essentials",
@@ -102,6 +106,10 @@
         ],
         "nist-800-53": [
           "PL-1"
+        ],
+        "coppa": [
+          "312.8(a)",
+          "312.8(b)(1)"
         ]
       }
     },
@@ -145,6 +153,9 @@
         "nist-800-53": [
           "RA-3",
           "RA-7"
+        ],
+        "coppa": [
+          "312.8(b)(2)"
         ]
       }
     },
@@ -186,6 +197,9 @@
           "AC-2",
           "AC-3",
           "AC-6"
+        ],
+        "coppa": [
+          "312.8(b)(3)"
         ]
       }
     },
@@ -261,6 +275,9 @@
         ],
         "nist-800-53": [
           "IA-2"
+        ],
+        "coppa": [
+          "312.8(b)(3)"
         ]
       }
     },
@@ -301,6 +318,9 @@
           "SC-13",
           "SC-28",
           "SC-8"
+        ],
+        "coppa": [
+          "312.8(b)(3)"
         ]
       }
     },
@@ -342,6 +362,9 @@
           "AU-2",
           "AU-6",
           "AU-12"
+        ],
+        "coppa": [
+          "312.8(b)(3)"
         ]
       }
     },
@@ -377,6 +400,9 @@
         "nist-800-53": [
           "RA-5",
           "SI-2"
+        ],
+        "coppa": [
+          "312.8(b)(4)"
         ]
       }
     },
@@ -501,6 +527,9 @@
           "IR-5",
           "IR-6",
           "IR-8"
+        ],
+        "coppa": [
+          "312.8(a)"
         ]
       }
     },
@@ -567,6 +596,9 @@
           "SA-9",
           "SR-3",
           "SR-6"
+        ],
+        "coppa": [
+          "312.8(c)"
         ]
       }
     },
@@ -671,6 +703,9 @@
         ],
         "nist-800-53": [
           "RA-2"
+        ],
+        "coppa": [
+          "312.8(b)(2)"
         ]
       }
     },
@@ -792,6 +827,9 @@
           "us.wage-hour.recordkeeping",
           "us.recordkeeping.eeo",
           "us.recordkeeping.i9-retention"
+        ],
+        "coppa": [
+          "312.10"
         ]
       }
     },
@@ -885,6 +923,9 @@
         ],
         "nist-800-53": [
           "CA-2"
+        ],
+        "coppa": [
+          "312.8(b)(5)"
         ]
       }
     },
@@ -1400,6 +1441,95 @@
       "crosswalks": {
         "us-employment-federal": [
           "us.termination.warn"
+        ]
+      }
+    },
+    {
+      "key": "childrens-privacy-program",
+      "name": "Children’s online privacy programme",
+      "description": "A documented assessment of whether the service is directed to children under 13 or has a mixed audience, which operators collect through it, and the notice, consent, parental-rights, minimisation, security and retention duties that follow.",
+      "crosswalks": {
+        "coppa": [
+          "312.3"
+        ]
+      }
+    },
+    {
+      "key": "childrens-privacy-notice",
+      "name": "Children’s privacy notice (direct & online)",
+      "description": "Direct notices to parents for each circumstance that triggers one, and a prominent online children’s privacy notice carrying the operator details, collection, use, disclosure and retention information the rule requires.",
+      "crosswalks": {
+        "coppa": [
+          "312.4(a)",
+          "312.4(b)",
+          "312.4(c)(1)",
+          "312.4(c)(2)",
+          "312.4(c)(3)",
+          "312.4(c)(4)",
+          "312.4(d)"
+        ]
+      }
+    },
+    {
+      "key": "parental-consent",
+      "name": "Verifiable parental consent",
+      "description": "Verifiable parental consent is obtained and recorded before a child’s personal information is collected, used or disclosed, using a method reasonably calculated to confirm the person consenting is the parent, with separate consent for disclosure to third parties.",
+      "crosswalks": {
+        "coppa": [
+          "312.5(a)(1)",
+          "312.5(a)(2)",
+          "312.5(b)(1)"
+        ],
+        "gdpr": [
+          "Art.8(1)",
+          "Art.8(2)"
+        ]
+      }
+    },
+    {
+      "key": "childrens-consent-exceptions",
+      "name": "Consent-exception handling for children’s data",
+      "description": "Where children’s personal information is collected without prior parental consent under one of the rule’s narrow exceptions, the purpose limit, use limit, notice and prompt-deletion conditions attached to that exception are documented and enforced.",
+      "crosswalks": {
+        "coppa": [
+          "312.5(c)(1)",
+          "312.5(c)(2)",
+          "312.5(c)(3)",
+          "312.5(c)(4)",
+          "312.5(c)(5)",
+          "312.5(c)(6)",
+          "312.5(c)(7)",
+          "312.5(c)(8)",
+          "312.5(c)(9)"
+        ]
+      }
+    },
+    {
+      "key": "parent-review-deletion",
+      "name": "Parent review, refusal & deletion requests",
+      "description": "A documented route for a parent to see the categories of personal information collected from their child, review it after the requester is confirmed to be the parent, refuse further use or collection, and require deletion.",
+      "crosswalks": {
+        "coppa": [
+          "312.6(a)(1)",
+          "312.6(a)(2)",
+          "312.6(a)(3)"
+        ],
+        "gdpr": [
+          "Art.15(1)",
+          "Art.17(1)"
+        ]
+      }
+    },
+    {
+      "key": "child-data-minimization",
+      "name": "Minimised collection in children’s activities",
+      "description": "Games, prize offerings and other activities aimed at children are reviewed so participation is never conditioned on disclosing more personal information than the activity reasonably needs.",
+      "crosswalks": {
+        "coppa": [
+          "312.7"
+        ],
+        "gdpr": [
+          "Art.5(1)"
         ]
       }
     }
