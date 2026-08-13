@@ -34,7 +34,7 @@ The framework list is likewise in `meta.frameworks`, so it cannot fall behind th
     "name": "Keel compliance crosswalks",
     "license": "CC-BY-4.0",
     "attribution": "Keel GRC LLC (https://keelgrc.com)",
-    "controlCount": 64,          // read this, don't trust a number in prose
+    "controlCount": <integer>,   // read this, don't trust a number in prose
     "frameworks": [{ "key": "iso-27001", "name": "ISO/IEC 27001" }, ...]
   },
   "controls": [
