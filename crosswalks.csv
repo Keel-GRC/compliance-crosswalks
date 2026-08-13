@@ -395,7 +395,14 @@ anti-discrimination-program,Anti-discrimination & accommodation program,us-emplo
 workplace-notices,Workplace notices & postings,us-employment-federal,US Employment Law (federal baseline),us.posting.federal-workplace-posters
 labor-relations-practice,Protected activity & labor relations,us-employment-federal,US Employment Law (federal baseline),us.labor.nlra-protected-activity
 workforce-reduction-notice,Workforce reduction notice assessment,us-employment-federal,US Employment Law (federal baseline),us.termination.warn
+childrens-privacy-program,Children’s online privacy programme,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/scope/determination
+childrens-privacy-program,Children’s online privacy programme,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/legal/coppa-compliance
+childrens-privacy-program,Children’s online privacy programme,apple-kids,Apple App Store Kids Category,1.3/childrens-privacy-law
 childrens-privacy-program,Children’s online privacy programme,coppa,COPPA,312.3
+childrens-privacy-program,Children’s online privacy programme,google-play-families,Google Play Families,families/console/target-audience
+childrens-privacy-program,Children’s online privacy programme,google-play-families,Google Play Families,families/requirements/legal-compliance
+childrens-privacy-notice,Children’s privacy notice (direct & online),apple-kids,Apple App Store Kids Category,5.1.1(i)
+childrens-privacy-notice,Children’s privacy notice (direct & online),apple-kids,Apple App Store Kids Category,5.1.4(b)
 childrens-privacy-notice,Children’s privacy notice (direct & online),coppa,COPPA,312.4(a)
 childrens-privacy-notice,Children’s privacy notice (direct & online),coppa,COPPA,312.4(b)
 childrens-privacy-notice,Children’s privacy notice (direct & online),coppa,COPPA,312.4(c)(1)
@@ -403,6 +410,8 @@ childrens-privacy-notice,Children’s privacy notice (direct & online),coppa,COP
 childrens-privacy-notice,Children’s privacy notice (direct & online),coppa,COPPA,312.4(c)(3)
 childrens-privacy-notice,Children’s privacy notice (direct & online),coppa,COPPA,312.4(c)(4)
 childrens-privacy-notice,Children’s privacy notice (direct & online),coppa,COPPA,312.4(d)
+childrens-privacy-notice,Children’s privacy notice (direct & online),google-play-families,Google Play Families,families/requirements/data-disclosure
+parental-consent,Verifiable parental consent,apple-kids,Apple App Store Kids Category,5.1.4(a)/birthdate-parental-contact
 parental-consent,Verifiable parental consent,coppa,COPPA,312.5(a)(1)
 parental-consent,Verifiable parental consent,coppa,COPPA,312.5(a)(2)
 parental-consent,Verifiable parental consent,coppa,COPPA,312.5(b)(1)
@@ -422,5 +431,54 @@ parent-review-deletion,"Parent review, refusal & deletion requests",coppa,COPPA,
 parent-review-deletion,"Parent review, refusal & deletion requests",coppa,COPPA,312.6(a)(3)
 parent-review-deletion,"Parent review, refusal & deletion requests",gdpr,GDPR,Art.15(1)
 parent-review-deletion,"Parent review, refusal & deletion requests",gdpr,GDPR,Art.17(1)
+child-data-minimization,Minimised collection in children’s activities,apple-kids,Apple App Store Kids Category,1.3/no-third-party-transfer
 child-data-minimization,Minimised collection in children’s activities,coppa,COPPA,312.7
 child-data-minimization,Minimised collection in children’s activities,gdpr,GDPR,Art.5(1)
+child-data-minimization,Minimised collection in children’s activities,google-play-families,Google Play Families,families/requirements/child-only-identifiers
+child-data-minimization,Minimised collection in children’s activities,google-play-families,Google Play Families,families/requirements/ad-id-permission
+child-data-minimization,Minimised collection in children’s activities,google-play-families,Google Play Families,families/requirements/mixed-identifiers
+child-data-minimization,Minimised collection in children’s activities,google-play-families,Google Play Families,families/requirements/phone-number
+child-data-minimization,Minimised collection in children’s activities,google-play-families,Google Play Families,families/requirements/child-only-location
+child-data-minimization,Minimised collection in children’s activities,google-play-families,Google Play Families,families/requirements/bluetooth-cdm
+childrens-app-store-declarations,App-store audience declarations & metadata,apple-kids,Apple App Store Kids Category,2.3.8/for-kids-metadata
+childrens-app-store-declarations,App-store audience declarations & metadata,google-play-families,Google Play Families,families/console/accurate-answers
+childrens-app-store-declarations,App-store audience declarations & metadata,google-play-families,Google Play Families,families/social/rating-disclosure
+childrens-experience-safeguards,Child-appropriate experience & parental gates,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/content/age-appropriate
+childrens-experience-safeguards,Child-appropriate experience & parental gates,apple-kids,Apple App Store Kids Category,1.3/parental-gate
+childrens-experience-safeguards,Child-appropriate experience & parental gates,apple-kids,Apple App Store Kids Category,1.3/persisting-requirements
+childrens-experience-safeguards,Child-appropriate experience & parental gates,google-play-families,Google Play Families,families/requirements/app-content
+childrens-experience-safeguards,Child-appropriate experience & parental gates,google-play-families,Google Play Families,families/requirements/app-functionality
+childrens-experience-safeguards,Child-appropriate experience & parental gates,google-play-families,Google Play Families,families/requirements/ar-safety-warning
+childrens-experience-safeguards,Child-appropriate experience & parental gates,google-play-families,Google Play Families,families/requirements/ar-device
+childrens-ads-monetization,Children’s advertising & monetisation controls,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/ads/no-amazon-programs-to-children
+childrens-ads-monetization,Children’s advertising & monetisation controls,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/ads/child-only-no-amazon-programs
+childrens-ads-monetization,Children’s advertising & monetisation controls,apple-kids,Apple App Store Kids Category,1.3/third-party-advertising
+childrens-ads-monetization,Children’s advertising & monetisation controls,apple-kids,Apple App Store Kids Category,5.1.4(a)/no-third-party-analytics-advertising
+childrens-ads-monetization,Children’s advertising & monetisation controls,coppa,COPPA,312.5(c)(7)
+childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads/certified-sdk-only
+childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads/no-interest-based-or-remarketing
+childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads/child-appropriate-content
+childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads/legal-and-industry-standards
+childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads-format/no-deceptive-or-inadvertent-clicks
+childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads-format/no-ad-walls
+childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads-format/closeable-after-5-seconds
+childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads-format/no-launch-interstitial
+childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads-format/no-multiple-placements
+childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads-format/distinguishable-from-content
+childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads-format/no-manipulative-tactics
+childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads-format/no-forced-click-through
+childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads-format/virtual-currency-distinction
+childrens-sdk-governance,Third-party SDK & API governance for children’s apps,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/sdk/child-suitable
+childrens-sdk-governance,Third-party SDK & API governance for children’s apps,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/sdk/prohibited-terms
+childrens-sdk-governance,Third-party SDK & API governance for children’s apps,apple-kids,Apple App Store Kids Category,1.3/third-party-analytics
+childrens-sdk-governance,Third-party SDK & API governance for children’s apps,coppa,COPPA,312.8(c)
+childrens-sdk-governance,Third-party SDK & API governance for children’s apps,google-play-families,Google Play Families,families/requirements/child-only-sdk
+childrens-sdk-governance,Third-party SDK & API governance for children’s apps,google-play-families,Google Play Families,families/requirements/mixed-sdk
+childrens-sdk-governance,Third-party SDK & API governance for children’s apps,google-play-families,Google Play Families,families/requirements/mixed-sdk-gating
+neutral-age-screen,Neutral age screening for mixed audiences,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/sdk/mixed-audience-gating
+neutral-age-screen,Neutral age screening for mixed audiences,coppa,COPPA,312.5(c)(8)
+neutral-age-screen,Neutral age screening for mixed audiences,google-play-families,Google Play Families,families/ads-sdk/mixed-age-screening
+childrens-social-safety,Online-safety controls for children’s social features,google-play-families,Google Play Families,families/social/online-safety-reminder
+childrens-social-safety,Online-safety controls for children’s social features,google-play-families,Google Play Families,families/social/adult-action-gate
+childrens-social-safety,Online-safety controls for children’s social features,google-play-families,Google Play Families,families/social/adult-management
+childrens-social-safety,Online-safety controls for children’s social features,google-play-families,Google Play Families,families/social/anonymous-chat

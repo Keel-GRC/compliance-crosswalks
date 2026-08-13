@@ -5,11 +5,19 @@
     "source": "https://keelgrc.com/open-source/",
     "license": "CC-BY-4.0",
     "attribution": "Keel GRC LLC (https://keelgrc.com)",
-    "controlCount": 70,
+    "controlCount": 76,
     "frameworks": [
       {
         "key": "ai-governance-essentials",
         "name": "AI Governance Essentials"
+      },
+      {
+        "key": "amazon-child-directed",
+        "name": "Amazon Appstore Child-Directed Apps"
+      },
+      {
+        "key": "apple-kids",
+        "name": "Apple App Store Kids Category"
       },
       {
         "key": "cis-controls",
@@ -30,6 +38,10 @@
       {
         "key": "gdpr",
         "name": "GDPR"
+      },
+      {
+        "key": "google-play-families",
+        "name": "Google Play Families"
       },
       {
         "key": "hipaa",
@@ -1447,17 +1459,28 @@
     {
       "key": "childrens-privacy-program",
       "name": "Children’s online privacy programme",
-      "description": "A documented assessment of whether the service is directed to children under 13 or has a mixed audience, which operators collect through it, and the notice, consent, parental-rights, minimisation, security and retention duties that follow.",
+      "description": "A documented assessment of whether the service is directed to children under 13 or has a mixed audience, which operators collect through it, and the notice, consent, parental-rights, minimisation, security and retention duties that follow. Where the app ships through an app store, the same assessment carries that store’s audience determination — note Amazon treats under 16 as a child in the EU, Australia and Japan, so the age band recorded must be the widest one that applies.",
       "crosswalks": {
         "coppa": [
           "312.3"
+        ],
+        "apple-kids": [
+          "1.3/childrens-privacy-law"
+        ],
+        "google-play-families": [
+          "families/console/target-audience",
+          "families/requirements/legal-compliance"
+        ],
+        "amazon-child-directed": [
+          "child-directed/scope/determination",
+          "child-directed/legal/coppa-compliance"
         ]
       }
     },
     {
       "key": "childrens-privacy-notice",
       "name": "Children’s privacy notice (direct & online)",
-      "description": "Direct notices to parents for each circumstance that triggers one, and a prominent online children’s privacy notice carrying the operator details, collection, use, disclosure and retention information the rule requires.",
+      "description": "Direct notices to parents for each circumstance that triggers one, and a prominent online children’s privacy notice carrying the operator details, collection, use, disclosure and retention information the rule requires. The same notice work satisfies the app stores’ requirements to publish a privacy policy and to disclose everything collected from children, including through SDKs.",
       "crosswalks": {
         "coppa": [
           "312.4(a)",
@@ -1467,13 +1490,20 @@
           "312.4(c)(3)",
           "312.4(c)(4)",
           "312.4(d)"
+        ],
+        "apple-kids": [
+          "5.1.1(i)",
+          "5.1.4(b)"
+        ],
+        "google-play-families": [
+          "families/requirements/data-disclosure"
         ]
       }
     },
     {
       "key": "parental-consent",
       "name": "Verifiable parental consent",
-      "description": "Verifiable parental consent is obtained and recorded before a child’s personal information is collected, used or disclosed, using a method reasonably calculated to confirm the person consenting is the parent, with separate consent for disclosure to third parties.",
+      "description": "Verifiable parental consent is obtained and recorded before a child’s personal information is collected, used or disclosed, using a method reasonably calculated to confirm the person consenting is the parent, with separate consent for disclosure to third parties. Note that an app-store parental gate is not the same thing as verifiable parental consent, and neither substitutes for the other.",
       "crosswalks": {
         "coppa": [
           "312.5(a)(1)",
@@ -1483,6 +1513,9 @@
         "gdpr": [
           "Art.8(1)",
           "Art.8(2)"
+        ],
+        "apple-kids": [
+          "5.1.4(a)/birthdate-parental-contact"
         ]
       }
     },
@@ -1523,13 +1556,142 @@
     {
       "key": "child-data-minimization",
       "name": "Minimised collection in children’s activities",
-      "description": "Games, prize offerings and other activities aimed at children are reviewed so participation is never conditioned on disclosing more personal information than the activity reasonably needs.",
+      "description": "Games, prize offerings and other activities aimed at children are reviewed so participation is never conditioned on disclosing more personal information than the activity reasonably needs, and the technical identifiers and location signals the app stores prohibit in children’s apps are neither collected nor transmitted.",
       "crosswalks": {
         "coppa": [
           "312.7"
         ],
         "gdpr": [
           "Art.5(1)"
+        ],
+        "apple-kids": [
+          "1.3/no-third-party-transfer"
+        ],
+        "google-play-families": [
+          "families/requirements/child-only-identifiers",
+          "families/requirements/ad-id-permission",
+          "families/requirements/mixed-identifiers",
+          "families/requirements/phone-number",
+          "families/requirements/child-only-location",
+          "families/requirements/bluetooth-cdm"
+        ]
+      }
+    },
+    {
+      "key": "childrens-app-store-declarations",
+      "name": "App-store audience declarations & metadata",
+      "description": "The age and audience declarations made in each app store’s console, and the store-listing metadata, are accurate, kept current when the app changes, and consistent with how the app is actually built and marketed — including the data-safety and content-rating answers the store enforces against.",
+      "crosswalks": {
+        "apple-kids": [
+          "2.3.8/for-kids-metadata"
+        ],
+        "google-play-families": [
+          "families/console/accurate-answers",
+          "families/social/rating-disclosure"
+        ]
+      }
+    },
+    {
+      "key": "childrens-experience-safeguards",
+      "name": "Child-appropriate experience & parental gates",
+      "description": "Everything a child can reach in the app is age-appropriate, and links out of the app, purchasing opportunities and other adult-facing paths sit behind a parental gate or an equivalent barrier. Covers the store rules on content suitability, thin webview wrappers, augmented-reality safety warnings, and requirements that persist after a kids category is deselected.",
+      "crosswalks": {
+        "apple-kids": [
+          "1.3/parental-gate",
+          "1.3/persisting-requirements"
+        ],
+        "google-play-families": [
+          "families/requirements/app-content",
+          "families/requirements/app-functionality",
+          "families/requirements/ar-safety-warning",
+          "families/requirements/ar-device"
+        ],
+        "amazon-child-directed": [
+          "child-directed/content/age-appropriate"
+        ]
+      }
+    },
+    {
+      "key": "childrens-ads-monetization",
+      "name": "Children’s advertising & monetisation controls",
+      "description": "Ads and monetisation reaching children or users of unknown age come only from sources the store permits, carry no interest-based targeting or remarketing, present age-appropriate creative, and follow the store’s format rules on ad walls, closeability, launch interstitials, multiple placements and virtual currency. Note the stores differ sharply here: Amazon bars its own advertising and affiliate programmes outright and parental consent does not lift that, while Google permits certified SDKs and Apple permits contextual advertising only from vendors with published kids policies including human creative review.",
+      "crosswalks": {
+        "coppa": [
+          "312.5(c)(7)"
+        ],
+        "apple-kids": [
+          "1.3/third-party-advertising",
+          "5.1.4(a)/no-third-party-analytics-advertising"
+        ],
+        "google-play-families": [
+          "families/ads/certified-sdk-only",
+          "families/ads/no-interest-based-or-remarketing",
+          "families/ads/child-appropriate-content",
+          "families/ads/legal-and-industry-standards",
+          "families/ads-format/no-deceptive-or-inadvertent-clicks",
+          "families/ads-format/no-ad-walls",
+          "families/ads-format/closeable-after-5-seconds",
+          "families/ads-format/no-launch-interstitial",
+          "families/ads-format/no-multiple-placements",
+          "families/ads-format/distinguishable-from-content",
+          "families/ads-format/no-manipulative-tactics",
+          "families/ads-format/no-forced-click-through",
+          "families/ads-format/virtual-currency-distinction"
+        ],
+        "amazon-child-directed": [
+          "child-directed/ads/no-amazon-programs-to-children",
+          "child-directed/ads/child-only-no-amazon-programs"
+        ]
+      }
+    },
+    {
+      "key": "childrens-sdk-governance",
+      "name": "Third-party SDK & API governance for children’s apps",
+      "description": "Every third-party SDK and API in a child-directed app is inventoried with what it collects and transmits, checked against terms that permit child-directed use, and either confirmed suitable for children or gated so it collects nothing from them. This is one inventory that answers Apple’s analytics limits, Google’s approved-SDK rules, Amazon’s child-suitability test and COPPA’s diligence duty at once.",
+      "crosswalks": {
+        "coppa": [
+          "312.8(c)"
+        ],
+        "apple-kids": [
+          "1.3/third-party-analytics"
+        ],
+        "google-play-families": [
+          "families/requirements/child-only-sdk",
+          "families/requirements/mixed-sdk",
+          "families/requirements/mixed-sdk-gating"
+        ],
+        "amazon-child-directed": [
+          "child-directed/sdk/child-suitable",
+          "child-directed/sdk/prohibited-terms"
+        ]
+      }
+    },
+    {
+      "key": "neutral-age-screen",
+      "name": "Neutral age screening for mixed audiences",
+      "description": "A mixed-audience app establishes a user’s age band with a neutral screen that does not steer or reward a user into misstating their age, treats an unknown age as a child, and uses the result to gate data collection, third-party SDKs and advertising. One implementation is the evidence for the identifier, SDK and ad-serving rules that all depend on knowing which users are children.",
+      "crosswalks": {
+        "coppa": [
+          "312.5(c)(8)"
+        ],
+        "google-play-families": [
+          "families/ads-sdk/mixed-age-screening"
+        ],
+        "amazon-child-directed": [
+          "child-directed/sdk/mixed-audience-gating"
+        ]
+      }
+    },
+    {
+      "key": "childrens-social-safety",
+      "name": "Online-safety controls for children’s social features",
+      "description": "Where children can share freeform content or communicate with others, an in-app safety reminder is shown before the first exchange, adults can manage or disable the social features, and adult action is required before a child exchanges personal information. Apps whose main focus is chatting with strangers do not target children at all.",
+      "crosswalks": {
+        "google-play-families": [
+          "families/social/online-safety-reminder",
+          "families/social/adult-action-gate",
+          "families/social/adult-management",
+          "families/social/anonymous-chat"
         ]
       }
     }
