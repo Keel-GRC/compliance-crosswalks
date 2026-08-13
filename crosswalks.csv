@@ -276,15 +276,19 @@ internal-audit-program,Internal audit program,iso-42001,ISO/IEC 42001,9.2
 internal-audit-program,Internal audit program,iso-9001,ISO 9001,9.2
 internal-audit-program,Internal audit program,nist-800-53,NIST SP 800-53,CA-2
 internal-audit-program,Internal audit program,soc-2,SOC 2,CC4.1
+management-review,Management review,esg-essentials,ESG Essentials,G.14
 management-review,Management review,iso-9001,ISO 9001,9.3
 management-review,Management review,soc-2,SOC 2,CC4.1
+nonconformity-capa,Nonconformity & corrective action (CAPA),esg-essentials,ESG Essentials,S.16
 nonconformity-capa,Nonconformity & corrective action (CAPA),iso-9001,ISO 9001,8.7
 nonconformity-capa,Nonconformity & corrective action (CAPA),iso-9001,ISO 9001,10.2
+customer-requirements,Customer requirements & satisfaction,esg-essentials,ESG Essentials,S.7
 customer-requirements,Customer requirements & satisfaction,iso-9001,ISO 9001,8.2
 customer-requirements,Customer requirements & satisfaction,iso-9001,ISO 9001,9.1
 environmental-policy,Environmental policy,esg-essentials,ESG Essentials,E.1
-energy-emissions-tracking,Energy & emissions tracking,esg-essentials,ESG Essentials,E.2
-energy-emissions-tracking,Energy & emissions tracking,esg-essentials,ESG Essentials,E.3
+energy-emissions-tracking,"Energy, emissions & resource use tracking",esg-essentials,ESG Essentials,E.2
+energy-emissions-tracking,"Energy, emissions & resource use tracking",esg-essentials,ESG Essentials,E.3
+energy-emissions-tracking,"Energy, emissions & resource use tracking",esg-essentials,ESG Essentials,E.5
 waste-recycling,Waste & recycling program,esg-essentials,ESG Essentials,E.4
 environmental-targets,Environmental reduction targets,esg-essentials,ESG Essentials,E.6
 health-safety,Health & safety program,esg-essentials,ESG Essentials,S.1
@@ -293,6 +297,7 @@ health-safety,Health & safety program,us-employment-federal,US Employment Law (f
 health-safety,Health & safety program,us-employment-federal,US Employment Law (federal baseline),us.health-safety.severe-incident-reporting
 dei-commitment,"Diversity, equity & inclusion commitment",esg-essentials,ESG Essentials,S.2
 fair-labor-practices,Fair labor practices,esg-essentials,ESG Essentials,S.3
+fair-labor-practices,Fair labor practices,esg-essentials,ESG Essentials,S.13
 fair-labor-practices,Fair labor practices,us-employment-federal,US Employment Law (federal baseline),us.wage-hour.minimum-wage
 fair-labor-practices,Fair labor practices,us-employment-federal,US Employment Law (federal baseline),us.wage-hour.overtime
 fair-labor-practices,Fair labor practices,us-employment-federal,US Employment Law (federal baseline),us.wage-hour.child-labor
@@ -312,6 +317,36 @@ code-of-conduct,Code of business conduct,esg-essentials,ESG Essentials,G.4
 anti-bribery,Anti-corruption & bribery,esg-essentials,ESG Essentials,G.3
 whistleblower-channel,Whistleblower channel,esg-essentials,ESG Essentials,G.5
 esg-reporting,ESG reporting & disclosure,esg-essentials,ESG Essentials,G.8
+environmental-aspects-impacts,Environmental aspects & impacts register,esg-essentials,ESG Essentials,E.8
+environmental-aspects-impacts,Environmental aspects & impacts register,esg-essentials,ESG Essentials,E.10
+climate-risk-assessment,Climate risk & adaptation assessment,esg-essentials,ESG Essentials,E.9
+product-lifecycle-stewardship,Product & service life-cycle stewardship,esg-essentials,ESG Essentials,E.11
+product-lifecycle-stewardship,Product & service life-cycle stewardship,esg-essentials,ESG Essentials,S.19
+environmental-obligations-register,Environmental obligations register,esg-essentials,ESG Essentials,E.12
+employee-wellbeing,Employee wellbeing & feedback,esg-essentials,ESG Essentials,S.4
+human-rights-due-diligence,Human rights commitment & due diligence,esg-essentials,ESG Essentials,S.6
+human-rights-due-diligence,Human rights commitment & due diligence,esg-essentials,ESG Essentials,S.9
+human-rights-due-diligence,Human rights commitment & due diligence,esg-essentials,ESG Essentials,S.11
+grievance-mechanism,Grievance & complaint handling,esg-essentials,ESG Essentials,S.10
+grievance-mechanism,Grievance & complaint handling,esg-essentials,ESG Essentials,S.17
+grievance-mechanism,Grievance & complaint handling,iso-9001,ISO 9001,8.2.1
+grievance-mechanism,Grievance & complaint handling,iso-9001,ISO 9001,10.2.1
+responsible-marketing,Responsible marketing & substantiated claims,esg-essentials,ESG Essentials,S.15
+responsible-marketing,Responsible marketing & substantiated claims,iso-9001,ISO 9001,8.2.2
+product-service-safety,Product & service safety,esg-essentials,ESG Essentials,S.16
+product-service-safety,Product & service safety,iso-9001,ISO 9001,8.3.5
+product-service-safety,Product & service safety,iso-9001,ISO 9001,8.5.5
+accessible-inclusive-service,Accessible & inclusive service,esg-essentials,ESG Essentials,S.18
+stakeholder-engagement,Stakeholder identification & engagement,esg-essentials,ESG Essentials,G.10
+stakeholder-engagement,Stakeholder identification & engagement,esg-essentials,ESG Essentials,S.7
+stakeholder-engagement,Stakeholder identification & engagement,esg-essentials,ESG Essentials,S.20
+stakeholder-engagement,Stakeholder identification & engagement,iso-9001,ISO 9001,4.2
+community-contribution,"Local employment, skills & community investment",esg-essentials,ESG Essentials,S.21
+community-contribution,"Local employment, skills & community investment",esg-essentials,ESG Essentials,S.23
+responsible-procurement,Responsible purchasing practice,esg-essentials,ESG Essentials,S.22
+responsible-political-engagement,Responsible political involvement,esg-essentials,ESG Essentials,G.11
+fair-competition,Fair competition,esg-essentials,ESG Essentials,G.12
+property-rights-respect,Respect for property & intellectual property rights,esg-essentials,ESG Essentials,G.13
 ai-system-inventory,AI system inventory,ai-governance-essentials,AI Governance Essentials,GV.3
 ai-system-inventory,AI system inventory,eu-ai-act,EU AI Act,HOBL-5
 ai-system-inventory,AI system inventory,iso-42001,ISO/IEC 42001,A.4.2
@@ -374,6 +409,7 @@ ai-supplier-management,AI supplier & third-party management,iso-42001,ISO/IEC 42
 ai-supplier-management,AI supplier & third-party management,iso-42001,ISO/IEC 42001,A.10.3
 ai-supplier-management,AI supplier & third-party management,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-6
 ai-supplier-management,AI supplier & third-party management,nist-ai-rmf,NIST AI Risk Management Framework,MANAGE-3
+employment-classification,Worker classification review,esg-essentials,ESG Essentials,S.12
 employment-classification,Worker classification review,us-employment-federal,US Employment Law (federal baseline),us.classification.exempt
 employment-classification,Worker classification review,us-employment-federal,US Employment Law (federal baseline),us.classification.independent-contractor
 leave-administration,Statutory leave administration,us-employment-federal,US Employment Law (federal baseline),us.leave.fmla
@@ -393,6 +429,7 @@ anti-discrimination-program,Anti-discrimination & accommodation program,us-emplo
 anti-discrimination-program,Anti-discrimination & accommodation program,us-employment-federal,US Employment Law (federal baseline),us.antidiscrim.pwfa
 anti-discrimination-program,Anti-discrimination & accommodation program,us-employment-federal,US Employment Law (federal baseline),us.hiring-onboarding.ada-preoffer
 workplace-notices,Workplace notices & postings,us-employment-federal,US Employment Law (federal baseline),us.posting.federal-workplace-posters
+labor-relations-practice,Protected activity & labor relations,esg-essentials,ESG Essentials,S.14
 labor-relations-practice,Protected activity & labor relations,us-employment-federal,US Employment Law (federal baseline),us.labor.nlra-protected-activity
 workforce-reduction-notice,Workforce reduction notice assessment,us-employment-federal,US Employment Law (federal baseline),us.termination.warn
 childrens-privacy-program,Children’s online privacy programme,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/scope/determination

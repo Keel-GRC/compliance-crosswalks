@@ -5,7 +5,7 @@
     "source": "https://keelgrc.com/open-source/",
     "license": "CC-BY-4.0",
     "attribution": "Keel GRC LLC (https://keelgrc.com)",
-    "controlCount": 76,
+    "controlCount": 92,
     "frameworks": [
       {
         "key": "ai-governance-essentials",
@@ -951,6 +951,9 @@
         ],
         "soc-2": [
           "CC4.1"
+        ],
+        "esg-essentials": [
+          "G.14"
         ]
       }
     },
@@ -962,6 +965,9 @@
         "iso-9001": [
           "8.7",
           "10.2"
+        ],
+        "esg-essentials": [
+          "S.16"
         ]
       }
     },
@@ -973,6 +979,9 @@
         "iso-9001": [
           "8.2",
           "9.1"
+        ],
+        "esg-essentials": [
+          "S.7"
         ]
       }
     },
@@ -988,12 +997,13 @@
     },
     {
       "key": "energy-emissions-tracking",
-      "name": "Energy & emissions tracking",
-      "description": "Regular measurement of energy consumption and an operational (Scope 1 & 2) greenhouse-gas inventory.",
+      "name": "Energy, emissions & resource use tracking",
+      "description": "Regular measurement of energy consumption, an operational (Scope 1 & 2) greenhouse-gas inventory, and metering of the other material resources the business consumes, such as water.",
       "crosswalks": {
         "esg-essentials": [
           "E.2",
-          "E.3"
+          "E.3",
+          "E.5"
         ]
       }
     },
@@ -1048,7 +1058,8 @@
       "description": "Compliance with wage, hour, and anti-discrimination obligations for all workers.",
       "crosswalks": {
         "esg-essentials": [
-          "S.3"
+          "S.3",
+          "S.13"
         ],
         "us-employment-federal": [
           "us.wage-hour.minimum-wage",
@@ -1130,6 +1141,188 @@
       "crosswalks": {
         "esg-essentials": [
           "G.8"
+        ]
+      }
+    },
+    {
+      "key": "environmental-aspects-impacts",
+      "name": "Environmental aspects & impacts register",
+      "description": "The environmental effects of the organization’s activities are identified and kept in a register - emissions to air, discharges to water and land, hazardous materials handled, and effects on habitats or land use - each with what is being done to avoid, reduce or restore it.",
+      "crosswalks": {
+        "esg-essentials": [
+          "E.8",
+          "E.10"
+        ]
+      }
+    },
+    {
+      "key": "climate-risk-assessment",
+      "name": "Climate risk & adaptation assessment",
+      "description": "A periodic assessment of how physical climate hazards and transition effects could disrupt sites, supply, demand or costs, with the response for each significant exposure and an owner.",
+      "crosswalks": {
+        "esg-essentials": [
+          "E.9"
+        ]
+      }
+    },
+    {
+      "key": "product-lifecycle-stewardship",
+      "name": "Product & service life-cycle stewardship",
+      "description": "Environmental impact is considered across design, materials, packaging, use and end of life for what the organization sells, and customers are given the information they need to use, maintain and dispose of it with less impact.",
+      "crosswalks": {
+        "esg-essentials": [
+          "E.11",
+          "S.19"
+        ]
+      }
+    },
+    {
+      "key": "environmental-obligations-register",
+      "name": "Environmental obligations register",
+      "description": "A current list of the environmental permits, licences, legal requirements and customer commitments that apply to the organization, each with a named owner, a renewal or reporting date, and evidence of the last check.",
+      "crosswalks": {
+        "esg-essentials": [
+          "E.12"
+        ]
+      }
+    },
+    {
+      "key": "employee-wellbeing",
+      "name": "Employee wellbeing & feedback",
+      "description": "Workers have a routine way to give feedback and raise concerns about their working experience, and the organization acts on what it hears - supporting wellbeing and development, and recording what changed.",
+      "crosswalks": {
+        "esg-essentials": [
+          "S.4"
+        ]
+      }
+    },
+    {
+      "key": "human-rights-due-diligence",
+      "name": "Human rights commitment & due diligence",
+      "description": "A stated commitment to respect internationally recognized human rights, backed by a periodic review of where the organization could cause, contribute to, or be linked to harm - through its own operations, its workers, its supply chain, or partners it benefits from - with particular attention to groups more exposed to that harm.",
+      "crosswalks": {
+        "esg-essentials": [
+          "S.6",
+          "S.9",
+          "S.11"
+        ]
+      }
+    },
+    {
+      "key": "grievance-mechanism",
+      "name": "Grievance & complaint handling",
+      "description": "Anyone affected by the organization - a worker, a customer, a neighbour - has a reachable route to raise a concern or a complaint, cases are resolved without undue cost or delay, and outcomes are tracked so recurring causes get fixed.",
+      "crosswalks": {
+        "esg-essentials": [
+          "S.10",
+          "S.17"
+        ],
+        "iso-9001": [
+          "8.2.1",
+          "10.2.1"
+        ]
+      }
+    },
+    {
+      "key": "responsible-marketing",
+      "name": "Responsible marketing & substantiated claims",
+      "description": "Marketing, pricing and contract terms are presented truthfully, and every environmental or social claim is backed by evidence held before the claim is published.",
+      "crosswalks": {
+        "esg-essentials": [
+          "S.15"
+        ],
+        "iso-9001": [
+          "8.2.2"
+        ]
+      }
+    },
+    {
+      "key": "product-service-safety",
+      "name": "Product & service safety",
+      "description": "The safety of what the organization sells is assessed before it reaches customers, residual risks are communicated in the instructions and warnings that ship with it, and safety reports and defects are investigated and acted on.",
+      "crosswalks": {
+        "esg-essentials": [
+          "S.16"
+        ],
+        "iso-9001": [
+          "8.3.5",
+          "8.5.5"
+        ]
+      }
+    },
+    {
+      "key": "accessible-inclusive-service",
+      "name": "Accessible & inclusive service",
+      "description": "Products, services and support channels are checked for use by people with disabilities and by customers the market underserves, with the barriers found recorded and a plan to remove them.",
+      "crosswalks": {
+        "esg-essentials": [
+          "S.18"
+        ]
+      }
+    },
+    {
+      "key": "stakeholder-engagement",
+      "name": "Stakeholder identification & engagement",
+      "description": "The people and groups affected by the organization’s decisions are identified - including the communities around its operations - engaged before decisions that change that impact, and the organization records what it changed as a result.",
+      "crosswalks": {
+        "esg-essentials": [
+          "G.10",
+          "S.7",
+          "S.20"
+        ],
+        "iso-9001": [
+          "4.2"
+        ]
+      }
+    },
+    {
+      "key": "community-contribution",
+      "name": "Local employment, skills & community investment",
+      "description": "Hiring, training and giving are directed toward the communities the organization operates in - local recruitment, apprenticeships or placements where practical, and donations, volunteering or in-kind support aimed at needs the community itself has identified - with what was done recorded.",
+      "crosswalks": {
+        "esg-essentials": [
+          "S.21",
+          "S.23"
+        ]
+      }
+    },
+    {
+      "key": "responsible-procurement",
+      "name": "Responsible purchasing practice",
+      "description": "Significant purchasing decisions consider local and smaller suppliers alongside price, and suppliers are paid on the terms agreed - with payment performance monitored, not assumed.",
+      "crosswalks": {
+        "esg-essentials": [
+          "S.22"
+        ]
+      }
+    },
+    {
+      "key": "responsible-political-engagement",
+      "name": "Responsible political involvement",
+      "description": "Rules govern lobbying, political contributions and the positions taken through trade associations; what is spent and where is recorded and disclosed where required, and none of it is used to obtain improper influence.",
+      "crosswalks": {
+        "esg-essentials": [
+          "G.11"
+        ]
+      }
+    },
+    {
+      "key": "fair-competition",
+      "name": "Fair competition",
+      "description": "Price fixing, bid rigging, market allocation and abuse of a dominant position are prohibited, and the staff who deal with competitors, trade associations or tenders are trained on the line they must not cross.",
+      "crosswalks": {
+        "esg-essentials": [
+          "G.12"
+        ]
+      }
+    },
+    {
+      "key": "property-rights-respect",
+      "name": "Respect for property & intellectual property rights",
+      "description": "The organization uses others’ physical, intellectual and traditional property only with the rights to do so - licences held and tracked for the software, content and brands it uses, and fair payment where use is agreed.",
+      "crosswalks": {
+        "esg-essentials": [
+          "G.13"
         ]
       }
     },
@@ -1375,6 +1568,9 @@
       "name": "Worker classification review",
       "description": "Exempt/non-exempt and employee/contractor determinations are documented against the governing tests and re-reviewed when a role or engagement changes.",
       "crosswalks": {
+        "esg-essentials": [
+          "S.12"
+        ],
         "us-employment-federal": [
           "us.classification.exempt",
           "us.classification.independent-contractor"
@@ -1441,6 +1637,9 @@
       "name": "Protected activity & labor relations",
       "description": "Policies, handbooks, and manager practice are reviewed so they do not restrain employees acting together on terms and conditions of employment.",
       "crosswalks": {
+        "esg-essentials": [
+          "S.14"
+        ],
         "us-employment-federal": [
           "us.labor.nlra-protected-activity"
         ]
