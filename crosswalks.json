@@ -5,7 +5,7 @@
     "source": "https://keelgrc.com/open-source/",
     "license": "CC-BY-4.0",
     "attribution": "Keel GRC LLC (https://keelgrc.com)",
-    "controlCount": 92,
+    "controlCount": 94,
     "frameworks": [
       {
         "key": "ai-governance-essentials",
@@ -84,6 +84,10 @@
         "name": "SOC 2"
       },
       {
+        "key": "sox",
+        "name": "SOX (Sarbanes-Oxley) Section 404"
+      },
+      {
         "key": "us-employment-federal",
         "name": "US Employment Law (federal baseline)"
       }
@@ -122,6 +126,9 @@
         "coppa": [
           "312.8(a)",
           "312.8(b)(1)"
+        ],
+        "sox": [
+          "P12"
         ]
       }
     },
@@ -168,6 +175,11 @@
         ],
         "coppa": [
           "312.8(b)(2)"
+        ],
+        "sox": [
+          "P6",
+          "P7",
+          "P9"
         ]
       }
     },
@@ -212,6 +224,9 @@
         ],
         "coppa": [
           "312.8(b)(3)"
+        ],
+        "sox": [
+          "P11"
         ]
       }
     },
@@ -251,6 +266,9 @@
           "AC-2",
           "PS-4",
           "PS-5"
+        ],
+        "sox": [
+          "P11"
         ]
       }
     },
@@ -290,6 +308,9 @@
         ],
         "coppa": [
           "312.8(b)(3)"
+        ],
+        "sox": [
+          "P11"
         ]
       }
     },
@@ -333,6 +354,9 @@
         ],
         "coppa": [
           "312.8(b)(3)"
+        ],
+        "sox": [
+          "P11"
         ]
       }
     },
@@ -377,6 +401,10 @@
         ],
         "coppa": [
           "312.8(b)(3)"
+        ],
+        "sox": [
+          "P11",
+          "P13"
         ]
       }
     },
@@ -415,6 +443,9 @@
         ],
         "coppa": [
           "312.8(b)(4)"
+        ],
+        "sox": [
+          "P11"
         ]
       }
     },
@@ -470,6 +501,9 @@
         ],
         "nist-800-53": [
           "CP-9"
+        ],
+        "sox": [
+          "P11"
         ]
       }
     },
@@ -497,6 +531,9 @@
         "nist-800-53": [
           "CP-2",
           "CP-10"
+        ],
+        "sox": [
+          "P11"
         ]
       }
     },
@@ -542,6 +579,9 @@
         ],
         "coppa": [
           "312.8(a)"
+        ],
+        "sox": [
+          "P11"
         ]
       }
     },
@@ -567,6 +607,10 @@
         ],
         "nist-800-53": [
           "CM-3"
+        ],
+        "sox": [
+          "P9",
+          "P11"
         ]
       }
     },
@@ -611,6 +655,10 @@
         ],
         "coppa": [
           "312.8(c)"
+        ],
+        "sox": [
+          "P11",
+          "P15"
         ]
       }
     },
@@ -655,6 +703,10 @@
           "AT-2",
           "AT-3",
           "AT-4"
+        ],
+        "sox": [
+          "P4",
+          "P14"
         ]
       }
     },
@@ -686,6 +738,9 @@
         ],
         "nist-800-53": [
           "CM-8"
+        ],
+        "sox": [
+          "P11"
         ]
       }
     },
@@ -746,6 +801,9 @@
           "PE-2",
           "PE-3",
           "PE-6"
+        ],
+        "sox": [
+          "P11"
         ]
       }
     },
@@ -773,6 +831,9 @@
           "SA-3",
           "SA-8",
           "SA-11"
+        ],
+        "sox": [
+          "P11"
         ]
       }
     },
@@ -804,6 +865,9 @@
         "nist-800-53": [
           "SC-7",
           "AC-4"
+        ],
+        "sox": [
+          "P11"
         ]
       }
     },
@@ -842,6 +906,9 @@
         ],
         "coppa": [
           "312.10"
+        ],
+        "sox": [
+          "P13"
         ]
       }
     },
@@ -876,6 +943,9 @@
           "us.hiring-onboarding.i9",
           "us.hiring-onboarding.fcra-background",
           "us.privacy.polygraph"
+        ],
+        "sox": [
+          "P4"
         ]
       }
     },
@@ -903,6 +973,10 @@
         ],
         "iso-27001": [
           "A.5.37"
+        ],
+        "sox": [
+          "P12",
+          "P13"
         ]
       }
     },
@@ -913,6 +987,9 @@
       "crosswalks": {
         "iso-9001": [
           "7.2"
+        ],
+        "sox": [
+          "P4"
         ]
       }
     },
@@ -938,6 +1015,9 @@
         ],
         "coppa": [
           "312.8(b)(5)"
+        ],
+        "sox": [
+          "P16"
         ]
       }
     },
@@ -954,6 +1034,11 @@
         ],
         "esg-essentials": [
           "G.14"
+        ],
+        "sox": [
+          "P2",
+          "P16",
+          "P17"
         ]
       }
     },
@@ -968,6 +1053,9 @@
         ],
         "esg-essentials": [
           "S.16"
+        ],
+        "sox": [
+          "P17"
         ]
       }
     },
@@ -1111,6 +1199,10 @@
         "esg-essentials": [
           "G.2",
           "G.4"
+        ],
+        "sox": [
+          "P1",
+          "P5"
         ]
       }
     },
@@ -1121,6 +1213,10 @@
       "crosswalks": {
         "esg-essentials": [
           "G.3"
+        ],
+        "sox": [
+          "P1",
+          "P8"
         ]
       }
     },
@@ -1131,6 +1227,50 @@
       "crosswalks": {
         "esg-essentials": [
           "G.5"
+        ],
+        "sox": [
+          "P8",
+          "P14"
+        ]
+      }
+    },
+    {
+      "key": "delegation-of-authority",
+      "name": "Delegation of authority & segregation of duties",
+      "description": "Approval authority and spending limits are defined, assigned to named roles, reviewed as the organization changes, and enforced in the systems that execute transactions - so no one person can initiate, approve, record and reconcile the same transaction.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.5.2",
+          "A.5.3"
+        ],
+        "soc-2": [
+          "CC1.3",
+          "CC1.5"
+        ],
+        "nist-800-53": [
+          "AC-5",
+          "AC-6"
+        ],
+        "sox": [
+          "P3",
+          "P5",
+          "P10"
+        ]
+      }
+    },
+    {
+      "key": "fraud-risk-assessment",
+      "name": "Fraud risk assessment",
+      "description": "A periodic assessment of how fraud could occur here - fraudulent reporting, misappropriation, corruption, and management override of controls - naming the specific schemes considered and the control responding to each.",
+      "crosswalks": {
+        "soc-2": [
+          "CC3.3"
+        ],
+        "esg-essentials": [
+          "G.3"
+        ],
+        "sox": [
+          "P8"
         ]
       }
     },

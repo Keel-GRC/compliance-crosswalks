@@ -9,6 +9,7 @@ information-security-policy,Information security policy,nist-800-53,NIST SP 800-
 information-security-policy,Information security policy,nist-csf,NIST Cybersecurity Framework,GV.PO-01
 information-security-policy,Information security policy,pci-dss,PCI DSS,12.1
 information-security-policy,Information security policy,soc-2,SOC 2,CC5.3
+information-security-policy,Information security policy,sox,SOX (Sarbanes-Oxley) Section 404,P12
 risk-assessment,Risk assessment & treatment,cis-controls,CIS Controls,18
 risk-assessment,Risk assessment & treatment,coppa,COPPA,312.8(b)(2)
 risk-assessment,Risk assessment & treatment,esg-essentials,ESG Essentials,G.6
@@ -24,6 +25,9 @@ risk-assessment,Risk assessment & treatment,nist-csf,NIST Cybersecurity Framewor
 risk-assessment,Risk assessment & treatment,pci-dss,PCI DSS,12.3
 risk-assessment,Risk assessment & treatment,soc-2,SOC 2,CC3.1
 risk-assessment,Risk assessment & treatment,soc-2,SOC 2,CC3.2
+risk-assessment,Risk assessment & treatment,sox,SOX (Sarbanes-Oxley) Section 404,P6
+risk-assessment,Risk assessment & treatment,sox,SOX (Sarbanes-Oxley) Section 404,P7
+risk-assessment,Risk assessment & treatment,sox,SOX (Sarbanes-Oxley) Section 404,P9
 access-control-policy,Access control policy,cis-controls,CIS Controls,5
 access-control-policy,Access control policy,cis-controls,CIS Controls,6
 access-control-policy,Access control policy,coppa,COPPA,312.8(b)(3)
@@ -41,6 +45,7 @@ access-control-policy,Access control policy,pci-dss,PCI DSS,7.1
 access-control-policy,Access control policy,pci-dss,PCI DSS,7.2
 access-control-policy,Access control policy,soc-2,SOC 2,CC6.1
 access-control-policy,Access control policy,soc-2,SOC 2,CC6.3
+access-control-policy,Access control policy,sox,SOX (Sarbanes-Oxley) Section 404,P11
 user-lifecycle,User provisioning & deprovisioning,cis-controls,CIS Controls,5.3
 user-lifecycle,User provisioning & deprovisioning,cis-controls,CIS Controls,6
 user-lifecycle,User provisioning & deprovisioning,gdpr,GDPR,Art.32
@@ -55,6 +60,7 @@ user-lifecycle,User provisioning & deprovisioning,nist-csf,NIST Cybersecurity Fr
 user-lifecycle,User provisioning & deprovisioning,pci-dss,PCI DSS,8.2
 user-lifecycle,User provisioning & deprovisioning,soc-2,SOC 2,CC6.2
 user-lifecycle,User provisioning & deprovisioning,soc-2,SOC 2,CC6.3
+user-lifecycle,User provisioning & deprovisioning,sox,SOX (Sarbanes-Oxley) Section 404,P11
 mfa,Multi-factor authentication,cis-controls,CIS Controls,6.3
 mfa,Multi-factor authentication,cis-controls,CIS Controls,6.5
 mfa,Multi-factor authentication,coppa,COPPA,312.8(b)(3)
@@ -67,6 +73,7 @@ mfa,Multi-factor authentication,nist-csf,NIST Cybersecurity Framework,PR.AA-03
 mfa,Multi-factor authentication,pci-dss,PCI DSS,8.4
 mfa,Multi-factor authentication,pci-dss,PCI DSS,8.5
 mfa,Multi-factor authentication,soc-2,SOC 2,CC6.1
+mfa,Multi-factor authentication,sox,SOX (Sarbanes-Oxley) Section 404,P11
 encryption,Encryption in transit & at rest,cis-controls,CIS Controls,3.11
 encryption,Encryption in transit & at rest,coppa,COPPA,312.8(b)(3)
 encryption,Encryption in transit & at rest,gdpr,GDPR,Art.32
@@ -83,6 +90,7 @@ encryption,Encryption in transit & at rest,nist-csf,NIST Cybersecurity Framework
 encryption,Encryption in transit & at rest,pci-dss,PCI DSS,3.5
 encryption,Encryption in transit & at rest,pci-dss,PCI DSS,4.2
 encryption,Encryption in transit & at rest,soc-2,SOC 2,CC6.7
+encryption,Encryption in transit & at rest,sox,SOX (Sarbanes-Oxley) Section 404,P11
 logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,8.1
 logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,8.2
 logging-monitoring,Logging & monitoring,coppa,COPPA,312.8(b)(3)
@@ -100,6 +108,8 @@ logging-monitoring,Logging & monitoring,pci-dss,PCI DSS,10.2
 logging-monitoring,Logging & monitoring,pci-dss,PCI DSS,10.3
 logging-monitoring,Logging & monitoring,pci-dss,PCI DSS,10.4
 logging-monitoring,Logging & monitoring,soc-2,SOC 2,CC7.2
+logging-monitoring,Logging & monitoring,sox,SOX (Sarbanes-Oxley) Section 404,P11
+logging-monitoring,Logging & monitoring,sox,SOX (Sarbanes-Oxley) Section 404,P13
 vulnerability-management,Vulnerability management,cis-controls,CIS Controls,7.1
 vulnerability-management,Vulnerability management,cis-controls,CIS Controls,7.3
 vulnerability-management,Vulnerability management,coppa,COPPA,312.8(b)(4)
@@ -113,6 +123,7 @@ vulnerability-management,Vulnerability management,nist-csf,NIST Cybersecurity Fr
 vulnerability-management,Vulnerability management,pci-dss,PCI DSS,6.3
 vulnerability-management,Vulnerability management,pci-dss,PCI DSS,11.3
 vulnerability-management,Vulnerability management,soc-2,SOC 2,CC7.1
+vulnerability-management,Vulnerability management,sox,SOX (Sarbanes-Oxley) Section 404,P11
 malware-protection,Malware protection,cis-controls,CIS Controls,9
 malware-protection,Malware protection,cis-controls,CIS Controls,10
 malware-protection,Malware protection,iso-27001,ISO/IEC 27001,A.8.7
@@ -128,6 +139,7 @@ backups,Backups,iso-27001,ISO/IEC 27001,A.8.13
 backups,Backups,nist-800-53,NIST SP 800-53,CP-9
 backups,Backups,nist-csf,NIST Cybersecurity Framework,PR.DS-11
 backups,Backups,soc-2,SOC 2,A1.2
+backups,Backups,sox,SOX (Sarbanes-Oxley) Section 404,P11
 business-continuity,Business continuity & disaster recovery,gdpr,GDPR,Art.32
 business-continuity,Business continuity & disaster recovery,hipaa,HIPAA,164.308(a)(7)
 business-continuity,Business continuity & disaster recovery,iso-27001,ISO/IEC 27001,A.5.30
@@ -136,6 +148,7 @@ business-continuity,Business continuity & disaster recovery,nist-800-53,NIST SP 
 business-continuity,Business continuity & disaster recovery,nist-csf,NIST Cybersecurity Framework,RC.RP-01
 business-continuity,Business continuity & disaster recovery,soc-2,SOC 2,A1.2
 business-continuity,Business continuity & disaster recovery,soc-2,SOC 2,A1.3
+business-continuity,Business continuity & disaster recovery,sox,SOX (Sarbanes-Oxley) Section 404,P11
 incident-response,Incident response,cis-controls,CIS Controls,17.1
 incident-response,Incident response,cis-controls,CIS Controls,17.4
 incident-response,Incident response,coppa,COPPA,312.8(a)
@@ -154,12 +167,15 @@ incident-response,Incident response,nist-csf,NIST Cybersecurity Framework,RS.MA-
 incident-response,Incident response,pci-dss,PCI DSS,12.10
 incident-response,Incident response,soc-2,SOC 2,CC7.3
 incident-response,Incident response,soc-2,SOC 2,CC7.4
+incident-response,Incident response,sox,SOX (Sarbanes-Oxley) Section 404,P11
 change-management,Change management,iso-27001,ISO/IEC 27001,A.8.32
 change-management,Change management,iso-9001,ISO 9001,6.3
 change-management,Change management,nist-800-53,NIST SP 800-53,CM-3
 change-management,Change management,nist-csf,NIST Cybersecurity Framework,PR.PS-01
 change-management,Change management,pci-dss,PCI DSS,6.5
 change-management,Change management,soc-2,SOC 2,CC8.1
+change-management,Change management,sox,SOX (Sarbanes-Oxley) Section 404,P9
+change-management,Change management,sox,SOX (Sarbanes-Oxley) Section 404,P11
 vendor-management,Third-party / vendor risk management,cis-controls,CIS Controls,15
 vendor-management,Third-party / vendor risk management,coppa,COPPA,312.8(c)
 vendor-management,Third-party / vendor risk management,esg-essentials,ESG Essentials,G.7
@@ -175,6 +191,8 @@ vendor-management,Third-party / vendor risk management,nist-800-53,NIST SP 800-5
 vendor-management,Third-party / vendor risk management,nist-csf,NIST Cybersecurity Framework,GV.SC-01
 vendor-management,Third-party / vendor risk management,pci-dss,PCI DSS,12.8
 vendor-management,Third-party / vendor risk management,soc-2,SOC 2,CC9.2
+vendor-management,Third-party / vendor risk management,sox,SOX (Sarbanes-Oxley) Section 404,P11
+vendor-management,Third-party / vendor risk management,sox,SOX (Sarbanes-Oxley) Section 404,P15
 security-awareness-training,Security awareness training,cis-controls,CIS Controls,14
 security-awareness-training,Security awareness training,esg-essentials,ESG Essentials,S.5
 security-awareness-training,Security awareness training,gdpr,GDPR,Art.32
@@ -190,6 +208,8 @@ security-awareness-training,Security awareness training,nist-800-53,NIST SP 800-
 security-awareness-training,Security awareness training,nist-csf,NIST Cybersecurity Framework,PR.AT-01
 security-awareness-training,Security awareness training,pci-dss,PCI DSS,12.6
 security-awareness-training,Security awareness training,soc-2,SOC 2,CC1.4
+security-awareness-training,Security awareness training,sox,SOX (Sarbanes-Oxley) Section 404,P4
+security-awareness-training,Security awareness training,sox,SOX (Sarbanes-Oxley) Section 404,P14
 asset-inventory,Asset inventory,cis-controls,CIS Controls,1
 asset-inventory,Asset inventory,cis-controls,CIS Controls,2
 asset-inventory,Asset inventory,iso-27001,ISO/IEC 27001,A.5.9
@@ -200,6 +220,7 @@ asset-inventory,Asset inventory,nist-csf,NIST Cybersecurity Framework,ID.AM-01
 asset-inventory,Asset inventory,nist-csf,NIST Cybersecurity Framework,ID.AM-02
 asset-inventory,Asset inventory,pci-dss,PCI DSS,12.5
 asset-inventory,Asset inventory,soc-2,SOC 2,CC6.1
+asset-inventory,Asset inventory,sox,SOX (Sarbanes-Oxley) Section 404,P11
 data-classification,Data classification & handling,cis-controls,CIS Controls,3
 data-classification,Data classification & handling,coppa,COPPA,312.8(b)(2)
 data-classification,Data classification & handling,gdpr,GDPR,Art.5
@@ -218,6 +239,7 @@ physical-security,Physical security,nist-800-53,NIST SP 800-53,PE-3
 physical-security,Physical security,nist-800-53,NIST SP 800-53,PE-6
 physical-security,Physical security,pci-dss,PCI DSS,9.2
 physical-security,Physical security,soc-2,SOC 2,CC6.4
+physical-security,Physical security,sox,SOX (Sarbanes-Oxley) Section 404,P11
 secure-development,Secure software development,cis-controls,CIS Controls,16
 secure-development,Secure software development,gdpr,GDPR,Art.25
 secure-development,Secure software development,iso-27001,ISO/IEC 27001,A.8.25
@@ -226,6 +248,7 @@ secure-development,Secure software development,nist-800-53,NIST SP 800-53,SA-8
 secure-development,Secure software development,nist-800-53,NIST SP 800-53,SA-11
 secure-development,Secure software development,pci-dss,PCI DSS,6.2
 secure-development,Secure software development,soc-2,SOC 2,CC8.1
+secure-development,Secure software development,sox,SOX (Sarbanes-Oxley) Section 404,P11
 network-security,Network security controls,cis-controls,CIS Controls,12
 network-security,Network security controls,cis-controls,CIS Controls,13
 network-security,Network security controls,cis-controls,CIS Controls,4.4
@@ -238,6 +261,7 @@ network-security,Network security controls,nist-csf,NIST Cybersecurity Framework
 network-security,Network security controls,pci-dss,PCI DSS,1.2
 network-security,Network security controls,pci-dss,PCI DSS,1.3
 network-security,Network security controls,soc-2,SOC 2,CC6.6
+network-security,Network security controls,sox,SOX (Sarbanes-Oxley) Section 404,P11
 data-retention-disposal,Data retention & secure disposal,cis-controls,CIS Controls,3.5
 data-retention-disposal,Data retention & secure disposal,coppa,COPPA,312.10
 data-retention-disposal,Data retention & secure disposal,gdpr,GDPR,Art.5
@@ -248,6 +272,7 @@ data-retention-disposal,Data retention & secure disposal,nist-800-53,NIST SP 800
 data-retention-disposal,Data retention & secure disposal,nist-800-53,NIST SP 800-53,SI-12
 data-retention-disposal,Data retention & secure disposal,pci-dss,PCI DSS,3.2
 data-retention-disposal,Data retention & secure disposal,soc-2,SOC 2,C1.2
+data-retention-disposal,Data retention & secure disposal,sox,SOX (Sarbanes-Oxley) Section 404,P13
 data-retention-disposal,Data retention & secure disposal,us-employment-federal,US Employment Law (federal baseline),us.wage-hour.recordkeeping
 data-retention-disposal,Data retention & secure disposal,us-employment-federal,US Employment Law (federal baseline),us.recordkeeping.eeo
 data-retention-disposal,Data retention & secure disposal,us-employment-federal,US Employment Law (federal baseline),us.recordkeeping.i9-retention
@@ -261,6 +286,7 @@ hr-security,Personnel security (HR),nist-800-53,NIST SP 800-53,PS-6
 hr-security,Personnel security (HR),nist-800-53,NIST SP 800-53,PS-7
 hr-security,Personnel security (HR),pci-dss,PCI DSS,12.7
 hr-security,Personnel security (HR),soc-2,SOC 2,CC1.4
+hr-security,Personnel security (HR),sox,SOX (Sarbanes-Oxley) Section 404,P4
 hr-security,Personnel security (HR),us-employment-federal,US Employment Law (federal baseline),us.hiring-onboarding.i9
 hr-security,Personnel security (HR),us-employment-federal,US Employment Law (federal baseline),us.hiring-onboarding.fcra-background
 hr-security,Personnel security (HR),us-employment-federal,US Employment Law (federal baseline),us.privacy.polygraph
@@ -269,19 +295,27 @@ quality-policy,Quality policy & objectives,iso-9001,ISO 9001,6.2
 document-control,Document & records control,iso-27001,ISO/IEC 27001,A.5.37
 document-control,Document & records control,iso-9001,ISO 9001,7.5
 document-control,Document & records control,soc-2,SOC 2,CC5.3
+document-control,Document & records control,sox,SOX (Sarbanes-Oxley) Section 404,P12
+document-control,Document & records control,sox,SOX (Sarbanes-Oxley) Section 404,P13
 competence-management,Competence management,iso-9001,ISO 9001,7.2
+competence-management,Competence management,sox,SOX (Sarbanes-Oxley) Section 404,P4
 internal-audit-program,Internal audit program,coppa,COPPA,312.8(b)(5)
 internal-audit-program,Internal audit program,iso-27001,ISO/IEC 27001,A.5.35
 internal-audit-program,Internal audit program,iso-42001,ISO/IEC 42001,9.2
 internal-audit-program,Internal audit program,iso-9001,ISO 9001,9.2
 internal-audit-program,Internal audit program,nist-800-53,NIST SP 800-53,CA-2
 internal-audit-program,Internal audit program,soc-2,SOC 2,CC4.1
+internal-audit-program,Internal audit program,sox,SOX (Sarbanes-Oxley) Section 404,P16
 management-review,Management review,esg-essentials,ESG Essentials,G.14
 management-review,Management review,iso-9001,ISO 9001,9.3
 management-review,Management review,soc-2,SOC 2,CC4.1
+management-review,Management review,sox,SOX (Sarbanes-Oxley) Section 404,P2
+management-review,Management review,sox,SOX (Sarbanes-Oxley) Section 404,P16
+management-review,Management review,sox,SOX (Sarbanes-Oxley) Section 404,P17
 nonconformity-capa,Nonconformity & corrective action (CAPA),esg-essentials,ESG Essentials,S.16
 nonconformity-capa,Nonconformity & corrective action (CAPA),iso-9001,ISO 9001,8.7
 nonconformity-capa,Nonconformity & corrective action (CAPA),iso-9001,ISO 9001,10.2
+nonconformity-capa,Nonconformity & corrective action (CAPA),sox,SOX (Sarbanes-Oxley) Section 404,P17
 customer-requirements,Customer requirements & satisfaction,esg-essentials,ESG Essentials,S.7
 customer-requirements,Customer requirements & satisfaction,iso-9001,ISO 9001,8.2
 customer-requirements,Customer requirements & satisfaction,iso-9001,ISO 9001,9.1
@@ -314,8 +348,26 @@ individual-privacy,Personal data privacy,us-employment-federal,US Employment Law
 esg-oversight,ESG leadership oversight,esg-essentials,ESG Essentials,G.1
 code-of-conduct,Code of business conduct,esg-essentials,ESG Essentials,G.2
 code-of-conduct,Code of business conduct,esg-essentials,ESG Essentials,G.4
+code-of-conduct,Code of business conduct,sox,SOX (Sarbanes-Oxley) Section 404,P1
+code-of-conduct,Code of business conduct,sox,SOX (Sarbanes-Oxley) Section 404,P5
 anti-bribery,Anti-corruption & bribery,esg-essentials,ESG Essentials,G.3
+anti-bribery,Anti-corruption & bribery,sox,SOX (Sarbanes-Oxley) Section 404,P1
+anti-bribery,Anti-corruption & bribery,sox,SOX (Sarbanes-Oxley) Section 404,P8
 whistleblower-channel,Whistleblower channel,esg-essentials,ESG Essentials,G.5
+whistleblower-channel,Whistleblower channel,sox,SOX (Sarbanes-Oxley) Section 404,P8
+whistleblower-channel,Whistleblower channel,sox,SOX (Sarbanes-Oxley) Section 404,P14
+delegation-of-authority,Delegation of authority & segregation of duties,iso-27001,ISO/IEC 27001,A.5.2
+delegation-of-authority,Delegation of authority & segregation of duties,iso-27001,ISO/IEC 27001,A.5.3
+delegation-of-authority,Delegation of authority & segregation of duties,nist-800-53,NIST SP 800-53,AC-5
+delegation-of-authority,Delegation of authority & segregation of duties,nist-800-53,NIST SP 800-53,AC-6
+delegation-of-authority,Delegation of authority & segregation of duties,soc-2,SOC 2,CC1.3
+delegation-of-authority,Delegation of authority & segregation of duties,soc-2,SOC 2,CC1.5
+delegation-of-authority,Delegation of authority & segregation of duties,sox,SOX (Sarbanes-Oxley) Section 404,P3
+delegation-of-authority,Delegation of authority & segregation of duties,sox,SOX (Sarbanes-Oxley) Section 404,P5
+delegation-of-authority,Delegation of authority & segregation of duties,sox,SOX (Sarbanes-Oxley) Section 404,P10
+fraud-risk-assessment,Fraud risk assessment,esg-essentials,ESG Essentials,G.3
+fraud-risk-assessment,Fraud risk assessment,soc-2,SOC 2,CC3.3
+fraud-risk-assessment,Fraud risk assessment,sox,SOX (Sarbanes-Oxley) Section 404,P8
 esg-reporting,ESG reporting & disclosure,esg-essentials,ESG Essentials,G.8
 environmental-aspects-impacts,Environmental aspects & impacts register,esg-essentials,ESG Essentials,E.8
 environmental-aspects-impacts,Environmental aspects & impacts register,esg-essentials,ESG Essentials,E.10
