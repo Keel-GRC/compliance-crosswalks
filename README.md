@@ -25,6 +25,7 @@ The framework list is likewise in `meta.frameworks`, so it cannot fall behind th
 |------|--------|-------|
 | [`crosswalks.json`](./crosswalks.json) | JSON | Metadata wrapper + one object per control with its `crosswalks` map (`framework key -> [clause refs]`). |
 | [`crosswalks.csv`](./crosswalks.csv) | CSV | Tidy long format, one row per `(control, framework, clause)`: `control_key, control_name, framework_key, framework_name, clause_ref`. |
+| [`CHANGELOG.md`](./CHANGELOG.md) | Markdown | Notable changes, including which ones **break** a consumer. Hand-written — the automated sync does not update it. |
 
 ## Schema (JSON)
 
@@ -47,6 +48,16 @@ The framework list is likewise in `meta.frameworks`, so it cannot fall behind th
   ]
 }
 ```
+
+**There is no version field.** `meta` carries no `version`, `schemaVersion` or generation
+timestamp, so nothing in the data itself tells you which release you are holding or that it
+changed shape since you last read it. Until that is fixed, pin a commit if you need
+stability, and read [`CHANGELOG.md`](./CHANGELOG.md) — its headings state the exact
+`controlCount` and mapping count each entry describes, which is the only release identifier
+this dataset currently has.
+
+Clause references have also moved to a finer grain over time (`Art.32` → `Art.32(1)`). If
+you join on `clause_ref`, do not assume the key is stable across releases.
 
 ## About the mappings
 

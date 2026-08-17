@@ -5,7 +5,7 @@
     "source": "https://keelgrc.com/open-source/",
     "license": "CC-BY-4.0",
     "attribution": "Keel GRC LLC (https://keelgrc.com)",
-    "controlCount": 94,
+    "controlCount": 96,
     "frameworks": [
       {
         "key": "ai-governance-essentials",
@@ -118,7 +118,7 @@
           "G.9"
         ],
         "gdpr": [
-          "Art.24"
+          "Art.24(2)"
         ],
         "nist-800-53": [
           "PL-1"
@@ -151,23 +151,14 @@
           "12.3"
         ],
         "hipaa": [
-          "164.308(a)(1)"
-        ],
-        "iso-9001": [
-          "6.1"
+          "164.308(a)(1)(ii)(A)",
+          "164.308(a)(1)(ii)(B)"
         ],
         "esg-essentials": [
           "G.6"
         ],
         "nist-800-171": [
-          "3.11",
           "3.11.1"
-        ],
-        "cis-controls": [
-          "18"
-        ],
-        "gdpr": [
-          "Art.35"
         ],
         "nist-800-53": [
           "RA-3",
@@ -203,18 +194,17 @@
           "7.2"
         ],
         "hipaa": [
-          "164.312(a)(1)"
+          "164.308(a)(4)(ii)(B)"
         ],
         "nist-800-171": [
-          "3.1",
+          "3.1.1",
           "3.1.5"
         ],
         "cis-controls": [
-          "5",
-          "6"
+          "6.8"
         ],
         "gdpr": [
-          "Art.32"
+          "Art.32(1)"
         ],
         "nist-800-53": [
           "AC-1",
@@ -249,18 +239,20 @@
           "8.2"
         ],
         "hipaa": [
-          "164.308(a)(4)"
+          "164.308(a)(4)(ii)(B)",
+          "164.308(a)(4)(ii)(C)"
         ],
         "nist-800-171": [
-          "3.5",
+          "3.1.1",
           "3.1.5"
         ],
         "cis-controls": [
           "5.3",
-          "6"
+          "6.1",
+          "6.2"
         ],
         "gdpr": [
-          "Art.32"
+          "Art.32(1)"
         ],
         "nist-800-53": [
           "AC-2",
@@ -301,7 +293,7 @@
           "6.5"
         ],
         "gdpr": [
-          "Art.32"
+          "Art.32(1)"
         ],
         "nist-800-53": [
           "IA-2"
@@ -334,8 +326,8 @@
           "4.2"
         ],
         "hipaa": [
-          "164.312(a)(1)",
-          "164.312(e)(1)"
+          "164.312(a)(2)(iv)",
+          "164.312(e)(2)(ii)"
         ],
         "nist-800-171": [
           "3.13.11",
@@ -345,7 +337,7 @@
           "3.11"
         ],
         "gdpr": [
-          "Art.32"
+          "Art.32(1)"
         ],
         "nist-800-53": [
           "SC-13",
@@ -384,15 +376,16 @@
           "164.312(b)"
         ],
         "nist-800-171": [
-          "3.3",
-          "3.3.1"
+          "3.3.1",
+          "3.3.5",
+          "3.3.8"
         ],
         "cis-controls": [
           "8.1",
           "8.2"
         ],
         "gdpr": [
-          "Art.32"
+          "Art.32(1)"
         ],
         "nist-800-53": [
           "AU-2",
@@ -435,7 +428,7 @@
           "7.3"
         ],
         "gdpr": [
-          "Art.32"
+          "Art.32(1)"
         ],
         "nist-800-53": [
           "RA-5",
@@ -468,8 +461,8 @@
           "5.3"
         ],
         "cis-controls": [
-          "9",
-          "10"
+          "10.1",
+          "10.2"
         ],
         "nist-800-53": [
           "SI-3"
@@ -491,13 +484,14 @@
           "PR.DS-11"
         ],
         "hipaa": [
-          "164.308(a)(7)"
+          "164.308(a)(7)(ii)(A)"
         ],
         "cis-controls": [
-          "11"
+          "11.2",
+          "11.5"
         ],
         "gdpr": [
-          "Art.32"
+          "Art.32(1)"
         ],
         "nist-800-53": [
           "CP-9"
@@ -523,10 +517,11 @@
           "RC.RP-01"
         ],
         "hipaa": [
-          "164.308(a)(7)"
+          "164.308(a)(7)(ii)(B)",
+          "164.308(a)(7)(ii)(D)"
         ],
         "gdpr": [
-          "Art.32"
+          "Art.32(1)"
         ],
         "nist-800-53": [
           "CP-2",
@@ -557,19 +552,20 @@
           "12.10"
         ],
         "hipaa": [
-          "164.308(a)(6)"
+          "164.308(a)(6)(ii)"
         ],
         "nist-800-171": [
-          "3.6",
-          "3.6.1"
+          "3.6.1",
+          "3.6.2",
+          "3.6.3"
         ],
         "cis-controls": [
           "17.1",
           "17.4"
         ],
         "gdpr": [
-          "Art.33",
-          "Art.34"
+          "Art.33(1)",
+          "Art.34(1)"
         ],
         "nist-800-53": [
           "IR-4",
@@ -632,10 +628,11 @@
           "12.8"
         ],
         "hipaa": [
-          "164.308(b)(1)"
+          "164.308(b)(3)"
         ],
         "iso-9001": [
-          "8.4"
+          "8.4.1",
+          "8.4.3"
         ],
         "esg-essentials": [
           "G.7",
@@ -643,10 +640,13 @@
           "S.6"
         ],
         "cis-controls": [
-          "15"
+          "15.4",
+          "15.5",
+          "15.6"
         ],
         "gdpr": [
-          "Art.28"
+          "Art.28(1)",
+          "Art.28(3)"
         ],
         "nist-800-53": [
           "SA-9",
@@ -682,22 +682,17 @@
         "hipaa": [
           "164.308(a)(5)"
         ],
-        "iso-9001": [
-          "7.2",
-          "7.3"
-        ],
         "esg-essentials": [
           "S.5"
         ],
         "nist-800-171": [
-          "3.2",
           "3.2.1"
         ],
         "cis-controls": [
-          "14"
+          "14.1"
         ],
         "gdpr": [
-          "Art.32"
+          "Art.32(4)"
         ],
         "nist-800-53": [
           "AT-2",
@@ -729,12 +724,11 @@
           "12.5"
         ],
         "nist-800-171": [
-          "3.4",
           "3.4.1"
         ],
         "cis-controls": [
-          "1",
-          "2"
+          "1.1",
+          "2.1"
         ],
         "nist-800-53": [
           "CM-8"
@@ -759,14 +753,13 @@
           "ID.AM-05"
         ],
         "nist-800-171": [
-          "3.8"
+          "3.8.4"
         ],
         "cis-controls": [
-          "3"
+          "3.7"
         ],
         "gdpr": [
-          "Art.5",
-          "Art.30"
+          "Art.5(1)"
         ],
         "nist-800-53": [
           "RA-2"
@@ -792,10 +785,11 @@
           "9.2"
         ],
         "hipaa": [
-          "164.310(a)(1)"
+          "164.310(a)(2)(ii)",
+          "164.310(a)(2)(iii)"
         ],
         "gdpr": [
-          "Art.32"
+          "Art.32(1)"
         ],
         "nist-800-53": [
           "PE-2",
@@ -822,10 +816,11 @@
           "6.2"
         ],
         "cis-controls": [
-          "16"
+          "16.1",
+          "16.12"
         ],
         "gdpr": [
-          "Art.25"
+          "Art.25(1)"
         ],
         "nist-800-53": [
           "SA-3",
@@ -857,10 +852,10 @@
           "1.3"
         ],
         "cis-controls": [
-          "12",
-          "13",
           "4.4",
-          "4.5"
+          "4.5",
+          "12.2",
+          "13.4"
         ],
         "nist-800-53": [
           "SC-7",
@@ -886,14 +881,13 @@
           "3.2"
         ],
         "hipaa": [
-          "164.310(d)(1)"
+          "164.310(d)(2)(i)"
         ],
         "cis-controls": [
           "3.5"
         ],
         "gdpr": [
-          "Art.5",
-          "Art.17"
+          "Art.5(1)"
         ],
         "nist-800-53": [
           "MP-6",
@@ -928,10 +922,11 @@
           "12.7"
         ],
         "hipaa": [
-          "164.308(a)(3)"
+          "164.308(a)(3)(ii)(B)",
+          "164.308(a)(3)(ii)(C)"
         ],
         "gdpr": [
-          "Art.32"
+          "Art.32(4)"
         ],
         "nist-800-53": [
           "PS-2",
@@ -955,8 +950,9 @@
       "description": "A leadership-endorsed quality policy with measurable quality objectives, communicated across the organization.",
       "crosswalks": {
         "iso-9001": [
-          "5.2",
-          "6.2"
+          "5.2.1",
+          "5.2.2",
+          "6.2.1"
         ]
       }
     },
@@ -966,7 +962,9 @@
       "description": "Documented information is created, approved, versioned, and controlled; records are retained and protected.",
       "crosswalks": {
         "iso-9001": [
-          "7.5"
+          "7.5.2",
+          "7.5.3.1",
+          "7.5.3.2"
         ],
         "soc-2": [
           "CC5.3"
@@ -999,7 +997,8 @@
       "description": "A risk-based internal audit program evaluates conformity and effectiveness at planned intervals.",
       "crosswalks": {
         "iso-9001": [
-          "9.2"
+          "9.2.1",
+          "9.2.2"
         ],
         "soc-2": [
           "CC4.1"
@@ -1027,7 +1026,8 @@
       "description": "Leadership reviews management-system performance at planned intervals and drives improvement decisions.",
       "crosswalks": {
         "iso-9001": [
-          "9.3"
+          "9.3.1",
+          "9.3.3"
         ],
         "soc-2": [
           "CC4.1"
@@ -1048,8 +1048,10 @@
       "description": "Nonconforming outputs are controlled; root causes are analyzed and corrective actions tracked to closure.",
       "crosswalks": {
         "iso-9001": [
-          "8.7",
-          "10.2"
+          "8.7.1",
+          "8.7.2",
+          "10.2.1",
+          "10.2.2"
         ],
         "esg-essentials": [
           "S.16"
@@ -1065,8 +1067,9 @@
       "description": "Requirements for products/services are determined and reviewed; customer satisfaction is monitored.",
       "crosswalks": {
         "iso-9001": [
-          "8.2",
-          "9.1"
+          "8.2.2",
+          "8.2.3.1",
+          "9.1.2"
         ],
         "esg-essentials": [
           "S.7"
@@ -1161,7 +1164,7 @@
     {
       "key": "individual-privacy",
       "name": "Personal data privacy",
-      "description": "Personal data of employees and customers is protected with clear, honored privacy practices.",
+      "description": "A plain-language privacy notice tells employees and customers what personal data is held about them, why, and how employees are monitored at work - and each request to access, correct, erase, or object to that data is logged, identity-checked, decided, and actioned.",
       "crosswalks": {
         "esg-essentials": [
           "S.8"
@@ -1170,14 +1173,36 @@
           "A.5.34"
         ],
         "gdpr": [
-          "Art.12",
-          "Art.15",
+          "Art.12(1)",
+          "Art.12(2)",
+          "Art.15(1)",
           "Art.16",
-          "Art.17",
-          "Art.21"
+          "Art.17(1)",
+          "Art.21(1)"
         ],
         "us-employment-federal": [
           "us.privacy.electronic-monitoring"
+        ]
+      }
+    },
+    {
+      "key": "records-of-processing",
+      "name": "Record of processing activities (RoPA)",
+      "description": "A register of every activity in which the organisation processes personal data, kept current as processing changes rather than assembled for an audit — each entry recording the purpose, the lawful basis relied on, the categories of individuals and of personal data, who the data is disclosed to, how long it is kept, any transfer outside the region with the safeguards relied on, and the security measures protecting it.",
+      "crosswalks": {
+        "gdpr": [
+          "Art.30(1)"
+        ]
+      }
+    },
+    {
+      "key": "dpia-process",
+      "name": "Data protection impact assessment (DPIA) process",
+      "description": "Before a new processing activity begins — and before an existing one changes in a way that alters the risk it poses — it is screened for whether it is likely to result in a high risk to people, and where it is, an impact assessment of that specific processing is completed before the processing starts: describing the processing and its purposes, testing its necessity and proportionality against them, assessing the risks to the people affected, and setting out the measures, safeguards and security mechanisms that address those risks.",
+      "crosswalks": {
+        "gdpr": [
+          "Art.35(1)",
+          "Art.35(7)"
         ]
       }
     },
@@ -1475,7 +1500,7 @@
           "A.4.2"
         ],
         "nist-ai-rmf": [
-          "MAP-1"
+          "GOVERN-1.6"
         ],
         "eu-ai-act": [
           "HOBL-5"
@@ -1495,7 +1520,7 @@
           "A.5.4"
         ],
         "nist-ai-rmf": [
-          "MAP-5"
+          "MAP-5.1"
         ],
         "eu-ai-act": [
           "HREQ-1"
@@ -1535,7 +1560,7 @@
           "A.2.4"
         ],
         "nist-ai-rmf": [
-          "GOVERN-1"
+          "GOVERN-1.2"
         ]
       }
     },
@@ -1549,7 +1574,7 @@
           "A.3.3"
         ],
         "nist-ai-rmf": [
-          "GOVERN-2"
+          "GOVERN-2.1"
         ]
       }
     },
@@ -1559,9 +1584,9 @@
       "description": "A process to identify, analyze, prioritize, and treat the risks an AI system can pose, tracked over its lifecycle.",
       "crosswalks": {
         "nist-ai-rmf": [
-          "MAP-4",
-          "MEASURE-1",
-          "MANAGE-1"
+          "MEASURE-1.1",
+          "MANAGE-1.2",
+          "MANAGE-1.3"
         ],
         "eu-ai-act": [
           "HREQ-1"
@@ -1609,7 +1634,10 @@
           "A.6.2.4"
         ],
         "nist-ai-rmf": [
-          "MEASURE-2"
+          "MEASURE-2.3",
+          "MEASURE-2.4",
+          "MEASURE-2.5",
+          "MEASURE-2.7"
         ],
         "eu-ai-act": [
           "HREQ-7"
@@ -1672,7 +1700,8 @@
           "HOBL-7"
         ],
         "nist-ai-rmf": [
-          "MANAGE-4"
+          "MANAGE-4.1",
+          "MANAGE-4.3"
         ]
       }
     },
@@ -1698,8 +1727,8 @@
           "A.10.3"
         ],
         "nist-ai-rmf": [
-          "GOVERN-6",
-          "MANAGE-3"
+          "GOVERN-6.1",
+          "MANAGE-3.1"
         ]
       }
     },
