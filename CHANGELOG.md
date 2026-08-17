@@ -14,8 +14,8 @@ same data; a different version means something changed. It carries **no order** 
 tell you which of two releases is newer, and this file is where that lives.
 
 **Every state published before 2026-08-17 is unidentifiable from inside the file.** Eleven
-of them reached `main` with no version field, three on a single day, so neither a digest nor
-a generation date exists for them — only the commit. For those, the `controlCount` /
+of them reached `main` with no version field — four on 2026-08-13 and four on 2026-07-23, so
+a generation date would not have separated them either. For those, only the commit exists. For those, the `controlCount` /
 mapping count / framework count in each heading below is the only release identifier there
 is:
 

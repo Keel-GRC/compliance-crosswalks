@@ -69,8 +69,8 @@ each entry from this release onward.
 
 **Everything published before this release is unidentifiable from inside the file.** Eleven
 distinct states of `crosswalks.json` reached `main` without a version field, and none of
-them can be told apart except by commit — three of them landed on the same day, so a
-generation date would not have separated them either. If you are holding one of those, the
+them can be told apart except by commit — four landed on 2026-08-13 and four more on
+2026-07-23, so a generation date would not have separated them either. If you are holding one of those, the
 only identifier available is the commit, plus the `controlCount` / mapping count each
 `CHANGELOG.md` heading states.
 
