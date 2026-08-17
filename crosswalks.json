@@ -1,5 +1,6 @@
 {
   "meta": {
+    "version": "sha256-8beea155f2bc90a2525219e3086b5973cc775703291442085caf536e5273af9c",
     "name": "Keel compliance crosswalks",
     "description": "Canonical, framework-agnostic security and quality controls, each mapped (crosswalked) to the clauses it satisfies across multiple compliance frameworks. Maintained by Keel.",
     "source": "https://keelgrc.com/open-source/",

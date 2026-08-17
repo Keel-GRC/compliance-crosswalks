@@ -2,13 +2,22 @@
 
 Notable changes to the published dataset (`crosswalks.json`, `crosswalks.csv`).
 
-**This dataset carries no version field.** `meta` has `name`, `description`, `source`,
-`license`, `attribution`, `controlCount` and `frameworks` — and nothing a consumer can pin
-to or compare. Eleven distinct states of `crosswalks.json` have been published to `main` so
-far and not one of them is distinguishable from inside the file. Until that changes, the
-headings below are the only release identifier there is, so each one states the exact
-`controlCount` / mapping count / framework count it describes. Check which one you are
-holding:
+**This dataset gained a version field in the 2026-08-17 release below**, and every entry
+from that one forward names its version. Check which release you are holding:
+
+```bash
+jq -r '.meta.version' crosswalks.json
+```
+
+`meta.version` is a content digest, derived on every generator run. Equal versions mean the
+same data; a different version means something changed. It carries **no order** — it cannot
+tell you which of two releases is newer, and this file is where that lives.
+
+**Every state published before 2026-08-17 is unidentifiable from inside the file.** Eleven
+of them reached `main` with no version field, three on a single day, so neither a digest nor
+a generation date exists for them — only the commit. For those, the `controlCount` /
+mapping count / framework count in each heading below is the only release identifier there
+is:
 
 ```bash
 jq '.meta.controlCount' crosswalks.json
@@ -21,6 +30,9 @@ disappeared — additions alone are never marked breaking.
 ---
 
 ## 2026-08-17 — 100 controls, 615 mappings, 21 frameworks — **BREAKING**
+
+**Version:** `sha256-8beea155f2bc90a2525219e3086b5973cc775703291442085caf536e5273af9c`
+— the first published state that has one.
 
 Previous published state: **94 controls, 572 mappings, 21 frameworks** (`c6a0277`). This
 entry describes that transition and no other. It is the first entry in this file, so
@@ -145,6 +157,47 @@ The full `164.308(a)(5)` family is now mapped at leaf grain, three of the four n
 Net effect for anyone tracking only published releases: the value changed once, from
 `["164.308(a)(5)"]` to `["164.308(a)(5)(ii)(A)"]`. It is one of the 64 re-pointed edges
 counted above.
+
+### Addition — `meta.version`, the one schema change here, and it is additive
+
+`meta` gains a `version` key. Nothing was removed, renamed or retyped to make room for it;
+the other seven keys are byte-for-byte where they were, and the `controls` array is
+untouched by this part of the release.
+
+```json
+"meta": {
+  "version": "sha256-8beea155f2bc90a2525219e3086b5973cc775703291442085caf536e5273af9c",
+  "name": "Keel compliance crosswalks",
+  …
+}
+```
+
+It is a **content digest** of this exact published document, derived by the generator on
+every run. Nobody increments it, so it cannot go stale. Equal versions mean the same data;
+a different version means something in the document changed.
+
+**It deliberately carries no order.** A digest cannot tell you whether the copy you hold is
+older or newer than another — do not build a staleness check on it. This file is the
+ordered record, and every entry from this one forward states its version.
+
+**This release is the first identifiable published state.** The eleven before it have no
+version, so a consumer holding one cannot name it from inside the file. That ordering is
+worth stating plainly: the field arrives *in* the breaking release rather than after it,
+which means the state that removes four keys and moves 64 join keys is pinnable, and every
+unpinnable state is now behind you.
+
+`crosswalks.csv` is unchanged by this addition and gains no version column — a sixth column
+would break every CSV parser to carry a value the JSON already carries.
+
+**Could an added key break you?** Only if you validate this document against a schema that
+rejects unknown properties. **This dataset publishes no schema** — there is no JSON Schema,
+Frictionless `datapackage.json` or OpenAPI document here or in the producer repo, and the
+`## Schema (JSON)` section of [`README.md`](./README.md) is illustrative prose, not a
+machine-readable contract. So nothing we ship forbids extra keys. But we cannot see your
+validator: if you have written one of your own with `additionalProperties: false`, or a
+strict deserializer in a typed language that errors on unknown fields (rather than ignoring
+them, which most default to), this addition will fail it. That is the one way a purely
+additive change bites, and it is worth thirty seconds of checking rather than an assumption.
 
 ### Addition — six new controls (additive, not breaking)
 

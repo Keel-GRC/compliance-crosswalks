@@ -32,6 +32,7 @@ The framework list is likewise in `meta.frameworks`, so it cannot fall behind th
 ```jsonc
 {
   "meta": {
+    "version": "sha256-<64 hex>",  // content digest of this exact published state
     "name": "Keel compliance crosswalks",
     "license": "CC-BY-4.0",
     "attribution": "Keel GRC LLC (https://keelgrc.com)",
@@ -49,13 +50,39 @@ The framework list is likewise in `meta.frameworks`, so it cannot fall behind th
 }
 ```
 
-**There is no version field.** `meta` carries no `version`, `schemaVersion` or generation
-timestamp, so nothing in the data itself tells you which release you are holding or that it
-changed shape since you last read it. Eleven distinct states of this dataset have been
-published so far and none of them can be told apart from inside the file — only by commit.
-Until that is fixed, pin a commit if you need stability, and read
-[`CHANGELOG.md`](./CHANGELOG.md) — its headings state the exact `controlCount` and mapping
-count each entry describes, which is the only release identifier this dataset currently has.
+### `meta.version` — pin from here forward
+
+`meta.version` is a **content digest** of the exact state you are holding:
+
+```bash
+jq -r '.meta.version' crosswalks.json
+# sha256-8beea155f2bc90a2525219e3086b5973cc775703291442085caf536e5273af9c
+```
+
+Record it. Equal versions mean the same data; a different version means something in this
+document changed. It is derived by the generator on every run, so it cannot be forgotten or
+left stale.
+
+**It does not tell you which of two versions is newer.** A digest has no order. Ordering
+lives in [`CHANGELOG.md`](./CHANGELOG.md), which is newest-first and names the version of
+each entry from this release onward.
+
+**Everything published before this release is unidentifiable from inside the file.** Eleven
+distinct states of `crosswalks.json` reached `main` without a version field, and none of
+them can be told apart except by commit — three of them landed on the same day, so a
+generation date would not have separated them either. If you are holding one of those, the
+only identifier available is the commit, plus the `controlCount` / mapping count each
+`CHANGELOG.md` heading states.
+
+To recompute the digest yourself: delete `meta.version` from the document and hash the
+serialization the generator writes — `sha256( JSON.stringify(doc, null, 2) + "\n" )`, UTF-8
+in, hex out. In Node that reproduces the published value exactly. Across languages it
+depends on that runtime's JSON escaping and indentation, so **the guarantee offered here is
+equality comparison of the field, not byte-exact recomputation elsewhere.**
+
+`crosswalks.csv` carries no version: a sixth column would change the shape every CSV
+consumer parses, and a comment line would break naive parsers. The CSV is generated from
+the same controls in the same run, so the JSON's version identifies both.
 
 Clause references have also moved to a finer grain over time (`Art.32` → `Art.32(1)`). If
 you join on `clause_ref`, do not assume the key is stable across releases.
