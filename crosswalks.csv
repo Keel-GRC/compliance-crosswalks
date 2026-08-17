@@ -72,6 +72,16 @@ mfa,Multi-factor authentication,pci-dss,PCI DSS,8.4
 mfa,Multi-factor authentication,pci-dss,PCI DSS,8.5
 mfa,Multi-factor authentication,soc-2,SOC 2,CC6.1
 mfa,Multi-factor authentication,sox,SOX (Sarbanes-Oxley) Section 404,P11
+credential-management,Password & credential management,cis-controls,CIS Controls,5.2
+credential-management,Password & credential management,hipaa,HIPAA,164.308(a)(5)(ii)(D)
+credential-management,Password & credential management,iso-27001,ISO/IEC 27001,A.5.17
+credential-management,Password & credential management,nist-800-171,NIST SP 800-171,3.5.7
+credential-management,Password & credential management,nist-800-171,NIST SP 800-171,3.5.8
+credential-management,Password & credential management,nist-800-171,NIST SP 800-171,3.5.9
+credential-management,Password & credential management,nist-800-171,NIST SP 800-171,3.5.10
+credential-management,Password & credential management,nist-800-53,NIST SP 800-53,IA-5
+credential-management,Password & credential management,nist-800-53,NIST SP 800-53,IA-5(1)
+credential-management,Password & credential management,pci-dss,PCI DSS,8.3
 encryption,Encryption in transit & at rest,cis-controls,CIS Controls,3.11
 encryption,Encryption in transit & at rest,coppa,COPPA,312.8(b)(3)
 encryption,Encryption in transit & at rest,gdpr,GDPR,Art.32(1)
@@ -93,6 +103,7 @@ logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,8.1
 logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,8.2
 logging-monitoring,Logging & monitoring,coppa,COPPA,312.8(b)(3)
 logging-monitoring,Logging & monitoring,gdpr,GDPR,Art.32(1)
+logging-monitoring,Logging & monitoring,hipaa,HIPAA,164.308(a)(5)(ii)(C)
 logging-monitoring,Logging & monitoring,hipaa,HIPAA,164.312(b)
 logging-monitoring,Logging & monitoring,iso-27001,ISO/IEC 27001,A.8.15
 logging-monitoring,Logging & monitoring,iso-27001,ISO/IEC 27001,A.8.16
@@ -123,8 +134,15 @@ vulnerability-management,Vulnerability management,pci-dss,PCI DSS,6.3
 vulnerability-management,Vulnerability management,pci-dss,PCI DSS,11.3
 vulnerability-management,Vulnerability management,soc-2,SOC 2,CC7.1
 vulnerability-management,Vulnerability management,sox,SOX (Sarbanes-Oxley) Section 404,P11
+penetration-testing,Penetration testing programme,cis-controls,CIS Controls,18.1
+penetration-testing,Penetration testing programme,cis-controls,CIS Controls,18.2
+penetration-testing,Penetration testing programme,cis-controls,CIS Controls,18.3
+penetration-testing,Penetration testing programme,cis-controls,CIS Controls,18.4
+penetration-testing,Penetration testing programme,cis-controls,CIS Controls,18.5
+penetration-testing,Penetration testing programme,pci-dss,PCI DSS,11.4
 malware-protection,Malware protection,cis-controls,CIS Controls,10.1
 malware-protection,Malware protection,cis-controls,CIS Controls,10.2
+malware-protection,Malware protection,hipaa,HIPAA,164.308(a)(5)(ii)(B)
 malware-protection,Malware protection,iso-27001,ISO/IEC 27001,A.8.7
 malware-protection,Malware protection,nist-800-53,NIST SP 800-53,SI-3
 malware-protection,Malware protection,nist-csf,NIST Cybersecurity Framework,PR.PS-05
@@ -202,7 +220,7 @@ vendor-management,Third-party / vendor risk management,sox,SOX (Sarbanes-Oxley) 
 security-awareness-training,Security awareness training,cis-controls,CIS Controls,14.1
 security-awareness-training,Security awareness training,esg-essentials,ESG Essentials,S.5
 security-awareness-training,Security awareness training,gdpr,GDPR,Art.32(4)
-security-awareness-training,Security awareness training,hipaa,HIPAA,164.308(a)(5)
+security-awareness-training,Security awareness training,hipaa,HIPAA,164.308(a)(5)(ii)(A)
 security-awareness-training,Security awareness training,iso-27001,ISO/IEC 27001,A.6.3
 security-awareness-training,Security awareness training,nist-800-171,NIST SP 800-171,3.2.1
 security-awareness-training,Security awareness training,nist-800-53,NIST SP 800-53,AT-2
@@ -296,6 +314,9 @@ hr-security,Personnel security (HR),us-employment-federal,US Employment Law (fed
 quality-policy,Quality policy & objectives,iso-9001,ISO 9001,5.2.1
 quality-policy,Quality policy & objectives,iso-9001,ISO 9001,5.2.2
 quality-policy,Quality policy & objectives,iso-9001,ISO 9001,6.2.1
+risk-opportunity-planning,Risk & opportunity planning,iso-42001,ISO/IEC 42001,6.1.1
+risk-opportunity-planning,Risk & opportunity planning,iso-9001,ISO 9001,6.1.1
+risk-opportunity-planning,Risk & opportunity planning,iso-9001,ISO 9001,6.1.2
 document-control,Document & records control,iso-27001,ISO/IEC 27001,A.5.37
 document-control,Document & records control,iso-9001,ISO 9001,7.5.2
 document-control,Document & records control,iso-9001,ISO 9001,7.5.3.1
@@ -305,6 +326,9 @@ document-control,Document & records control,sox,SOX (Sarbanes-Oxley) Section 404
 document-control,Document & records control,sox,SOX (Sarbanes-Oxley) Section 404,P13
 competence-management,Competence management,iso-9001,ISO 9001,7.2
 competence-management,Competence management,sox,SOX (Sarbanes-Oxley) Section 404,P4
+management-system-awareness,Management-system awareness,iso-27001,ISO/IEC 27001,7.3
+management-system-awareness,Management-system awareness,iso-42001,ISO/IEC 42001,7.3
+management-system-awareness,Management-system awareness,iso-9001,ISO 9001,7.3
 internal-audit-program,Internal audit program,coppa,COPPA,312.8(b)(5)
 internal-audit-program,Internal audit program,iso-27001,ISO/IEC 27001,A.5.35
 internal-audit-program,Internal audit program,iso-42001,ISO/IEC 42001,9.2

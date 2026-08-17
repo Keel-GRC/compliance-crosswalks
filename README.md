@@ -51,10 +51,11 @@ The framework list is likewise in `meta.frameworks`, so it cannot fall behind th
 
 **There is no version field.** `meta` carries no `version`, `schemaVersion` or generation
 timestamp, so nothing in the data itself tells you which release you are holding or that it
-changed shape since you last read it. Until that is fixed, pin a commit if you need
-stability, and read [`CHANGELOG.md`](./CHANGELOG.md) — its headings state the exact
-`controlCount` and mapping count each entry describes, which is the only release identifier
-this dataset currently has.
+changed shape since you last read it. Eleven distinct states of this dataset have been
+published so far and none of them can be told apart from inside the file — only by commit.
+Until that is fixed, pin a commit if you need stability, and read
+[`CHANGELOG.md`](./CHANGELOG.md) — its headings state the exact `controlCount` and mapping
+count each entry describes, which is the only release identifier this dataset currently has.
 
 Clause references have also moved to a finer grain over time (`Art.32` → `Art.32(1)`). If
 you join on `clause_ref`, do not assume the key is stable across releases.

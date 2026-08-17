@@ -5,7 +5,7 @@
     "source": "https://keelgrc.com/open-source/",
     "license": "CC-BY-4.0",
     "attribution": "Keel GRC LLC (https://keelgrc.com)",
-    "controlCount": 96,
+    "controlCount": 100,
     "frameworks": [
       {
         "key": "ai-governance-essentials",
@@ -307,6 +307,35 @@
       }
     },
     {
+      "key": "credential-management",
+      "name": "Password & credential management",
+      "description": "Rules for the authentication credentials themselves: passwords are unique per account and meet a defined strength standard, a new or changed password is screened against a list of commonly used, expected and compromised passwords and refused if it appears there, a credential issued for first use must be replaced immediately, reuse of previous passwords is refused, changes follow a defined procedure, repeated failed authentication attempts lock the account for a defined period, and passwords, keys and other authentication secrets are stored and transmitted only in protected form.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.5.17"
+        ],
+        "pci-dss": [
+          "8.3"
+        ],
+        "hipaa": [
+          "164.308(a)(5)(ii)(D)"
+        ],
+        "cis-controls": [
+          "5.2"
+        ],
+        "nist-800-171": [
+          "3.5.7",
+          "3.5.8",
+          "3.5.9",
+          "3.5.10"
+        ],
+        "nist-800-53": [
+          "IA-5",
+          "IA-5(1)"
+        ]
+      }
+    },
+    {
       "key": "encryption",
       "name": "Encryption in transit & at rest",
       "description": "Strong cryptography protects sensitive data in transit over public networks and at rest in storage.",
@@ -355,7 +384,7 @@
     {
       "key": "logging-monitoring",
       "name": "Logging & monitoring",
-      "description": "Security-relevant events are logged, protected, retained, and reviewed for anomalies.",
+      "description": "Security-relevant events - including successful and failed log-in attempts - are logged, protected, retained, and reviewed for anomalies, and the discrepancies that review finds are reported to the people who act on them.",
       "crosswalks": {
         "iso-27001": [
           "A.8.15",
@@ -373,6 +402,7 @@
           "10.4"
         ],
         "hipaa": [
+          "164.308(a)(5)(ii)(C)",
           "164.312(b)"
         ],
         "nist-800-171": [
@@ -443,9 +473,26 @@
       }
     },
     {
+      "key": "penetration-testing",
+      "name": "Penetration testing programme",
+      "description": "A defined penetration-testing programme - who tests, what is in scope, on what schedule and to what rules of engagement - under which testers attempt real attacks against externally exposed systems and, separately, from inside the network; findings are prioritised by risk and remediated; and the fix is retested to confirm the security measure now works as intended.",
+      "crosswalks": {
+        "pci-dss": [
+          "11.4"
+        ],
+        "cis-controls": [
+          "18.1",
+          "18.2",
+          "18.3",
+          "18.4",
+          "18.5"
+        ]
+      }
+    },
+    {
       "key": "malware-protection",
       "name": "Malware protection",
-      "description": "Anti-malware controls prevent, detect, and respond to malicious software on endpoints and servers.",
+      "description": "Anti-malware controls prevent, detect, and respond to malicious software on endpoints and servers, and detections are reported to the people who act on them.",
       "crosswalks": {
         "iso-27001": [
           "A.8.7"
@@ -459,6 +506,9 @@
         "pci-dss": [
           "5.2",
           "5.3"
+        ],
+        "hipaa": [
+          "164.308(a)(5)(ii)(B)"
         ],
         "cis-controls": [
           "10.1",
@@ -665,7 +715,7 @@
     {
       "key": "security-awareness-training",
       "name": "Security awareness training",
-      "description": "Ongoing security awareness training for all personnel, with completion tracking.",
+      "description": "Ongoing security awareness training for all personnel, with completion tracking, and periodic security updates - reminders, bulletins and alerts - issued to the workforce between training cycles.",
       "crosswalks": {
         "iso-27001": [
           "A.6.3"
@@ -680,7 +730,7 @@
           "12.6"
         ],
         "hipaa": [
-          "164.308(a)(5)"
+          "164.308(a)(5)(ii)(A)"
         ],
         "esg-essentials": [
           "S.5"
@@ -957,6 +1007,20 @@
       }
     },
     {
+      "key": "risk-opportunity-planning",
+      "name": "Risk & opportunity planning",
+      "description": "Working from the organization’s context and what its interested parties require, the risks and opportunities the management system must address are determined and recorded; an action is planned for each and built into the system’s own processes rather than run alongside them; and those actions are afterwards evaluated for whether they worked, in proportion to the potential impact of the risk or opportunity.",
+      "crosswalks": {
+        "iso-9001": [
+          "6.1.1",
+          "6.1.2"
+        ],
+        "iso-42001": [
+          "6.1.1"
+        ]
+      }
+    },
+    {
       "key": "document-control",
       "name": "Document & records control",
       "description": "Documented information is created, approved, versioned, and controlled; records are retained and protected.",
@@ -988,6 +1052,22 @@
         ],
         "sox": [
           "P4"
+        ]
+      }
+    },
+    {
+      "key": "management-system-awareness",
+      "name": "Management-system awareness",
+      "description": "Everyone doing work under the organization’s control can say what the policy governing their work commits to, which of the objectives their own work affects, how what they do contributes to the management system working - including what improving it is worth - and what the consequences are when its requirements are not met.",
+      "crosswalks": {
+        "iso-9001": [
+          "7.3"
+        ],
+        "iso-27001": [
+          "7.3"
+        ],
+        "iso-42001": [
+          "7.3"
         ]
       }
     },
