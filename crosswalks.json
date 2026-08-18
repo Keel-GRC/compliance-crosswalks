@@ -1,12 +1,12 @@
 {
   "meta": {
-    "version": "sha256-8beea155f2bc90a2525219e3086b5973cc775703291442085caf536e5273af9c",
+    "version": "sha256-d1cdf31e736bbe0eb056958b01e473cd98a074772ab1fefb5366d29955d5606a",
     "name": "Keel compliance crosswalks",
     "description": "Canonical, framework-agnostic security and quality controls, each mapped (crosswalked) to the clauses it satisfies across multiple compliance frameworks. Maintained by Keel.",
     "source": "https://keelgrc.com/open-source/",
     "license": "CC-BY-4.0",
     "attribution": "Keel GRC LLC (https://keelgrc.com)",
-    "controlCount": 100,
+    "controlCount": 110,
     "frameworks": [
       {
         "key": "ai-governance-essentials",
@@ -98,7 +98,7 @@
     {
       "key": "information-security-policy",
       "name": "Information security policy",
-      "description": "A board-approved information security policy set, reviewed at least annually and communicated to the workforce.",
+      "description": "A board-approved policy set covering information security and the handling of personal data, sized to the scale of the organization and the type of activities it actually carries out, reviewed at least annually and communicated to the workforce. One or more named individuals are designated to coordinate the programme the policies describe - the person in charge of it, named rather than implied, with the designation recorded in writing, made known to the people who need it and kept current as roles change - so there is someone who answers for the policies being carried out and not only for their being published. How far the policies go, and how far the measures they require go, is judged against four things together: the organization’s size, complexity and capabilities; its technical infrastructure and the security capabilities of its hardware and software; what the measures cost; and how likely the risks they address are and how much damage they would do. A policy may be changed at any time, provided the change is documented and is actually put into effect rather than only written down.",
       "crosswalks": {
         "iso-27001": [
           "A.5.1"
@@ -113,7 +113,8 @@
           "12.1"
         ],
         "hipaa": [
-          "164.316(a)"
+          "164.316(a)",
+          "164.530(i)(1)"
         ],
         "esg-essentials": [
           "G.9"
@@ -136,17 +137,10 @@
     {
       "key": "risk-assessment",
       "name": "Risk assessment & treatment",
-      "description": "A documented process to identify, analyze, evaluate, and treat information security risks on a defined cadence.",
+      "description": "A documented process to identify, analyze, evaluate, and treat information security risks on a defined cadence. The assessment covers risks and vulnerabilities to the confidentiality, the integrity and the availability of the data the organization holds - all three, not confidentiality alone - and is accurate and thorough enough to be relied on by the decisions taken from it. Treatment brings each risk down to a level that is reasonable and appropriate for this organization, which is the target the process is judged against rather than merely recording that a risk exists.",
       "crosswalks": {
-        "iso-27001": [
-          "A.5.7"
-        ],
         "soc-2": [
-          "CC3.1",
           "CC3.2"
-        ],
-        "nist-csf": [
-          "ID.RA-01"
         ],
         "pci-dss": [
           "12.3"
@@ -154,9 +148,6 @@
         "hipaa": [
           "164.308(a)(1)(ii)(A)",
           "164.308(a)(1)(ii)(B)"
-        ],
-        "esg-essentials": [
-          "G.6"
         ],
         "nist-800-171": [
           "3.11.1"
@@ -167,18 +158,13 @@
         ],
         "coppa": [
           "312.8(b)(2)"
-        ],
-        "sox": [
-          "P6",
-          "P7",
-          "P9"
         ]
       }
     },
     {
       "key": "access-control-policy",
       "name": "Access control policy",
-      "description": "Rules for granting, reviewing, and revoking access to systems and data based on business need and least privilege.",
+      "description": "Rules for granting, reviewing, and revoking access to systems and data based on business need and least privilege; anyone who works with sensitive data, or in a place from which it can be reached, is individually authorized for that work or supervised while doing it; and a documented emergency route exists to obtain the data when the normal access path is unavailable, with every use of that route recorded and reviewed afterwards.",
       "crosswalks": {
         "iso-27001": [
           "A.5.15"
@@ -195,7 +181,9 @@
           "7.2"
         ],
         "hipaa": [
-          "164.308(a)(4)(ii)(B)"
+          "164.308(a)(3)(ii)(A)",
+          "164.308(a)(4)(ii)(B)",
+          "164.312(a)(2)(ii)"
         ],
         "nist-800-171": [
           "3.1.1",
@@ -224,7 +212,7 @@
     {
       "key": "user-lifecycle",
       "name": "User provisioning & deprovisioning",
-      "description": "Joiner/mover/leaver process to grant, change, and promptly remove access across systems.",
+      "description": "Joiner/mover/leaver process to grant, change, and promptly remove access across systems, in which every person is issued an account of their own carrying a unique name or number, so an action in a log traces back to one named individual rather than to a shared or generic login. Each person’s right of access is recorded when it is established and reviewed on a schedule thereafter, as well as granted and changed - so what someone holds is a documented position that has been looked at again, not the accumulated residue of past requests - and what may be granted follows the organization’s access authorization rules rather than the judgement of whoever processes the request.",
       "crosswalks": {
         "iso-27001": [
           "A.8.3"
@@ -241,11 +229,11 @@
         ],
         "hipaa": [
           "164.308(a)(4)(ii)(B)",
-          "164.308(a)(4)(ii)(C)"
+          "164.308(a)(4)(ii)(C)",
+          "164.312(a)(2)(i)"
         ],
         "nist-800-171": [
-          "3.1.1",
-          "3.1.5"
+          "3.1.1"
         ],
         "cis-controls": [
           "5.3",
@@ -268,7 +256,7 @@
     {
       "key": "mfa",
       "name": "Multi-factor authentication",
-      "description": "MFA enforced for remote access, administrative access, and access to sensitive systems and data.",
+      "description": "Documented procedures verify that a person or system seeking access to sensitive data is the one it claims to be, on every path by which that data can be reached - and multi-factor authentication is the enforced mechanism for remote access, administrative access, and access to sensitive systems and data. The multi-factor mechanism itself is configured so it cannot be bypassed, so the factors it uses are genuinely independent of one another - one factor’s success granting no knowledge of and no route around another - and so access is refused unless every factor required has succeeded.",
       "crosswalks": {
         "iso-27001": [
           "A.8.5"
@@ -360,7 +348,6 @@
           "164.312(e)(2)(ii)"
         ],
         "nist-800-171": [
-          "3.13.11",
           "3.13.8"
         ],
         "cis-controls": [
@@ -385,7 +372,7 @@
     {
       "key": "logging-monitoring",
       "name": "Logging & monitoring",
-      "description": "Security-relevant events - including successful and failed log-in attempts - are logged, protected, retained, and reviewed for anomalies, and the discrepancies that review finds are reported to the people who act on them.",
+      "description": "Security-relevant events - including successful and failed log-in attempts - are logged, protected, retained, and reviewed for anomalies, and the discrepancies that review finds are reported to the people who act on them. The review runs on a defined cadence and covers the records of system activity as a set - the audit logs, the reports of who accessed what, and the record of security incidents - rather than the log stream alone.",
       "crosswalks": {
         "iso-27001": [
           "A.8.15",
@@ -403,6 +390,7 @@
           "10.4"
         ],
         "hipaa": [
+          "164.308(a)(1)(ii)(D)",
           "164.308(a)(5)(ii)(C)",
           "164.312(b)"
         ],
@@ -427,17 +415,17 @@
           "312.8(b)(3)"
         ],
         "sox": [
-          "P11",
-          "P13"
+          "P11"
         ]
       }
     },
     {
       "key": "vulnerability-management",
       "name": "Vulnerability management",
-      "description": "Regular scanning, prioritization, and remediation of vulnerabilities across systems and applications.",
+      "description": "Regular scanning, prioritization, and remediation of vulnerabilities across systems and applications, fed by current information about threats and weaknesses collected from outside the organization as well as from its own scans - vendor and industry security advisories for the software actually in use, and the threat feeds, bulletins and sector reporting that describe how systems like these are being attacked now - which is gathered continuously rather than at the next scan, evaluated for whether it applies here, and used to decide what is looked for and what is fixed first.",
       "crosswalks": {
         "iso-27001": [
+          "A.5.7",
           "A.8.8"
         ],
         "soc-2": [
@@ -493,16 +481,13 @@
     {
       "key": "malware-protection",
       "name": "Malware protection",
-      "description": "Anti-malware controls prevent, detect, and respond to malicious software on endpoints and servers, and detections are reported to the people who act on them.",
+      "description": "Anti-malware controls prevent, detect, and respond to malicious software on endpoints and servers, and detections are reported to the people who act on them. The mechanism is kept live rather than merely installed: signatures, definitions and detection engines update automatically as the vendor issues them rather than on someone remembering to apply them, what it detects and what it does about it is logged, and it runs where an ordinary user cannot switch it off, uninstall it or exclude their way around it - only a documented, authorized change may disable it, and then for a stated period.",
       "crosswalks": {
         "iso-27001": [
           "A.8.7"
         ],
         "soc-2": [
           "CC6.8"
-        ],
-        "nist-csf": [
-          "PR.PS-05"
         ],
         "pci-dss": [
           "5.2",
@@ -523,7 +508,7 @@
     {
       "key": "backups",
       "name": "Backups",
-      "description": "Regular, tested backups of critical data and systems with defined retention.",
+      "description": "Regular, tested backups of critical data and systems with defined retention, each one a RETRIEVABLE EXACT COPY of the data it protects - complete and restorable, not a partial or lossy snapshot - including a copy taken before equipment holding that data is moved.",
       "crosswalks": {
         "iso-27001": [
           "A.8.13"
@@ -535,7 +520,8 @@
           "PR.DS-11"
         ],
         "hipaa": [
-          "164.308(a)(7)(ii)(A)"
+          "164.308(a)(7)(ii)(A)",
+          "164.310(d)(2)(iv)"
         ],
         "cis-controls": [
           "11.2",
@@ -555,7 +541,7 @@
     {
       "key": "business-continuity",
       "name": "Business continuity & disaster recovery",
-      "description": "BC/DR plans with defined RTO/RPO, tested periodically, to restore service after disruption.",
+      "description": "BC/DR plans with defined RTO/RPO, tested periodically AND REVISED on what the testing finds and on what has changed since, to restore service after disruption - including how the critical processes that protect sensitive data keep running while the organization is operating in emergency mode, and an assessment of how critical each application and data set is, which is what sets those recovery targets and the order in which things come back.",
       "crosswalks": {
         "iso-27001": [
           "A.5.30"
@@ -569,7 +555,9 @@
         ],
         "hipaa": [
           "164.308(a)(7)(ii)(B)",
-          "164.308(a)(7)(ii)(D)"
+          "164.308(a)(7)(ii)(C)",
+          "164.308(a)(7)(ii)(D)",
+          "164.308(a)(7)(ii)(E)"
         ],
         "gdpr": [
           "Art.32(1)"
@@ -586,7 +574,7 @@
     {
       "key": "incident-response",
       "name": "Incident response",
-      "description": "A documented, tested plan to detect, triage, contain, remediate, and communicate security incidents.",
+      "description": "A documented, tested plan to detect, triage, contain, remediate, and communicate security incidents, and to mitigate - so far as is practicable - the harmful effect of a use or disclosure of personal data the organization knows breached its own policies or the law. Each incident is recorded together with its outcome - what happened, what was done about it and how it ended - as a record of that incident, which is a different artifact from the plan being documented. The mitigation duty runs to violations by the organization itself AND to violations by the processors, vendors and other parties handling that data on its behalf: the plan reaches an incident somebody else caused with the organization’s data, so learning of one triggers the same containment and remediation as an incident inside its own walls rather than a request that the other party deal with it. Where an incident carries a duty to tell someone outside the organization, the plan discharges it on the clock the applicable law sets rather than whenever the investigation happens to conclude: whether an incident is notifiable is decided against written criteria rather than argued after the fact, the regulator or supervisory authority is notified inside the deadline that regime states, the people whose data is affected are told where the risk to them warrants it, and where a deadline is missed the notification itself explains the delay instead of passing over it.",
       "crosswalks": {
         "iso-27001": [
           "A.5.24",
@@ -603,7 +591,8 @@
           "12.10"
         ],
         "hipaa": [
-          "164.308(a)(6)(ii)"
+          "164.308(a)(6)(ii)",
+          "164.530(f)"
         ],
         "nist-800-171": [
           "3.6.1",
@@ -649,9 +638,6 @@
         "nist-csf": [
           "PR.PS-01"
         ],
-        "iso-9001": [
-          "6.3"
-        ],
         "nist-800-53": [
           "CM-3"
         ],
@@ -664,7 +650,7 @@
     {
       "key": "vendor-management",
       "name": "Third-party / vendor risk management",
-      "description": "Due diligence, contractual safeguards, and ongoing monitoring of vendors that handle your data.",
+      "description": "Due diligence, contractual safeguards, and ongoing monitoring of vendors that handle your data: the agreement obliges the vendor to comply in its own right with the security requirements that apply to it - an absolute standard, not a promise to match whatever you happen to do - to pass those obligations down to any subcontractor it brings in BY ENTERING INTO a contract or equivalent written arrangement with that subcontractor rather than by merely requiring equivalent practice of it, and to report to you, within a stated time, security incidents it becomes aware of and confirmed breaches of your data. Where a contract is not the instrument available, an equivalent written arrangement carrying the same obligations discharges the duty. The same obligations, together with the separation that keeps a related organization out of data it is not entitled to, are written into the governing document of any other arrangement that puts your data in the hands of a sponsor, parent, affiliate or plan. Diligence is not confined to security where the relationship warrants more: for suppliers significant enough to matter, the organization states the standards of conduct it expects of them - how they behave commercially and how they treat the environment around their operations - and screens candidates and incumbents against those stated expectations as part of the same selection and monitoring cycle, rather than accepting a signature on a code as evidence of it.",
       "crosswalks": {
         "iso-27001": [
           "A.5.19"
@@ -679,7 +665,9 @@
           "12.8"
         ],
         "hipaa": [
-          "164.308(b)(3)"
+          "164.308(b)(3)",
+          "164.314(a)(2)",
+          "164.314(b)(2)"
         ],
         "iso-9001": [
           "8.4.1",
@@ -687,8 +675,7 @@
         ],
         "esg-essentials": [
           "G.7",
-          "E.7",
-          "S.6"
+          "E.7"
         ],
         "cis-controls": [
           "15.4",
@@ -716,7 +703,7 @@
     {
       "key": "security-awareness-training",
       "name": "Security awareness training",
-      "description": "Ongoing security awareness training for all personnel, with completion tracking, and periodic security updates - reminders, bulletins and alerts - issued to the workforce between training cycles.",
+      "description": "Ongoing security and data-handling awareness training for all personnel, with completion tracking, and periodic security updates - reminders, bulletins and alerts - issued to the workforce between training cycles. New joiners are trained within a defined period of starting, anyone whose work is affected is retrained within a defined period after a material change to the policies or procedures, and every completion is recorded.",
       "crosswalks": {
         "iso-27001": [
           "A.6.3"
@@ -731,7 +718,8 @@
           "12.6"
         ],
         "hipaa": [
-          "164.308(a)(5)(ii)(A)"
+          "164.308(a)(5)(ii)(A)",
+          "164.530(b)(2)"
         ],
         "esg-essentials": [
           "S.5"
@@ -759,13 +747,10 @@
     {
       "key": "asset-inventory",
       "name": "Asset inventory",
-      "description": "An inventory of hardware, software, and information assets with assigned owners.",
+      "description": "An inventory of hardware, software, and information assets with assigned owners, in which the movement of equipment and removable media into, out of, and within the organization’s premises is recorded against the person responsible for it.",
       "crosswalks": {
         "iso-27001": [
           "A.5.9"
-        ],
-        "soc-2": [
-          "CC6.1"
         ],
         "nist-csf": [
           "ID.AM-01",
@@ -773,6 +758,9 @@
         ],
         "pci-dss": [
           "12.5"
+        ],
+        "hipaa": [
+          "164.310(d)(2)(iii)"
         ],
         "nist-800-171": [
           "3.4.1"
@@ -792,7 +780,7 @@
     {
       "key": "data-classification",
       "name": "Data classification & handling",
-      "description": "Information is classified and handled per its sensitivity, with rules for labeling and protection.",
+      "description": "Information is classified and handled per its sensitivity, with rules for labeling and protection - including the everyday handling rules that stop it being seen, overheard or picked up by people with no business reading it, so exposure that happens incidentally alongside legitimate work is limited rather than accepted. The handling rules are written to cover disclosure that nobody intended as much as disclosure that somebody chose, they say what an unauthorized disclosure is against the organization’s own privacy and confidentiality rules rather than leaving that to judgement in the moment, and they reach every medium the information travels in - spoken, on paper, on a screen and in a system - because the incidental exposure they exist to limit does not respect the boundary between an administrative, a physical and a technical safeguard.",
       "crosswalks": {
         "iso-27001": [
           "A.5.12"
@@ -802,6 +790,9 @@
         ],
         "nist-csf": [
           "ID.AM-05"
+        ],
+        "hipaa": [
+          "164.530(c)(2)"
         ],
         "nist-800-171": [
           "3.8.4"
@@ -814,16 +805,13 @@
         ],
         "nist-800-53": [
           "RA-2"
-        ],
-        "coppa": [
-          "312.8(b)(2)"
         ]
       }
     },
     {
       "key": "physical-security",
       "name": "Physical security",
-      "description": "Physical access to facilities and equipment holding sensitive data is restricted and monitored.",
+      "description": "Physical access to facilities and equipment holding sensitive data is restricted and monitored, and a person’s access is validated against the role or function that justifies it rather than only logged; visitors are controlled as a case of their own, and so is access to software programs held for testing and revision. The facility and the equipment in it are safeguarded against tampering and theft as well as against unauthorized entry. The people who have to reach the site and the equipment when a continuity or recovery plan is invoked can still get in, by a route that is planned rather than improvised; and repairs and modifications to the physical security components of a facility - doors, locks, walls, and the hardware that controls entry - are recorded.",
       "crosswalks": {
         "iso-27001": [
           "A.7.1",
@@ -836,8 +824,10 @@
           "9.2"
         ],
         "hipaa": [
+          "164.310(a)(2)(i)",
           "164.310(a)(2)(ii)",
-          "164.310(a)(2)(iii)"
+          "164.310(a)(2)(iii)",
+          "164.310(a)(2)(iv)"
         ],
         "gdpr": [
           "Art.32(1)"
@@ -869,9 +859,6 @@
         "cis-controls": [
           "16.1",
           "16.12"
-        ],
-        "gdpr": [
-          "Art.25(1)"
         ],
         "nist-800-53": [
           "SA-3",
@@ -920,7 +907,7 @@
     {
       "key": "data-retention-disposal",
       "name": "Data retention & secure disposal",
-      "description": "Data is retained per policy and securely destroyed when no longer needed.",
+      "description": "Data is retained per policy and securely destroyed when no longer needed. The hardware and media that held it reach a defined final disposition at end of life, by a route the organization has decided in advance rather than by whatever happens to the box; and any media that stays in service is cleared of that data before it is reused, reassigned, or passed to anyone else.",
       "crosswalks": {
         "iso-27001": [
           "A.8.10"
@@ -932,7 +919,8 @@
           "3.2"
         ],
         "hipaa": [
-          "164.310(d)(2)(i)"
+          "164.310(d)(2)(i)",
+          "164.310(d)(2)(ii)"
         ],
         "cis-controls": [
           "3.5"
@@ -945,22 +933,18 @@
           "SI-12"
         ],
         "us-employment-federal": [
-          "us.wage-hour.recordkeeping",
           "us.recordkeeping.eeo",
           "us.recordkeeping.i9-retention"
         ],
         "coppa": [
           "312.10"
-        ],
-        "sox": [
-          "P13"
         ]
       }
     },
     {
       "key": "hr-security",
       "name": "Personnel security (HR)",
-      "description": "Background screening, confidentiality agreements, and onboarding/offboarding security steps.",
+      "description": "Background screening, confidentiality agreements, and onboarding/offboarding security steps. Before a person is given access to sensitive data, and again whenever their role changes, a documented determination is made that the access their work calls for is appropriate to it - the screening informs that decision but is not the decision. What screening may ask is itself bounded: enquiries about a candidate’s health, disability or medical history are not made, and medical examinations are not required, before a conditional offer of the role has been made, and where such enquiries or examinations are made after an offer they are applied to everyone entering that role rather than to the individuals somebody chose to ask. Access is ended when their employment, or any other arrangement under which they worked for the organization, comes to an end, and whenever that determination says they should no longer hold it.",
       "crosswalks": {
         "iso-27001": [
           "A.6.1",
@@ -986,12 +970,83 @@
           "PS-7"
         ],
         "us-employment-federal": [
-          "us.hiring-onboarding.i9",
-          "us.hiring-onboarding.fcra-background",
-          "us.privacy.polygraph"
+          "us.hiring-onboarding.ada-preoffer",
+          "us.hiring-onboarding.fcra-background"
         ],
         "sox": [
           "P4"
+        ]
+      }
+    },
+    {
+      "key": "security-privacy-officers",
+      "name": "Named security & privacy officers",
+      "description": "One named individual is accountable for developing and implementing the organization’s security policies and procedures, and one for the policies and procedures governing personal data - the same person where the organization is small enough that saying so is honest. A named contact point receives questions and complaints about how personal data is handled. Both designations and the contact point are recorded in writing, published where the people who need them will find them, and kept current as roles change.",
+      "crosswalks": {
+        "hipaa": [
+          "164.308(a)(2)",
+          "164.530(a)(2)"
+        ]
+      }
+    },
+    {
+      "key": "disciplinary-process",
+      "name": "Disciplinary & sanctions process",
+      "description": "A defined process for acting on a member of the workforce who breaches the organization’s security or personal-data policies: how a suspected breach is established, who decides, what range of sanctions is available and how the response is kept proportionate to what was done, and who is told when a sanction is initiated. Each sanction applied is recorded. The workforce is told the process exists and will be used, because a sanction nobody knew was possible deters nobody.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.6.4"
+        ],
+        "hipaa": [
+          "164.308(a)(1)(ii)(C)",
+          "164.530(e)(2)"
+        ],
+        "nist-800-53": [
+          "PS-8"
+        ]
+      }
+    },
+    {
+      "key": "data-segregation",
+      "name": "Segregation of regulated data inside a larger organization",
+      "description": "Where a function that carries its own regulatory duties runs inside a larger organization or on shared infrastructure, the data it holds is kept logically separate from the rest of that organization - separate stores or partitions, separate access groups, and a default denial for anyone outside the function - so the wider organization cannot reach the data without being separately and deliberately authorized to.",
+      "crosswalks": {
+        "hipaa": [
+          "164.308(a)(4)(ii)(A)"
+        ]
+      }
+    },
+    {
+      "key": "endpoint-security",
+      "name": "Workstation & endpoint security",
+      "description": "The devices people use to reach sensitive data are governed on three axes. What may be done on them and how - the permitted functions, software and networks, and the way each is to be carried out. Where they may be used - the physical surroundings a screen can be overlooked from, and what has to be true of a place before work happens there. And how the device itself is protected so only authorized users reach it - screens and desks cleared when unattended, devices locked down or taken with the person when they leave. Two separate mechanisms run here and a screen lock does not stand in for the other. A device left idle LOCKS after a defined period, concealing what is on screen, and stays locked until the user re-establishes access through identification and authentication. Separately, a user session on an application or system holding sensitive data is automatically TERMINATED - torn down, not merely obscured - so it cannot be resumed by whoever is at the keyboard. The conditions and trigger events that require termination are defined by the organization and written down rather than left to be inferred: a predetermined period of user inactivity is one of them and is the one required wherever health data is in scope, but the set also reaches a targeted response to particular kinds of incident and restrictions on the time of day a system may be used.",
+      "crosswalks": {
+        "iso-27001": [
+          "A.7.7",
+          "A.8.1"
+        ],
+        "hipaa": [
+          "164.310(b)",
+          "164.310(c)",
+          "164.312(a)(2)(iii)"
+        ],
+        "nist-800-53": [
+          "AC-11",
+          "AC-12"
+        ]
+      }
+    },
+    {
+      "key": "data-integrity",
+      "name": "Data integrity verification",
+      "description": "Mechanisms that would actually detect sensitive data being altered or destroyed without authorization, rather than assuming it has not been: checksums, hashes or digital signatures computed over stored records and re-verified rather than written once; integrity monitoring over the files and systems holding them; integrity verification of the software and firmware those systems run - signed packages and images, and detection of unauthorized change to executables, configuration and device firmware, because data that verifies clean under code that does not is not verified at all; and integrity protection on data in transit, so a change made between sender and receiver is detected before the data is relied on. A failed check raises an alert to someone who investigates it, and what was found is recorded.",
+      "crosswalks": {
+        "hipaa": [
+          "164.312(c)(2)",
+          "164.312(e)(2)(i)"
+        ],
+        "nist-800-53": [
+          "SI-7"
         ]
       }
     },
@@ -1024,7 +1079,7 @@
     {
       "key": "document-control",
       "name": "Document & records control",
-      "description": "Documented information is created, approved, versioned, and controlled; records are retained and protected.",
+      "description": "Documented information is created, approved, versioned, and controlled; records are retained and protected for a defined minimum period - measured from the document’s creation OR from the date it last was in effect, whichever is later, so a policy that stayed in force for years does not start its clock on the day it was written - and are available to the people who have to act on the procedures they describe. Documentation is reviewed on a schedule and updated when an operational, environmental or legal change has made the current version wrong. A change forced by law is documented and put into effect promptly, and where that legal change materially affects what the organization has published to individuals about how it handles their data, THAT NOTICE IS REVISED TOO, as part of the same prompt action rather than as a separate task left to whoever owns the notice. Any other change may be made at any time provided the revised version still complies and IS DOCUMENTED BEFORE THE CHANGE TAKES EFFECT - the record precedes the effective date, so a routine that documents changes in arrears does not discharge this.",
       "crosswalks": {
         "iso-9001": [
           "7.5.2",
@@ -1037,9 +1092,16 @@
         "iso-27001": [
           "A.5.37"
         ],
+        "hipaa": [
+          "164.316(b)(2)(i)",
+          "164.316(b)(2)(ii)",
+          "164.316(b)(2)(iii)",
+          "164.530(i)(3)",
+          "164.530(i)(5)",
+          "164.530(j)(2)"
+        ],
         "sox": [
-          "P12",
-          "P13"
+          "P12"
         ]
       }
     },
@@ -1075,7 +1137,7 @@
     {
       "key": "internal-audit-program",
       "name": "Internal audit program",
-      "description": "A risk-based internal audit program evaluates conformity and effectiveness at planned intervals.",
+      "description": "A risk-based internal audit program evaluates conformity and effectiveness at planned intervals, and again when an environmental or operational change could have undermined what was last evaluated; each evaluation covers both technical testing and non-technical review of whether the documented policies and procedures are actually being met.",
       "crosswalks": {
         "iso-9001": [
           "9.2.1",
@@ -1089,6 +1151,9 @@
         ],
         "iso-42001": [
           "9.2"
+        ],
+        "hipaa": [
+          "164.308(a)(8)"
         ],
         "nist-800-53": [
           "CA-2"
@@ -1117,9 +1182,7 @@
           "G.14"
         ],
         "sox": [
-          "P2",
-          "P16",
-          "P17"
+          "P16"
         ]
       }
     },
@@ -1133,9 +1196,6 @@
           "8.7.2",
           "10.2.1",
           "10.2.2"
-        ],
-        "esg-essentials": [
-          "S.16"
         ],
         "sox": [
           "P17"
@@ -1151,9 +1211,6 @@
           "8.2.2",
           "8.2.3.1",
           "9.1.2"
-        ],
-        "esg-essentials": [
-          "S.7"
         ]
       }
     },
@@ -1202,7 +1259,7 @@
     {
       "key": "health-safety",
       "name": "Health & safety program",
-      "description": "A safe working environment with incident recording, review, and corrective action.",
+      "description": "A safe working environment with incident recording, review, and corrective action. Recording is not the end of it where the law says otherwise: the incidents that meet a statutory reporting threshold - a death at work, and the serious outcomes the regime names, such as an admission to hospital, an amputation or the loss of an eye - are reported to the regulator within the window that regime sets, counted from when the organization learned of the event, and someone is accountable for making that call quickly enough that the window can still be met.",
       "crosswalks": {
         "esg-essentials": [
           "S.1"
@@ -1260,9 +1317,6 @@
           "Art.16",
           "Art.17(1)",
           "Art.21(1)"
-        ],
-        "us-employment-federal": [
-          "us.privacy.electronic-monitoring"
         ]
       }
     },
@@ -1288,6 +1342,76 @@
       }
     },
     {
+      "key": "breach-notification",
+      "name": "Breach assessment & notification",
+      "description": "A standing procedure for a suspected compromise of protected health information. It decides against documented criteria whether the incident is notifiable, and then issues each notice that decision requires - without unreasonable delay and in no case later than 60 calendar days, counted from the day the incident was discovered rather than the day it was understood. To the affected individuals: in plain language, what happened and when, what data was involved, what those people should do to protect themselves, what the organization is doing to investigate it, mitigate harm and protect against further breaches, and how to ask questions or learn more - the last given as contact procedures that MUST include a toll-free telephone number, an e-mail address, a website or a postal address, not merely an invitation to get in touch - sent by first-class mail to the last known address, or by email where the person has agreed to electronic notice and has not withdrawn that agreement, or, where the individual is known to have died and an address is held, to the next of kin or personal representative. Where contact details are missing or stale, substitute notice is given: by another written form, telephone or other means for fewer than ten such individuals; for ten or more, by a conspicuous posting on the home page of the organization’s website for 90 days or a conspicuous notice in major print or broadcast media where those affected likely live, with a toll-free number that stays active for at least 90 days. To prominent media serving a State or jurisdiction, on the same clock and carrying the same content, when the breach involves more than 500 residents of it. To the regulator on its own clock and in the form the regulator specifies: at the same time as the individual notices where 500 or more individuals are involved, and for breaches involving fewer than 500 through a maintained log filed no later than 60 days after the end of each calendar year, covering the breaches discovered in it. Where the organization holds the data on another organization’s behalf, the notice goes to that organization instead, identifying every individual affected and everything it needs for its own notifications. A notification, notice or posting is delayed only where a law-enforcement official states it would impede an investigation or damage national security - for the period a written statement specifies, or, where the statement is spoken, for no longer than 30 days from the date it was made, with the statement and the identity of the official who made it written down at the time and the delay ending sooner if no written statement follows. The procedure is issued as policy, the people who operate it are trained on it, complaints about it are handled, failures to follow it are sanctioned like any other policy breach, nobody is penalized for raising one, and nobody is required to give up a right in order to receive treatment, payment, enrolment or benefits. Every determination and every notice - its content, its recipients, the method and the date - is retained for six years from creation or from when it last was in effect, whichever is later, so the organization can show either that it notified as required or that the incident was not notifiable.",
+      "crosswalks": {
+        "hipaa": [
+          "164.404(b)",
+          "164.404(c)",
+          "164.404(d)",
+          "164.406(b)",
+          "164.406(c)",
+          "164.408(b)",
+          "164.408(c)",
+          "164.410(b)",
+          "164.410(c)",
+          "164.412",
+          "164.414(a)",
+          "164.414(b)"
+        ]
+      }
+    },
+    {
+      "key": "privacy-notice",
+      "name": "Privacy notice & transparency",
+      "description": "A privacy notice the organization owns, versions and dates, written in plain language and carrying the content it is required to carry: a prominent statement of what the notice is for, how personal data is used and disclosed with examples, what rights the individual has and how to exercise them, what the organization is obliged to do, a statement that the individual may complain both TO THE ORGANIZATION AND TO THE SECRETARY of Health and Human Services, with a brief description of how to complain to the organization and an assurance that nobody is retaliated against for doing so, the name or title and telephone number of a contact person or office, and the date it takes effect. It is available on request to anyone who asks, and it reaches the individual by the route their relationship with the organization sets: a health plan gives it at enrolment and tells those it covers where to get it at least once every three years; a provider treating people directly gives it no later than the first time it delivers a service - not before data is collected, which is a different and later trigger than a consent-first regime uses - or as soon as practicable after an emergency, and makes a good-faith effort to get a written acknowledgement of receipt, recording the attempt where none is obtained. Where the organization runs a website describing its services or benefits, the notice is posted prominently on it; where it has a physical site people come to, a copy is kept there for individuals to take away and the notice is posted in a clear and prominent place where someone waiting to be seen can read it. Where a notice is issued jointly with other organizations, each of them agrees to abide by its terms, and the notice describes with reasonable specificity both the organizations (or classes of organization) and the SERVICE DELIVERY SITES (or classes of site) it applies to, and says, where it is so, that those organizations WILL SHARE the individual’s data with each other to carry out the work the arrangement exists for - so a reader learns from the notice which premises they are covered at and that their data moves between the participants. Issue by any one participant discharges the duty for all of them. A copy of every version issued is retained, along with any acknowledgement of receipt and, where one could not be obtained, the record of the good-faith attempt. When a practice the notice describes changes, the notice is revised and made available before the change takes effect - not after it.",
+      "crosswalks": {
+        "hipaa": [
+          "164.520(b)",
+          "164.520(c)",
+          "164.520(d)",
+          "164.520(e)",
+          "164.530(i)(4)"
+        ]
+      }
+    },
+    {
+      "key": "individual-rights-requests",
+      "name": "Individual rights request handling",
+      "description": "Every request an individual makes about their own personal data - to see it or get a copy, to have it corrected or amended, to restrict how it is used or disclosed, or to be contacted only by a particular means or at a particular address - is logged when it arrives, the requester’s identity is checked, and the request is answered inside the window that right carries - 30 days for a request to see or copy, 60 days for a request to amend - with at most one 30-day extension, and only if the individual is told in writing why and by when. What is provided is what was asked for - INSPECTION, a copy, or both - in the form and format asked for where that is readily producible, arranging with the individual a convenient time and place to inspect or collect it, or mailing it where they ask; transmitted to a third party where the individual directs it in a signed writing naming that person and where to send it; and charged at no more than a reasonable cost-based fee. A refusal is given in writing in plain language with the reason; anything else that was asked for and is not refused is still provided; where the organization does not hold the data at all and knows who does, it tells the individual where to send the request instead of simply refusing; and the individual is told what to do next - review by a LICENSED HEALTH CARE PROFESSIONAL whom the organization designates and who took no part in the original decision, where that route exists, or the right to file a statement of disagreement with the record - and how to complain BOTH to the organization and to the Secretary of Health and Human Services, with the name or title and telephone number of the contact person or office to use. An accepted correction is made by identifying the records it affects and APPENDING the correction, or a link to where it lives, to them - the original entry stays and the record is added to, because a record that is silently overwritten loses the history a later reader needs and destroys the evidence of what was relied on at the time; the individual is told the correction was accepted and asked to identify, and agree to, the people it should be shared with, and those people are then notified along with anyone known to hold the data who may rely on it to the individual’s detriment; a correction notified to the organization by another organization is applied to its own copy the same way, by appending rather than replacing. Where a correction is refused, the individual may file a statement of disagreement; the organization may write a rebuttal and gives the individual a copy of it when it does; and the request, the refusal, the statement and any rebuttal are appended or linked to the record and travel with it - or an accurate summary does - on any later disclosure of the data they concern. An agreed restriction or an agreed alternative contact arrangement is recorded, and it ends only where the individual agrees to or asks for the ending IN WRITING, where they agree ORALLY AND THAT ORAL AGREEMENT IS WRITTEN DOWN, or by the organization telling the individual it is ending the agreement - and that last, one-sided route does not work AT ALL against a restriction the organization had no choice but to accept - the restriction on disclosing to a health plan an item or service the individual paid for in full out of pocket - and otherwise takes effect only for data created or received after the individual has been told; a request for alternative contact may be required in writing but never conditioned on the individual explaining why they are asking, and may otherwise be conditioned only on being told how any payment will be handled and on being given a workable alternative address or contact method. The organization records which sets of records these requests reach and which roles receive and process them, retains the request records for six years from creation or from when they last were in effect, whichever is later, penalizes nobody - inside or outside the organization - for making a request, complaining, or taking part in an investigation, and requires nobody to give up any of these rights as a condition of getting a service, a payment or a benefit.",
+      "crosswalks": {
+        "hipaa": [
+          "164.522(a)(2)",
+          "164.522(a)(3)",
+          "164.522(b)(2)",
+          "164.524(b)",
+          "164.524(c)",
+          "164.524(d)",
+          "164.524(e)",
+          "164.526(b)",
+          "164.526(c)",
+          "164.526(d)",
+          "164.526(e)",
+          "164.526(f)",
+          "164.530(g)",
+          "164.530(h)"
+        ]
+      }
+    },
+    {
+      "key": "disclosure-accounting",
+      "name": "Record & accounting of disclosures",
+      "description": "A record is kept of the disclosures of an individual’s personal data made to other parties, each entry carrying the date, who received it and where they are if that is known, a short description of what was disclosed, and the purpose - or, where a written request prompted it, a copy of that request. On request, the individual is given an account of those disclosures covering the six years before the request, within 60 days and with at most one 30-day extension on written notice, and the first account asked for in any twelve-month period is provided without charge. A reasonable cost-based fee may be charged for a further account asked for by the same individual inside that twelve-month period only if the individual is TOLD THE FEE IN ADVANCE and is given the chance to WITHDRAW OR NARROW the request to avoid or reduce it - the fee is disclosed before the work is done, never billed after it. The organization records what an account has to contain, keeps a copy of each account it has provided, and records which roles receive and process these requests.",
+      "crosswalks": {
+        "hipaa": [
+          "164.528(b)",
+          "164.528(c)",
+          "164.528(d)"
+        ]
+      }
+    },
+    {
       "key": "esg-oversight",
       "name": "ESG leadership oversight",
       "description": "Leadership accountability for the ESG program with periodic review of performance.",
@@ -1307,8 +1431,7 @@
           "G.4"
         ],
         "sox": [
-          "P1",
-          "P5"
+          "P1"
         ]
       }
     },
@@ -1321,8 +1444,7 @@
           "G.3"
         ],
         "sox": [
-          "P1",
-          "P8"
+          "P1"
         ]
       }
     },
@@ -1335,7 +1457,6 @@
           "G.5"
         ],
         "sox": [
-          "P8",
           "P14"
         ]
       }
@@ -1346,16 +1467,13 @@
       "description": "Approval authority and spending limits are defined, assigned to named roles, reviewed as the organization changes, and enforced in the systems that execute transactions - so no one person can initiate, approve, record and reconcile the same transaction.",
       "crosswalks": {
         "iso-27001": [
-          "A.5.2",
           "A.5.3"
         ],
         "soc-2": [
-          "CC1.3",
-          "CC1.5"
+          "CC1.3"
         ],
         "nist-800-53": [
-          "AC-5",
-          "AC-6"
+          "AC-5"
         ],
         "sox": [
           "P3",
@@ -1372,11 +1490,21 @@
         "soc-2": [
           "CC3.3"
         ],
-        "esg-essentials": [
-          "G.3"
-        ],
         "sox": [
           "P8"
+        ]
+      }
+    },
+    {
+      "key": "information-completeness-accuracy",
+      "name": "Completeness & accuracy of information used by controls",
+      "description": "Every report, extract, query result, spreadsheet, system-generated listing and third-party statement that a control depends on is identified and listed, and for each one the organization can show why it may be relied upon rather than asserting that it came out of a system. Recorded with the output, not remembered: where the data came from, the parameters, filters and date range that produced it, who produced it and when. Established rather than assumed: that it is COMPLETE, so nothing that belongs in it is missing, and ACCURATE, so what is in it is right - by reconciliation to an independent source, by agreeing a record count or a total back to it, by reperformance of the extract, or by another check stated in advance and evidenced when performed. Information obtained from outside the organization carries the same burden as information it produced itself; its origin is not the reason to trust it. The information reaches the person who has to act on it early enough to be acted on, since data that arrives after the decision it was meant to inform is unusable however accurate it is. The output and the evidence of its check are retained together so the same conclusion can be re-reached later by someone who was not there, and when the underlying system, query or report definition changes, the basis for relying on it is established again rather than carried over.",
+      "crosswalks": {
+        "soc-2": [
+          "CC2.1"
+        ],
+        "sox": [
+          "P13"
         ]
       }
     },
@@ -1457,7 +1585,7 @@
     {
       "key": "grievance-mechanism",
       "name": "Grievance & complaint handling",
-      "description": "Anyone affected by the organization - a worker, a customer, a neighbour - has a reachable route to raise a concern or a complaint, cases are resolved without undue cost or delay, and outcomes are tracked so recurring causes get fixed.",
+      "description": "Anyone affected by the organization - a worker, a customer, a neighbour - has a reachable route to raise a concern or a complaint, including a complaint about how their personal data is handled; every complaint received is recorded together with what was decided and done about it; cases are resolved without undue cost or delay; and outcomes are tracked so recurring causes get fixed.",
       "crosswalks": {
         "esg-essentials": [
           "S.10",
@@ -1466,6 +1594,9 @@
         "iso-9001": [
           "8.2.1",
           "10.2.1"
+        ],
+        "hipaa": [
+          "164.530(d)(2)"
         ]
       }
     },
@@ -1577,14 +1708,8 @@
       "name": "AI system inventory",
       "description": "A maintained inventory of the AI systems the organization develops, deploys, or uses, with each system's purpose, owner, and risk classification.",
       "crosswalks": {
-        "iso-42001": [
-          "A.4.2"
-        ],
         "nist-ai-rmf": [
           "GOVERN-1.6"
-        ],
-        "eu-ai-act": [
-          "HOBL-5"
         ],
         "ai-governance-essentials": [
           "GV.3"
@@ -1603,9 +1728,6 @@
         "nist-ai-rmf": [
           "MAP-5.1"
         ],
-        "eu-ai-act": [
-          "HREQ-1"
-        ],
         "ai-governance-essentials": [
           "RM.1",
           "RM.2"
@@ -1615,14 +1737,15 @@
     {
       "key": "human-oversight",
       "name": "Human oversight of AI",
-      "description": "Appropriate human oversight of AI systems, so people can understand, monitor, and intervene in how an AI system operates.",
+      "description": "Appropriate human oversight of AI systems, so people can understand, monitor, and intervene in how an AI system operates - the named people who hold that oversight have the competence, the authority and the access to the system to exercise it, and the system is operated in the way the instructions supplied with it specify, inside the purpose it was assessed and approved for rather than whatever use it turns out to support.",
       "crosswalks": {
         "iso-42001": [
           "A.6.2.6",
           "A.9.2"
         ],
         "eu-ai-act": [
-          "HREQ-6"
+          "HREQ-6",
+          "HOBL-5"
         ],
         "ai-governance-essentials": [
           "HO.1",
@@ -1777,6 +1900,7 @@
           "A.8.4"
         ],
         "eu-ai-act": [
+          "HOBL-5",
           "HOBL-6",
           "HOBL-7"
         ],
@@ -1834,7 +1958,6 @@
       "crosswalks": {
         "us-employment-federal": [
           "us.leave.fmla",
-          "us.leave.pump-act",
           "us.leave.userra",
           "us.leave.federal-jury"
         ]
@@ -1867,8 +1990,7 @@
           "us.antidiscrim.adea",
           "us.antidiscrim.gina",
           "us.antidiscrim.pregnancy",
-          "us.antidiscrim.pwfa",
-          "us.hiring-onboarding.ada-preoffer"
+          "us.antidiscrim.pwfa"
         ]
       }
     },
@@ -2021,8 +2143,7 @@
           "families/requirements/ad-id-permission",
           "families/requirements/mixed-identifiers",
           "families/requirements/phone-number",
-          "families/requirements/child-only-location",
-          "families/requirements/bluetooth-cdm"
+          "families/requirements/child-only-location"
         ]
       }
     },
@@ -2120,9 +2241,6 @@
       "name": "Neutral age screening for mixed audiences",
       "description": "A mixed-audience app establishes a user’s age band with a neutral screen that does not steer or reward a user into misstating their age, treats an unknown age as a child, and uses the result to gate data collection, third-party SDKs and advertising. One implementation is the evidence for the identifier, SDK and ad-serving rules that all depend on knowing which users are children.",
       "crosswalks": {
-        "coppa": [
-          "312.5(c)(8)"
-        ],
         "google-play-families": [
           "families/ads-sdk/mixed-age-screening"
         ],

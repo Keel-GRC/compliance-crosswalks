@@ -56,7 +56,8 @@ The framework list is likewise in `meta.frameworks`, so it cannot fall behind th
 
 ```bash
 jq -r '.meta.version' crosswalks.json
-# sha256-8beea155f2bc90a2525219e3086b5973cc775703291442085caf536e5273af9c
+# sha256-<64 hex>   — the real value is in the file; no copy of it is written in this README,
+#                     because a digest pasted into prose is stale the next time the data moves
 ```
 
 Record it. Equal versions mean the same data; a different version means something in this
@@ -98,6 +99,21 @@ names are kept version-free on purpose, since the clause references carry the sp
 The mappings are a practical starting point for "if I do this once, which frameworks does
 it count toward," not a certification or a substitute for an audit. Use them to plan
 coverage; confirm against the authoritative standard for your scope.
+
+### An absent clause is deliberate, and it is information
+
+**This dataset publishes only the mappings that hold, so gaps appear as absences rather
+than as rows.** A requirement of a framework with no control mapped to it means Keel does
+not currently claim to satisfy it — not that the requirement was overlooked. Some of those
+gaps were created on purpose: a 2026-08-17 semantic-fit audit withdrew mappings that did
+not survive reading, and **nothing was substituted in to keep a coverage figure up.** The
+release notes in [`CHANGELOG.md`](./CHANGELOG.md) name every requirement left uncovered by
+that pass.
+
+So do not infer coverage from silence in either direction. If you are computing "what
+fraction of framework X does this dataset cover", the honest denominator is the framework's
+own requirement list, which this dataset does not ship — join against the standard, and
+expect the answer to be well under 100%.
 
 ## Regenerating
 
