@@ -1,12 +1,12 @@
 {
   "meta": {
-    "version": "sha256-d1cdf31e736bbe0eb056958b01e473cd98a074772ab1fefb5366d29955d5606a",
+    "version": "sha256-0c4035fbf3a780b06f32d1049236fbdb83f06a11d522110101cf1303d4b9a348",
     "name": "Keel compliance crosswalks",
     "description": "Canonical, framework-agnostic security and quality controls, each mapped (crosswalked) to the clauses it satisfies across multiple compliance frameworks. Maintained by Keel.",
     "source": "https://keelgrc.com/open-source/",
     "license": "CC-BY-4.0",
     "attribution": "Keel GRC LLC (https://keelgrc.com)",
-    "controlCount": 110,
+    "controlCount": 123,
     "frameworks": [
       {
         "key": "ai-governance-essentials",
@@ -98,9 +98,10 @@
     {
       "key": "information-security-policy",
       "name": "Information security policy",
-      "description": "A board-approved policy set covering information security and the handling of personal data, sized to the scale of the organization and the type of activities it actually carries out, reviewed at least annually and communicated to the workforce. One or more named individuals are designated to coordinate the programme the policies describe - the person in charge of it, named rather than implied, with the designation recorded in writing, made known to the people who need it and kept current as roles change - so there is someone who answers for the policies being carried out and not only for their being published. How far the policies go, and how far the measures they require go, is judged against four things together: the organization’s size, complexity and capabilities; its technical infrastructure and the security capabilities of its hardware and software; what the measures cost; and how likely the risks they address are and how much damage they would do. A policy may be changed at any time, provided the change is documented and is actually put into effect rather than only written down.",
+      "description": "A board-approved policy set covering information security and the handling of personal data, sized to the scale of the organization and the type of activities it actually carries out, reviewed at least annually and communicated to the workforce. The policy set states the direction the organization is taking on information security - what it commits to, and what it requires of everyone doing work for it - so it sets where the programme is going rather than only recording what it already does. One or more named individuals are designated to coordinate the programme the policies describe - the person in charge of it, named rather than implied, with the designation recorded in writing, made known to the people who need it and kept current as roles change - so there is someone who answers for the policies being carried out and not only for their being published. How far the policies go, and how far the measures they require go, is judged against four things together: the organization’s size, complexity and capabilities; its technical infrastructure and the security capabilities of its hardware and software; what the measures cost; and how likely the risks they address are and how much damage they would do. A policy may be changed at any time, provided the change is documented and is actually put into effect rather than only written down.",
       "crosswalks": {
         "iso-27001": [
+          "5.2",
           "A.5.1"
         ],
         "soc-2": [
@@ -137,8 +138,12 @@
     {
       "key": "risk-assessment",
       "name": "Risk assessment & treatment",
-      "description": "A documented process to identify, analyze, evaluate, and treat information security risks on a defined cadence. The assessment covers risks and vulnerabilities to the confidentiality, the integrity and the availability of the data the organization holds - all three, not confidentiality alone - and is accurate and thorough enough to be relied on by the decisions taken from it. Treatment brings each risk down to a level that is reasonable and appropriate for this organization, which is the target the process is judged against rather than merely recording that a risk exists.",
+      "description": "A documented process to identify, analyze, evaluate, and treat information security risks on a defined cadence, and again whenever a significant change is proposed or has happened - a new system, a new supplier, a reorganization, a serious incident - so the picture is refreshed by events and not only by the calendar. The process is repeatable: the criteria for accepting risk and for deciding when an assessment is performed are set in advance and applied the same way each time, so repeated assessments produce consistent, comparable and valid results rather than a different answer depending on who ran it. Every risk has a named owner who approves how it will be treated and accepts what is left afterwards. The assessment covers risks and vulnerabilities to the confidentiality, the integrity and the availability of the data the organization holds - all three, not confidentiality alone - and is accurate and thorough enough to be relied on by the decisions taken from it. Treatment brings each risk down to a level that is reasonable and appropriate for this organization, which is the target the process is judged against rather than merely recording that a risk exists. Each assessment and its results are retained as documented information.",
       "crosswalks": {
+        "iso-27001": [
+          "6.1",
+          "8.2"
+        ],
         "soc-2": [
           "CC3.2"
         ],
@@ -981,8 +986,11 @@
     {
       "key": "security-privacy-officers",
       "name": "Named security & privacy officers",
-      "description": "One named individual is accountable for developing and implementing the organization’s security policies and procedures, and one for the policies and procedures governing personal data - the same person where the organization is small enough that saying so is honest. A named contact point receives questions and complaints about how personal data is handled. Both designations and the contact point are recorded in writing, published where the people who need them will find them, and kept current as roles change.",
+      "description": "One named individual is accountable for developing and implementing the organization’s security policies and procedures, and one for the policies and procedures governing personal data - the same person where the organization is small enough that saying so is honest. A named contact point receives questions and complaints about how personal data is handled. The same naming discipline runs down through the rest of the programme: the responsibilities and authorities for the security duties the organization depends on are assigned by leadership to named roles - including who answers for the management system meeting its requirements and who reports on how it is performing to leadership - and each holder is told what they hold and what they may decide, as are the people who have to go to them. Every designation and assignment is recorded in writing, published where the people who need it will find it, kept current as roles change, and reviewed when the organization changes shape.",
       "crosswalks": {
+        "iso-27001": [
+          "5.3"
+        ],
         "hipaa": [
           "164.308(a)(2)",
           "164.530(a)(2)"
@@ -1090,6 +1098,7 @@
           "CC5.3"
         ],
         "iso-27001": [
+          "7.5",
           "A.5.37"
         ],
         "hipaa": [
@@ -1108,8 +1117,11 @@
     {
       "key": "competence-management",
       "name": "Competence management",
-      "description": "Roles requiring competence are defined; training and evaluation ensure personnel are qualified.",
+      "description": "The competence each role in the management system needs is determined and written down, and the people in those roles are established as having it - on the basis of their education, training or experience rather than on the basis of holding the job. Where the competence is not there, something is done about it - training, mentoring, supervision, reassignment or hiring - and the action is afterwards evaluated for whether it produced the competence, not merely for whether it was delivered. The records that show all of this are retained.",
       "crosswalks": {
+        "iso-27001": [
+          "7.2"
+        ],
         "iso-9001": [
           "7.2"
         ],
@@ -1137,7 +1149,7 @@
     {
       "key": "internal-audit-program",
       "name": "Internal audit program",
-      "description": "A risk-based internal audit program evaluates conformity and effectiveness at planned intervals, and again when an environmental or operational change could have undermined what was last evaluated; each evaluation covers both technical testing and non-technical review of whether the documented policies and procedures are actually being met.",
+      "description": "A risk-based internal audit program evaluates conformity and effectiveness at planned intervals, and again when an environmental or operational change could have undermined what was last evaluated; each evaluation covers both technical testing and non-technical review of whether the documented policies and procedures are actually being met. The programme itself is written down - how often audits run, what methods they use, who is responsible for them, what each one covers and how it reports - and nobody audits their own work, so a finding is an independent judgement rather than a self-assessment. The results of each audit go to the management responsible for the area audited, and the programme and its results are retained as evidence that it ran.",
       "crosswalks": {
         "iso-9001": [
           "9.2.1",
@@ -1147,6 +1159,7 @@
           "CC4.1"
         ],
         "iso-27001": [
+          "9.2",
           "A.5.35"
         ],
         "iso-42001": [
@@ -1169,8 +1182,11 @@
     {
       "key": "management-review",
       "name": "Management review",
-      "description": "Leadership reviews management-system performance at planned intervals and drives improvement decisions.",
+      "description": "Leadership reviews how the management system is performing at planned intervals and decides what to do about it: what will be improved, and what about the system itself has to change. Each decision leaves the review with a named owner and a date rather than as a sentiment in the minutes, the previous review’s decisions are picked back up at the next one so nothing is decided twice and never done, and the record of the review and its outputs is retained.",
       "crosswalks": {
+        "iso-27001": [
+          "9.3"
+        ],
         "iso-9001": [
           "9.3.1",
           "9.3.3"
@@ -1189,8 +1205,11 @@
     {
       "key": "nonconformity-capa",
       "name": "Nonconformity & corrective action (CAPA)",
-      "description": "Nonconforming outputs are controlled; root causes are analyzed and corrective actions tracked to closure.",
+      "description": "When something fails to meet a requirement, the first response is to contain it: the nonconforming output is controlled so it goes no further, what has already gone wrong is corrected, and the consequences of it are dealt with. Then the question of cause is asked - why it happened, and whether the same failure exists somewhere else or could happen somewhere else - and where the answer warrants action, that action is taken and tracked to closure. Afterwards the action is reviewed for whether it actually removed the cause rather than only for whether it was completed, the management system is changed where the review shows it has to be, and the nonconformity, what was done about it and the result of doing it are all recorded.",
       "crosswalks": {
+        "iso-27001": [
+          "10.2"
+        ],
         "iso-9001": [
           "8.7.1",
           "8.7.2",
@@ -1211,6 +1230,139 @@
           "8.2.2",
           "8.2.3.1",
           "9.1.2"
+        ]
+      }
+    },
+    {
+      "key": "organizational-context",
+      "name": "Organizational context",
+      "description": "The internal and external issues that bear on the management system are determined and written down: what the organization does and how it is structured, the technology and information it depends on, the people and culture inside it, and outside it the markets it sells into, the laws and contracts binding it, the threat environment it operates in and whatever else could affect whether the system achieves what it exists to achieve. Each issue is recorded with enough reasoning that a reader can see why it matters here rather than in general, and the record is revisited on a defined cadence and whenever something material changes - an acquisition, a new market, a new regulator, a new class of threat - so it is the current picture and not the one taken when the system was first set up.",
+      "crosswalks": {
+        "iso-27001": [
+          "4.1"
+        ]
+      }
+    },
+    {
+      "key": "interested-parties-requirements",
+      "name": "Interested parties & their requirements",
+      "description": "The parties with a stake in the management system are identified - customers, regulators and supervisory authorities, employees, owners and investors, suppliers, insurers, and anyone else whose requirements bear on it - and what each of them requires is recorded specifically enough to be tested against rather than as a category. That includes the legal, regulatory and contractual obligations that follow from each relationship. The organization then records which of those requirements it will meet through the management system and which it will not, so the boundary is a decision on the record with a reason attached rather than an omission nobody noticed. The list is reviewed on a cadence, and whenever a new obligation, contract, relationship or regulator arrives.",
+      "crosswalks": {
+        "iso-27001": [
+          "4.2"
+        ]
+      }
+    },
+    {
+      "key": "management-system-scope",
+      "name": "Management system scope statement",
+      "description": "The boundaries of the management system are decided and written down as a scope statement: which parts of the organization, which locations, which activities, which information and which technology sit inside it, and what sits outside. The statement is reasoned from the issues determined about the organization’s context and from what interested parties require, rather than drawn to be convenient, and it states the interfaces and dependencies between what the organization does itself and what is done for it by others - so a boundary drawn around a service someone else runs is visible on the page instead of implied by its absence. The scope is available as documented information, and it is revisited when the organization, its activities, or those dependencies change.",
+      "crosswalks": {
+        "iso-27001": [
+          "4.3"
+        ]
+      }
+    },
+    {
+      "key": "management-system-processes",
+      "name": "Management system processes & interactions",
+      "description": "The management system is run as one connected set of processes rather than as a pile of separate activities that happen to share a binder. The processes it needs are identified, each with what goes into it and what comes out, the order they run in and how they hand off to one another, the criteria and methods that tell whether it is working, who owns it, and what it needs to run. The map is kept current as processes are added, merged or dropped, and it is used - improvement of the system is driven from it, and a change to one process is traced through to the processes it feeds - rather than drawn once for an audit and filed.",
+      "crosswalks": {
+        "iso-27001": [
+          "4.4"
+        ]
+      }
+    },
+    {
+      "key": "leadership-commitment",
+      "name": "Leadership commitment & accountability",
+      "description": "Top management is accountable for whether the management system works, and the accountability is exercised rather than asserted. It approves the policy and the objectives and satisfies itself that they fit the direction the organization is actually going in; it requires the system’s requirements to be built into how the business already runs rather than bolted alongside it; it makes sure the resources the system needs are available; it tells the organization why conforming to the system matters, in its own voice; it directs and supports the people whose work makes the system effective; it promotes improvement; and it backs other managers in exercising leadership over the parts of the system that are theirs. What it decided, when, and on what basis is recorded, so the commitment is evidenced by acts rather than by a signature on a policy.",
+      "crosswalks": {
+        "iso-27001": [
+          "5.1"
+        ]
+      }
+    },
+    {
+      "key": "security-objectives",
+      "name": "Information security objectives & planning",
+      "description": "Information security objectives are set at the functions and levels that actually have to deliver them, consistent with the security policy, and stated so that whether they were met can be measured rather than argued about afterwards. What they are set against is the security requirements the organization has and the results of its risk assessment and treatment, so the objectives answer the risks on the register rather than restating good intentions. Each objective carries a plan: what will be done, what resources it needs, who is responsible for it, when it is to be finished, and how the result will be evaluated. Objectives are communicated to the people whose work affects them, monitored, updated as circumstances change, and kept as documented information.",
+      "crosswalks": {
+        "iso-27001": [
+          "6.2"
+        ]
+      }
+    },
+    {
+      "key": "management-system-change-planning",
+      "name": "Planned change to the management system",
+      "description": "When the management system itself needs to change - its scope, its policy, its objectives, the processes it runs, the roles and authorities inside it, or the method by which it assesses risk - the change is carried out in a planned way rather than absorbed. Before it is made, its purpose and what it is likely to cause are stated; the integrity of the system while the change is in progress is considered, so it does not stop working half way through; the resources the change needs are identified and made available; and the responsibilities and authorities it moves are reallocated and communicated to the people gaining and losing them. The change, the reasoning and the approval are recorded, and afterwards the result is checked against the purpose the change was made for.",
+      "crosswalks": {
+        "iso-27001": [
+          "6.3"
+        ],
+        "iso-9001": [
+          "6.3"
+        ]
+      }
+    },
+    {
+      "key": "management-system-resources",
+      "name": "Resources for the management system",
+      "description": "The resources the management system needs in order to be established, run, kept running and improved are determined and provided, not assumed: the people and the time they are actually given rather than the time the plan says they have, the tools and technology, the information, and the budget. The determination distinguishes what the organization can meet from its own capability from what it has to obtain from outside, and it is written down so a shortfall is visible as a shortfall. It is revisited when the system’s scope, its workload or the organization changes, so a system that has grown is not still resourced for the size it was when it started.",
+      "crosswalks": {
+        "iso-27001": [
+          "7.1"
+        ]
+      }
+    },
+    {
+      "key": "management-system-communication",
+      "name": "Management system communication plan",
+      "description": "What the management system has to communicate is decided in advance and written down rather than left to whoever remembers: on what subjects, when, to whom inside the organization, to whom outside it, by whom, and by what means. The plan covers what goes out routinely - policy changes, objectives, how the system is performing, the obligations people are under - and what goes out on a trigger, and it names who is authorised to speak externally so a communication that carries an obligation is not made by whoever picked up the phone. It is reviewed when the audience, the obligations or the system change, and what was communicated, to whom and when is recorded, so the plan can be shown to have been followed rather than merely written.",
+      "crosswalks": {
+        "iso-27001": [
+          "7.4"
+        ]
+      }
+    },
+    {
+      "key": "operational-planning-control",
+      "name": "Operational planning & control",
+      "description": "The processes that deliver what the management system requires are planned before they are run and controlled while they run. The criteria each process has to meet are set in advance; the process is carried out to those criteria; and enough is recorded to give confidence afterwards that it ran as planned, rather than only that it ran. Changes to those processes are controlled: a planned change has its consequences considered before it is made, and an unintended change - something that drifted, broke or was worked around - is reviewed after the fact and acted on where it did harm. Processes, products and services provided from outside the organization but relied on inside it are brought within the same criteria and the same control, because a process that has been handed to someone else is still one the system depends on.",
+      "crosswalks": {
+        "iso-27001": [
+          "8.1"
+        ]
+      }
+    },
+    {
+      "key": "risk-treatment-plan",
+      "name": "Risk treatment plan & residual risk acceptance",
+      "description": "The treatment decisions coming out of the risk assessment are drawn together into one plan somebody can be held to: for each risk, what will be done about it, which control does it, who owns that work, and by when. The people who own the risks approve the plan and accept, in writing, the risk that will still be there once it is done - so residual risk is a decision a named person made rather than the remainder nobody looked at. The plan is then carried out; progress is tracked to closure rather than to first action; and the result of each item is recorded - what was actually implemented, and what it changed about the risk it was raised against.",
+      "crosswalks": {
+        "iso-27001": [
+          "8.3"
+        ]
+      }
+    },
+    {
+      "key": "security-performance-measurement",
+      "name": "Security performance measurement",
+      "description": "What the organization will monitor and measure in order to know whether information security is working is decided in advance and written down: which processes and which controls, by what method, who performs the measurement, when it is performed, and who analyses and evaluates the results and when. The methods are chosen so that repeating them produces comparable and reproducible results, rather than a different answer depending on who ran it and in which week. The results are retained, and the evaluation - what the numbers say about whether the management system is performing and whether its controls are effective, not merely what they count - reaches the people who decide what to do about it, in time for them to do it.",
+      "crosswalks": {
+        "iso-27001": [
+          "9.1"
+        ]
+      }
+    },
+    {
+      "key": "continual-improvement",
+      "name": "Continual improvement",
+      "description": "Improvement of the management system is run as an activity with a record, not held as an intention. Opportunities are captured from everywhere they arise - audit findings, the results of measurement and evaluation, decisions out of management reviews, incidents and near misses, and suggestions from the people actually doing the work - and held in one place instead of in the meeting each came out of. Each is evaluated and either taken forward with an owner and a date or closed with the reason it was not, so a rejected idea is a decision rather than a silence. Once an improvement is made, its effect on the suitability, adequacy and effectiveness of the system is checked, so improvement is something that can be shown to have happened rather than asserted at the next audit.",
+      "crosswalks": {
+        "iso-27001": [
+          "10.1"
         ]
       }
     },

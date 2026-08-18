@@ -29,6 +29,127 @@ disappeared — additions alone are never marked breaking.
 
 ---
 
+## 2026-08-18 — 123 controls, 680 mappings, 21 frameworks — additive
+
+**Version:** `sha256-0c4035fbf3a780b06f32d1049236fbdb83f06a11d522110101cf1303d4b9a348`
+
+Previous published state: **110 controls, 657 mappings, 21 frameworks**
+(`sha256-d1cdf31e736bbe0eb056958b01e473cd98a074772ab1fefb5366d29955d5606a`, 2026-08-17).
+
+**Nothing was removed, renamed, retyped or re-pointed.** Every key that existed still
+exists, with the same type; every clause reference published on 2026-08-17 is still
+published, on the same control, spelled the same way. **Zero CSV rows were withdrawn.** If
+you pinned against the previous version, this release adds rows and adds keys and takes
+nothing away — the opposite of the release below it, which is why the check is stated
+rather than assumed.
+
+### What changed, in total
+
+| | |
+|---|---|
+| Controls added | 13 |
+| Controls removed | 0 |
+| Frameworks added or removed | 0 |
+| Control–framework edges **removed entirely** | 0 |
+| Clause references **withdrawn** from an existing key | 0 |
+| Clause references **re-pointed** | 0 |
+| Control–framework edges added | 19 (14 on the new controls, 5 on existing ones) |
+| Control descriptions reworded | 7 |
+| Control **names** changed | 0 |
+| Edges (control × framework pairs) | 370 → 389 |
+| Mappings | 657 → 680 |
+| CSV rows withdrawn / arrived | 0 / 23 |
+
+Mappings per framework, previously published → now. **Nineteen of the twenty-one
+frameworks are byte-for-byte unchanged**; only these two moved, and both only upward.
+
+| Framework key | Was | Now | |
+|---|---|---|---|
+| `iso-27001` | 36 | 58 | +22 |
+| `iso-9001` | 29 | 30 | +1 |
+
+Controls mapping to each: `iso-27001` 29 → 47, `iso-9001` 14 → 15.
+
+### What this release is — ISO/IEC 27001's management clauses
+
+The previous dataset carried **35 ISO/IEC 27001 Annex A references and exactly one
+reference to clauses 4–10** — the management-system requirements that establish, run and
+improve the ISMS, as opposed to the Annex A control catalogue. Twenty-two of those twenty-three
+scored requirements had no control mapped to them. They now all do:
+
+| Clause 4–10 references carried | Was | Now |
+|---|---|---|
+| ISO/IEC 27001 clauses 4–10 | 1 (`7.3`) | 23 (`4.1`–`10.2`) |
+| ISO/IEC 27001 Annex A | 35 | 35 |
+
+Thirteen of the twenty-three were closed by a **new control**, each mapping to one
+management-system requirement:
+
+| New control key | Maps to |
+|---|---|
+| `organizational-context` | `iso-27001` `4.1` |
+| `interested-parties-requirements` | `iso-27001` `4.2` |
+| `management-system-scope` | `iso-27001` `4.3` |
+| `management-system-processes` | `iso-27001` `4.4` |
+| `leadership-commitment` | `iso-27001` `5.1` |
+| `security-objectives` | `iso-27001` `6.2` |
+| `management-system-change-planning` | `iso-27001` `6.3`, `iso-9001` `6.3` |
+| `management-system-resources` | `iso-27001` `7.1` |
+| `management-system-communication` | `iso-27001` `7.4` |
+| `operational-planning-control` | `iso-27001` `8.1` |
+| `risk-treatment-plan` | `iso-27001` `8.3` |
+| `security-performance-measurement` | `iso-27001` `9.1` |
+| `continual-improvement` | `iso-27001` `10.1` |
+
+The remaining nine were closed on controls you already have, by adding a key or a reference
+— never by moving one (`7.3` is the twenty-third, and was already carried by
+`management-system-awareness`):
+
+| Control | Change |
+|---|---|
+| `risk-assessment` | gains `iso-27001` → `["6.1","8.2"]` (the key did not exist) |
+| `security-privacy-officers` | gains `iso-27001` → `["5.3"]` (the key did not exist) |
+| `competence-management` | gains `iso-27001` → `["7.2"]` (the key did not exist) |
+| `management-review` | gains `iso-27001` → `["9.3"]` (the key did not exist) |
+| `nonconformity-capa` | gains `iso-27001` → `["10.2"]` (the key did not exist) |
+| `information-security-policy` | `iso-27001` gains `5.2` |
+| `document-control` | `iso-27001` gains `7.5` |
+| `internal-audit-program` | `iso-27001` gains `9.2` |
+
+Five of those keys are *new keys on existing controls*: a consumer that cached
+`control.crosswalks` for `risk-assessment` and saw no `iso-27001` entry will now see one.
+That is an addition, not a change of shape — nothing that returned an array returns
+anything else.
+
+**7 control descriptions were reworded**, to state the management-system duty the control
+now carries: `information-security-policy`, `risk-assessment`, `security-privacy-officers`,
+`competence-management`, `internal-audit-program`, `management-review`,
+`nonconformity-capa`. No key, name or type changed, so this is not breaking; but if you
+display or index `description`, the text is not the text you had.
+
+### One requirement the last release left uncovered is now covered — by a new control, not a near-miss
+
+The 2026-08-17 entry published a table of requirements that lost their last control and
+were deliberately left uncovered. **One of them is covered again: `iso-9001` `6.3`.**
+
+It is not the withdrawn mapping coming back. `change-management` — the control that used to
+claim it, and whose subject is IT change control over systems and software — still does not
+claim it, and its `iso-9001` key is still absent. `6.3` is now carried by the new
+`management-system-change-planning`, whose subject is planned change to the management
+system itself. The withdrawal note said this leaf would stay unmapped until such a control
+was authored; this is that control.
+
+**Every other requirement in that table is still uncovered**, including `gdpr` `Art.25(1)`.
+No mapping in this release points at any of them.
+
+### Nothing else moved
+
+`meta` carries the same eight keys in the same order. The 21 `meta.frameworks` entries are
+identical, key and display name. Every control object still has exactly `key`, `name`,
+`description`, `crosswalks`. The CSV header and column order are unchanged.
+
+---
+
 ## 2026-08-17 — 110 controls, 657 mappings, 21 frameworks — **BREAKING**
 
 **Version:** `sha256-d1cdf31e736bbe0eb056958b01e473cd98a074772ab1fefb5366d29955d5606a`
