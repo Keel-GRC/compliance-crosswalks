@@ -5,6 +5,7 @@ information-security-policy,Information security policy,esg-essentials,ESG Essen
 information-security-policy,Information security policy,gdpr,GDPR,Art.24(2)
 information-security-policy,Information security policy,hipaa,HIPAA,164.316(a)
 information-security-policy,Information security policy,hipaa,HIPAA,164.530(i)(1)
+information-security-policy,Information security policy,iso-27001,ISO/IEC 27001,5.2
 information-security-policy,Information security policy,iso-27001,ISO/IEC 27001,A.5.1
 information-security-policy,Information security policy,nist-800-53,NIST SP 800-53,PL-1
 information-security-policy,Information security policy,nist-csf,NIST Cybersecurity Framework,GV.PO-01
@@ -14,6 +15,8 @@ information-security-policy,Information security policy,sox,SOX (Sarbanes-Oxley)
 risk-assessment,Risk assessment & treatment,coppa,COPPA,312.8(b)(2)
 risk-assessment,Risk assessment & treatment,hipaa,HIPAA,164.308(a)(1)(ii)(A)
 risk-assessment,Risk assessment & treatment,hipaa,HIPAA,164.308(a)(1)(ii)(B)
+risk-assessment,Risk assessment & treatment,iso-27001,ISO/IEC 27001,6.1
+risk-assessment,Risk assessment & treatment,iso-27001,ISO/IEC 27001,8.2
 risk-assessment,Risk assessment & treatment,nist-800-171,NIST SP 800-171,3.11.1
 risk-assessment,Risk assessment & treatment,nist-800-53,NIST SP 800-53,RA-3
 risk-assessment,Risk assessment & treatment,nist-800-53,NIST SP 800-53,RA-7
@@ -312,6 +315,7 @@ hr-security,Personnel security (HR),us-employment-federal,US Employment Law (fed
 hr-security,Personnel security (HR),us-employment-federal,US Employment Law (federal baseline),us.hiring-onboarding.fcra-background
 security-privacy-officers,Named security & privacy officers,hipaa,HIPAA,164.308(a)(2)
 security-privacy-officers,Named security & privacy officers,hipaa,HIPAA,164.530(a)(2)
+security-privacy-officers,Named security & privacy officers,iso-27001,ISO/IEC 27001,5.3
 disciplinary-process,Disciplinary & sanctions process,hipaa,HIPAA,164.308(a)(1)(ii)(C)
 disciplinary-process,Disciplinary & sanctions process,hipaa,HIPAA,164.530(e)(2)
 disciplinary-process,Disciplinary & sanctions process,iso-27001,ISO/IEC 27001,A.6.4
@@ -339,12 +343,14 @@ document-control,Document & records control,hipaa,HIPAA,164.316(b)(2)(iii)
 document-control,Document & records control,hipaa,HIPAA,164.530(i)(3)
 document-control,Document & records control,hipaa,HIPAA,164.530(i)(5)
 document-control,Document & records control,hipaa,HIPAA,164.530(j)(2)
+document-control,Document & records control,iso-27001,ISO/IEC 27001,7.5
 document-control,Document & records control,iso-27001,ISO/IEC 27001,A.5.37
 document-control,Document & records control,iso-9001,ISO 9001,7.5.2
 document-control,Document & records control,iso-9001,ISO 9001,7.5.3.1
 document-control,Document & records control,iso-9001,ISO 9001,7.5.3.2
 document-control,Document & records control,soc-2,SOC 2,CC5.3
 document-control,Document & records control,sox,SOX (Sarbanes-Oxley) Section 404,P12
+competence-management,Competence management,iso-27001,ISO/IEC 27001,7.2
 competence-management,Competence management,iso-9001,ISO 9001,7.2
 competence-management,Competence management,sox,SOX (Sarbanes-Oxley) Section 404,P4
 management-system-awareness,Management-system awareness,iso-27001,ISO/IEC 27001,7.3
@@ -352,6 +358,7 @@ management-system-awareness,Management-system awareness,iso-42001,ISO/IEC 42001,
 management-system-awareness,Management-system awareness,iso-9001,ISO 9001,7.3
 internal-audit-program,Internal audit program,coppa,COPPA,312.8(b)(5)
 internal-audit-program,Internal audit program,hipaa,HIPAA,164.308(a)(8)
+internal-audit-program,Internal audit program,iso-27001,ISO/IEC 27001,9.2
 internal-audit-program,Internal audit program,iso-27001,ISO/IEC 27001,A.5.35
 internal-audit-program,Internal audit program,iso-42001,ISO/IEC 42001,9.2
 internal-audit-program,Internal audit program,iso-9001,ISO 9001,9.2.1
@@ -360,10 +367,12 @@ internal-audit-program,Internal audit program,nist-800-53,NIST SP 800-53,CA-2
 internal-audit-program,Internal audit program,soc-2,SOC 2,CC4.1
 internal-audit-program,Internal audit program,sox,SOX (Sarbanes-Oxley) Section 404,P16
 management-review,Management review,esg-essentials,ESG Essentials,G.14
+management-review,Management review,iso-27001,ISO/IEC 27001,9.3
 management-review,Management review,iso-9001,ISO 9001,9.3.1
 management-review,Management review,iso-9001,ISO 9001,9.3.3
 management-review,Management review,soc-2,SOC 2,CC4.1
 management-review,Management review,sox,SOX (Sarbanes-Oxley) Section 404,P16
+nonconformity-capa,Nonconformity & corrective action (CAPA),iso-27001,ISO/IEC 27001,10.2
 nonconformity-capa,Nonconformity & corrective action (CAPA),iso-9001,ISO 9001,8.7.1
 nonconformity-capa,Nonconformity & corrective action (CAPA),iso-9001,ISO 9001,8.7.2
 nonconformity-capa,Nonconformity & corrective action (CAPA),iso-9001,ISO 9001,10.2.1
@@ -372,6 +381,20 @@ nonconformity-capa,Nonconformity & corrective action (CAPA),sox,SOX (Sarbanes-Ox
 customer-requirements,Customer requirements & satisfaction,iso-9001,ISO 9001,8.2.2
 customer-requirements,Customer requirements & satisfaction,iso-9001,ISO 9001,8.2.3.1
 customer-requirements,Customer requirements & satisfaction,iso-9001,ISO 9001,9.1.2
+organizational-context,Organizational context,iso-27001,ISO/IEC 27001,4.1
+interested-parties-requirements,Interested parties & their requirements,iso-27001,ISO/IEC 27001,4.2
+management-system-scope,Management system scope statement,iso-27001,ISO/IEC 27001,4.3
+management-system-processes,Management system processes & interactions,iso-27001,ISO/IEC 27001,4.4
+leadership-commitment,Leadership commitment & accountability,iso-27001,ISO/IEC 27001,5.1
+security-objectives,Information security objectives & planning,iso-27001,ISO/IEC 27001,6.2
+management-system-change-planning,Planned change to the management system,iso-27001,ISO/IEC 27001,6.3
+management-system-change-planning,Planned change to the management system,iso-9001,ISO 9001,6.3
+management-system-resources,Resources for the management system,iso-27001,ISO/IEC 27001,7.1
+management-system-communication,Management system communication plan,iso-27001,ISO/IEC 27001,7.4
+operational-planning-control,Operational planning & control,iso-27001,ISO/IEC 27001,8.1
+risk-treatment-plan,Risk treatment plan & residual risk acceptance,iso-27001,ISO/IEC 27001,8.3
+security-performance-measurement,Security performance measurement,iso-27001,ISO/IEC 27001,9.1
+continual-improvement,Continual improvement,iso-27001,ISO/IEC 27001,10.1
 environmental-policy,Environmental policy,esg-essentials,ESG Essentials,E.1
 energy-emissions-tracking,"Energy, emissions & resource use tracking",esg-essentials,ESG Essentials,E.2
 energy-emissions-tracking,"Energy, emissions & resource use tracking",esg-essentials,ESG Essentials,E.3
