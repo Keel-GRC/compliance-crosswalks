@@ -9,19 +9,31 @@ information-security-policy,Information security policy,iso-27001,ISO/IEC 27001,
 information-security-policy,Information security policy,iso-27001,ISO/IEC 27001,A.5.1
 information-security-policy,Information security policy,nist-800-53,NIST SP 800-53,PL-1
 information-security-policy,Information security policy,nist-csf,NIST Cybersecurity Framework,GV.PO-01
+information-security-policy,Information security policy,nist-csf,NIST Cybersecurity Framework,GV.PO-02
 information-security-policy,Information security policy,pci-dss,PCI DSS,12.1
 information-security-policy,Information security policy,soc-2,SOC 2,CC5.3
 information-security-policy,Information security policy,sox,SOX (Sarbanes-Oxley) Section 404,P12
 risk-assessment,Risk assessment & treatment,coppa,COPPA,312.8(b)(2)
+risk-assessment,Risk assessment & treatment,gdpr,GDPR,Art.32(2)
 risk-assessment,Risk assessment & treatment,hipaa,HIPAA,164.308(a)(1)(ii)(A)
 risk-assessment,Risk assessment & treatment,hipaa,HIPAA,164.308(a)(1)(ii)(B)
 risk-assessment,Risk assessment & treatment,iso-27001,ISO/IEC 27001,6.1
 risk-assessment,Risk assessment & treatment,iso-27001,ISO/IEC 27001,8.2
 risk-assessment,Risk assessment & treatment,nist-800-171,NIST SP 800-171,3.11.1
+risk-assessment,Risk assessment & treatment,nist-800-53,NIST SP 800-53,RA-1
 risk-assessment,Risk assessment & treatment,nist-800-53,NIST SP 800-53,RA-3
 risk-assessment,Risk assessment & treatment,nist-800-53,NIST SP 800-53,RA-7
+risk-assessment,Risk assessment & treatment,nist-csf,NIST Cybersecurity Framework,GV.RM-02
+risk-assessment,Risk assessment & treatment,nist-csf,NIST Cybersecurity Framework,GV.RM-06
+risk-assessment,Risk assessment & treatment,nist-csf,NIST Cybersecurity Framework,ID.RA-03
+risk-assessment,Risk assessment & treatment,nist-csf,NIST Cybersecurity Framework,ID.RA-04
+risk-assessment,Risk assessment & treatment,nist-csf,NIST Cybersecurity Framework,ID.RA-05
 risk-assessment,Risk assessment & treatment,pci-dss,PCI DSS,12.3
 risk-assessment,Risk assessment & treatment,soc-2,SOC 2,CC3.2
+risk-assessment,Risk assessment & treatment,soc-2,SOC 2,CC3.4
+access-control-policy,Access control policy,cis-controls,CIS Controls,3.3
+access-control-policy,Access control policy,cis-controls,CIS Controls,6.6
+access-control-policy,Access control policy,cis-controls,CIS Controls,6.7
 access-control-policy,Access control policy,cis-controls,CIS Controls,6.8
 access-control-policy,Access control policy,coppa,COPPA,312.8(b)(3)
 access-control-policy,Access control policy,gdpr,GDPR,Art.32(1)
@@ -30,42 +42,73 @@ access-control-policy,Access control policy,hipaa,HIPAA,164.308(a)(4)(ii)(B)
 access-control-policy,Access control policy,hipaa,HIPAA,164.312(a)(2)(ii)
 access-control-policy,Access control policy,iso-27001,ISO/IEC 27001,A.5.15
 access-control-policy,Access control policy,nist-800-171,NIST SP 800-171,3.1.1
+access-control-policy,Access control policy,nist-800-171,NIST SP 800-171,3.1.2
 access-control-policy,Access control policy,nist-800-171,NIST SP 800-171,3.1.5
 access-control-policy,Access control policy,nist-800-53,NIST SP 800-53,AC-1
 access-control-policy,Access control policy,nist-800-53,NIST SP 800-53,AC-2
 access-control-policy,Access control policy,nist-800-53,NIST SP 800-53,AC-3
 access-control-policy,Access control policy,nist-800-53,NIST SP 800-53,AC-6
+access-control-policy,Access control policy,nist-800-53,NIST SP 800-53,AC-14
 access-control-policy,Access control policy,nist-csf,NIST Cybersecurity Framework,PR.AA-05
 access-control-policy,Access control policy,pci-dss,PCI DSS,7.1
 access-control-policy,Access control policy,pci-dss,PCI DSS,7.2
+access-control-policy,Access control policy,pci-dss,PCI DSS,7.3
 access-control-policy,Access control policy,soc-2,SOC 2,CC6.1
 access-control-policy,Access control policy,soc-2,SOC 2,CC6.3
 access-control-policy,Access control policy,sox,SOX (Sarbanes-Oxley) Section 404,P11
+user-lifecycle,User provisioning & deprovisioning,cis-controls,CIS Controls,5.1
 user-lifecycle,User provisioning & deprovisioning,cis-controls,CIS Controls,5.3
+user-lifecycle,User provisioning & deprovisioning,cis-controls,CIS Controls,5.5
+user-lifecycle,User provisioning & deprovisioning,cis-controls,CIS Controls,5.6
 user-lifecycle,User provisioning & deprovisioning,cis-controls,CIS Controls,6.1
 user-lifecycle,User provisioning & deprovisioning,cis-controls,CIS Controls,6.2
 user-lifecycle,User provisioning & deprovisioning,gdpr,GDPR,Art.32(1)
 user-lifecycle,User provisioning & deprovisioning,hipaa,HIPAA,164.308(a)(4)(ii)(B)
 user-lifecycle,User provisioning & deprovisioning,hipaa,HIPAA,164.308(a)(4)(ii)(C)
 user-lifecycle,User provisioning & deprovisioning,hipaa,HIPAA,164.312(a)(2)(i)
+user-lifecycle,User provisioning & deprovisioning,iso-27001,ISO/IEC 27001,A.5.16
+user-lifecycle,User provisioning & deprovisioning,iso-27001,ISO/IEC 27001,A.5.18
 user-lifecycle,User provisioning & deprovisioning,iso-27001,ISO/IEC 27001,A.8.3
 user-lifecycle,User provisioning & deprovisioning,nist-800-171,NIST SP 800-171,3.1.1
+user-lifecycle,User provisioning & deprovisioning,nist-800-171,NIST SP 800-171,3.5.1
+user-lifecycle,User provisioning & deprovisioning,nist-800-171,NIST SP 800-171,3.5.5
+user-lifecycle,User provisioning & deprovisioning,nist-800-171,NIST SP 800-171,3.5.6
+user-lifecycle,User provisioning & deprovisioning,nist-800-171,NIST SP 800-171,3.9.2
 user-lifecycle,User provisioning & deprovisioning,nist-800-53,NIST SP 800-53,AC-2
+user-lifecycle,User provisioning & deprovisioning,nist-800-53,NIST SP 800-53,AC-2(1)
+user-lifecycle,User provisioning & deprovisioning,nist-800-53,NIST SP 800-53,AC-2(2)
+user-lifecycle,User provisioning & deprovisioning,nist-800-53,NIST SP 800-53,AC-2(3)
+user-lifecycle,User provisioning & deprovisioning,nist-800-53,NIST SP 800-53,AC-2(4)
+user-lifecycle,User provisioning & deprovisioning,nist-800-53,NIST SP 800-53,AC-2(13)
+user-lifecycle,User provisioning & deprovisioning,nist-800-53,NIST SP 800-53,IA-4
+user-lifecycle,User provisioning & deprovisioning,nist-800-53,NIST SP 800-53,IA-4(4)
+user-lifecycle,User provisioning & deprovisioning,nist-800-53,NIST SP 800-53,IA-12
+user-lifecycle,User provisioning & deprovisioning,nist-800-53,NIST SP 800-53,IA-12(2)
+user-lifecycle,User provisioning & deprovisioning,nist-800-53,NIST SP 800-53,IA-12(3)
+user-lifecycle,User provisioning & deprovisioning,nist-800-53,NIST SP 800-53,IA-12(5)
 user-lifecycle,User provisioning & deprovisioning,nist-800-53,NIST SP 800-53,PS-4
 user-lifecycle,User provisioning & deprovisioning,nist-800-53,NIST SP 800-53,PS-5
 user-lifecycle,User provisioning & deprovisioning,nist-csf,NIST Cybersecurity Framework,PR.AA-01
+user-lifecycle,User provisioning & deprovisioning,nist-csf,NIST Cybersecurity Framework,PR.AA-02
 user-lifecycle,User provisioning & deprovisioning,pci-dss,PCI DSS,8.2
 user-lifecycle,User provisioning & deprovisioning,soc-2,SOC 2,CC6.2
 user-lifecycle,User provisioning & deprovisioning,soc-2,SOC 2,CC6.3
 user-lifecycle,User provisioning & deprovisioning,sox,SOX (Sarbanes-Oxley) Section 404,P11
 mfa,Multi-factor authentication,cis-controls,CIS Controls,6.3
+mfa,Multi-factor authentication,cis-controls,CIS Controls,6.4
 mfa,Multi-factor authentication,cis-controls,CIS Controls,6.5
 mfa,Multi-factor authentication,coppa,COPPA,312.8(b)(3)
 mfa,Multi-factor authentication,gdpr,GDPR,Art.32(1)
 mfa,Multi-factor authentication,hipaa,HIPAA,164.312(d)
 mfa,Multi-factor authentication,iso-27001,ISO/IEC 27001,A.8.5
+mfa,Multi-factor authentication,nist-800-171,NIST SP 800-171,3.5.2
 mfa,Multi-factor authentication,nist-800-171,NIST SP 800-171,3.5.3
+mfa,Multi-factor authentication,nist-800-171,NIST SP 800-171,3.5.4
 mfa,Multi-factor authentication,nist-800-53,NIST SP 800-53,IA-2
+mfa,Multi-factor authentication,nist-800-53,NIST SP 800-53,IA-2(1)
+mfa,Multi-factor authentication,nist-800-53,NIST SP 800-53,IA-2(2)
+mfa,Multi-factor authentication,nist-800-53,NIST SP 800-53,IA-2(8)
+mfa,Multi-factor authentication,nist-800-53,NIST SP 800-53,IA-11
 mfa,Multi-factor authentication,nist-csf,NIST Cybersecurity Framework,PR.AA-03
 mfa,Multi-factor authentication,pci-dss,PCI DSS,8.4
 mfa,Multi-factor authentication,pci-dss,PCI DSS,8.5
@@ -74,13 +117,22 @@ mfa,Multi-factor authentication,sox,SOX (Sarbanes-Oxley) Section 404,P11
 credential-management,Password & credential management,cis-controls,CIS Controls,5.2
 credential-management,Password & credential management,hipaa,HIPAA,164.308(a)(5)(ii)(D)
 credential-management,Password & credential management,iso-27001,ISO/IEC 27001,A.5.17
+credential-management,Password & credential management,nist-800-171,NIST SP 800-171,3.1.8
 credential-management,Password & credential management,nist-800-171,NIST SP 800-171,3.5.7
 credential-management,Password & credential management,nist-800-171,NIST SP 800-171,3.5.8
 credential-management,Password & credential management,nist-800-171,NIST SP 800-171,3.5.9
 credential-management,Password & credential management,nist-800-171,NIST SP 800-171,3.5.10
+credential-management,Password & credential management,nist-800-171,NIST SP 800-171,3.5.11
+credential-management,Password & credential management,nist-800-53,NIST SP 800-53,AC-7
+credential-management,Password & credential management,nist-800-53,NIST SP 800-53,IA-1
 credential-management,Password & credential management,nist-800-53,NIST SP 800-53,IA-5
 credential-management,Password & credential management,nist-800-53,NIST SP 800-53,IA-5(1)
+credential-management,Password & credential management,nist-800-53,NIST SP 800-53,IA-5(6)
+credential-management,Password & credential management,nist-800-53,NIST SP 800-53,IA-6
+credential-management,Password & credential management,pci-dss,PCI DSS,8.1
 credential-management,Password & credential management,pci-dss,PCI DSS,8.3
+encryption,Encryption in transit & at rest,cis-controls,CIS Controls,3.6
+encryption,Encryption in transit & at rest,cis-controls,CIS Controls,3.10
 encryption,Encryption in transit & at rest,cis-controls,CIS Controls,3.11
 encryption,Encryption in transit & at rest,coppa,COPPA,312.8(b)(3)
 encryption,Encryption in transit & at rest,gdpr,GDPR,Art.32(1)
@@ -88,17 +140,36 @@ encryption,Encryption in transit & at rest,hipaa,HIPAA,164.312(a)(2)(iv)
 encryption,Encryption in transit & at rest,hipaa,HIPAA,164.312(e)(2)(ii)
 encryption,Encryption in transit & at rest,iso-27001,ISO/IEC 27001,A.8.24
 encryption,Encryption in transit & at rest,nist-800-171,NIST SP 800-171,3.13.8
+encryption,Encryption in transit & at rest,nist-800-171,NIST SP 800-171,3.13.11
+encryption,Encryption in transit & at rest,nist-800-171,NIST SP 800-171,3.13.16
+encryption,Encryption in transit & at rest,nist-800-53,NIST SP 800-53,SC-8
+encryption,Encryption in transit & at rest,nist-800-53,NIST SP 800-53,SC-8(1)
 encryption,Encryption in transit & at rest,nist-800-53,NIST SP 800-53,SC-13
 encryption,Encryption in transit & at rest,nist-800-53,NIST SP 800-53,SC-28
-encryption,Encryption in transit & at rest,nist-800-53,NIST SP 800-53,SC-8
+encryption,Encryption in transit & at rest,nist-800-53,NIST SP 800-53,SC-28(1)
 encryption,Encryption in transit & at rest,nist-csf,NIST Cybersecurity Framework,PR.DS-01
 encryption,Encryption in transit & at rest,nist-csf,NIST Cybersecurity Framework,PR.DS-02
 encryption,Encryption in transit & at rest,pci-dss,PCI DSS,3.5
+encryption,Encryption in transit & at rest,pci-dss,PCI DSS,4.1
 encryption,Encryption in transit & at rest,pci-dss,PCI DSS,4.2
 encryption,Encryption in transit & at rest,soc-2,SOC 2,CC6.7
 encryption,Encryption in transit & at rest,sox,SOX (Sarbanes-Oxley) Section 404,P11
+logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,3.14
 logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,8.1
 logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,8.2
+logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,8.3
+logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,8.4
+logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,8.5
+logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,8.6
+logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,8.7
+logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,8.8
+logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,8.9
+logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,8.10
+logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,8.11
+logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,8.12
+logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,13.1
+logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,13.6
+logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,13.11
 logging-monitoring,Logging & monitoring,coppa,COPPA,312.8(b)(3)
 logging-monitoring,Logging & monitoring,gdpr,GDPR,Art.32(1)
 logging-monitoring,Logging & monitoring,hipaa,HIPAA,164.308(a)(1)(ii)(D)
@@ -106,55 +177,131 @@ logging-monitoring,Logging & monitoring,hipaa,HIPAA,164.308(a)(5)(ii)(C)
 logging-monitoring,Logging & monitoring,hipaa,HIPAA,164.312(b)
 logging-monitoring,Logging & monitoring,iso-27001,ISO/IEC 27001,A.8.15
 logging-monitoring,Logging & monitoring,iso-27001,ISO/IEC 27001,A.8.16
+logging-monitoring,Logging & monitoring,iso-27001,ISO/IEC 27001,A.8.17
 logging-monitoring,Logging & monitoring,nist-800-171,NIST SP 800-171,3.3.1
+logging-monitoring,Logging & monitoring,nist-800-171,NIST SP 800-171,3.3.2
+logging-monitoring,Logging & monitoring,nist-800-171,NIST SP 800-171,3.3.3
+logging-monitoring,Logging & monitoring,nist-800-171,NIST SP 800-171,3.3.4
 logging-monitoring,Logging & monitoring,nist-800-171,NIST SP 800-171,3.3.5
+logging-monitoring,Logging & monitoring,nist-800-171,NIST SP 800-171,3.3.6
+logging-monitoring,Logging & monitoring,nist-800-171,NIST SP 800-171,3.3.7
 logging-monitoring,Logging & monitoring,nist-800-171,NIST SP 800-171,3.3.8
+logging-monitoring,Logging & monitoring,nist-800-171,NIST SP 800-171,3.3.9
+logging-monitoring,Logging & monitoring,nist-800-171,NIST SP 800-171,3.14.6
+logging-monitoring,Logging & monitoring,nist-800-171,NIST SP 800-171,3.14.7
+logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,AU-1
 logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,AU-2
+logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,AU-3
+logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,AU-3(1)
+logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,AU-4
+logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,AU-5
 logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,AU-6
+logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,AU-6(1)
+logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,AU-6(3)
+logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,AU-7
+logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,AU-7(1)
+logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,AU-8
+logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,AU-9
+logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,AU-9(4)
+logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,AU-11
 logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,AU-12
+logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,SI-4
+logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,SI-4(2)
+logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,SI-4(4)
+logging-monitoring,Logging & monitoring,nist-800-53,NIST SP 800-53,SI-4(5)
 logging-monitoring,Logging & monitoring,nist-csf,NIST Cybersecurity Framework,DE.CM-09
+logging-monitoring,Logging & monitoring,nist-csf,NIST Cybersecurity Framework,PR.PS-04
+logging-monitoring,Logging & monitoring,nist-csf,NIST Cybersecurity Framework,DE.CM-03
+logging-monitoring,Logging & monitoring,nist-csf,NIST Cybersecurity Framework,DE.AE-02
+logging-monitoring,Logging & monitoring,nist-csf,NIST Cybersecurity Framework,DE.AE-03
+logging-monitoring,Logging & monitoring,nist-csf,NIST Cybersecurity Framework,DE.AE-04
+logging-monitoring,Logging & monitoring,pci-dss,PCI DSS,10.1
 logging-monitoring,Logging & monitoring,pci-dss,PCI DSS,10.2
 logging-monitoring,Logging & monitoring,pci-dss,PCI DSS,10.3
 logging-monitoring,Logging & monitoring,pci-dss,PCI DSS,10.4
+logging-monitoring,Logging & monitoring,pci-dss,PCI DSS,10.5
+logging-monitoring,Logging & monitoring,pci-dss,PCI DSS,10.6
+logging-monitoring,Logging & monitoring,pci-dss,PCI DSS,10.7
 logging-monitoring,Logging & monitoring,soc-2,SOC 2,CC7.2
 logging-monitoring,Logging & monitoring,sox,SOX (Sarbanes-Oxley) Section 404,P11
 vulnerability-management,Vulnerability management,cis-controls,CIS Controls,7.1
+vulnerability-management,Vulnerability management,cis-controls,CIS Controls,7.2
 vulnerability-management,Vulnerability management,cis-controls,CIS Controls,7.3
+vulnerability-management,Vulnerability management,cis-controls,CIS Controls,7.4
+vulnerability-management,Vulnerability management,cis-controls,CIS Controls,7.5
+vulnerability-management,Vulnerability management,cis-controls,CIS Controls,7.6
+vulnerability-management,Vulnerability management,cis-controls,CIS Controls,7.7
+vulnerability-management,Vulnerability management,cis-controls,CIS Controls,16.2
 vulnerability-management,Vulnerability management,coppa,COPPA,312.8(b)(4)
 vulnerability-management,Vulnerability management,gdpr,GDPR,Art.32(1)
 vulnerability-management,Vulnerability management,iso-27001,ISO/IEC 27001,A.5.7
 vulnerability-management,Vulnerability management,iso-27001,ISO/IEC 27001,A.8.8
 vulnerability-management,Vulnerability management,nist-800-171,NIST SP 800-171,3.11.2
 vulnerability-management,Vulnerability management,nist-800-171,NIST SP 800-171,3.11.3
+vulnerability-management,Vulnerability management,nist-800-171,NIST SP 800-171,3.14.1
 vulnerability-management,Vulnerability management,nist-800-53,NIST SP 800-53,RA-5
+vulnerability-management,Vulnerability management,nist-800-53,NIST SP 800-53,RA-5(2)
+vulnerability-management,Vulnerability management,nist-800-53,NIST SP 800-53,RA-5(5)
+vulnerability-management,Vulnerability management,nist-800-53,NIST SP 800-53,RA-5(11)
+vulnerability-management,Vulnerability management,nist-800-53,NIST SP 800-53,SI-1
 vulnerability-management,Vulnerability management,nist-800-53,NIST SP 800-53,SI-2
+vulnerability-management,Vulnerability management,nist-800-53,NIST SP 800-53,SI-2(2)
 vulnerability-management,Vulnerability management,nist-csf,NIST Cybersecurity Framework,ID.RA-01
+vulnerability-management,Vulnerability management,nist-csf,NIST Cybersecurity Framework,ID.RA-08
 vulnerability-management,Vulnerability management,pci-dss,PCI DSS,6.3
+vulnerability-management,Vulnerability management,pci-dss,PCI DSS,11.1
 vulnerability-management,Vulnerability management,pci-dss,PCI DSS,11.3
 vulnerability-management,Vulnerability management,soc-2,SOC 2,CC7.1
 vulnerability-management,Vulnerability management,sox,SOX (Sarbanes-Oxley) Section 404,P11
+penetration-testing,Penetration testing programme,cis-controls,CIS Controls,16.13
 penetration-testing,Penetration testing programme,cis-controls,CIS Controls,18.1
 penetration-testing,Penetration testing programme,cis-controls,CIS Controls,18.2
 penetration-testing,Penetration testing programme,cis-controls,CIS Controls,18.3
 penetration-testing,Penetration testing programme,cis-controls,CIS Controls,18.4
 penetration-testing,Penetration testing programme,cis-controls,CIS Controls,18.5
+penetration-testing,Penetration testing programme,nist-csf,NIST Cybersecurity Framework,ID.IM-02
 penetration-testing,Penetration testing programme,pci-dss,PCI DSS,11.4
+malware-protection,Malware protection,cis-controls,CIS Controls,9.6
+malware-protection,Malware protection,cis-controls,CIS Controls,9.7
 malware-protection,Malware protection,cis-controls,CIS Controls,10.1
 malware-protection,Malware protection,cis-controls,CIS Controls,10.2
+malware-protection,Malware protection,cis-controls,CIS Controls,10.3
+malware-protection,Malware protection,cis-controls,CIS Controls,10.4
+malware-protection,Malware protection,cis-controls,CIS Controls,10.5
+malware-protection,Malware protection,cis-controls,CIS Controls,10.6
+malware-protection,Malware protection,cis-controls,CIS Controls,10.7
+malware-protection,Malware protection,cis-controls,CIS Controls,13.2
+malware-protection,Malware protection,cis-controls,CIS Controls,13.7
 malware-protection,Malware protection,hipaa,HIPAA,164.308(a)(5)(ii)(B)
 malware-protection,Malware protection,iso-27001,ISO/IEC 27001,A.8.7
+malware-protection,Malware protection,nist-800-171,NIST SP 800-171,3.14.2
+malware-protection,Malware protection,nist-800-171,NIST SP 800-171,3.14.4
+malware-protection,Malware protection,nist-800-171,NIST SP 800-171,3.14.5
 malware-protection,Malware protection,nist-800-53,NIST SP 800-53,SI-3
+malware-protection,Malware protection,nist-800-53,NIST SP 800-53,SI-8
+malware-protection,Malware protection,nist-800-53,NIST SP 800-53,SI-8(2)
+malware-protection,Malware protection,pci-dss,PCI DSS,5.1
 malware-protection,Malware protection,pci-dss,PCI DSS,5.2
 malware-protection,Malware protection,pci-dss,PCI DSS,5.3
 malware-protection,Malware protection,soc-2,SOC 2,CC6.8
+backups,Backups,cis-controls,CIS Controls,11.1
 backups,Backups,cis-controls,CIS Controls,11.2
+backups,Backups,cis-controls,CIS Controls,11.3
+backups,Backups,cis-controls,CIS Controls,11.4
 backups,Backups,cis-controls,CIS Controls,11.5
 backups,Backups,gdpr,GDPR,Art.32(1)
 backups,Backups,hipaa,HIPAA,164.308(a)(7)(ii)(A)
 backups,Backups,hipaa,HIPAA,164.310(d)(2)(iv)
 backups,Backups,iso-27001,ISO/IEC 27001,A.8.13
+backups,Backups,nist-800-171,NIST SP 800-171,3.8.9
+backups,Backups,nist-800-53,NIST SP 800-53,CP-6
+backups,Backups,nist-800-53,NIST SP 800-53,CP-6(1)
+backups,Backups,nist-800-53,NIST SP 800-53,CP-6(3)
 backups,Backups,nist-800-53,NIST SP 800-53,CP-9
+backups,Backups,nist-800-53,NIST SP 800-53,CP-9(1)
+backups,Backups,nist-800-53,NIST SP 800-53,CP-9(8)
 backups,Backups,nist-csf,NIST Cybersecurity Framework,PR.DS-11
+backups,Backups,nist-csf,NIST Cybersecurity Framework,RC.RP-03
 backups,Backups,soc-2,SOC 2,A1.2
 backups,Backups,sox,SOX (Sarbanes-Oxley) Section 404,P11
 business-continuity,Business continuity & disaster recovery,gdpr,GDPR,Art.32(1)
@@ -162,44 +309,102 @@ business-continuity,Business continuity & disaster recovery,hipaa,HIPAA,164.308(
 business-continuity,Business continuity & disaster recovery,hipaa,HIPAA,164.308(a)(7)(ii)(C)
 business-continuity,Business continuity & disaster recovery,hipaa,HIPAA,164.308(a)(7)(ii)(D)
 business-continuity,Business continuity & disaster recovery,hipaa,HIPAA,164.308(a)(7)(ii)(E)
+business-continuity,Business continuity & disaster recovery,iso-27001,ISO/IEC 27001,A.5.29
 business-continuity,Business continuity & disaster recovery,iso-27001,ISO/IEC 27001,A.5.30
+business-continuity,Business continuity & disaster recovery,nist-800-53,NIST SP 800-53,CP-1
 business-continuity,Business continuity & disaster recovery,nist-800-53,NIST SP 800-53,CP-2
+business-continuity,Business continuity & disaster recovery,nist-800-53,NIST SP 800-53,CP-2(1)
+business-continuity,Business continuity & disaster recovery,nist-800-53,NIST SP 800-53,CP-2(3)
+business-continuity,Business continuity & disaster recovery,nist-800-53,NIST SP 800-53,CP-2(8)
+business-continuity,Business continuity & disaster recovery,nist-800-53,NIST SP 800-53,CP-3
+business-continuity,Business continuity & disaster recovery,nist-800-53,NIST SP 800-53,CP-4
+business-continuity,Business continuity & disaster recovery,nist-800-53,NIST SP 800-53,CP-4(1)
 business-continuity,Business continuity & disaster recovery,nist-800-53,NIST SP 800-53,CP-10
+business-continuity,Business continuity & disaster recovery,nist-800-53,NIST SP 800-53,CP-10(2)
+business-continuity,Business continuity & disaster recovery,nist-800-53,NIST SP 800-53,RA-9
 business-continuity,Business continuity & disaster recovery,nist-csf,NIST Cybersecurity Framework,RC.RP-01
+business-continuity,Business continuity & disaster recovery,nist-csf,NIST Cybersecurity Framework,GV.OC-04
+business-continuity,Business continuity & disaster recovery,nist-csf,NIST Cybersecurity Framework,RS.MA-05
+business-continuity,Business continuity & disaster recovery,nist-csf,NIST Cybersecurity Framework,RC.RP-02
+business-continuity,Business continuity & disaster recovery,nist-csf,NIST Cybersecurity Framework,RC.RP-04
+business-continuity,Business continuity & disaster recovery,nist-csf,NIST Cybersecurity Framework,RC.RP-06
 business-continuity,Business continuity & disaster recovery,soc-2,SOC 2,A1.2
 business-continuity,Business continuity & disaster recovery,soc-2,SOC 2,A1.3
+business-continuity,Business continuity & disaster recovery,soc-2,SOC 2,CC9.1
 business-continuity,Business continuity & disaster recovery,sox,SOX (Sarbanes-Oxley) Section 404,P11
 incident-response,Incident response,cis-controls,CIS Controls,17.1
 incident-response,Incident response,cis-controls,CIS Controls,17.4
+incident-response,Incident response,cis-controls,CIS Controls,17.5
+incident-response,Incident response,cis-controls,CIS Controls,17.6
+incident-response,Incident response,cis-controls,CIS Controls,17.7
+incident-response,Incident response,cis-controls,CIS Controls,17.8
+incident-response,Incident response,cis-controls,CIS Controls,17.9
 incident-response,Incident response,coppa,COPPA,312.8(a)
 incident-response,Incident response,gdpr,GDPR,Art.33(1)
+incident-response,Incident response,gdpr,GDPR,Art.33(3)
+incident-response,Incident response,gdpr,GDPR,Art.33(4)
+incident-response,Incident response,gdpr,GDPR,Art.33(5)
 incident-response,Incident response,gdpr,GDPR,Art.34(1)
+incident-response,Incident response,gdpr,GDPR,Art.34(2)
 incident-response,Incident response,hipaa,HIPAA,164.308(a)(6)(ii)
 incident-response,Incident response,hipaa,HIPAA,164.530(f)
 incident-response,Incident response,iso-27001,ISO/IEC 27001,A.5.24
+incident-response,Incident response,iso-27001,ISO/IEC 27001,A.5.25
 incident-response,Incident response,iso-27001,ISO/IEC 27001,A.5.26
+incident-response,Incident response,iso-27001,ISO/IEC 27001,A.5.27
 incident-response,Incident response,nist-800-171,NIST SP 800-171,3.6.1
 incident-response,Incident response,nist-800-171,NIST SP 800-171,3.6.2
 incident-response,Incident response,nist-800-171,NIST SP 800-171,3.6.3
+incident-response,Incident response,nist-800-53,NIST SP 800-53,IR-1
+incident-response,Incident response,nist-800-53,NIST SP 800-53,IR-2
+incident-response,Incident response,nist-800-53,NIST SP 800-53,IR-3
+incident-response,Incident response,nist-800-53,NIST SP 800-53,IR-3(2)
 incident-response,Incident response,nist-800-53,NIST SP 800-53,IR-4
+incident-response,Incident response,nist-800-53,NIST SP 800-53,IR-4(1)
 incident-response,Incident response,nist-800-53,NIST SP 800-53,IR-5
 incident-response,Incident response,nist-800-53,NIST SP 800-53,IR-6
+incident-response,Incident response,nist-800-53,NIST SP 800-53,IR-6(1)
 incident-response,Incident response,nist-800-53,NIST SP 800-53,IR-8
 incident-response,Incident response,nist-csf,NIST Cybersecurity Framework,RS.MA-01
+incident-response,Incident response,nist-csf,NIST Cybersecurity Framework,GV.SC-08
+incident-response,Incident response,nist-csf,NIST Cybersecurity Framework,ID.IM-04
+incident-response,Incident response,nist-csf,NIST Cybersecurity Framework,DE.AE-08
+incident-response,Incident response,nist-csf,NIST Cybersecurity Framework,RS.MA-03
+incident-response,Incident response,nist-csf,NIST Cybersecurity Framework,RS.MA-04
+incident-response,Incident response,nist-csf,NIST Cybersecurity Framework,RS.AN-03
+incident-response,Incident response,nist-csf,NIST Cybersecurity Framework,RS.AN-08
+incident-response,Incident response,nist-csf,NIST Cybersecurity Framework,RS.CO-02
+incident-response,Incident response,nist-csf,NIST Cybersecurity Framework,RS.MI-01
+incident-response,Incident response,nist-csf,NIST Cybersecurity Framework,RS.MI-02
 incident-response,Incident response,pci-dss,PCI DSS,12.10
 incident-response,Incident response,soc-2,SOC 2,CC7.3
 incident-response,Incident response,soc-2,SOC 2,CC7.4
+incident-response,Incident response,soc-2,SOC 2,CC7.5
+incident-response,Incident response,soc-2,SOC 2,P6.6
 incident-response,Incident response,sox,SOX (Sarbanes-Oxley) Section 404,P11
 change-management,Change management,iso-27001,ISO/IEC 27001,A.8.32
+change-management,Change management,nist-800-171,NIST SP 800-171,3.4.3
+change-management,Change management,nist-800-171,NIST SP 800-171,3.4.4
+change-management,Change management,nist-800-171,NIST SP 800-171,3.4.5
 change-management,Change management,nist-800-53,NIST SP 800-53,CM-3
+change-management,Change management,nist-800-53,NIST SP 800-53,CM-3(2)
+change-management,Change management,nist-800-53,NIST SP 800-53,CM-3(4)
+change-management,Change management,nist-800-53,NIST SP 800-53,CM-4
+change-management,Change management,nist-800-53,NIST SP 800-53,CM-4(2)
+change-management,Change management,nist-800-53,NIST SP 800-53,CM-5
 change-management,Change management,nist-csf,NIST Cybersecurity Framework,PR.PS-01
+change-management,Change management,nist-csf,NIST Cybersecurity Framework,ID.RA-07
 change-management,Change management,pci-dss,PCI DSS,6.5
 change-management,Change management,soc-2,SOC 2,CC8.1
 change-management,Change management,sox,SOX (Sarbanes-Oxley) Section 404,P9
 change-management,Change management,sox,SOX (Sarbanes-Oxley) Section 404,P11
+vendor-management,Third-party / vendor risk management,cis-controls,CIS Controls,15.1
+vendor-management,Third-party / vendor risk management,cis-controls,CIS Controls,15.2
+vendor-management,Third-party / vendor risk management,cis-controls,CIS Controls,15.3
 vendor-management,Third-party / vendor risk management,cis-controls,CIS Controls,15.4
 vendor-management,Third-party / vendor risk management,cis-controls,CIS Controls,15.5
 vendor-management,Third-party / vendor risk management,cis-controls,CIS Controls,15.6
+vendor-management,Third-party / vendor risk management,cis-controls,CIS Controls,15.7
 vendor-management,Third-party / vendor risk management,coppa,COPPA,312.8(c)
 vendor-management,Third-party / vendor risk management,esg-essentials,ESG Essentials,G.7
 vendor-management,Third-party / vendor risk management,esg-essentials,ESG Essentials,E.7
@@ -209,48 +414,99 @@ vendor-management,Third-party / vendor risk management,hipaa,HIPAA,164.308(b)(3)
 vendor-management,Third-party / vendor risk management,hipaa,HIPAA,164.314(a)(2)
 vendor-management,Third-party / vendor risk management,hipaa,HIPAA,164.314(b)(2)
 vendor-management,Third-party / vendor risk management,iso-27001,ISO/IEC 27001,A.5.19
+vendor-management,Third-party / vendor risk management,iso-27001,ISO/IEC 27001,A.5.20
+vendor-management,Third-party / vendor risk management,iso-27001,ISO/IEC 27001,A.5.22
 vendor-management,Third-party / vendor risk management,iso-9001,ISO 9001,8.4.1
+vendor-management,Third-party / vendor risk management,iso-9001,ISO 9001,8.4.2
 vendor-management,Third-party / vendor risk management,iso-9001,ISO 9001,8.4.3
+vendor-management,Third-party / vendor risk management,nist-800-53,NIST SP 800-53,SA-1
+vendor-management,Third-party / vendor risk management,nist-800-53,NIST SP 800-53,SA-4
+vendor-management,Third-party / vendor risk management,nist-800-53,NIST SP 800-53,SA-4(1)
+vendor-management,Third-party / vendor risk management,nist-800-53,NIST SP 800-53,SA-4(2)
+vendor-management,Third-party / vendor risk management,nist-800-53,NIST SP 800-53,SA-4(9)
 vendor-management,Third-party / vendor risk management,nist-800-53,NIST SP 800-53,SA-9
+vendor-management,Third-party / vendor risk management,nist-800-53,NIST SP 800-53,SA-9(2)
 vendor-management,Third-party / vendor risk management,nist-800-53,NIST SP 800-53,SR-3
 vendor-management,Third-party / vendor risk management,nist-800-53,NIST SP 800-53,SR-6
 vendor-management,Third-party / vendor risk management,nist-csf,NIST Cybersecurity Framework,GV.SC-01
+vendor-management,Third-party / vendor risk management,nist-csf,NIST Cybersecurity Framework,GV.SC-02
+vendor-management,Third-party / vendor risk management,nist-csf,NIST Cybersecurity Framework,GV.SC-04
+vendor-management,Third-party / vendor risk management,nist-csf,NIST Cybersecurity Framework,GV.SC-05
+vendor-management,Third-party / vendor risk management,nist-csf,NIST Cybersecurity Framework,GV.SC-06
+vendor-management,Third-party / vendor risk management,nist-csf,NIST Cybersecurity Framework,GV.SC-07
+vendor-management,Third-party / vendor risk management,nist-csf,NIST Cybersecurity Framework,GV.SC-10
+vendor-management,Third-party / vendor risk management,nist-csf,NIST Cybersecurity Framework,ID.AM-04
 vendor-management,Third-party / vendor risk management,pci-dss,PCI DSS,12.8
 vendor-management,Third-party / vendor risk management,soc-2,SOC 2,CC9.2
+vendor-management,Third-party / vendor risk management,soc-2,SOC 2,P6.4
+vendor-management,Third-party / vendor risk management,soc-2,SOC 2,P6.5
 vendor-management,Third-party / vendor risk management,sox,SOX (Sarbanes-Oxley) Section 404,P11
 vendor-management,Third-party / vendor risk management,sox,SOX (Sarbanes-Oxley) Section 404,P15
 security-awareness-training,Security awareness training,cis-controls,CIS Controls,14.1
+security-awareness-training,Security awareness training,cis-controls,CIS Controls,14.2
+security-awareness-training,Security awareness training,cis-controls,CIS Controls,14.3
+security-awareness-training,Security awareness training,cis-controls,CIS Controls,14.4
+security-awareness-training,Security awareness training,cis-controls,CIS Controls,14.5
+security-awareness-training,Security awareness training,cis-controls,CIS Controls,14.6
+security-awareness-training,Security awareness training,cis-controls,CIS Controls,14.7
+security-awareness-training,Security awareness training,cis-controls,CIS Controls,14.8
+security-awareness-training,Security awareness training,cis-controls,CIS Controls,14.9
 security-awareness-training,Security awareness training,esg-essentials,ESG Essentials,S.5
 security-awareness-training,Security awareness training,gdpr,GDPR,Art.32(4)
 security-awareness-training,Security awareness training,hipaa,HIPAA,164.308(a)(5)(ii)(A)
 security-awareness-training,Security awareness training,hipaa,HIPAA,164.530(b)(2)
 security-awareness-training,Security awareness training,iso-27001,ISO/IEC 27001,A.6.3
 security-awareness-training,Security awareness training,nist-800-171,NIST SP 800-171,3.2.1
+security-awareness-training,Security awareness training,nist-800-171,NIST SP 800-171,3.2.2
+security-awareness-training,Security awareness training,nist-800-171,NIST SP 800-171,3.2.3
+security-awareness-training,Security awareness training,nist-800-53,NIST SP 800-53,AT-1
 security-awareness-training,Security awareness training,nist-800-53,NIST SP 800-53,AT-2
+security-awareness-training,Security awareness training,nist-800-53,NIST SP 800-53,AT-2(2)
+security-awareness-training,Security awareness training,nist-800-53,NIST SP 800-53,AT-2(3)
 security-awareness-training,Security awareness training,nist-800-53,NIST SP 800-53,AT-3
 security-awareness-training,Security awareness training,nist-800-53,NIST SP 800-53,AT-4
 security-awareness-training,Security awareness training,nist-csf,NIST Cybersecurity Framework,PR.AT-01
+security-awareness-training,Security awareness training,nist-csf,NIST Cybersecurity Framework,PR.AT-02
 security-awareness-training,Security awareness training,pci-dss,PCI DSS,12.6
 security-awareness-training,Security awareness training,soc-2,SOC 2,CC1.4
 security-awareness-training,Security awareness training,sox,SOX (Sarbanes-Oxley) Section 404,P4
 security-awareness-training,Security awareness training,sox,SOX (Sarbanes-Oxley) Section 404,P14
 asset-inventory,Asset inventory,cis-controls,CIS Controls,1.1
+asset-inventory,Asset inventory,cis-controls,CIS Controls,1.2
+asset-inventory,Asset inventory,cis-controls,CIS Controls,1.3
+asset-inventory,Asset inventory,cis-controls,CIS Controls,1.4
+asset-inventory,Asset inventory,cis-controls,CIS Controls,1.5
 asset-inventory,Asset inventory,cis-controls,CIS Controls,2.1
+asset-inventory,Asset inventory,cis-controls,CIS Controls,2.2
+asset-inventory,Asset inventory,cis-controls,CIS Controls,2.4
+asset-inventory,Asset inventory,cis-controls,CIS Controls,3.2
 asset-inventory,Asset inventory,hipaa,HIPAA,164.310(d)(2)(iii)
 asset-inventory,Asset inventory,iso-27001,ISO/IEC 27001,A.5.9
 asset-inventory,Asset inventory,nist-800-171,NIST SP 800-171,3.4.1
 asset-inventory,Asset inventory,nist-800-53,NIST SP 800-53,CM-8
+asset-inventory,Asset inventory,nist-800-53,NIST SP 800-53,CM-8(1)
+asset-inventory,Asset inventory,nist-800-53,NIST SP 800-53,CM-8(3)
+asset-inventory,Asset inventory,nist-800-53,NIST SP 800-53,CM-12
+asset-inventory,Asset inventory,nist-800-53,NIST SP 800-53,CM-12(1)
+asset-inventory,Asset inventory,nist-800-53,NIST SP 800-53,SA-22
 asset-inventory,Asset inventory,nist-csf,NIST Cybersecurity Framework,ID.AM-01
 asset-inventory,Asset inventory,nist-csf,NIST Cybersecurity Framework,ID.AM-02
+asset-inventory,Asset inventory,nist-csf,NIST Cybersecurity Framework,ID.AM-07
+asset-inventory,Asset inventory,nist-csf,NIST Cybersecurity Framework,ID.AM-08
 asset-inventory,Asset inventory,pci-dss,PCI DSS,12.5
 asset-inventory,Asset inventory,sox,SOX (Sarbanes-Oxley) Section 404,P11
+data-classification,Data classification & handling,cis-controls,CIS Controls,3.1
 data-classification,Data classification & handling,cis-controls,CIS Controls,3.7
+data-classification,Data classification & handling,cis-controls,CIS Controls,3.8
 data-classification,Data classification & handling,gdpr,GDPR,Art.5(1)
 data-classification,Data classification & handling,hipaa,HIPAA,164.530(c)(2)
 data-classification,Data classification & handling,iso-27001,ISO/IEC 27001,A.5.12
+data-classification,Data classification & handling,iso-27001,ISO/IEC 27001,A.5.13
 data-classification,Data classification & handling,nist-800-171,NIST SP 800-171,3.8.4
+data-classification,Data classification & handling,nist-800-53,NIST SP 800-53,MP-3
 data-classification,Data classification & handling,nist-800-53,NIST SP 800-53,RA-2
 data-classification,Data classification & handling,nist-csf,NIST Cybersecurity Framework,ID.AM-05
+data-classification,Data classification & handling,pci-dss,PCI DSS,3.1
 data-classification,Data classification & handling,soc-2,SOC 2,C1.1
 physical-security,Physical security,gdpr,GDPR,Art.32(1)
 physical-security,Physical security,hipaa,HIPAA,164.310(a)(2)(i)
@@ -259,55 +515,124 @@ physical-security,Physical security,hipaa,HIPAA,164.310(a)(2)(iii)
 physical-security,Physical security,hipaa,HIPAA,164.310(a)(2)(iv)
 physical-security,Physical security,iso-27001,ISO/IEC 27001,A.7.1
 physical-security,Physical security,iso-27001,ISO/IEC 27001,A.7.2
+physical-security,Physical security,iso-27001,ISO/IEC 27001,A.7.3
+physical-security,Physical security,iso-27001,ISO/IEC 27001,A.7.4
+physical-security,Physical security,nist-800-171,NIST SP 800-171,3.10.1
+physical-security,Physical security,nist-800-171,NIST SP 800-171,3.10.2
+physical-security,Physical security,nist-800-171,NIST SP 800-171,3.10.3
+physical-security,Physical security,nist-800-171,NIST SP 800-171,3.10.4
+physical-security,Physical security,nist-800-171,NIST SP 800-171,3.10.5
+physical-security,Physical security,nist-800-53,NIST SP 800-53,PE-1
 physical-security,Physical security,nist-800-53,NIST SP 800-53,PE-2
 physical-security,Physical security,nist-800-53,NIST SP 800-53,PE-3
 physical-security,Physical security,nist-800-53,NIST SP 800-53,PE-6
+physical-security,Physical security,nist-800-53,NIST SP 800-53,PE-6(1)
+physical-security,Physical security,nist-800-53,NIST SP 800-53,PE-8
+physical-security,Physical security,nist-800-53,NIST SP 800-53,PE-16
+physical-security,Physical security,nist-csf,NIST Cybersecurity Framework,PR.AA-06
+physical-security,Physical security,nist-csf,NIST Cybersecurity Framework,DE.CM-02
+physical-security,Physical security,pci-dss,PCI DSS,9.1
 physical-security,Physical security,pci-dss,PCI DSS,9.2
+physical-security,Physical security,pci-dss,PCI DSS,9.3
 physical-security,Physical security,soc-2,SOC 2,CC6.4
 physical-security,Physical security,sox,SOX (Sarbanes-Oxley) Section 404,P11
 secure-development,Secure software development,cis-controls,CIS Controls,16.1
+secure-development,Secure software development,cis-controls,CIS Controls,16.3
+secure-development,Secure software development,cis-controls,CIS Controls,16.5
+secure-development,Secure software development,cis-controls,CIS Controls,16.9
 secure-development,Secure software development,cis-controls,CIS Controls,16.12
 secure-development,Secure software development,iso-27001,ISO/IEC 27001,A.8.25
+secure-development,Secure software development,iso-27001,ISO/IEC 27001,A.8.28
 secure-development,Secure software development,nist-800-53,NIST SP 800-53,SA-3
 secure-development,Secure software development,nist-800-53,NIST SP 800-53,SA-8
 secure-development,Secure software development,nist-800-53,NIST SP 800-53,SA-11
+secure-development,Secure software development,nist-800-53,NIST SP 800-53,SA-15
+secure-development,Secure software development,nist-800-53,NIST SP 800-53,SA-15(3)
+secure-development,Secure software development,nist-csf,NIST Cybersecurity Framework,PR.PS-06
+secure-development,Secure software development,pci-dss,PCI DSS,6.1
 secure-development,Secure software development,pci-dss,PCI DSS,6.2
 secure-development,Secure software development,soc-2,SOC 2,CC8.1
 secure-development,Secure software development,sox,SOX (Sarbanes-Oxley) Section 404,P11
 network-security,Network security controls,cis-controls,CIS Controls,4.4
 network-security,Network security controls,cis-controls,CIS Controls,4.5
+network-security,Network security controls,cis-controls,CIS Controls,4.9
+network-security,Network security controls,cis-controls,CIS Controls,12.1
 network-security,Network security controls,cis-controls,CIS Controls,12.2
+network-security,Network security controls,cis-controls,CIS Controls,12.3
+network-security,Network security controls,cis-controls,CIS Controls,12.4
+network-security,Network security controls,cis-controls,CIS Controls,12.5
+network-security,Network security controls,cis-controls,CIS Controls,12.6
+network-security,Network security controls,cis-controls,CIS Controls,13.3
 network-security,Network security controls,cis-controls,CIS Controls,13.4
+network-security,Network security controls,cis-controls,CIS Controls,13.8
+network-security,Network security controls,cis-controls,CIS Controls,13.9
+network-security,Network security controls,cis-controls,CIS Controls,13.10
 network-security,Network security controls,iso-27001,ISO/IEC 27001,A.8.20
+network-security,Network security controls,iso-27001,ISO/IEC 27001,A.8.21
 network-security,Network security controls,iso-27001,ISO/IEC 27001,A.8.22
-network-security,Network security controls,nist-800-53,NIST SP 800-53,SC-7
+network-security,Network security controls,nist-800-171,NIST SP 800-171,3.1.3
+network-security,Network security controls,nist-800-171,NIST SP 800-171,3.13.1
+network-security,Network security controls,nist-800-171,NIST SP 800-171,3.13.5
+network-security,Network security controls,nist-800-171,NIST SP 800-171,3.13.6
+network-security,Network security controls,nist-800-171,NIST SP 800-171,3.13.9
+network-security,Network security controls,nist-800-171,NIST SP 800-171,3.13.14
 network-security,Network security controls,nist-800-53,NIST SP 800-53,AC-4
+network-security,Network security controls,nist-800-53,NIST SP 800-53,CA-9
+network-security,Network security controls,nist-800-53,NIST SP 800-53,IA-3
+network-security,Network security controls,nist-800-53,NIST SP 800-53,SC-1
+network-security,Network security controls,nist-800-53,NIST SP 800-53,SC-5
+network-security,Network security controls,nist-800-53,NIST SP 800-53,SC-7
+network-security,Network security controls,nist-800-53,NIST SP 800-53,SC-7(3)
+network-security,Network security controls,nist-800-53,NIST SP 800-53,SC-7(4)
+network-security,Network security controls,nist-800-53,NIST SP 800-53,SC-7(5)
+network-security,Network security controls,nist-800-53,NIST SP 800-53,SC-10
+network-security,Network security controls,nist-800-53,NIST SP 800-53,SC-20
+network-security,Network security controls,nist-800-53,NIST SP 800-53,SC-21
+network-security,Network security controls,nist-800-53,NIST SP 800-53,SC-22
 network-security,Network security controls,nist-csf,NIST Cybersecurity Framework,PR.IR-01
+network-security,Network security controls,nist-csf,NIST Cybersecurity Framework,ID.AM-03
+network-security,Network security controls,nist-csf,NIST Cybersecurity Framework,DE.CM-01
+network-security,Network security controls,pci-dss,PCI DSS,1.1
 network-security,Network security controls,pci-dss,PCI DSS,1.2
 network-security,Network security controls,pci-dss,PCI DSS,1.3
+network-security,Network security controls,pci-dss,PCI DSS,1.4
+network-security,Network security controls,pci-dss,PCI DSS,11.5
 network-security,Network security controls,soc-2,SOC 2,CC6.6
 network-security,Network security controls,sox,SOX (Sarbanes-Oxley) Section 404,P11
+data-retention-disposal,Data retention & secure disposal,cis-controls,CIS Controls,3.4
 data-retention-disposal,Data retention & secure disposal,cis-controls,CIS Controls,3.5
 data-retention-disposal,Data retention & secure disposal,coppa,COPPA,312.10
 data-retention-disposal,Data retention & secure disposal,gdpr,GDPR,Art.5(1)
 data-retention-disposal,Data retention & secure disposal,hipaa,HIPAA,164.310(d)(2)(i)
 data-retention-disposal,Data retention & secure disposal,hipaa,HIPAA,164.310(d)(2)(ii)
+data-retention-disposal,Data retention & secure disposal,iso-27001,ISO/IEC 27001,A.7.14
 data-retention-disposal,Data retention & secure disposal,iso-27001,ISO/IEC 27001,A.8.10
+data-retention-disposal,Data retention & secure disposal,nist-800-171,NIST SP 800-171,3.8.3
 data-retention-disposal,Data retention & secure disposal,nist-800-53,NIST SP 800-53,MP-6
 data-retention-disposal,Data retention & secure disposal,nist-800-53,NIST SP 800-53,SI-12
+data-retention-disposal,Data retention & secure disposal,nist-800-53,NIST SP 800-53,SR-12
 data-retention-disposal,Data retention & secure disposal,pci-dss,PCI DSS,3.2
 data-retention-disposal,Data retention & secure disposal,soc-2,SOC 2,C1.2
+data-retention-disposal,Data retention & secure disposal,soc-2,SOC 2,CC6.5
+data-retention-disposal,Data retention & secure disposal,soc-2,SOC 2,P4.2
+data-retention-disposal,Data retention & secure disposal,soc-2,SOC 2,P4.3
 data-retention-disposal,Data retention & secure disposal,us-employment-federal,US Employment Law (federal baseline),us.recordkeeping.eeo
 data-retention-disposal,Data retention & secure disposal,us-employment-federal,US Employment Law (federal baseline),us.recordkeeping.i9-retention
 hr-security,Personnel security (HR),gdpr,GDPR,Art.32(4)
 hr-security,Personnel security (HR),hipaa,HIPAA,164.308(a)(3)(ii)(B)
 hr-security,Personnel security (HR),hipaa,HIPAA,164.308(a)(3)(ii)(C)
+hr-security,Personnel security (HR),iso-27001,ISO/IEC 27001,A.5.11
 hr-security,Personnel security (HR),iso-27001,ISO/IEC 27001,A.6.1
+hr-security,Personnel security (HR),iso-27001,ISO/IEC 27001,A.6.2
 hr-security,Personnel security (HR),iso-27001,ISO/IEC 27001,A.6.5
+hr-security,Personnel security (HR),nist-800-171,NIST SP 800-171,3.9.1
+hr-security,Personnel security (HR),nist-800-53,NIST SP 800-53,PS-1
 hr-security,Personnel security (HR),nist-800-53,NIST SP 800-53,PS-2
 hr-security,Personnel security (HR),nist-800-53,NIST SP 800-53,PS-3
 hr-security,Personnel security (HR),nist-800-53,NIST SP 800-53,PS-6
 hr-security,Personnel security (HR),nist-800-53,NIST SP 800-53,PS-7
+hr-security,Personnel security (HR),nist-800-53,NIST SP 800-53,PS-9
+hr-security,Personnel security (HR),nist-csf,NIST Cybersecurity Framework,GV.RR-04
 hr-security,Personnel security (HR),pci-dss,PCI DSS,12.7
 hr-security,Personnel security (HR),soc-2,SOC 2,CC1.4
 hr-security,Personnel security (HR),sox,SOX (Sarbanes-Oxley) Section 404,P4
@@ -316,27 +641,40 @@ hr-security,Personnel security (HR),us-employment-federal,US Employment Law (fed
 security-privacy-officers,Named security & privacy officers,hipaa,HIPAA,164.308(a)(2)
 security-privacy-officers,Named security & privacy officers,hipaa,HIPAA,164.530(a)(2)
 security-privacy-officers,Named security & privacy officers,iso-27001,ISO/IEC 27001,5.3
+security-privacy-officers,Named security & privacy officers,iso-27001,ISO/IEC 27001,A.5.2
 disciplinary-process,Disciplinary & sanctions process,hipaa,HIPAA,164.308(a)(1)(ii)(C)
 disciplinary-process,Disciplinary & sanctions process,hipaa,HIPAA,164.530(e)(2)
 disciplinary-process,Disciplinary & sanctions process,iso-27001,ISO/IEC 27001,A.6.4
 disciplinary-process,Disciplinary & sanctions process,nist-800-53,NIST SP 800-53,PS-8
+data-segregation,Segregation of regulated data inside a larger organization,cis-controls,CIS Controls,3.12
 data-segregation,Segregation of regulated data inside a larger organization,hipaa,HIPAA,164.308(a)(4)(ii)(A)
+endpoint-security,Workstation & endpoint security,cis-controls,CIS Controls,4.3
 endpoint-security,Workstation & endpoint security,hipaa,HIPAA,164.310(b)
 endpoint-security,Workstation & endpoint security,hipaa,HIPAA,164.310(c)
 endpoint-security,Workstation & endpoint security,hipaa,HIPAA,164.312(a)(2)(iii)
 endpoint-security,Workstation & endpoint security,iso-27001,ISO/IEC 27001,A.7.7
 endpoint-security,Workstation & endpoint security,iso-27001,ISO/IEC 27001,A.8.1
+endpoint-security,Workstation & endpoint security,nist-800-171,NIST SP 800-171,3.1.10
+endpoint-security,Workstation & endpoint security,nist-800-171,NIST SP 800-171,3.1.11
+endpoint-security,Workstation & endpoint security,nist-800-53,NIST SP 800-53,AC-2(5)
 endpoint-security,Workstation & endpoint security,nist-800-53,NIST SP 800-53,AC-11
+endpoint-security,Workstation & endpoint security,nist-800-53,NIST SP 800-53,AC-11(1)
 endpoint-security,Workstation & endpoint security,nist-800-53,NIST SP 800-53,AC-12
 data-integrity,Data integrity verification,hipaa,HIPAA,164.312(c)(2)
 data-integrity,Data integrity verification,hipaa,HIPAA,164.312(e)(2)(i)
 data-integrity,Data integrity verification,nist-800-53,NIST SP 800-53,SI-7
+data-integrity,Data integrity verification,nist-800-53,NIST SP 800-53,SI-7(1)
+data-integrity,Data integrity verification,nist-800-53,NIST SP 800-53,SI-7(7)
+data-integrity,Data integrity verification,nist-csf,NIST Cybersecurity Framework,RC.RP-05
+data-integrity,Data integrity verification,pci-dss,PCI DSS,11.5
 quality-policy,Quality policy & objectives,iso-9001,ISO 9001,5.2.1
 quality-policy,Quality policy & objectives,iso-9001,ISO 9001,5.2.2
 quality-policy,Quality policy & objectives,iso-9001,ISO 9001,6.2.1
+quality-policy,Quality policy & objectives,iso-9001,ISO 9001,6.2.2
 risk-opportunity-planning,Risk & opportunity planning,iso-42001,ISO/IEC 42001,6.1.1
 risk-opportunity-planning,Risk & opportunity planning,iso-9001,ISO 9001,6.1.1
 risk-opportunity-planning,Risk & opportunity planning,iso-9001,ISO 9001,6.1.2
+risk-opportunity-planning,Risk & opportunity planning,nist-csf,NIST Cybersecurity Framework,GV.RM-07
 document-control,Document & records control,hipaa,HIPAA,164.316(b)(2)(i)
 document-control,Document & records control,hipaa,HIPAA,164.316(b)(2)(ii)
 document-control,Document & records control,hipaa,HIPAA,164.316(b)(2)(iii)
@@ -344,13 +682,17 @@ document-control,Document & records control,hipaa,HIPAA,164.530(i)(3)
 document-control,Document & records control,hipaa,HIPAA,164.530(i)(5)
 document-control,Document & records control,hipaa,HIPAA,164.530(j)(2)
 document-control,Document & records control,iso-27001,ISO/IEC 27001,7.5
+document-control,Document & records control,iso-27001,ISO/IEC 27001,A.5.33
 document-control,Document & records control,iso-27001,ISO/IEC 27001,A.5.37
+document-control,Document & records control,iso-42001,ISO/IEC 42001,7.5
+document-control,Document & records control,iso-9001,ISO 9001,7.5.1
 document-control,Document & records control,iso-9001,ISO 9001,7.5.2
 document-control,Document & records control,iso-9001,ISO 9001,7.5.3.1
 document-control,Document & records control,iso-9001,ISO 9001,7.5.3.2
 document-control,Document & records control,soc-2,SOC 2,CC5.3
 document-control,Document & records control,sox,SOX (Sarbanes-Oxley) Section 404,P12
 competence-management,Competence management,iso-27001,ISO/IEC 27001,7.2
+competence-management,Competence management,iso-42001,ISO/IEC 42001,7.2
 competence-management,Competence management,iso-9001,ISO 9001,7.2
 competence-management,Competence management,sox,SOX (Sarbanes-Oxley) Section 404,P4
 management-system-awareness,Management-system awareness,iso-27001,ISO/IEC 27001,7.3
@@ -363,42 +705,103 @@ internal-audit-program,Internal audit program,iso-27001,ISO/IEC 27001,A.5.35
 internal-audit-program,Internal audit program,iso-42001,ISO/IEC 42001,9.2
 internal-audit-program,Internal audit program,iso-9001,ISO 9001,9.2.1
 internal-audit-program,Internal audit program,iso-9001,ISO 9001,9.2.2
+internal-audit-program,Internal audit program,nist-800-171,NIST SP 800-171,3.12.1
+internal-audit-program,Internal audit program,nist-800-53,NIST SP 800-53,CA-1
 internal-audit-program,Internal audit program,nist-800-53,NIST SP 800-53,CA-2
+internal-audit-program,Internal audit program,nist-800-53,NIST SP 800-53,CA-2(1)
+internal-audit-program,Internal audit program,nist-800-53,NIST SP 800-53,CA-7(1)
+internal-audit-program,Internal audit program,nist-csf,NIST Cybersecurity Framework,ID.IM-01
 internal-audit-program,Internal audit program,soc-2,SOC 2,CC4.1
 internal-audit-program,Internal audit program,sox,SOX (Sarbanes-Oxley) Section 404,P16
+management-review,Management review,ai-governance-essentials,AI Governance Essentials,GV.5
 management-review,Management review,esg-essentials,ESG Essentials,G.14
 management-review,Management review,iso-27001,ISO/IEC 27001,9.3
+management-review,Management review,iso-42001,ISO/IEC 42001,9.3
 management-review,Management review,iso-9001,ISO 9001,9.3.1
+management-review,Management review,iso-9001,ISO 9001,9.3.2
 management-review,Management review,iso-9001,ISO 9001,9.3.3
+management-review,Management review,nist-csf,NIST Cybersecurity Framework,GV.OV-01
+management-review,Management review,nist-csf,NIST Cybersecurity Framework,GV.OV-02
 management-review,Management review,soc-2,SOC 2,CC4.1
 management-review,Management review,sox,SOX (Sarbanes-Oxley) Section 404,P16
 nonconformity-capa,Nonconformity & corrective action (CAPA),iso-27001,ISO/IEC 27001,10.2
+nonconformity-capa,Nonconformity & corrective action (CAPA),iso-42001,ISO/IEC 42001,10.2
 nonconformity-capa,Nonconformity & corrective action (CAPA),iso-9001,ISO 9001,8.7.1
 nonconformity-capa,Nonconformity & corrective action (CAPA),iso-9001,ISO 9001,8.7.2
 nonconformity-capa,Nonconformity & corrective action (CAPA),iso-9001,ISO 9001,10.2.1
 nonconformity-capa,Nonconformity & corrective action (CAPA),iso-9001,ISO 9001,10.2.2
+nonconformity-capa,Nonconformity & corrective action (CAPA),nist-800-171,NIST SP 800-171,3.12.2
+nonconformity-capa,Nonconformity & corrective action (CAPA),nist-800-53,NIST SP 800-53,CA-5
+nonconformity-capa,Nonconformity & corrective action (CAPA),soc-2,SOC 2,CC4.2
 nonconformity-capa,Nonconformity & corrective action (CAPA),sox,SOX (Sarbanes-Oxley) Section 404,P17
+customer-requirements,Customer requirements & satisfaction,iso-9001,ISO 9001,5.1.2
 customer-requirements,Customer requirements & satisfaction,iso-9001,ISO 9001,8.2.2
 customer-requirements,Customer requirements & satisfaction,iso-9001,ISO 9001,8.2.3.1
+customer-requirements,Customer requirements & satisfaction,iso-9001,ISO 9001,8.2.3.2
+customer-requirements,Customer requirements & satisfaction,iso-9001,ISO 9001,8.2.4
 customer-requirements,Customer requirements & satisfaction,iso-9001,ISO 9001,9.1.2
 organizational-context,Organizational context,iso-27001,ISO/IEC 27001,4.1
+organizational-context,Organizational context,iso-42001,ISO/IEC 42001,4.1
+organizational-context,Organizational context,iso-9001,ISO 9001,4.1
+organizational-context,Organizational context,nist-csf,NIST Cybersecurity Framework,GV.OC-01
 interested-parties-requirements,Interested parties & their requirements,iso-27001,ISO/IEC 27001,4.2
+interested-parties-requirements,Interested parties & their requirements,iso-42001,ISO/IEC 42001,4.2
+interested-parties-requirements,Interested parties & their requirements,nist-csf,NIST Cybersecurity Framework,GV.OC-02
 management-system-scope,Management system scope statement,iso-27001,ISO/IEC 27001,4.3
+management-system-scope,Management system scope statement,iso-42001,ISO/IEC 42001,4.3
+management-system-scope,Management system scope statement,iso-9001,ISO 9001,4.3
+management-system-scope,Management system scope statement,nist-csf,NIST Cybersecurity Framework,GV.OC-05
 management-system-processes,Management system processes & interactions,iso-27001,ISO/IEC 27001,4.4
+management-system-processes,Management system processes & interactions,iso-42001,ISO/IEC 42001,4.4
+management-system-processes,Management system processes & interactions,iso-9001,ISO 9001,4.4.1
+management-system-processes,Management system processes & interactions,iso-9001,ISO 9001,4.4.2
 leadership-commitment,Leadership commitment & accountability,iso-27001,ISO/IEC 27001,5.1
+leadership-commitment,Leadership commitment & accountability,iso-42001,ISO/IEC 42001,5.1
+leadership-commitment,Leadership commitment & accountability,iso-9001,ISO 9001,5.1.1
+leadership-commitment,Leadership commitment & accountability,nist-csf,NIST Cybersecurity Framework,GV.RR-01
+leadership-commitment,Leadership commitment & accountability,nist-csf,NIST Cybersecurity Framework,GV.RM-03
 security-objectives,Information security objectives & planning,iso-27001,ISO/IEC 27001,6.2
+security-objectives,Information security objectives & planning,nist-csf,NIST Cybersecurity Framework,GV.RM-01
+security-objectives,Information security objectives & planning,soc-2,SOC 2,CC3.1
 management-system-change-planning,Planned change to the management system,iso-27001,ISO/IEC 27001,6.3
+management-system-change-planning,Planned change to the management system,iso-42001,ISO/IEC 42001,6.3
 management-system-change-planning,Planned change to the management system,iso-9001,ISO 9001,6.3
 management-system-resources,Resources for the management system,iso-27001,ISO/IEC 27001,7.1
+management-system-resources,Resources for the management system,iso-42001,ISO/IEC 42001,7.1
+management-system-resources,Resources for the management system,iso-9001,ISO 9001,7.1.1
+management-system-resources,Resources for the management system,iso-9001,ISO 9001,7.1.2
+management-system-resources,Resources for the management system,nist-800-53,NIST SP 800-53,SA-2
+management-system-resources,Resources for the management system,nist-csf,NIST Cybersecurity Framework,GV.RR-03
 management-system-communication,Management system communication plan,iso-27001,ISO/IEC 27001,7.4
+management-system-communication,Management system communication plan,iso-42001,ISO/IEC 42001,7.4
+management-system-communication,Management system communication plan,iso-9001,ISO 9001,7.4
+management-system-communication,Management system communication plan,nist-csf,NIST Cybersecurity Framework,GV.RM-05
+management-system-communication,Management system communication plan,nist-csf,NIST Cybersecurity Framework,RC.CO-03
+management-system-communication,Management system communication plan,soc-2,SOC 2,CC2.2
+management-system-communication,Management system communication plan,soc-2,SOC 2,CC2.3
 operational-planning-control,Operational planning & control,iso-27001,ISO/IEC 27001,8.1
+operational-planning-control,Operational planning & control,iso-42001,ISO/IEC 42001,8.1
+operational-planning-control,Operational planning & control,iso-9001,ISO 9001,8.1
 risk-treatment-plan,Risk treatment plan & residual risk acceptance,iso-27001,ISO/IEC 27001,8.3
+risk-treatment-plan,Risk treatment plan & residual risk acceptance,nist-csf,NIST Cybersecurity Framework,GV.RM-04
+risk-treatment-plan,Risk treatment plan & residual risk acceptance,nist-csf,NIST Cybersecurity Framework,ID.RA-06
+risk-treatment-plan,Risk treatment plan & residual risk acceptance,soc-2,SOC 2,CC5.1
 security-performance-measurement,Security performance measurement,iso-27001,ISO/IEC 27001,9.1
+security-performance-measurement,Security performance measurement,nist-800-171,NIST SP 800-171,3.12.3
+security-performance-measurement,Security performance measurement,nist-800-53,NIST SP 800-53,CA-7
+security-performance-measurement,Security performance measurement,nist-800-53,NIST SP 800-53,CA-7(4)
+security-performance-measurement,Security performance measurement,nist-csf,NIST Cybersecurity Framework,GV.OV-03
 continual-improvement,Continual improvement,iso-27001,ISO/IEC 27001,10.1
+continual-improvement,Continual improvement,iso-42001,ISO/IEC 42001,10.1
+continual-improvement,Continual improvement,iso-9001,ISO 9001,10.1
+continual-improvement,Continual improvement,iso-9001,ISO 9001,10.3
+continual-improvement,Continual improvement,nist-ai-rmf,NIST AI Risk Management Framework,MANAGE-4.2
+continual-improvement,Continual improvement,nist-csf,NIST Cybersecurity Framework,ID.IM-03
 environmental-policy,Environmental policy,esg-essentials,ESG Essentials,E.1
 energy-emissions-tracking,"Energy, emissions & resource use tracking",esg-essentials,ESG Essentials,E.2
 energy-emissions-tracking,"Energy, emissions & resource use tracking",esg-essentials,ESG Essentials,E.3
 energy-emissions-tracking,"Energy, emissions & resource use tracking",esg-essentials,ESG Essentials,E.5
+energy-emissions-tracking,"Energy, emissions & resource use tracking",nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-2.12
 waste-recycling,Waste & recycling program,esg-essentials,ESG Essentials,E.4
 environmental-targets,Environmental reduction targets,esg-essentials,ESG Essentials,E.6
 health-safety,Health & safety program,esg-essentials,ESG Essentials,S.1
@@ -421,9 +824,18 @@ individual-privacy,Personal data privacy,gdpr,GDPR,Art.16
 individual-privacy,Personal data privacy,gdpr,GDPR,Art.17(1)
 individual-privacy,Personal data privacy,gdpr,GDPR,Art.21(1)
 individual-privacy,Personal data privacy,iso-27001,ISO/IEC 27001,A.5.34
+individual-privacy,Personal data privacy,soc-2,SOC 2,P1.1
+individual-privacy,Personal data privacy,soc-2,SOC 2,P5.1
+individual-privacy,Personal data privacy,soc-2,SOC 2,P5.2
 records-of-processing,Record of processing activities (RoPA),gdpr,GDPR,Art.30(1)
+records-of-processing,Record of processing activities (RoPA),gdpr,GDPR,Art.30(3)
 dpia-process,Data protection impact assessment (DPIA) process,gdpr,GDPR,Art.35(1)
+dpia-process,Data protection impact assessment (DPIA) process,gdpr,GDPR,Art.35(2)
+dpia-process,Data protection impact assessment (DPIA) process,gdpr,GDPR,Art.35(3)
 dpia-process,Data protection impact assessment (DPIA) process,gdpr,GDPR,Art.35(7)
+dpia-process,Data protection impact assessment (DPIA) process,gdpr,GDPR,Art.35(9)
+dpia-process,Data protection impact assessment (DPIA) process,gdpr,GDPR,Art.35(11)
+dpia-process,Data protection impact assessment (DPIA) process,nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-2.10
 breach-notification,Breach assessment & notification,hipaa,HIPAA,164.404(b)
 breach-notification,Breach assessment & notification,hipaa,HIPAA,164.404(c)
 breach-notification,Breach assessment & notification,hipaa,HIPAA,164.404(d)
@@ -461,12 +873,15 @@ disclosure-accounting,Record & accounting of disclosures,hipaa,HIPAA,164.528(d)
 esg-oversight,ESG leadership oversight,esg-essentials,ESG Essentials,G.1
 code-of-conduct,Code of business conduct,esg-essentials,ESG Essentials,G.2
 code-of-conduct,Code of business conduct,esg-essentials,ESG Essentials,G.4
+code-of-conduct,Code of business conduct,soc-2,SOC 2,CC1.1
 code-of-conduct,Code of business conduct,sox,SOX (Sarbanes-Oxley) Section 404,P1
 anti-bribery,Anti-corruption & bribery,esg-essentials,ESG Essentials,G.3
 anti-bribery,Anti-corruption & bribery,sox,SOX (Sarbanes-Oxley) Section 404,P1
 whistleblower-channel,Whistleblower channel,esg-essentials,ESG Essentials,G.5
+whistleblower-channel,Whistleblower channel,soc-2,SOC 2,CC2.2
 whistleblower-channel,Whistleblower channel,sox,SOX (Sarbanes-Oxley) Section 404,P14
 delegation-of-authority,Delegation of authority & segregation of duties,iso-27001,ISO/IEC 27001,A.5.3
+delegation-of-authority,Delegation of authority & segregation of duties,nist-800-171,NIST SP 800-171,3.1.4
 delegation-of-authority,Delegation of authority & segregation of duties,nist-800-53,NIST SP 800-53,AC-5
 delegation-of-authority,Delegation of authority & segregation of duties,soc-2,SOC 2,CC1.3
 delegation-of-authority,Delegation of authority & segregation of duties,sox,SOX (Sarbanes-Oxley) Section 404,P3
@@ -476,6 +891,36 @@ fraud-risk-assessment,Fraud risk assessment,soc-2,SOC 2,CC3.3
 fraud-risk-assessment,Fraud risk assessment,sox,SOX (Sarbanes-Oxley) Section 404,P8
 information-completeness-accuracy,Completeness & accuracy of information used by controls,soc-2,SOC 2,CC2.1
 information-completeness-accuracy,Completeness & accuracy of information used by controls,sox,SOX (Sarbanes-Oxley) Section 404,P13
+governing-body-oversight,Governing body oversight of internal control,soc-2,SOC 2,CC1.2
+governing-body-oversight,Governing body oversight of internal control,sox,SOX (Sarbanes-Oxley) Section 404,P2
+control-accountability,Accountability for control responsibilities,iso-27001,ISO/IEC 27001,A.5.4
+control-accountability,Accountability for control responsibilities,nist-csf,NIST Cybersecurity Framework,GV.RR-02
+control-accountability,Accountability for control responsibilities,soc-2,SOC 2,CC1.5
+technology-general-controls,General controls over technology,soc-2,SOC 2,CC5.2
+capacity-management,Capacity management,iso-27001,ISO/IEC 27001,A.8.6
+capacity-management,Capacity management,nist-csf,NIST Cybersecurity Framework,PR.IR-04
+capacity-management,Capacity management,soc-2,SOC 2,A1.1
+processing-specifications,Processing specifications & data definitions,soc-2,SOC 2,PI1.1
+processing-input-controls,Controls over system inputs,soc-2,SOC 2,PI1.2
+processing-integrity-controls,Controls over system processing,soc-2,SOC 2,PI1.3
+processing-output-controls,Controls over output and delivery,soc-2,SOC 2,PI1.4
+processing-storage-integrity,"Storage of inputs, work in progress and outputs",soc-2,SOC 2,PI1.5
+privacy-choice-consent,Choice & consent for personal information,gdpr,GDPR,Art.7(1)
+privacy-choice-consent,Choice & consent for personal information,gdpr,GDPR,Art.7(2)
+privacy-choice-consent,Choice & consent for personal information,gdpr,GDPR,Art.7(3)
+privacy-choice-consent,Choice & consent for personal information,gdpr,GDPR,Art.7(4)
+privacy-choice-consent,Choice & consent for personal information,soc-2,SOC 2,P2.1
+privacy-choice-consent,Choice & consent for personal information,soc-2,SOC 2,P3.2
+personal-data-collection-limitation,Collection limited to disclosed purposes,soc-2,SOC 2,P3.1
+personal-data-use-limitation,Use limited to disclosed purposes,gdpr,GDPR,Art.6(4)
+personal-data-use-limitation,Use limited to disclosed purposes,soc-2,SOC 2,P4.1
+personal-data-disclosure-authorization,Authorized disclosure of personal information,gdpr,GDPR,Art.48
+personal-data-disclosure-authorization,Authorized disclosure of personal information,soc-2,SOC 2,P6.1
+personal-data-disclosure-log,Record of disclosures of personal information,gdpr,GDPR,Art.19
+personal-data-disclosure-log,Record of disclosures of personal information,soc-2,SOC 2,P6.2
+personal-data-disclosure-log,Record of disclosures of personal information,soc-2,SOC 2,P6.3
+personal-data-disclosure-log,Record of disclosures of personal information,soc-2,SOC 2,P6.7
+personal-data-quality,Quality of personal information,soc-2,SOC 2,P7.1
 esg-reporting,ESG reporting & disclosure,esg-essentials,ESG Essentials,G.8
 environmental-aspects-impacts,Environmental aspects & impacts register,esg-essentials,ESG Essentials,E.8
 environmental-aspects-impacts,Environmental aspects & impacts register,esg-essentials,ESG Essentials,E.10
@@ -492,10 +937,11 @@ grievance-mechanism,Grievance & complaint handling,esg-essentials,ESG Essentials
 grievance-mechanism,Grievance & complaint handling,hipaa,HIPAA,164.530(d)(2)
 grievance-mechanism,Grievance & complaint handling,iso-9001,ISO 9001,8.2.1
 grievance-mechanism,Grievance & complaint handling,iso-9001,ISO 9001,10.2.1
+grievance-mechanism,Grievance & complaint handling,soc-2,SOC 2,CC2.3
+grievance-mechanism,Grievance & complaint handling,soc-2,SOC 2,P8.1
 responsible-marketing,Responsible marketing & substantiated claims,esg-essentials,ESG Essentials,S.15
 responsible-marketing,Responsible marketing & substantiated claims,iso-9001,ISO 9001,8.2.2
 product-service-safety,Product & service safety,esg-essentials,ESG Essentials,S.16
-product-service-safety,Product & service safety,iso-9001,ISO 9001,8.3.5
 product-service-safety,Product & service safety,iso-9001,ISO 9001,8.5.5
 accessible-inclusive-service,Accessible & inclusive service,esg-essentials,ESG Essentials,S.18
 stakeholder-engagement,Stakeholder identification & engagement,esg-essentials,ESG Essentials,G.10
@@ -508,30 +954,57 @@ responsible-procurement,Responsible purchasing practice,esg-essentials,ESG Essen
 responsible-political-engagement,Responsible political involvement,esg-essentials,ESG Essentials,G.11
 fair-competition,Fair competition,esg-essentials,ESG Essentials,G.12
 property-rights-respect,Respect for property & intellectual property rights,esg-essentials,ESG Essentials,G.13
+property-rights-respect,Respect for property & intellectual property rights,iso-27001,ISO/IEC 27001,A.5.32
+property-rights-respect,Respect for property & intellectual property rights,nist-800-53,NIST SP 800-53,CM-10
 ai-system-inventory,AI system inventory,ai-governance-essentials,AI Governance Essentials,GV.3
 ai-system-inventory,AI system inventory,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-1.6
 ai-impact-assessment,AI system impact assessment,ai-governance-essentials,AI Governance Essentials,RM.1
 ai-impact-assessment,AI system impact assessment,ai-governance-essentials,AI Governance Essentials,RM.2
+ai-impact-assessment,AI system impact assessment,iso-42001,ISO/IEC 42001,6.1.4
+ai-impact-assessment,AI system impact assessment,iso-42001,ISO/IEC 42001,8.4
 ai-impact-assessment,AI system impact assessment,iso-42001,ISO/IEC 42001,A.5.2
 ai-impact-assessment,AI system impact assessment,iso-42001,ISO/IEC 42001,A.5.4
+ai-impact-assessment,AI system impact assessment,iso-42001,ISO/IEC 42001,A.5.5
+ai-impact-assessment,AI system impact assessment,nist-ai-rmf,NIST AI Risk Management Framework,MAP-3.1
+ai-impact-assessment,AI system impact assessment,nist-ai-rmf,NIST AI Risk Management Framework,MAP-3.2
 ai-impact-assessment,AI system impact assessment,nist-ai-rmf,NIST AI Risk Management Framework,MAP-5.1
+ai-impact-assessment,AI system impact assessment,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-4.2
 human-oversight,Human oversight of AI,ai-governance-essentials,AI Governance Essentials,HO.1
 human-oversight,Human oversight of AI,ai-governance-essentials,AI Governance Essentials,HO.2
 human-oversight,Human oversight of AI,eu-ai-act,EU AI Act,HREQ-6
 human-oversight,Human oversight of AI,eu-ai-act,EU AI Act,HOBL-5
 human-oversight,Human oversight of AI,iso-42001,ISO/IEC 42001,A.6.2.6
 human-oversight,Human oversight of AI,iso-42001,ISO/IEC 42001,A.9.2
+human-oversight,Human oversight of AI,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-3.2
+human-oversight,Human oversight of AI,nist-ai-rmf,NIST AI Risk Management Framework,MAP-3.5
+ai-policy,AI policy,ai-governance-essentials,AI Governance Essentials,GV.1
+ai-policy,AI policy,ai-governance-essentials,AI Governance Essentials,GV.4
+ai-policy,AI policy,iso-42001,ISO/IEC 42001,5.2
 ai-policy,AI policy,iso-42001,ISO/IEC 42001,A.2.2
 ai-policy,AI policy,iso-42001,ISO/IEC 42001,A.2.3
 ai-policy,AI policy,iso-42001,ISO/IEC 42001,A.2.4
 ai-policy,AI policy,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-1.2
+ai-policy,AI policy,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-1.4
+ai-roles-responsibilities,AI roles & accountability,ai-governance-essentials,AI Governance Essentials,GV.2
 ai-roles-responsibilities,AI roles & accountability,iso-42001,ISO/IEC 42001,A.3.2
 ai-roles-responsibilities,AI roles & accountability,iso-42001,ISO/IEC 42001,A.3.3
 ai-roles-responsibilities,AI roles & accountability,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-2.1
+ai-roles-responsibilities,AI roles & accountability,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-2.3
 ai-risk-management,AI risk management process,eu-ai-act,EU AI Act,HREQ-1
+ai-risk-management,AI risk management process,iso-42001,ISO/IEC 42001,6.1.2
+ai-risk-management,AI risk management process,iso-42001,ISO/IEC 42001,8.2
+ai-risk-management,AI risk management process,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-1.3
+ai-risk-management,AI risk management process,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-1.5
+ai-risk-management,AI risk management process,nist-ai-rmf,NIST AI Risk Management Framework,MAP-1.5
 ai-risk-management,AI risk management process,nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-1.1
+ai-risk-management,AI risk management process,nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-3.1
+ai-risk-management,AI risk management process,nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-3.2
 ai-risk-management,AI risk management process,nist-ai-rmf,NIST AI Risk Management Framework,MANAGE-1.2
 ai-risk-management,AI risk management process,nist-ai-rmf,NIST AI Risk Management Framework,MANAGE-1.3
+ai-risk-management,AI risk management process,nist-ai-rmf,NIST AI Risk Management Framework,MANAGE-2.1
+ai-data-governance,Data governance for AI,ai-governance-essentials,AI Governance Essentials,DA.1
+ai-data-governance,Data governance for AI,ai-governance-essentials,AI Governance Essentials,DA.2
+ai-data-governance,Data governance for AI,ai-governance-essentials,AI Governance Essentials,DA.4
 ai-data-governance,Data governance for AI,eu-ai-act,EU AI Act,HREQ-2
 ai-data-governance,Data governance for AI,iso-42001,ISO/IEC 42001,A.4.3
 ai-data-governance,Data governance for AI,iso-42001,ISO/IEC 42001,A.7.2
@@ -544,35 +1017,125 @@ ai-responsible-development,Responsible AI development lifecycle,iso-42001,ISO/IE
 ai-responsible-development,Responsible AI development lifecycle,iso-42001,ISO/IEC 42001,A.6.2.2
 ai-responsible-development,Responsible AI development lifecycle,iso-42001,ISO/IEC 42001,A.6.2.3
 ai-responsible-development,Responsible AI development lifecycle,iso-42001,ISO/IEC 42001,A.6.2.5
+ai-responsible-development,Responsible AI development lifecycle,nist-ai-rmf,NIST AI Risk Management Framework,MAP-1.6
+ai-verification-validation,"AI verification, validation & robustness",ai-governance-essentials,AI Governance Essentials,SR.2
+ai-verification-validation,"AI verification, validation & robustness",ai-governance-essentials,AI Governance Essentials,LC.1
 ai-verification-validation,"AI verification, validation & robustness",eu-ai-act,EU AI Act,HREQ-7
 ai-verification-validation,"AI verification, validation & robustness",iso-42001,ISO/IEC 42001,A.6.2.4
 ai-verification-validation,"AI verification, validation & robustness",nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-2.3
 ai-verification-validation,"AI verification, validation & robustness",nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-2.4
 ai-verification-validation,"AI verification, validation & robustness",nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-2.5
+ai-verification-validation,"AI verification, validation & robustness",nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-2.6
 ai-verification-validation,"AI verification, validation & robustness",nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-2.7
+ai-technical-documentation,AI technical documentation,ai-governance-essentials,AI Governance Essentials,TR.2
 ai-technical-documentation,AI technical documentation,eu-ai-act,EU AI Act,HREQ-3
 ai-technical-documentation,AI technical documentation,iso-42001,ISO/IEC 42001,A.5.3
 ai-technical-documentation,AI technical documentation,iso-42001,ISO/IEC 42001,A.6.2.7
+ai-technical-documentation,AI technical documentation,nist-ai-rmf,NIST AI Risk Management Framework,MAP-2.2
+ai-technical-documentation,AI technical documentation,nist-ai-rmf,NIST AI Risk Management Framework,MAP-4.2
 ai-logging-records,AI system logging & record-keeping,eu-ai-act,EU AI Act,HREQ-4
 ai-logging-records,AI system logging & record-keeping,iso-42001,ISO/IEC 42001,A.6.2.8
+ai-transparency-disclosure,AI transparency & disclosure,ai-governance-essentials,AI Governance Essentials,TR.1
+ai-transparency-disclosure,AI transparency & disclosure,ai-governance-essentials,AI Governance Essentials,TR.3
 ai-transparency-disclosure,AI transparency & disclosure,eu-ai-act,EU AI Act,TRANS-1
 ai-transparency-disclosure,AI transparency & disclosure,eu-ai-act,EU AI Act,HREQ-5
 ai-transparency-disclosure,AI transparency & disclosure,iso-42001,ISO/IEC 42001,A.8.2
+ai-transparency-disclosure,AI transparency & disclosure,iso-42001,ISO/IEC 42001,A.8.3
 ai-transparency-disclosure,AI transparency & disclosure,iso-42001,ISO/IEC 42001,A.8.5
+ai-transparency-disclosure,AI transparency & disclosure,nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-2.8
+ai-transparency-disclosure,AI transparency & disclosure,nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-2.9
+ai-transparency-disclosure,AI transparency & disclosure,nist-ai-rmf,NIST AI Risk Management Framework,MANAGE-1.4
+ai-monitoring-incidents,AI monitoring & malfunction reporting,ai-governance-essentials,AI Governance Essentials,LC.3
+ai-monitoring-incidents,AI monitoring & malfunction reporting,ai-governance-essentials,AI Governance Essentials,LC.4
 ai-monitoring-incidents,AI monitoring & malfunction reporting,eu-ai-act,EU AI Act,HOBL-5
 ai-monitoring-incidents,AI monitoring & malfunction reporting,eu-ai-act,EU AI Act,HOBL-6
 ai-monitoring-incidents,AI monitoring & malfunction reporting,eu-ai-act,EU AI Act,HOBL-7
 ai-monitoring-incidents,AI monitoring & malfunction reporting,iso-42001,ISO/IEC 42001,A.6.2.6
 ai-monitoring-incidents,AI monitoring & malfunction reporting,iso-42001,ISO/IEC 42001,A.8.4
+ai-monitoring-incidents,AI monitoring & malfunction reporting,nist-ai-rmf,NIST AI Risk Management Framework,MANAGE-2.3
 ai-monitoring-incidents,AI monitoring & malfunction reporting,nist-ai-rmf,NIST AI Risk Management Framework,MANAGE-4.1
 ai-monitoring-incidents,AI monitoring & malfunction reporting,nist-ai-rmf,NIST AI Risk Management Framework,MANAGE-4.3
 ai-responsible-use,Responsible use of AI,iso-42001,ISO/IEC 42001,A.9.2
 ai-responsible-use,Responsible use of AI,iso-42001,ISO/IEC 42001,A.9.3
 ai-responsible-use,Responsible use of AI,iso-42001,ISO/IEC 42001,A.9.4
+ai-responsible-use,Responsible use of AI,nist-ai-rmf,NIST AI Risk Management Framework,MANAGE-2.2
+ai-supplier-management,AI supplier & third-party management,ai-governance-essentials,AI Governance Essentials,TP.1
+ai-supplier-management,AI supplier & third-party management,ai-governance-essentials,AI Governance Essentials,TP.2
 ai-supplier-management,AI supplier & third-party management,iso-42001,ISO/IEC 42001,A.10.2
 ai-supplier-management,AI supplier & third-party management,iso-42001,ISO/IEC 42001,A.10.3
 ai-supplier-management,AI supplier & third-party management,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-6.1
+ai-supplier-management,AI supplier & third-party management,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-6.2
+ai-supplier-management,AI supplier & third-party management,nist-ai-rmf,NIST AI Risk Management Framework,MAP-4.1
 ai-supplier-management,AI supplier & third-party management,nist-ai-rmf,NIST AI Risk Management Framework,MANAGE-3.1
+ai-supplier-management,AI supplier & third-party management,nist-ai-rmf,NIST AI Risk Management Framework,MANAGE-3.2
+ai-use-case-definition,AI use case definition & context,nist-ai-rmf,NIST AI Risk Management Framework,MAP-1.1
+ai-use-case-definition,AI use case definition & context,nist-ai-rmf,NIST AI Risk Management Framework,MAP-1.3
+ai-use-case-definition,AI use case definition & context,nist-ai-rmf,NIST AI Risk Management Framework,MAP-1.4
+ai-use-case-definition,AI use case definition & context,nist-ai-rmf,NIST AI Risk Management Framework,MAP-2.1
+ai-use-case-definition,AI use case definition & context,nist-ai-rmf,NIST AI Risk Management Framework,MAP-3.3
+ai-competence-training,AI competence & training,ai-governance-essentials,AI Governance Essentials,HO.3
+ai-competence-training,AI competence & training,iso-42001,ISO/IEC 42001,A.4.6
+ai-competence-training,AI competence & training,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-2.2
+ai-competence-training,AI competence & training,nist-ai-rmf,NIST AI Risk Management Framework,MAP-3.4
+ai-interdisciplinary-input,Interdisciplinary & diverse input to AI decisions,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-3.1
+ai-interdisciplinary-input,Interdisciplinary & diverse input to AI decisions,nist-ai-rmf,NIST AI Risk Management Framework,MAP-1.2
+ai-risk-culture,"AI risk culture, testing & information sharing",nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-4.1
+ai-risk-culture,"AI risk culture, testing & information sharing",nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-4.3
+ai-external-feedback,External feedback on AI impacts,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-5.1
+ai-external-feedback,External feedback on AI impacts,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-5.2
+ai-external-feedback,External feedback on AI impacts,nist-ai-rmf,NIST AI Risk Management Framework,MAP-5.2
+ai-external-feedback,External feedback on AI impacts,nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-3.3
+ai-evaluation-design,AI test & evaluation design (TEVV),nist-ai-rmf,NIST AI Risk Management Framework,MAP-2.3
+ai-evaluation-design,AI test & evaluation design (TEVV),nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-1.2
+ai-evaluation-design,AI test & evaluation design (TEVV),nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-2.1
+ai-evaluation-design,AI test & evaluation design (TEVV),nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-2.2
+ai-evaluation-design,AI test & evaluation design (TEVV),nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-2.13
+ai-independent-expert-review,Independent & expert review of AI measurement,nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-1.3
+ai-independent-expert-review,Independent & expert review of AI measurement,nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-4.1
+ai-independent-expert-review,Independent & expert review of AI measurement,nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-4.2
+ai-independent-expert-review,Independent & expert review of AI measurement,nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-4.3
+ai-fairness-bias-evaluation,AI fairness & bias evaluation,ai-governance-essentials,AI Governance Essentials,RM.3
+ai-fairness-bias-evaluation,AI fairness & bias evaluation,nist-ai-rmf,NIST AI Risk Management Framework,MEASURE-2.11
+ai-system-retirement,AI system deactivation & decommissioning,ai-governance-essentials,AI Governance Essentials,LC.5
+ai-system-retirement,AI system deactivation & decommissioning,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-1.7
+ai-system-retirement,AI system deactivation & decommissioning,nist-ai-rmf,NIST AI Risk Management Framework,MANAGE-2.4
+ai-risk-treatment,AI risk treatment & sign-off,ai-governance-essentials,AI Governance Essentials,RM.4
+ai-risk-treatment,AI risk treatment & sign-off,iso-42001,ISO/IEC 42001,6.1.3
+ai-risk-treatment,AI risk treatment & sign-off,iso-42001,ISO/IEC 42001,8.3
+ai-objectives-planning,AI objectives & planning,iso-42001,ISO/IEC 42001,6.2
+ai-performance-evaluation,AI management performance evaluation,iso-42001,ISO/IEC 42001,9.1
+ai-resource-documentation,AI resource documentation,iso-42001,ISO/IEC 42001,A.4.2
+ai-resource-documentation,AI resource documentation,iso-42001,ISO/IEC 42001,A.4.4
+ai-resource-documentation,AI resource documentation,iso-42001,ISO/IEC 42001,A.4.5
+ai-customer-responsibilities,AI responsibilities toward customers,iso-42001,ISO/IEC 42001,A.10.4
+ai-prohibited-practices-screening,Prohibited and high-risk AI use screening,ai-governance-essentials,AI Governance Essentials,RM.5
+ai-prohibited-practices-screening,Prohibited and high-risk AI use screening,eu-ai-act,EU AI Act,PROH-1
+ai-prohibited-practices-screening,Prohibited and high-risk AI use screening,eu-ai-act,EU AI Act,PROH-2
+ai-prohibited-practices-screening,Prohibited and high-risk AI use screening,eu-ai-act,EU AI Act,PROH-3
+ai-prohibited-practices-screening,Prohibited and high-risk AI use screening,eu-ai-act,EU AI Act,PROH-4
+ai-prohibited-practices-screening,Prohibited and high-risk AI use screening,eu-ai-act,EU AI Act,PROH-5
+ai-prohibited-practices-screening,Prohibited and high-risk AI use screening,eu-ai-act,EU AI Act,PROH-6
+ai-prohibited-practices-screening,Prohibited and high-risk AI use screening,eu-ai-act,EU AI Act,PROH-7
+ai-prohibited-practices-screening,Prohibited and high-risk AI use screening,eu-ai-act,EU AI Act,PROH-8
+ai-provider-obligations,Provider obligations for high-risk AI systems,eu-ai-act,EU AI Act,HOBL-1
+ai-quality-management-system,Quality management system for high-risk AI,eu-ai-act,EU AI Act,HOBL-2
+ai-conformity-assessment,"Conformity assessment, EU declaration & CE marking",eu-ai-act,EU AI Act,HOBL-3
+ai-eu-database-registration,EU database registration for high-risk AI,eu-ai-act,EU AI Act,HOBL-4
+ai-synthetic-content-marking,Marking of AI-generated and manipulated content,ai-governance-essentials,AI Governance Essentials,TR.4
+ai-synthetic-content-marking,Marking of AI-generated and manipulated content,eu-ai-act,EU AI Act,TRANS-2
+ai-deepfake-disclosure,Deep fake and published AI text disclosure,eu-ai-act,EU AI Act,TRANS-3
+ai-biometric-emotion-notice,Notice for emotion recognition & biometric categorization,eu-ai-act,EU AI Act,TRANS-4
+gpai-model-documentation,General-purpose AI model technical documentation,eu-ai-act,EU AI Act,GPAI-1
+gpai-downstream-information,Information for downstream providers of a GPAI model,eu-ai-act,EU AI Act,GPAI-2
+ai-copyright-ip-compliance,AI copyright & intellectual-property compliance,ai-governance-essentials,AI Governance Essentials,DA.5
+ai-copyright-ip-compliance,AI copyright & intellectual-property compliance,eu-ai-act,EU AI Act,GPAI-3
+gpai-training-content-summary,Public summary of GPAI training content,eu-ai-act,EU AI Act,GPAI-4
+gpai-systemic-risk-obligations,Systemic-risk obligations for GPAI models,eu-ai-act,EU AI Act,GPAI-5
+ai-model-security,"Security of AI models, data & pipelines",ai-governance-essentials,AI Governance Essentials,SR.1
+ai-model-security,"Security of AI models, data & pipelines",ai-governance-essentials,AI Governance Essentials,SR.4
+ai-adversarial-resistance,Adversarial & misuse resistance,ai-governance-essentials,AI Governance Essentials,SR.3
+ai-model-change-management,"Change control for models, prompts & configuration",ai-governance-essentials,AI Governance Essentials,LC.2
+foundation-model-oversight,Foundation model & AI API oversight,ai-governance-essentials,AI Governance Essentials,TP.3
 employment-classification,Worker classification review,esg-essentials,ESG Essentials,S.12
 employment-classification,Worker classification review,us-employment-federal,US Employment Law (federal baseline),us.classification.exempt
 employment-classification,Worker classification review,us-employment-federal,US Employment Law (federal baseline),us.classification.independent-contractor
@@ -638,12 +1201,15 @@ child-data-minimization,Minimised collection in children’s activities,google-p
 child-data-minimization,Minimised collection in children’s activities,google-play-families,Google Play Families,families/requirements/mixed-identifiers
 child-data-minimization,Minimised collection in children’s activities,google-play-families,Google Play Families,families/requirements/phone-number
 child-data-minimization,Minimised collection in children’s activities,google-play-families,Google Play Families,families/requirements/child-only-location
+childrens-app-store-declarations,App-store audience declarations & metadata,apple-kids,Apple App Store Kids Category,1.3/age-band
 childrens-app-store-declarations,App-store audience declarations & metadata,apple-kids,Apple App Store Kids Category,2.3.8/for-kids-metadata
 childrens-app-store-declarations,App-store audience declarations & metadata,google-play-families,Google Play Families,families/console/accurate-answers
 childrens-app-store-declarations,App-store audience declarations & metadata,google-play-families,Google Play Families,families/social/rating-disclosure
 childrens-experience-safeguards,Child-appropriate experience & parental gates,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/content/age-appropriate
 childrens-experience-safeguards,Child-appropriate experience & parental gates,apple-kids,Apple App Store Kids Category,1.3/parental-gate
+childrens-experience-safeguards,Child-appropriate experience & parental gates,apple-kids,Apple App Store Kids Category,1.3/parental-gate-adult-level-task
 childrens-experience-safeguards,Child-appropriate experience & parental gates,apple-kids,Apple App Store Kids Category,1.3/persisting-requirements
+childrens-experience-safeguards,Child-appropriate experience & parental gates,apple-kids,Apple App Store Kids Category,1.4.3/minors-substance-consumption
 childrens-experience-safeguards,Child-appropriate experience & parental gates,google-play-families,Google Play Families,families/requirements/app-content
 childrens-experience-safeguards,Child-appropriate experience & parental gates,google-play-families,Google Play Families,families/requirements/app-functionality
 childrens-experience-safeguards,Child-appropriate experience & parental gates,google-play-families,Google Play Families,families/requirements/ar-safety-warning
@@ -651,6 +1217,7 @@ childrens-experience-safeguards,Child-appropriate experience & parental gates,go
 childrens-ads-monetization,Children’s advertising & monetisation controls,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/ads/no-amazon-programs-to-children
 childrens-ads-monetization,Children’s advertising & monetisation controls,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/ads/child-only-no-amazon-programs
 childrens-ads-monetization,Children’s advertising & monetisation controls,apple-kids,Apple App Store Kids Category,1.3/third-party-advertising
+childrens-ads-monetization,Children’s advertising & monetisation controls,apple-kids,Apple App Store Kids Category,2.5.18/kids-data-targeted-advertising
 childrens-ads-monetization,Children’s advertising & monetisation controls,apple-kids,Apple App Store Kids Category,5.1.4(a)/no-third-party-analytics-advertising
 childrens-ads-monetization,Children’s advertising & monetisation controls,coppa,COPPA,312.5(c)(7)
 childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads/certified-sdk-only
@@ -679,3 +1246,377 @@ childrens-social-safety,Online-safety controls for children’s social features,
 childrens-social-safety,Online-safety controls for children’s social features,google-play-families,Google Play Families,families/social/adult-action-gate
 childrens-social-safety,Online-safety controls for children’s social features,google-play-families,Google Play Families,families/social/adult-management
 childrens-social-safety,Online-safety controls for children’s social features,google-play-families,Google Play Families,families/social/anonymous-chat
+external-security-contacts,Contact with authorities & security communities,cis-controls,CIS Controls,17.2
+external-security-contacts,Contact with authorities & security communities,iso-27001,ISO/IEC 27001,A.5.5
+external-security-contacts,Contact with authorities & security communities,iso-27001,ISO/IEC 27001,A.5.6
+external-security-contacts,Contact with authorities & security communities,nist-800-171,NIST SP 800-171,3.14.3
+external-security-contacts,Contact with authorities & security communities,nist-800-53,NIST SP 800-53,SI-5
+external-security-contacts,Contact with authorities & security communities,nist-csf,NIST Cybersecurity Framework,ID.RA-02
+external-security-contacts,Contact with authorities & security communities,nist-csf,NIST Cybersecurity Framework,DE.AE-07
+external-security-contacts,Contact with authorities & security communities,nist-csf,NIST Cybersecurity Framework,RS.CO-03
+security-in-project-management,Information security in project management,iso-27001,ISO/IEC 27001,A.5.8
+acceptable-use,Acceptable use of information and assets,iso-27001,ISO/IEC 27001,A.5.10
+acceptable-use,Acceptable use of information and assets,nist-800-171,NIST SP 800-171,3.1.20
+acceptable-use,Acceptable use of information and assets,nist-800-53,NIST SP 800-53,AC-20
+acceptable-use,Acceptable use of information and assets,nist-800-53,NIST SP 800-53,AC-20(1)
+acceptable-use,Acceptable use of information and assets,nist-800-53,NIST SP 800-53,PL-4
+acceptable-use,Acceptable use of information and assets,nist-800-53,NIST SP 800-53,PL-4(1)
+acceptable-use,Acceptable use of information and assets,pci-dss,PCI DSS,12.2
+information-transfer,Information transfer rules & agreements,iso-27001,ISO/IEC 27001,A.5.14
+information-transfer,Information transfer rules & agreements,nist-800-53,NIST SP 800-53,AC-21
+information-transfer,Information transfer rules & agreements,nist-800-53,NIST SP 800-53,CA-3
+ict-supply-chain-security,ICT supply chain security,cis-controls,CIS Controls,16.4
+ict-supply-chain-security,ICT supply chain security,iso-27001,ISO/IEC 27001,A.5.21
+ict-supply-chain-security,ICT supply chain security,nist-800-53,NIST SP 800-53,IR-6(3)
+ict-supply-chain-security,ICT supply chain security,nist-800-53,NIST SP 800-53,RA-3(1)
+ict-supply-chain-security,ICT supply chain security,nist-800-53,NIST SP 800-53,SR-1
+ict-supply-chain-security,ICT supply chain security,nist-800-53,NIST SP 800-53,SR-2
+ict-supply-chain-security,ICT supply chain security,nist-800-53,NIST SP 800-53,SR-2(1)
+ict-supply-chain-security,ICT supply chain security,nist-800-53,NIST SP 800-53,SR-5
+ict-supply-chain-security,ICT supply chain security,nist-800-53,NIST SP 800-53,SR-8
+ict-supply-chain-security,ICT supply chain security,nist-800-53,NIST SP 800-53,SR-10
+ict-supply-chain-security,ICT supply chain security,nist-800-53,NIST SP 800-53,SR-11
+ict-supply-chain-security,ICT supply chain security,nist-800-53,NIST SP 800-53,SR-11(1)
+ict-supply-chain-security,ICT supply chain security,nist-csf,NIST Cybersecurity Framework,GV.SC-03
+ict-supply-chain-security,ICT supply chain security,nist-csf,NIST Cybersecurity Framework,GV.SC-09
+ict-supply-chain-security,ICT supply chain security,nist-csf,NIST Cybersecurity Framework,ID.RA-09
+ict-supply-chain-security,ICT supply chain security,nist-csf,NIST Cybersecurity Framework,ID.RA-10
+cloud-service-security,Security of cloud services,iso-27001,ISO/IEC 27001,A.5.23
+cloud-service-security,Security of cloud services,nist-csf,NIST Cybersecurity Framework,DE.CM-06
+evidence-preservation,Preservation of evidence,iso-27001,ISO/IEC 27001,A.5.28
+evidence-preservation,Preservation of evidence,nist-csf,NIST Cybersecurity Framework,RS.AN-06
+evidence-preservation,Preservation of evidence,nist-csf,NIST Cybersecurity Framework,RS.AN-07
+compliance-obligations-register,"Legal, regulatory & contractual obligations register",iso-27001,ISO/IEC 27001,A.5.31
+compliance-obligations-register,"Legal, regulatory & contractual obligations register",nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-1.1
+compliance-obligations-register,"Legal, regulatory & contractual obligations register",nist-csf,NIST Cybersecurity Framework,GV.OC-03
+policy-compliance-monitoring,Management review of policy compliance,iso-27001,ISO/IEC 27001,A.5.36
+policy-compliance-monitoring,Management review of policy compliance,pci-dss,PCI DSS,12.4
+confidentiality-agreements,Confidentiality & non-disclosure agreements,iso-27001,ISO/IEC 27001,A.6.6
+remote-working-security,Remote and off-site working,cis-controls,CIS Controls,12.7
+remote-working-security,Remote and off-site working,cis-controls,CIS Controls,13.5
+remote-working-security,Remote and off-site working,iso-27001,ISO/IEC 27001,A.6.7
+remote-working-security,Remote and off-site working,nist-800-171,NIST SP 800-171,3.1.12
+remote-working-security,Remote and off-site working,nist-800-171,NIST SP 800-171,3.1.13
+remote-working-security,Remote and off-site working,nist-800-171,NIST SP 800-171,3.1.14
+remote-working-security,Remote and off-site working,nist-800-171,NIST SP 800-171,3.10.6
+remote-working-security,Remote and off-site working,nist-800-171,NIST SP 800-171,3.13.7
+remote-working-security,Remote and off-site working,nist-800-53,NIST SP 800-53,AC-17
+remote-working-security,Remote and off-site working,nist-800-53,NIST SP 800-53,AC-17(1)
+remote-working-security,Remote and off-site working,nist-800-53,NIST SP 800-53,AC-17(2)
+remote-working-security,Remote and off-site working,nist-800-53,NIST SP 800-53,AC-17(3)
+remote-working-security,Remote and off-site working,nist-800-53,NIST SP 800-53,PE-17
+remote-working-security,Remote and off-site working,nist-800-53,NIST SP 800-53,SC-7(7)
+remote-working-security,Remote and off-site working,pci-dss,PCI DSS,1.5
+security-event-reporting,Security event reporting channel,cis-controls,CIS Controls,17.3
+security-event-reporting,Security event reporting channel,iso-27001,ISO/IEC 27001,A.6.8
+security-event-reporting,Security event reporting channel,nist-800-53,NIST SP 800-53,IR-7
+security-event-reporting,Security event reporting channel,nist-800-53,NIST SP 800-53,IR-7(1)
+security-event-reporting,Security event reporting channel,nist-csf,NIST Cybersecurity Framework,DE.AE-06
+security-event-reporting,Security event reporting channel,nist-csf,NIST Cybersecurity Framework,RS.MA-02
+facility-environmental-controls,Facility environmental protection & utilities,iso-27001,ISO/IEC 27001,A.7.5
+facility-environmental-controls,Facility environmental protection & utilities,iso-27001,ISO/IEC 27001,A.7.11
+facility-environmental-controls,Facility environmental protection & utilities,nist-800-53,NIST SP 800-53,PE-10
+facility-environmental-controls,Facility environmental protection & utilities,nist-800-53,NIST SP 800-53,PE-11
+facility-environmental-controls,Facility environmental protection & utilities,nist-800-53,NIST SP 800-53,PE-12
+facility-environmental-controls,Facility environmental protection & utilities,nist-800-53,NIST SP 800-53,PE-13
+facility-environmental-controls,Facility environmental protection & utilities,nist-800-53,NIST SP 800-53,PE-13(1)
+facility-environmental-controls,Facility environmental protection & utilities,nist-800-53,NIST SP 800-53,PE-14
+facility-environmental-controls,Facility environmental protection & utilities,nist-800-53,NIST SP 800-53,PE-15
+facility-environmental-controls,Facility environmental protection & utilities,nist-csf,NIST Cybersecurity Framework,PR.IR-02
+secure-area-working,Working in secure areas,iso-27001,ISO/IEC 27001,A.7.6
+secure-area-working,Working in secure areas,nist-800-171,NIST SP 800-171,3.13.12
+secure-area-working,Working in secure areas,nist-800-53,NIST SP 800-53,SC-15
+equipment-siting-protection,Equipment siting & protection,iso-27001,ISO/IEC 27001,A.7.8
+equipment-siting-protection,Equipment siting & protection,nist-800-53,NIST SP 800-53,PE-5
+off-premises-asset-protection,Security of assets off-premises,iso-27001,ISO/IEC 27001,A.7.9
+off-premises-asset-protection,Security of assets off-premises,nist-800-53,NIST SP 800-53,CM-2(7)
+storage-media-management,Storage media lifecycle management,cis-controls,CIS Controls,3.9
+storage-media-management,Storage media lifecycle management,iso-27001,ISO/IEC 27001,A.7.10
+storage-media-management,Storage media lifecycle management,nist-800-171,NIST SP 800-171,3.1.21
+storage-media-management,Storage media lifecycle management,nist-800-171,NIST SP 800-171,3.8.1
+storage-media-management,Storage media lifecycle management,nist-800-171,NIST SP 800-171,3.8.2
+storage-media-management,Storage media lifecycle management,nist-800-171,NIST SP 800-171,3.8.5
+storage-media-management,Storage media lifecycle management,nist-800-171,NIST SP 800-171,3.8.6
+storage-media-management,Storage media lifecycle management,nist-800-171,NIST SP 800-171,3.8.7
+storage-media-management,Storage media lifecycle management,nist-800-171,NIST SP 800-171,3.8.8
+storage-media-management,Storage media lifecycle management,nist-800-53,NIST SP 800-53,AC-20(2)
+storage-media-management,Storage media lifecycle management,nist-800-53,NIST SP 800-53,MP-1
+storage-media-management,Storage media lifecycle management,nist-800-53,NIST SP 800-53,MP-2
+storage-media-management,Storage media lifecycle management,nist-800-53,NIST SP 800-53,MP-4
+storage-media-management,Storage media lifecycle management,nist-800-53,NIST SP 800-53,MP-5
+storage-media-management,Storage media lifecycle management,nist-800-53,NIST SP 800-53,MP-7
+storage-media-management,Storage media lifecycle management,pci-dss,PCI DSS,9.4
+cabling-security,Cabling security,iso-27001,ISO/IEC 27001,A.7.12
+cabling-security,Cabling security,nist-800-53,NIST SP 800-53,PE-4
+cabling-security,Cabling security,nist-800-53,NIST SP 800-53,PE-9
+equipment-maintenance,Equipment maintenance,iso-27001,ISO/IEC 27001,A.7.13
+equipment-maintenance,Equipment maintenance,nist-800-171,NIST SP 800-171,3.7.1
+equipment-maintenance,Equipment maintenance,nist-800-171,NIST SP 800-171,3.7.2
+equipment-maintenance,Equipment maintenance,nist-800-171,NIST SP 800-171,3.7.3
+equipment-maintenance,Equipment maintenance,nist-800-171,NIST SP 800-171,3.7.4
+equipment-maintenance,Equipment maintenance,nist-800-171,NIST SP 800-171,3.7.5
+equipment-maintenance,Equipment maintenance,nist-800-171,NIST SP 800-171,3.7.6
+equipment-maintenance,Equipment maintenance,nist-800-53,NIST SP 800-53,MA-1
+equipment-maintenance,Equipment maintenance,nist-800-53,NIST SP 800-53,MA-2
+equipment-maintenance,Equipment maintenance,nist-800-53,NIST SP 800-53,MA-3
+equipment-maintenance,Equipment maintenance,nist-800-53,NIST SP 800-53,MA-3(1)
+equipment-maintenance,Equipment maintenance,nist-800-53,NIST SP 800-53,MA-3(2)
+equipment-maintenance,Equipment maintenance,nist-800-53,NIST SP 800-53,MA-3(3)
+equipment-maintenance,Equipment maintenance,nist-800-53,NIST SP 800-53,MA-4
+equipment-maintenance,Equipment maintenance,nist-800-53,NIST SP 800-53,MA-5
+equipment-maintenance,Equipment maintenance,nist-800-53,NIST SP 800-53,MA-6
+equipment-maintenance,Equipment maintenance,nist-800-53,NIST SP 800-53,SR-11(2)
+equipment-maintenance,Equipment maintenance,nist-csf,NIST Cybersecurity Framework,PR.PS-03
+privileged-access-management,Privileged access & administrative tooling,cis-controls,CIS Controls,5.4
+privileged-access-management,Privileged access & administrative tooling,cis-controls,CIS Controls,12.8
+privileged-access-management,Privileged access & administrative tooling,iso-27001,ISO/IEC 27001,A.8.2
+privileged-access-management,Privileged access & administrative tooling,iso-27001,ISO/IEC 27001,A.8.18
+privileged-access-management,Privileged access & administrative tooling,nist-800-171,NIST SP 800-171,3.1.6
+privileged-access-management,Privileged access & administrative tooling,nist-800-171,NIST SP 800-171,3.1.7
+privileged-access-management,Privileged access & administrative tooling,nist-800-171,NIST SP 800-171,3.1.15
+privileged-access-management,Privileged access & administrative tooling,nist-800-53,NIST SP 800-53,AC-6(1)
+privileged-access-management,Privileged access & administrative tooling,nist-800-53,NIST SP 800-53,AC-6(2)
+privileged-access-management,Privileged access & administrative tooling,nist-800-53,NIST SP 800-53,AC-6(5)
+privileged-access-management,Privileged access & administrative tooling,nist-800-53,NIST SP 800-53,AC-6(7)
+privileged-access-management,Privileged access & administrative tooling,nist-800-53,NIST SP 800-53,AC-6(9)
+privileged-access-management,Privileged access & administrative tooling,nist-800-53,NIST SP 800-53,AC-6(10)
+privileged-access-management,Privileged access & administrative tooling,nist-800-53,NIST SP 800-53,AC-17(4)
+privileged-access-management,Privileged access & administrative tooling,pci-dss,PCI DSS,8.6
+source-code-access-control,Access to source code,iso-27001,ISO/IEC 27001,A.8.4
+secure-configuration-management,Secure configuration & baselines,cis-controls,CIS Controls,4.1
+secure-configuration-management,Secure configuration & baselines,cis-controls,CIS Controls,4.2
+secure-configuration-management,Secure configuration & baselines,cis-controls,CIS Controls,4.6
+secure-configuration-management,Secure configuration & baselines,cis-controls,CIS Controls,4.7
+secure-configuration-management,Secure configuration & baselines,cis-controls,CIS Controls,4.8
+secure-configuration-management,Secure configuration & baselines,cis-controls,CIS Controls,16.7
+secure-configuration-management,Secure configuration & baselines,iso-27001,ISO/IEC 27001,A.8.9
+secure-configuration-management,Secure configuration & baselines,nist-800-171,NIST SP 800-171,3.4.2
+secure-configuration-management,Secure configuration & baselines,nist-800-171,NIST SP 800-171,3.4.6
+secure-configuration-management,Secure configuration & baselines,nist-800-171,NIST SP 800-171,3.4.7
+secure-configuration-management,Secure configuration & baselines,nist-800-53,NIST SP 800-53,CM-1
+secure-configuration-management,Secure configuration & baselines,nist-800-53,NIST SP 800-53,CM-2
+secure-configuration-management,Secure configuration & baselines,nist-800-53,NIST SP 800-53,CM-2(2)
+secure-configuration-management,Secure configuration & baselines,nist-800-53,NIST SP 800-53,CM-2(3)
+secure-configuration-management,Secure configuration & baselines,nist-800-53,NIST SP 800-53,CM-6
+secure-configuration-management,Secure configuration & baselines,nist-800-53,NIST SP 800-53,CM-7
+secure-configuration-management,Secure configuration & baselines,nist-800-53,NIST SP 800-53,CM-7(1)
+secure-configuration-management,Secure configuration & baselines,nist-800-53,NIST SP 800-53,CM-9
+secure-configuration-management,Secure configuration & baselines,nist-800-53,NIST SP 800-53,SA-5
+secure-configuration-management,Secure configuration & baselines,pci-dss,PCI DSS,2.1
+secure-configuration-management,Secure configuration & baselines,pci-dss,PCI DSS,2.2
+data-masking,Data masking & pseudonymization,gdpr,GDPR,Art.89(1)
+data-masking,Data masking & pseudonymization,iso-27001,ISO/IEC 27001,A.8.11
+data-masking,Data masking & pseudonymization,nist-csf,NIST Cybersecurity Framework,PR.DS-10
+data-leakage-prevention,Data leakage prevention,cis-controls,CIS Controls,3.13
+data-leakage-prevention,Data leakage prevention,iso-27001,ISO/IEC 27001,A.8.12
+infrastructure-redundancy,Redundancy of processing facilities,iso-27001,ISO/IEC 27001,A.8.14
+infrastructure-redundancy,Redundancy of processing facilities,nist-800-53,NIST SP 800-53,CP-7
+infrastructure-redundancy,Redundancy of processing facilities,nist-800-53,NIST SP 800-53,CP-7(1)
+infrastructure-redundancy,Redundancy of processing facilities,nist-800-53,NIST SP 800-53,CP-7(2)
+infrastructure-redundancy,Redundancy of processing facilities,nist-800-53,NIST SP 800-53,CP-7(3)
+infrastructure-redundancy,Redundancy of processing facilities,nist-800-53,NIST SP 800-53,CP-8
+infrastructure-redundancy,Redundancy of processing facilities,nist-800-53,NIST SP 800-53,CP-8(1)
+infrastructure-redundancy,Redundancy of processing facilities,nist-800-53,NIST SP 800-53,CP-8(2)
+infrastructure-redundancy,Redundancy of processing facilities,nist-csf,NIST Cybersecurity Framework,PR.IR-03
+software-installation-control,Control of software on operational systems,cis-controls,CIS Controls,2.3
+software-installation-control,Control of software on operational systems,cis-controls,CIS Controls,2.5
+software-installation-control,Control of software on operational systems,cis-controls,CIS Controls,2.6
+software-installation-control,Control of software on operational systems,cis-controls,CIS Controls,2.7
+software-installation-control,Control of software on operational systems,cis-controls,CIS Controls,9.1
+software-installation-control,Control of software on operational systems,cis-controls,CIS Controls,9.4
+software-installation-control,Control of software on operational systems,iso-27001,ISO/IEC 27001,A.8.19
+software-installation-control,Control of software on operational systems,nist-800-171,NIST SP 800-171,3.4.8
+software-installation-control,Control of software on operational systems,nist-800-171,NIST SP 800-171,3.4.9
+software-installation-control,Control of software on operational systems,nist-800-171,NIST SP 800-171,3.13.13
+software-installation-control,Control of software on operational systems,nist-800-53,NIST SP 800-53,CM-7(2)
+software-installation-control,Control of software on operational systems,nist-800-53,NIST SP 800-53,CM-7(5)
+software-installation-control,Control of software on operational systems,nist-800-53,NIST SP 800-53,CM-11
+software-installation-control,Control of software on operational systems,nist-800-53,NIST SP 800-53,SC-18
+software-installation-control,Control of software on operational systems,nist-csf,NIST Cybersecurity Framework,PR.PS-02
+software-installation-control,Control of software on operational systems,nist-csf,NIST Cybersecurity Framework,PR.PS-05
+web-filtering,Web filtering,cis-controls,CIS Controls,9.2
+web-filtering,Web filtering,cis-controls,CIS Controls,9.3
+web-filtering,Web filtering,iso-27001,ISO/IEC 27001,A.8.23
+web-filtering,Web filtering,nist-800-53,NIST SP 800-53,SC-7(8)
+email-authentication,Email authentication & anti-spoofing,cis-controls,CIS Controls,9.5
+email-authentication,Email authentication & anti-spoofing,pci-dss,PCI DSS,5.4
+application-security-requirements,Application security requirements,cis-controls,CIS Controls,16.14
+application-security-requirements,Application security requirements,iso-27001,ISO/IEC 27001,A.8.26
+application-security-requirements,Application security requirements,nist-800-171,NIST SP 800-171,3.13.15
+application-security-requirements,Application security requirements,nist-800-53,NIST SP 800-53,SC-23
+application-security-requirements,Application security requirements,nist-800-53,NIST SP 800-53,SI-10
+application-security-requirements,Application security requirements,nist-800-53,NIST SP 800-53,SI-11
+secure-architecture-principles,Secure architecture & engineering principles,cis-controls,CIS Controls,16.10
+secure-architecture-principles,Secure architecture & engineering principles,cis-controls,CIS Controls,16.11
+secure-architecture-principles,Secure architecture & engineering principles,iso-27001,ISO/IEC 27001,A.8.27
+secure-architecture-principles,Secure architecture & engineering principles,nist-800-171,NIST SP 800-171,3.13.2
+secure-architecture-principles,Secure architecture & engineering principles,nist-800-171,NIST SP 800-171,3.13.3
+secure-architecture-principles,Secure architecture & engineering principles,nist-800-171,NIST SP 800-171,3.13.4
+secure-architecture-principles,Secure architecture & engineering principles,nist-800-53,NIST SP 800-53,PL-8
+secure-architecture-principles,Secure architecture & engineering principles,nist-800-53,NIST SP 800-53,SC-2
+secure-architecture-principles,Secure architecture & engineering principles,nist-800-53,NIST SP 800-53,SC-4
+secure-architecture-principles,Secure architecture & engineering principles,nist-800-53,NIST SP 800-53,SC-39
+secure-architecture-principles,Secure architecture & engineering principles,nist-800-53,NIST SP 800-53,SI-16
+security-testing-in-development,Security testing in development & acceptance,cis-controls,CIS Controls,16.6
+security-testing-in-development,Security testing in development & acceptance,iso-27001,ISO/IEC 27001,A.8.29
+outsourced-development-oversight,Outsourced development oversight,iso-27001,ISO/IEC 27001,A.8.30
+outsourced-development-oversight,Outsourced development oversight,nist-800-53,NIST SP 800-53,SA-10
+environment-separation,"Separation of development, test and production",cis-controls,CIS Controls,16.8
+environment-separation,"Separation of development, test and production",iso-27001,ISO/IEC 27001,A.8.31
+test-data-management,Test information management,iso-27001,ISO/IEC 27001,A.8.33
+audit-testing-safeguards,Protection of systems during audit testing,iso-27001,ISO/IEC 27001,A.8.34
+system-use-notification,System use notification,nist-800-171,NIST SP 800-171,3.1.9
+system-use-notification,System use notification,nist-800-53,NIST SP 800-53,AC-8
+wireless-network-security,Wireless network security,nist-800-171,NIST SP 800-171,3.1.16
+wireless-network-security,Wireless network security,nist-800-171,NIST SP 800-171,3.1.17
+wireless-network-security,Wireless network security,nist-800-53,NIST SP 800-53,AC-18
+wireless-network-security,Wireless network security,nist-800-53,NIST SP 800-53,AC-18(1)
+wireless-network-security,Wireless network security,nist-800-53,NIST SP 800-53,AC-18(3)
+wireless-network-security,Wireless network security,pci-dss,PCI DSS,2.3
+wireless-network-security,Wireless network security,pci-dss,PCI DSS,11.2
+mobile-device-security,Mobile device security,cis-controls,CIS Controls,4.10
+mobile-device-security,Mobile device security,cis-controls,CIS Controls,4.11
+mobile-device-security,Mobile device security,cis-controls,CIS Controls,4.12
+mobile-device-security,Mobile device security,nist-800-171,NIST SP 800-171,3.1.18
+mobile-device-security,Mobile device security,nist-800-171,NIST SP 800-171,3.1.19
+mobile-device-security,Mobile device security,nist-800-53,NIST SP 800-53,AC-19
+mobile-device-security,Mobile device security,nist-800-53,NIST SP 800-53,AC-19(5)
+public-information-review,Review of publicly posted information,nist-800-171,NIST SP 800-171,3.1.22
+public-information-review,Review of publicly posted information,nist-800-53,NIST SP 800-53,AC-22
+public-information-review,Review of publicly posted information,nist-csf,NIST Cybersecurity Framework,RC.CO-04
+system-authorization,Authorization to operate a system,nist-800-53,NIST SP 800-53,CA-6
+system-authorization,Authorization to operate a system,nist-ai-rmf,NIST AI Risk Management Framework,MANAGE-1.1
+external-identity-acceptance,External and federated identity acceptance,nist-800-53,NIST SP 800-53,IA-2(12)
+external-identity-acceptance,External and federated identity acceptance,nist-800-53,NIST SP 800-53,IA-8
+external-identity-acceptance,External and federated identity acceptance,nist-800-53,NIST SP 800-53,IA-8(1)
+external-identity-acceptance,External and federated identity acceptance,nist-800-53,NIST SP 800-53,IA-8(2)
+external-identity-acceptance,External and federated identity acceptance,nist-800-53,NIST SP 800-53,IA-8(4)
+external-identity-acceptance,External and federated identity acceptance,nist-800-53,NIST SP 800-53,SA-4(10)
+external-identity-acceptance,External and federated identity acceptance,nist-csf,NIST Cybersecurity Framework,PR.AA-04
+cryptographic-key-management,Cryptographic key management,nist-800-171,NIST SP 800-171,3.13.10
+cryptographic-key-management,Cryptographic key management,nist-800-53,NIST SP 800-53,IA-5(2)
+cryptographic-key-management,Cryptographic key management,nist-800-53,NIST SP 800-53,IA-7
+cryptographic-key-management,Cryptographic key management,nist-800-53,NIST SP 800-53,SC-12
+cryptographic-key-management,Cryptographic key management,nist-800-53,NIST SP 800-53,SC-17
+cryptographic-key-management,Cryptographic key management,pci-dss,PCI DSS,3.6
+cryptographic-key-management,Cryptographic key management,pci-dss,PCI DSS,3.7
+security-plan-and-baseline,System security plan & control baseline,nist-800-171,NIST SP 800-171,3.12.4
+security-plan-and-baseline,System security plan & control baseline,nist-800-53,NIST SP 800-53,PL-2
+security-plan-and-baseline,System security plan & control baseline,nist-800-53,NIST SP 800-53,PL-10
+security-plan-and-baseline,System security plan & control baseline,nist-800-53,NIST SP 800-53,PL-11
+privacy-program-accountability,Data protection accountability program,gdpr,GDPR,Art.5(2)
+privacy-program-accountability,Data protection accountability program,gdpr,GDPR,Art.24(1)
+lawful-basis-determination,Lawful basis for processing,ai-governance-essentials,AI Governance Essentials,DA.3
+lawful-basis-determination,Lawful basis for processing,gdpr,GDPR,Art.6(1)
+special-category-data-handling,Special category and criminal offence data,gdpr,GDPR,Art.9(1)
+special-category-data-handling,Special category and criminal offence data,gdpr,GDPR,Art.9(2)
+special-category-data-handling,Special category and criminal offence data,gdpr,GDPR,Art.9(3)
+special-category-data-handling,Special category and criminal offence data,gdpr,GDPR,Art.10
+data-subject-request-procedure,Data subject request procedure & deadlines,gdpr,GDPR,Art.11(2)
+data-subject-request-procedure,Data subject request procedure & deadlines,gdpr,GDPR,Art.12(3)
+data-subject-request-procedure,Data subject request procedure & deadlines,gdpr,GDPR,Art.12(4)
+data-subject-request-procedure,Data subject request procedure & deadlines,gdpr,GDPR,Art.12(5)
+privacy-information-notice,Information given when data is collected from the individual,gdpr,GDPR,Art.13(1)
+privacy-information-notice,Information given when data is collected from the individual,gdpr,GDPR,Art.13(2)
+privacy-information-notice,Information given when data is collected from the individual,gdpr,GDPR,Art.13(3)
+indirect-collection-notice,Information given when data is obtained from somewhere else,gdpr,GDPR,Art.14(1)
+indirect-collection-notice,Information given when data is obtained from somewhere else,gdpr,GDPR,Art.14(2)
+indirect-collection-notice,Information given when data is obtained from somewhere else,gdpr,GDPR,Art.14(3)
+indirect-collection-notice,Information given when data is obtained from somewhere else,gdpr,GDPR,Art.14(4)
+indirect-collection-notice,Information given when data is obtained from somewhere else,gdpr,GDPR,Art.14(5)
+access-request-fulfillment,Fulfilling an access request,gdpr,GDPR,Art.15(2)
+access-request-fulfillment,Fulfilling an access request,gdpr,GDPR,Art.15(3)
+access-request-fulfillment,Fulfilling an access request,gdpr,GDPR,Art.15(4)
+erasure-and-restriction,Erasure follow-through & restriction of processing,gdpr,GDPR,Art.17(2)
+erasure-and-restriction,Erasure follow-through & restriction of processing,gdpr,GDPR,Art.18(1)
+erasure-and-restriction,Erasure follow-through & restriction of processing,gdpr,GDPR,Art.18(2)
+erasure-and-restriction,Erasure follow-through & restriction of processing,gdpr,GDPR,Art.18(3)
+data-portability,Data portability,gdpr,GDPR,Art.20(1)
+data-portability,Data portability,gdpr,GDPR,Art.20(2)
+data-portability,Data portability,gdpr,GDPR,Art.20(4)
+objection-handling,Objection & direct marketing opt-out,gdpr,GDPR,Art.21(2)
+objection-handling,Objection & direct marketing opt-out,gdpr,GDPR,Art.21(3)
+objection-handling,Objection & direct marketing opt-out,gdpr,GDPR,Art.21(4)
+objection-handling,Objection & direct marketing opt-out,gdpr,GDPR,Art.21(5)
+objection-handling,Objection & direct marketing opt-out,gdpr,GDPR,Art.21(6)
+automated-decision-safeguards,Safeguards for solely automated decisions,gdpr,GDPR,Art.22(1)
+automated-decision-safeguards,Safeguards for solely automated decisions,gdpr,GDPR,Art.22(3)
+automated-decision-safeguards,Safeguards for solely automated decisions,gdpr,GDPR,Art.22(4)
+data-protection-by-design,Data protection by design & by default,gdpr,GDPR,Art.25(1)
+data-protection-by-design,Data protection by design & by default,gdpr,GDPR,Art.25(2)
+joint-controller-arrangements,Joint controller arrangements,gdpr,GDPR,Art.26(1)
+joint-controller-arrangements,Joint controller arrangements,gdpr,GDPR,Art.26(2)
+joint-controller-arrangements,Joint controller arrangements,gdpr,GDPR,Art.26(3)
+eu-representative,Representative in the Union,gdpr,GDPR,Art.27(1)
+eu-representative,Representative in the Union,gdpr,GDPR,Art.27(3)
+eu-representative,Representative in the Union,gdpr,GDPR,Art.27(4)
+processor-obligations,Obligations when acting as a processor,gdpr,GDPR,Art.28(2)
+processor-obligations,Obligations when acting as a processor,gdpr,GDPR,Art.28(4)
+processor-obligations,Obligations when acting as a processor,gdpr,GDPR,Art.28(9)
+processor-obligations,Obligations when acting as a processor,gdpr,GDPR,Art.29
+processor-obligations,Obligations when acting as a processor,gdpr,GDPR,Art.33(2)
+processor-record-of-processing,Processor’s record of processing categories,gdpr,GDPR,Art.30(2)
+processor-record-of-processing,Processor’s record of processing categories,gdpr,GDPR,Art.30(3)
+supervisory-authority-engagement,Supervisory authority cooperation & prior consultation,gdpr,GDPR,Art.30(4)
+supervisory-authority-engagement,Supervisory authority cooperation & prior consultation,gdpr,GDPR,Art.31
+supervisory-authority-engagement,Supervisory authority cooperation & prior consultation,gdpr,GDPR,Art.36(1)
+supervisory-authority-engagement,Supervisory authority cooperation & prior consultation,gdpr,GDPR,Art.36(3)
+dpo-designation,Data protection officer designation,gdpr,GDPR,Art.37(1)
+dpo-designation,Data protection officer designation,gdpr,GDPR,Art.37(5)
+dpo-designation,Data protection officer designation,gdpr,GDPR,Art.37(7)
+dpo-position,Position & independence of the data protection officer,gdpr,GDPR,Art.38(1)
+dpo-position,Position & independence of the data protection officer,gdpr,GDPR,Art.38(2)
+dpo-position,Position & independence of the data protection officer,gdpr,GDPR,Art.38(3)
+dpo-position,Position & independence of the data protection officer,gdpr,GDPR,Art.38(5)
+dpo-position,Position & independence of the data protection officer,gdpr,GDPR,Art.38(6)
+dpo-tasks,Tasks of the data protection officer,gdpr,GDPR,Art.39(1)
+dpo-tasks,Tasks of the data protection officer,gdpr,GDPR,Art.39(2)
+international-data-transfers,International transfers of personal data,gdpr,GDPR,Art.44
+international-data-transfers,International transfers of personal data,gdpr,GDPR,Art.46(1)
+international-data-transfers,International transfers of personal data,gdpr,GDPR,Art.46(2)
+international-data-transfers,International transfers of personal data,gdpr,GDPR,Art.46(3)
+international-data-transfers,International transfers of personal data,gdpr,GDPR,Art.49(1)
+international-data-transfers,International transfers of personal data,gdpr,GDPR,Art.49(2)
+international-data-transfers,International transfers of personal data,gdpr,GDPR,Art.49(6)
+binding-corporate-rules,Binding corporate rules,gdpr,GDPR,Art.47(2)
+management-system-roles,"Management system roles, responsibilities & authorities",iso-42001,ISO/IEC 42001,5.3
+management-system-roles,"Management system roles, responsibilities & authorities",iso-9001,ISO 9001,5.3
+infrastructure-provision,Infrastructure for operating processes,iso-9001,ISO 9001,7.1.3
+process-environment,Environment for the operation of processes,iso-9001,ISO 9001,7.1.4
+monitoring-measuring-resources,Monitoring & measuring resources,iso-9001,ISO 9001,7.1.5.1
+measurement-traceability,Measurement traceability & calibration,iso-9001,ISO 9001,7.1.5.2
+organizational-knowledge,Organizational knowledge,iso-9001,ISO 9001,7.1.6
+design-development-process,Design & development process,iso-9001,ISO 9001,8.3.1
+design-development-planning,Design & development planning,iso-9001,ISO 9001,8.3.2
+design-development-inputs,Design & development inputs,iso-9001,ISO 9001,8.3.3
+design-development-controls,Design & development controls,iso-9001,ISO 9001,8.3.4
+design-development-outputs,Design & development outputs,iso-9001,ISO 9001,8.3.5
+design-development-changes,Design & development changes,iso-9001,ISO 9001,8.3.6
+production-service-control,Control of production & service provision,iso-9001,ISO 9001,8.5.1
+output-identification-traceability,Identification & traceability of outputs,iso-9001,ISO 9001,8.5.2
+customer-property-care,Care of customer & external provider property,iso-9001,ISO 9001,8.5.3
+output-preservation,Preservation of outputs,iso-9001,ISO 9001,8.5.4
+production-change-control,Control of changes to production & service provision,iso-9001,ISO 9001,8.5.6
+product-service-release,Release of products & services,iso-9001,ISO 9001,8.6
+quality-performance-monitoring,Monitoring & measurement of quality performance,iso-9001,ISO 9001,9.1.1
+quality-data-analysis,Analysis & evaluation of quality data,iso-9001,ISO 9001,9.1.3
+sensitive-authentication-data,Sensitive authentication data not retained,pci-dss,PCI DSS,3.3
+pan-display-masking,Card number display masking,pci-dss,PCI DSS,3.4
+public-web-application-protection,Public-facing web application protection,pci-dss,PCI DSS,6.4
+poi-device-protection,Payment terminal protection,pci-dss,PCI DSS,9.5
+payment-page-script-integrity,Payment page script integrity,pci-dss,PCI DSS,11.6
+service-provider-responsibility-acknowledgement,Service provider responsibility acknowledgement,pci-dss,PCI DSS,12.9
+over-rated-content-age-restriction,Age restriction on creator content above the app’s rating,apple-kids,Apple App Store Kids Category,1.2.1(a)
+over-rated-software-age-restriction,Age restriction on non-embedded software above the app’s rating,apple-kids,Apple App Store Kids Category,4.7.5
+ad-creative-age-review,Human review of ad creative for age appropriateness,apple-kids,Apple App Store Kids Category,1.3/advertising-human-review
+child-account-authentication-alternative,Alternative sign-in for users under 13,apple-kids,Apple App Store Kids Category,2.5.13/under-13-alternate-authentication
+research-participant-consent,Consent from human subject research participants,apple-kids,Apple App Store Kids Category,5.1.3(iii)/minor-parental-consent
+child-app-permission-implementation,Restricted platform permissions in children’s apps,google-play-families,Google Play Families,families/requirements/bluetooth-cdm
+financial-reporting-scoping,Scope of the financial reporting assessment,sox,SOX (Sarbanes-Oxley) Section 404,P6
+financial-reporting-risk-assessment,Financial reporting risk assessment,sox,SOX (Sarbanes-Oxley) Section 404,P7
+esg-risk-management,ESG risk identification & treatment,esg-essentials,ESG Essentials,G.6
+work-authorization-verification,Employment eligibility verification,us-employment-federal,US Employment Law (federal baseline),us.hiring-onboarding.i9
+wage-hour-records,Time and pay records,us-employment-federal,US Employment Law (federal baseline),us.wage-hour.recordkeeping
+nursing-employee-break-and-space,Break time and space for nursing employees,us-employment-federal,US Employment Law (federal baseline),us.leave.pump-act
+polygraph-testing-limits,Lie-detector testing limits,us-employment-federal,US Employment Law (federal baseline),us.privacy.polygraph
+employee-monitoring-lawful-basis,Lawful basis for monitoring employee communications,us-employment-federal,US Employment Law (federal baseline),us.privacy.electronic-monitoring
