@@ -253,14 +253,14 @@ vulnerability-management,Vulnerability management,pci-dss,PCI DSS,11.1
 vulnerability-management,Vulnerability management,pci-dss,PCI DSS,11.3
 vulnerability-management,Vulnerability management,soc-2,SOC 2,CC7.1
 vulnerability-management,Vulnerability management,sox,SOX (Sarbanes-Oxley) Section 404,P11
-penetration-testing,Penetration testing programme,cis-controls,CIS Controls,16.13
-penetration-testing,Penetration testing programme,cis-controls,CIS Controls,18.1
-penetration-testing,Penetration testing programme,cis-controls,CIS Controls,18.2
-penetration-testing,Penetration testing programme,cis-controls,CIS Controls,18.3
-penetration-testing,Penetration testing programme,cis-controls,CIS Controls,18.4
-penetration-testing,Penetration testing programme,cis-controls,CIS Controls,18.5
-penetration-testing,Penetration testing programme,nist-csf,NIST Cybersecurity Framework,ID.IM-02
-penetration-testing,Penetration testing programme,pci-dss,PCI DSS,11.4
+penetration-testing,Penetration testing program,cis-controls,CIS Controls,16.13
+penetration-testing,Penetration testing program,cis-controls,CIS Controls,18.1
+penetration-testing,Penetration testing program,cis-controls,CIS Controls,18.2
+penetration-testing,Penetration testing program,cis-controls,CIS Controls,18.3
+penetration-testing,Penetration testing program,cis-controls,CIS Controls,18.4
+penetration-testing,Penetration testing program,cis-controls,CIS Controls,18.5
+penetration-testing,Penetration testing program,nist-csf,NIST Cybersecurity Framework,ID.IM-02
+penetration-testing,Penetration testing program,pci-dss,PCI DSS,11.4
 malware-protection,Malware protection,cis-controls,CIS Controls,9.6
 malware-protection,Malware protection,cis-controls,CIS Controls,9.7
 malware-protection,Malware protection,cis-controls,CIS Controls,10.1
@@ -1157,12 +1157,12 @@ workplace-notices,Workplace notices & postings,us-employment-federal,US Employme
 labor-relations-practice,Protected activity & labor relations,esg-essentials,ESG Essentials,S.14
 labor-relations-practice,Protected activity & labor relations,us-employment-federal,US Employment Law (federal baseline),us.labor.nlra-protected-activity
 workforce-reduction-notice,Workforce reduction notice assessment,us-employment-federal,US Employment Law (federal baseline),us.termination.warn
-childrens-privacy-program,Children’s online privacy programme,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/scope/determination
-childrens-privacy-program,Children’s online privacy programme,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/legal/coppa-compliance
-childrens-privacy-program,Children’s online privacy programme,apple-kids,Apple App Store Kids Category,1.3/childrens-privacy-law
-childrens-privacy-program,Children’s online privacy programme,coppa,COPPA,312.3
-childrens-privacy-program,Children’s online privacy programme,google-play-families,Google Play Families,families/console/target-audience
-childrens-privacy-program,Children’s online privacy programme,google-play-families,Google Play Families,families/requirements/legal-compliance
+childrens-privacy-program,Children’s online privacy program,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/scope/determination
+childrens-privacy-program,Children’s online privacy program,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/legal/coppa-compliance
+childrens-privacy-program,Children’s online privacy program,apple-kids,Apple App Store Kids Category,1.3/childrens-privacy-law
+childrens-privacy-program,Children’s online privacy program,coppa,COPPA,312.3
+childrens-privacy-program,Children’s online privacy program,google-play-families,Google Play Families,families/console/target-audience
+childrens-privacy-program,Children’s online privacy program,google-play-families,Google Play Families,families/requirements/legal-compliance
 childrens-privacy-notice,Children’s privacy notice (direct & online),apple-kids,Apple App Store Kids Category,5.1.1(i)
 childrens-privacy-notice,Children’s privacy notice (direct & online),apple-kids,Apple App Store Kids Category,5.1.4(b)
 childrens-privacy-notice,Children’s privacy notice (direct & online),coppa,COPPA,312.4(a)
