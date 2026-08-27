@@ -15,9 +15,9 @@ tell you which of two releases is newer, and this file is where that lives.
 
 **Every state published before 2026-08-17 is unidentifiable from inside the file.** Eleven
 of them reached `main` with no version field — four on 2026-08-13 and four on 2026-07-23, so
-a generation date would not have separated them either. For those, only the commit exists. For those, the `controlCount` /
-mapping count / framework count in each heading below is the only release identifier there
-is:
+a generation date would not have separated them either. For those, only the commit exists,
+and the `controlCount` / mapping count / framework count in each heading below is the only
+release identifier there is:
 
 ```bash
 jq '.meta.controlCount' crosswalks.json
@@ -26,6 +26,259 @@ jq '[.controls[].crosswalks | to_entries[].value | length] | add' crosswalks.jso
 
 Entries are newest first. A **BREAKING** heading means an existing key or value changed or
 disappeared — additions alone are never marked breaking.
+
+---
+
+## 2026-08-27 — 274 controls, 1621 mappings, 21 frameworks — **BREAKING**
+
+**Version:** `sha256-ca3d7036612697061adace59787e549ad43a8c574b5d727ed22c370687a9b101`
+
+Previous **published** state: **274 controls, 1621 mappings, 21 frameworks**
+(`sha256-af054babc9b9858b4db1f00a02939d469703738591c6344c90c19c081d636ffa`, 2026-08-23).
+The entry directly below this one, `sha256-27b58db1…`, never reached `main`; its single
+change is carried in this release. Cumulative figures against what you are actually holding
+are at the end of this entry.
+
+**This entry landed ahead of the data.** This file is written by hand; the dataset reaches
+this repository in a separate sync commit and `keelgrc.com/open-data/` in a separate site
+deploy. If `jq -r '.meta.version' crosswalks.json` does not return `sha256-ca3d7036…`, the
+copy you are holding predates this entry.
+
+### What changed, in total
+
+| | |
+|---|---|
+| Controls added | 0 |
+| Controls removed | 0 |
+| Frameworks added or removed | 0 |
+| Control–framework edges added or removed | 0 |
+| Clause references added, withdrawn or re-pointed | 0 |
+| Control **names** changed | 3 |
+| Control descriptions reworded | 27 |
+| Edges (control × framework pairs) | 726 → 726 |
+| Mappings | 1621 → 1621 |
+| CSV rows withdrawn / arrived | 0 / 0 |
+| CSV rows whose `control_name` changed | 31 of 1621 |
+
+### Why this is BREAKING, and for whom
+
+Only display text moved. But `control_name` is **column 2 of `crosswalks.csv`**, and 31 of
+its 1621 rows now carry a different value.
+
+- **A CSV consumer that joins, pivots, groups or filters on `control_name` breaks**, as
+  does anything that pinned a control name as a label or a dictionary key.
+- **A JSON consumer keying on `control.key` does not.** No key, type, edge or clause
+  reference changed, and every control is present in the same order.
+
+The rule this file states is that a BREAKING heading means an existing key or value changed
+or disappeared. Values changed, so the flag is on. Under-declaring is the only direction
+that costs a consumer anything.
+
+### BREAKING — three control names
+
+| Control key | Was | Now | CSV rows |
+|---|---|---|---|
+| `child-data-minimization` | Minimised collection in children’s activities | Minimized collection in children’s activities | 8 |
+| `childrens-ads-monetization` | Children’s advertising & monetisation controls | Children’s advertising & monetization controls | 19 |
+| `special-category-data-handling` | Special category and criminal offence data | Special category and criminal offense data | 4 |
+
+Where those 31 rows sit, by framework:
+
+| Control key | Frameworks |
+|---|---|
+| `child-data-minimization` | `google-play-families` 5, `apple-kids` 1, `coppa` 1, `gdpr` 1 |
+| `childrens-ads-monetization` | `google-play-families` 13, `apple-kids` 3, `amazon-child-directed` 2, `coppa` 1 |
+| `special-category-data-handling` | `gdpr` 4 |
+
+### What this release is — US spelling in Keel's own words
+
+Every change is a word-for-word substitution of a British spelling with its US form. No
+sentence gained or lost a word: across the 3 names and 27 descriptions there are **32
+substitutions**, and every field is the same length in words as before.
+
+| Was | Now | Occurrences |
+|---|---|---|
+| judgement | judgment | 9 |
+| offence / offences | offense / offenses | 8 |
+| enquiries | inquiries | 2 |
+| enrolment | enrollment | 2 |
+| licences | licenses | 2 |
+| monetisation | monetization | 2 |
+| minimisation, Minimised | minimization, Minimized | 2 |
+| prioritised, practised, authorised, analyses, neighbour | prioritized, practiced, authorized, analyzes, neighbor | 5 |
+
+**Clause references and quoted requirement text were deliberately not touched.** ISO and
+GDPR are published in British English, so a British spelling inside a quotation of a
+standard is correct as published and rewriting it would falsify the quotation. This pass
+changed only text written in Keel's own voice. Every `clause_ref` value is byte-identical.
+
+### The 27 descriptions
+
+`ai-biometric-emotion-notice`, `ai-independent-expert-review`, `ai-policy`,
+`ai-prohibited-practices-screening`, `breach-notification`, `capacity-management`,
+`childrens-ads-monetization`, `childrens-privacy-program`, `data-classification`,
+`dpia-process`, `dpo-designation`, `environmental-obligations-register`, `eu-representative`,
+`grievance-mechanism`, `hr-security`, `incident-response`, `internal-audit-program`,
+`management-system-communication`, `penetration-testing`, `personal-data-use-limitation`,
+`privacy-notice`, `security-performance-measurement`, `security-testing-in-development`,
+`special-category-data-handling`, `storage-media-management`, `user-lifecycle`,
+`web-filtering`.
+
+`crosswalks.csv` does not carry descriptions, so these 27 are invisible to a CSV consumer.
+
+### Cumulative, from the state actually on `main`
+
+Against `sha256-af054bab…` (2026-08-23), this release and the unpublished one below it
+together change **3 control names and 28 descriptions**, and **31 of 1621 CSV rows** in
+`control_name`. Controls, frameworks, edges, clause references and row identity are
+unchanged: 274 / 21 / 726 / 1621.
+
+---
+
+## 2026-08-26 — 274 controls, 1621 mappings, 21 frameworks — additive — **not published here**
+
+**Version:** `sha256-27b58db157d87a6404b8f4485b90540e4712b2db090795a6cf5409add66df5a3`
+
+**This state never reached this repository's `main`.** It was generated and committed in
+the producer repo on 2026-08-26 and never published here; why the automated sync did not
+publish it is being diagnosed separately. This repository therefore sat at the 2026-08-23
+state while a newer one existed, and nothing reported that.
+
+**If you take the dataset from `keelgrc.com/open-data/` rather than from this repository,
+you may be holding this state.** The two channels are generated from the same source in the
+same run but published by different mechanisms, and when the sync to this repository does
+not fire they diverge. That is what happened here, and it is why this entry exists at all —
+the change below is real, it is downloadable from the site, and skipping it would leave the
+ordered record wrong for half the audience.
+
+Previous published state: `sha256-af054bab…` (2026-08-23).
+
+### What changed, in total
+
+| | |
+|---|---|
+| Controls added or removed | 0 |
+| Frameworks added or removed | 0 |
+| Control–framework edges added or removed | 0 |
+| Clause references added, withdrawn or re-pointed | 0 |
+| Control **names** changed | 0 |
+| Control descriptions reworded | 1 |
+| `crosswalks.csv` | byte-identical |
+
+One description, on `childrens-social-safety`, re-authored against Google Play's live
+Families policy wording after the policy it was written from was replaced:
+
+> **Was:** … Apps whose main focus is chatting with strangers do not target children at all.
+>
+> **Now:** … Apps whose main focus is chatting with people the user does not know, or
+> chatting with people anonymously, do not target children at all.
+
+The clause references on that control did not move.
+
+---
+
+## 2026-08-23 — 274 controls, 1621 mappings, 21 frameworks — **BREAKING**
+
+**Version:** `sha256-af054babc9b9858b4db1f00a02939d469703738591c6344c90c19c081d636ffa`
+— the state currently on `main`, commit `aa2cf66`.
+
+**This release renamed two controls and shipped with no changelog entry and no breaking
+flag.** It went out on 2026-08-23 and nothing was said. This entry is written after the
+fact, on 2026-08-27; it is a correction of the record, not a note filed at the time.
+
+Previous published state: **274 controls, 1621 mappings, 21 frameworks**
+(`sha256-438d65c19447e920607cc7a202b7eea552477880bd5c14bf4d8f6229685f3d25`, 2026-08-22,
+commit `4bc17b5`) — **which has no entry either; see the stub below it.**
+
+### What changed, in total
+
+| | |
+|---|---|
+| Controls added | 0 |
+| Controls removed | 0 |
+| Frameworks added or removed | 0 |
+| Control–framework edges added or removed | 0 |
+| Clause references added, withdrawn or re-pointed | 0 |
+| Control **names** changed | 2 |
+| Control descriptions reworded | 4 |
+| Edges (control × framework pairs) | 726 → 726 |
+| Mappings | 1621 → 1621 |
+| CSV rows withdrawn / arrived | 0 / 0 |
+| CSV rows whose `control_name` changed | 14 of 1621 |
+
+### BREAKING — two control names changed, unannounced
+
+| Control key | Was | Now | CSV rows |
+|---|---|---|---|
+| `penetration-testing` | Penetration testing programme | Penetration testing program | 8 |
+| `childrens-privacy-program` | Children’s online privacy programme | Children’s online privacy program | 6 |
+
+The 8 `penetration-testing` rows are `cis-controls` 6, `nist-csf` 1, `pci-dss` 1. The 6
+`childrens-privacy-program` rows are `amazon-child-directed` 2, `google-play-families` 2,
+`apple-kids` 1, `coppa` 1.
+
+By this file's own rule this was breaking on the day it shipped and should have carried the
+flag then. A CSV consumer joining on `control_name` for either control broke on 2026-08-23
+with no warning and no way to find out from here why. A JSON consumer keying on
+`control.key` was unaffected — both keys are unchanged, as is every edge and clause
+reference.
+
+### The four descriptions
+
+`information-security-policy`, `penetration-testing`, `security-privacy-officers` and
+`childrens-ads-monetization`.
+
+Every change in this release, in the names and the descriptions alike, is the single
+substitution `programme`/`programmes` → `program`/`programs`: 2 in the names and 5 across
+the four descriptions, with no other word added, removed or reordered.
+
+### Nothing else moved
+
+274 control keys, in the same order. `meta` carries the same eight keys. The 21
+`meta.frameworks` entries are identical, key and display name. Every control object still
+has exactly `key`, `name`, `description`, `crosswalks`. The CSV header and column order are
+unchanged, and no row was added or withdrawn.
+
+---
+
+## 2026-08-22 — 274 controls, 1621 mappings, 21 frameworks — **BREAKING** — write-up outstanding
+
+**Version:** `sha256-438d65c19447e920607cc7a202b7eea552477880bd5c14bf4d8f6229685f3d25`,
+commit `4bc17b5`.
+
+**This release has no write-up. This stub exists so the gap is visible rather than
+implied.** It is by far the largest change this dataset has had — it more than doubled the
+control count — it withdrew a published CSV row, and it went out on 2026-08-22 unannounced.
+The counted figures below are derived from the two published files; the narrative of what
+the 111 re-pointed edges did is not established here.
+
+Previous published state: **123 controls, 680 mappings, 21 frameworks**
+(`sha256-0c4035fb…`, 2026-08-18 — the entry below).
+
+| | |
+|---|---|
+| Controls added | 151 |
+| Controls removed | 0 |
+| Frameworks added or removed | 0 |
+| Control–framework edges added | 89 |
+| Control–framework edges removed | 0 |
+| Edges with **changed clause refs** | 111 |
+| Control descriptions reworded | 72 |
+| Control **names** changed | 0 |
+| Edges (control × framework pairs) | 389 → 726 |
+| Mappings | 680 → 1621 |
+| CSV rows withdrawn / arrived | 1 / 942 |
+
+The one withdrawn row is `product-service-safety`, `iso-9001`, `8.3.5`. The clause was not
+dropped from the dataset — it moved to `design-development-outputs` — but a consumer
+reading `product-service-safety` → `iso-9001` sees `["8.5.5"]` where it saw
+`["8.3.5","8.5.5"]`, which is a value that changed.
+
+To diff it yourself:
+
+```bash
+git diff f81f464 4bc17b5 -- crosswalks.csv
+```
 
 ---
 
