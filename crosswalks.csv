@@ -11,6 +11,8 @@ information-security-policy,Information security policy,nist-800-53,NIST SP 800-
 information-security-policy,Information security policy,nist-csf,NIST Cybersecurity Framework,GV.PO-01
 information-security-policy,Information security policy,nist-csf,NIST Cybersecurity Framework,GV.PO-02
 information-security-policy,Information security policy,pci-dss,PCI DSS,12.1
+information-security-policy,Information security policy,pipeda,PIPEDA,4.1.4
+information-security-policy,Information security policy,pipeda,PIPEDA,4.7
 information-security-policy,Information security policy,soc-2,SOC 2,CC5.3
 information-security-policy,Information security policy,sox,SOX (Sarbanes-Oxley) Section 404,P12
 risk-assessment,Risk assessment & treatment,coppa,COPPA,312.8(b)(2)
@@ -53,6 +55,8 @@ access-control-policy,Access control policy,nist-csf,NIST Cybersecurity Framewor
 access-control-policy,Access control policy,pci-dss,PCI DSS,7.1
 access-control-policy,Access control policy,pci-dss,PCI DSS,7.2
 access-control-policy,Access control policy,pci-dss,PCI DSS,7.3
+access-control-policy,Access control policy,pipeda,PIPEDA,4.7.1
+access-control-policy,Access control policy,pipeda,PIPEDA,4.7.3
 access-control-policy,Access control policy,soc-2,SOC 2,CC6.1
 access-control-policy,Access control policy,soc-2,SOC 2,CC6.3
 access-control-policy,Access control policy,sox,SOX (Sarbanes-Oxley) Section 404,P11
@@ -152,6 +156,9 @@ encryption,Encryption in transit & at rest,nist-csf,NIST Cybersecurity Framework
 encryption,Encryption in transit & at rest,pci-dss,PCI DSS,3.5
 encryption,Encryption in transit & at rest,pci-dss,PCI DSS,4.1
 encryption,Encryption in transit & at rest,pci-dss,PCI DSS,4.2
+encryption,Encryption in transit & at rest,pipeda,PIPEDA,4.7
+encryption,Encryption in transit & at rest,pipeda,PIPEDA,4.7.1
+encryption,Encryption in transit & at rest,pipeda,PIPEDA,4.7.3
 encryption,Encryption in transit & at rest,soc-2,SOC 2,CC6.7
 encryption,Encryption in transit & at rest,sox,SOX (Sarbanes-Oxley) Section 404,P11
 logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,3.14
@@ -302,6 +309,7 @@ backups,Backups,nist-800-53,NIST SP 800-53,CP-9(1)
 backups,Backups,nist-800-53,NIST SP 800-53,CP-9(8)
 backups,Backups,nist-csf,NIST Cybersecurity Framework,PR.DS-11
 backups,Backups,nist-csf,NIST Cybersecurity Framework,RC.RP-03
+backups,Backups,pipeda,PIPEDA,4.7.1
 backups,Backups,soc-2,SOC 2,A1.2
 backups,Backups,sox,SOX (Sarbanes-Oxley) Section 404,P11
 business-continuity,Business continuity & disaster recovery,gdpr,GDPR,Art.32(1)
@@ -377,6 +385,16 @@ incident-response,Incident response,nist-csf,NIST Cybersecurity Framework,RS.CO-
 incident-response,Incident response,nist-csf,NIST Cybersecurity Framework,RS.MI-01
 incident-response,Incident response,nist-csf,NIST Cybersecurity Framework,RS.MI-02
 incident-response,Incident response,pci-dss,PCI DSS,12.10
+incident-response,Incident response,pipeda,PIPEDA,10.1(1)
+incident-response,Incident response,pipeda,PIPEDA,10.1(2)
+incident-response,Incident response,pipeda,PIPEDA,10.1(3)
+incident-response,Incident response,pipeda,PIPEDA,10.1(4)
+incident-response,Incident response,pipeda,PIPEDA,10.1(5)
+incident-response,Incident response,pipeda,PIPEDA,10.1(6)
+incident-response,Incident response,pipeda,PIPEDA,10.2(1)
+incident-response,Incident response,pipeda,PIPEDA,10.2(2)
+incident-response,Incident response,pipeda,PIPEDA,10.3(1)
+incident-response,Incident response,pipeda,PIPEDA,10.3(2)
 incident-response,Incident response,soc-2,SOC 2,CC7.3
 incident-response,Incident response,soc-2,SOC 2,CC7.4
 incident-response,Incident response,soc-2,SOC 2,CC7.5
@@ -437,6 +455,7 @@ vendor-management,Third-party / vendor risk management,nist-csf,NIST Cybersecuri
 vendor-management,Third-party / vendor risk management,nist-csf,NIST Cybersecurity Framework,GV.SC-10
 vendor-management,Third-party / vendor risk management,nist-csf,NIST Cybersecurity Framework,ID.AM-04
 vendor-management,Third-party / vendor risk management,pci-dss,PCI DSS,12.8
+vendor-management,Third-party / vendor risk management,pipeda,PIPEDA,4.1.3
 vendor-management,Third-party / vendor risk management,soc-2,SOC 2,CC9.2
 vendor-management,Third-party / vendor risk management,soc-2,SOC 2,P6.4
 vendor-management,Third-party / vendor risk management,soc-2,SOC 2,P6.5
@@ -468,6 +487,8 @@ security-awareness-training,Security awareness training,nist-800-53,NIST SP 800-
 security-awareness-training,Security awareness training,nist-csf,NIST Cybersecurity Framework,PR.AT-01
 security-awareness-training,Security awareness training,nist-csf,NIST Cybersecurity Framework,PR.AT-02
 security-awareness-training,Security awareness training,pci-dss,PCI DSS,12.6
+security-awareness-training,Security awareness training,pipeda,PIPEDA,4.1.4
+security-awareness-training,Security awareness training,pipeda,PIPEDA,4.7.4
 security-awareness-training,Security awareness training,soc-2,SOC 2,CC1.4
 security-awareness-training,Security awareness training,sox,SOX (Sarbanes-Oxley) Section 404,P4
 security-awareness-training,Security awareness training,sox,SOX (Sarbanes-Oxley) Section 404,P14
@@ -507,6 +528,8 @@ data-classification,Data classification & handling,nist-800-53,NIST SP 800-53,MP
 data-classification,Data classification & handling,nist-800-53,NIST SP 800-53,RA-2
 data-classification,Data classification & handling,nist-csf,NIST Cybersecurity Framework,ID.AM-05
 data-classification,Data classification & handling,pci-dss,PCI DSS,3.1
+data-classification,Data classification & handling,pipeda,PIPEDA,4.3.4
+data-classification,Data classification & handling,pipeda,PIPEDA,4.7.2
 data-classification,Data classification & handling,soc-2,SOC 2,C1.1
 physical-security,Physical security,gdpr,GDPR,Art.32(1)
 physical-security,Physical security,hipaa,HIPAA,164.310(a)(2)(i)
@@ -534,6 +557,7 @@ physical-security,Physical security,nist-csf,NIST Cybersecurity Framework,DE.CM-
 physical-security,Physical security,pci-dss,PCI DSS,9.1
 physical-security,Physical security,pci-dss,PCI DSS,9.2
 physical-security,Physical security,pci-dss,PCI DSS,9.3
+physical-security,Physical security,pipeda,PIPEDA,4.7.3
 physical-security,Physical security,soc-2,SOC 2,CC6.4
 physical-security,Physical security,sox,SOX (Sarbanes-Oxley) Section 404,P11
 secure-development,Secure software development,cis-controls,CIS Controls,16.1
@@ -612,6 +636,11 @@ data-retention-disposal,Data retention & secure disposal,nist-800-53,NIST SP 800
 data-retention-disposal,Data retention & secure disposal,nist-800-53,NIST SP 800-53,SI-12
 data-retention-disposal,Data retention & secure disposal,nist-800-53,NIST SP 800-53,SR-12
 data-retention-disposal,Data retention & secure disposal,pci-dss,PCI DSS,3.2
+data-retention-disposal,Data retention & secure disposal,pipeda,PIPEDA,4.5
+data-retention-disposal,Data retention & secure disposal,pipeda,PIPEDA,4.5.2
+data-retention-disposal,Data retention & secure disposal,pipeda,PIPEDA,4.5.3
+data-retention-disposal,Data retention & secure disposal,pipeda,PIPEDA,4.7.5
+data-retention-disposal,Data retention & secure disposal,pipeda,PIPEDA,8(8)
 data-retention-disposal,Data retention & secure disposal,soc-2,SOC 2,C1.2
 data-retention-disposal,Data retention & secure disposal,soc-2,SOC 2,CC6.5
 data-retention-disposal,Data retention & secure disposal,soc-2,SOC 2,P4.2
@@ -642,6 +671,10 @@ security-privacy-officers,Named security & privacy officers,hipaa,HIPAA,164.308(
 security-privacy-officers,Named security & privacy officers,hipaa,HIPAA,164.530(a)(2)
 security-privacy-officers,Named security & privacy officers,iso-27001,ISO/IEC 27001,5.3
 security-privacy-officers,Named security & privacy officers,iso-27001,ISO/IEC 27001,A.5.2
+security-privacy-officers,Named security & privacy officers,pipeda,PIPEDA,4.1
+security-privacy-officers,Named security & privacy officers,pipeda,PIPEDA,4.1.1
+security-privacy-officers,Named security & privacy officers,pipeda,PIPEDA,4.1.2
+security-privacy-officers,Named security & privacy officers,pipeda,PIPEDA,6
 disciplinary-process,Disciplinary & sanctions process,hipaa,HIPAA,164.308(a)(1)(ii)(C)
 disciplinary-process,Disciplinary & sanctions process,hipaa,HIPAA,164.530(e)(2)
 disciplinary-process,Disciplinary & sanctions process,iso-27001,ISO/IEC 27001,A.6.4
@@ -824,11 +857,15 @@ individual-privacy,Personal data privacy,gdpr,GDPR,Art.16
 individual-privacy,Personal data privacy,gdpr,GDPR,Art.17(1)
 individual-privacy,Personal data privacy,gdpr,GDPR,Art.21(1)
 individual-privacy,Personal data privacy,iso-27001,ISO/IEC 27001,A.5.34
+individual-privacy,Personal data privacy,pipeda,PIPEDA,4.2
+individual-privacy,Personal data privacy,pipeda,PIPEDA,4.2.3
 individual-privacy,Personal data privacy,soc-2,SOC 2,P1.1
 individual-privacy,Personal data privacy,soc-2,SOC 2,P5.1
 individual-privacy,Personal data privacy,soc-2,SOC 2,P5.2
 records-of-processing,Record of processing activities (RoPA),gdpr,GDPR,Art.30(1)
 records-of-processing,Record of processing activities (RoPA),gdpr,GDPR,Art.30(3)
+records-of-processing,Record of processing activities (RoPA),pipeda,PIPEDA,4.2.1
+records-of-processing,Record of processing activities (RoPA),pipeda,PIPEDA,4.5.1
 dpia-process,Data protection impact assessment (DPIA) process,gdpr,GDPR,Art.35(1)
 dpia-process,Data protection impact assessment (DPIA) process,gdpr,GDPR,Art.35(2)
 dpia-process,Data protection impact assessment (DPIA) process,gdpr,GDPR,Art.35(3)
@@ -853,6 +890,10 @@ privacy-notice,Privacy notice & transparency,hipaa,HIPAA,164.520(c)
 privacy-notice,Privacy notice & transparency,hipaa,HIPAA,164.520(d)
 privacy-notice,Privacy notice & transparency,hipaa,HIPAA,164.520(e)
 privacy-notice,Privacy notice & transparency,hipaa,HIPAA,164.530(i)(4)
+privacy-notice,Privacy notice & transparency,pipeda,PIPEDA,4.8
+privacy-notice,Privacy notice & transparency,pipeda,PIPEDA,4.8.1
+privacy-notice,Privacy notice & transparency,pipeda,PIPEDA,4.8.2
+privacy-notice,Privacy notice & transparency,pipeda,PIPEDA,4.8.3
 individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.522(a)(2)
 individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.522(a)(3)
 individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.522(b)(2)
@@ -867,9 +908,17 @@ individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.52
 individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.526(f)
 individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.530(g)
 individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.530(h)
+individual-rights-requests,Individual rights request handling,pipeda,PIPEDA,4.9
+individual-rights-requests,Individual rights request handling,pipeda,PIPEDA,4.9.2
+individual-rights-requests,Individual rights request handling,pipeda,PIPEDA,4.9.5
+individual-rights-requests,Individual rights request handling,pipeda,PIPEDA,4.9.6
+individual-rights-requests,Individual rights request handling,pipeda,PIPEDA,8(1)
+individual-rights-requests,Individual rights request handling,pipeda,PIPEDA,8(2)
 disclosure-accounting,Record & accounting of disclosures,hipaa,HIPAA,164.528(b)
 disclosure-accounting,Record & accounting of disclosures,hipaa,HIPAA,164.528(c)
 disclosure-accounting,Record & accounting of disclosures,hipaa,HIPAA,164.528(d)
+disclosure-accounting,Record & accounting of disclosures,pipeda,PIPEDA,4.9.1
+disclosure-accounting,Record & accounting of disclosures,pipeda,PIPEDA,4.9.3
 esg-oversight,ESG leadership oversight,esg-essentials,ESG Essentials,G.1
 code-of-conduct,Code of business conduct,esg-essentials,ESG Essentials,G.2
 code-of-conduct,Code of business conduct,esg-essentials,ESG Essentials,G.4
@@ -878,6 +927,7 @@ code-of-conduct,Code of business conduct,sox,SOX (Sarbanes-Oxley) Section 404,P1
 anti-bribery,Anti-corruption & bribery,esg-essentials,ESG Essentials,G.3
 anti-bribery,Anti-corruption & bribery,sox,SOX (Sarbanes-Oxley) Section 404,P1
 whistleblower-channel,Whistleblower channel,esg-essentials,ESG Essentials,G.5
+whistleblower-channel,Whistleblower channel,pipeda,PIPEDA,27.1(1)
 whistleblower-channel,Whistleblower channel,soc-2,SOC 2,CC2.2
 whistleblower-channel,Whistleblower channel,sox,SOX (Sarbanes-Oxley) Section 404,P14
 delegation-of-authority,Delegation of authority & segregation of duties,iso-27001,ISO/IEC 27001,A.5.3
@@ -909,17 +959,35 @@ privacy-choice-consent,Choice & consent for personal information,gdpr,GDPR,Art.7
 privacy-choice-consent,Choice & consent for personal information,gdpr,GDPR,Art.7(2)
 privacy-choice-consent,Choice & consent for personal information,gdpr,GDPR,Art.7(3)
 privacy-choice-consent,Choice & consent for personal information,gdpr,GDPR,Art.7(4)
+privacy-choice-consent,Choice & consent for personal information,pipeda,PIPEDA,4.3
+privacy-choice-consent,Choice & consent for personal information,pipeda,PIPEDA,4.3.1
+privacy-choice-consent,Choice & consent for personal information,pipeda,PIPEDA,4.3.3
+privacy-choice-consent,Choice & consent for personal information,pipeda,PIPEDA,4.3.6
+privacy-choice-consent,Choice & consent for personal information,pipeda,PIPEDA,4.3.7
+privacy-choice-consent,Choice & consent for personal information,pipeda,PIPEDA,4.3.8
+privacy-choice-consent,Choice & consent for personal information,pipeda,PIPEDA,6.1
 privacy-choice-consent,Choice & consent for personal information,soc-2,SOC 2,P2.1
 privacy-choice-consent,Choice & consent for personal information,soc-2,SOC 2,P3.2
+personal-data-collection-limitation,Collection limited to disclosed purposes,pipeda,PIPEDA,4.4
+personal-data-collection-limitation,Collection limited to disclosed purposes,pipeda,PIPEDA,4.4.1
 personal-data-collection-limitation,Collection limited to disclosed purposes,soc-2,SOC 2,P3.1
 personal-data-use-limitation,Use limited to disclosed purposes,gdpr,GDPR,Art.6(4)
+personal-data-use-limitation,Use limited to disclosed purposes,pipeda,PIPEDA,4.5
+personal-data-use-limitation,Use limited to disclosed purposes,pipeda,PIPEDA,4.2.4
 personal-data-use-limitation,Use limited to disclosed purposes,soc-2,SOC 2,P4.1
 personal-data-disclosure-authorization,Authorized disclosure of personal information,gdpr,GDPR,Art.48
+personal-data-disclosure-authorization,Authorized disclosure of personal information,pipeda,PIPEDA,4.5
+personal-data-disclosure-authorization,Authorized disclosure of personal information,pipeda,PIPEDA,7(3)
 personal-data-disclosure-authorization,Authorized disclosure of personal information,soc-2,SOC 2,P6.1
 personal-data-disclosure-log,Record of disclosures of personal information,gdpr,GDPR,Art.19
+personal-data-disclosure-log,Record of disclosures of personal information,pipeda,PIPEDA,4.9.3
 personal-data-disclosure-log,Record of disclosures of personal information,soc-2,SOC 2,P6.2
 personal-data-disclosure-log,Record of disclosures of personal information,soc-2,SOC 2,P6.3
 personal-data-disclosure-log,Record of disclosures of personal information,soc-2,SOC 2,P6.7
+personal-data-quality,Quality of personal information,pipeda,PIPEDA,4.6
+personal-data-quality,Quality of personal information,pipeda,PIPEDA,4.6.1
+personal-data-quality,Quality of personal information,pipeda,PIPEDA,4.6.2
+personal-data-quality,Quality of personal information,pipeda,PIPEDA,4.6.3
 personal-data-quality,Quality of personal information,soc-2,SOC 2,P7.1
 esg-reporting,ESG reporting & disclosure,esg-essentials,ESG Essentials,G.8
 environmental-aspects-impacts,Environmental aspects & impacts register,esg-essentials,ESG Essentials,E.8
@@ -937,6 +1005,10 @@ grievance-mechanism,Grievance & complaint handling,esg-essentials,ESG Essentials
 grievance-mechanism,Grievance & complaint handling,hipaa,HIPAA,164.530(d)(2)
 grievance-mechanism,Grievance & complaint handling,iso-9001,ISO 9001,8.2.1
 grievance-mechanism,Grievance & complaint handling,iso-9001,ISO 9001,10.2.1
+grievance-mechanism,Grievance & complaint handling,pipeda,PIPEDA,4.10
+grievance-mechanism,Grievance & complaint handling,pipeda,PIPEDA,4.10.2
+grievance-mechanism,Grievance & complaint handling,pipeda,PIPEDA,4.10.3
+grievance-mechanism,Grievance & complaint handling,pipeda,PIPEDA,4.10.4
 grievance-mechanism,Grievance & complaint handling,soc-2,SOC 2,CC2.3
 grievance-mechanism,Grievance & complaint handling,soc-2,SOC 2,P8.1
 responsible-marketing,Responsible marketing & substantiated claims,esg-essentials,ESG Essentials,S.15
@@ -1506,8 +1578,12 @@ security-plan-and-baseline,System security plan & control baseline,nist-800-53,N
 security-plan-and-baseline,System security plan & control baseline,nist-800-53,NIST SP 800-53,PL-11
 privacy-program-accountability,Data protection accountability program,gdpr,GDPR,Art.5(2)
 privacy-program-accountability,Data protection accountability program,gdpr,GDPR,Art.24(1)
+privacy-program-accountability,Data protection accountability program,pipeda,PIPEDA,4.1.4
 lawful-basis-determination,Lawful basis for processing,ai-governance-essentials,AI Governance Essentials,DA.3
 lawful-basis-determination,Lawful basis for processing,gdpr,GDPR,Art.6(1)
+lawful-basis-determination,Lawful basis for processing,pipeda,PIPEDA,5(3)
+lawful-basis-determination,Lawful basis for processing,pipeda,PIPEDA,7(1)
+lawful-basis-determination,Lawful basis for processing,pipeda,PIPEDA,7(2)
 special-category-data-handling,Special category and criminal offense data,gdpr,GDPR,Art.9(1)
 special-category-data-handling,Special category and criminal offense data,gdpr,GDPR,Art.9(2)
 special-category-data-handling,Special category and criminal offense data,gdpr,GDPR,Art.9(3)
@@ -1516,9 +1592,16 @@ data-subject-request-procedure,Data subject request procedure & deadlines,gdpr,G
 data-subject-request-procedure,Data subject request procedure & deadlines,gdpr,GDPR,Art.12(3)
 data-subject-request-procedure,Data subject request procedure & deadlines,gdpr,GDPR,Art.12(4)
 data-subject-request-procedure,Data subject request procedure & deadlines,gdpr,GDPR,Art.12(5)
+data-subject-request-procedure,Data subject request procedure & deadlines,pipeda,PIPEDA,8(1)
+data-subject-request-procedure,Data subject request procedure & deadlines,pipeda,PIPEDA,8(3)
+data-subject-request-procedure,Data subject request procedure & deadlines,pipeda,PIPEDA,8(4)
+data-subject-request-procedure,Data subject request procedure & deadlines,pipeda,PIPEDA,8(6)
+data-subject-request-procedure,Data subject request procedure & deadlines,pipeda,PIPEDA,8(7)
 privacy-information-notice,Information given when data is collected from the individual,gdpr,GDPR,Art.13(1)
 privacy-information-notice,Information given when data is collected from the individual,gdpr,GDPR,Art.13(2)
 privacy-information-notice,Information given when data is collected from the individual,gdpr,GDPR,Art.13(3)
+privacy-information-notice,Information given when data is collected from the individual,pipeda,PIPEDA,4.2.3
+privacy-information-notice,Information given when data is collected from the individual,pipeda,PIPEDA,4.3.2
 indirect-collection-notice,Information given when data is obtained from somewhere else,gdpr,GDPR,Art.14(1)
 indirect-collection-notice,Information given when data is obtained from somewhere else,gdpr,GDPR,Art.14(2)
 indirect-collection-notice,Information given when data is obtained from somewhere else,gdpr,GDPR,Art.14(3)
@@ -1527,6 +1610,9 @@ indirect-collection-notice,Information given when data is obtained from somewher
 access-request-fulfillment,Fulfilling an access request,gdpr,GDPR,Art.15(2)
 access-request-fulfillment,Fulfilling an access request,gdpr,GDPR,Art.15(3)
 access-request-fulfillment,Fulfilling an access request,gdpr,GDPR,Art.15(4)
+access-request-fulfillment,Fulfilling an access request,pipeda,PIPEDA,4.9.1
+access-request-fulfillment,Fulfilling an access request,pipeda,PIPEDA,4.9.4
+access-request-fulfillment,Fulfilling an access request,pipeda,PIPEDA,10
 erasure-and-restriction,Erasure follow-through & restriction of processing,gdpr,GDPR,Art.17(2)
 erasure-and-restriction,Erasure follow-through & restriction of processing,gdpr,GDPR,Art.18(1)
 erasure-and-restriction,Erasure follow-through & restriction of processing,gdpr,GDPR,Art.18(2)
@@ -1578,6 +1664,7 @@ international-data-transfers,International transfers of personal data,gdpr,GDPR,
 international-data-transfers,International transfers of personal data,gdpr,GDPR,Art.49(1)
 international-data-transfers,International transfers of personal data,gdpr,GDPR,Art.49(2)
 international-data-transfers,International transfers of personal data,gdpr,GDPR,Art.49(6)
+international-data-transfers,International transfers of personal data,pipeda,PIPEDA,4.1.3
 binding-corporate-rules,Binding corporate rules,gdpr,GDPR,Art.47(2)
 management-system-roles,"Management system roles, responsibilities & authorities",iso-42001,ISO/IEC 42001,5.3
 management-system-roles,"Management system roles, responsibilities & authorities",iso-9001,ISO 9001,5.3
