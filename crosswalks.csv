@@ -1193,14 +1193,14 @@ parent-review-deletion,"Parent review, refusal & deletion requests",coppa,COPPA,
 parent-review-deletion,"Parent review, refusal & deletion requests",coppa,COPPA,312.6(a)(3)
 parent-review-deletion,"Parent review, refusal & deletion requests",gdpr,GDPR,Art.15(1)
 parent-review-deletion,"Parent review, refusal & deletion requests",gdpr,GDPR,Art.17(1)
-child-data-minimization,Minimised collection in children’s activities,apple-kids,Apple App Store Kids Category,1.3/no-third-party-transfer
-child-data-minimization,Minimised collection in children’s activities,coppa,COPPA,312.7
-child-data-minimization,Minimised collection in children’s activities,gdpr,GDPR,Art.5(1)
-child-data-minimization,Minimised collection in children’s activities,google-play-families,Google Play Families,families/requirements/child-only-identifiers
-child-data-minimization,Minimised collection in children’s activities,google-play-families,Google Play Families,families/requirements/ad-id-permission
-child-data-minimization,Minimised collection in children’s activities,google-play-families,Google Play Families,families/requirements/mixed-identifiers
-child-data-minimization,Minimised collection in children’s activities,google-play-families,Google Play Families,families/requirements/phone-number
-child-data-minimization,Minimised collection in children’s activities,google-play-families,Google Play Families,families/requirements/child-only-location
+child-data-minimization,Minimized collection in children’s activities,apple-kids,Apple App Store Kids Category,1.3/no-third-party-transfer
+child-data-minimization,Minimized collection in children’s activities,coppa,COPPA,312.7
+child-data-minimization,Minimized collection in children’s activities,gdpr,GDPR,Art.5(1)
+child-data-minimization,Minimized collection in children’s activities,google-play-families,Google Play Families,families/requirements/child-only-identifiers
+child-data-minimization,Minimized collection in children’s activities,google-play-families,Google Play Families,families/requirements/ad-id-permission
+child-data-minimization,Minimized collection in children’s activities,google-play-families,Google Play Families,families/requirements/mixed-identifiers
+child-data-minimization,Minimized collection in children’s activities,google-play-families,Google Play Families,families/requirements/phone-number
+child-data-minimization,Minimized collection in children’s activities,google-play-families,Google Play Families,families/requirements/child-only-location
 childrens-app-store-declarations,App-store audience declarations & metadata,apple-kids,Apple App Store Kids Category,1.3/age-band
 childrens-app-store-declarations,App-store audience declarations & metadata,apple-kids,Apple App Store Kids Category,2.3.8/for-kids-metadata
 childrens-app-store-declarations,App-store audience declarations & metadata,google-play-families,Google Play Families,families/console/accurate-answers
@@ -1214,25 +1214,25 @@ childrens-experience-safeguards,Child-appropriate experience & parental gates,go
 childrens-experience-safeguards,Child-appropriate experience & parental gates,google-play-families,Google Play Families,families/requirements/app-functionality
 childrens-experience-safeguards,Child-appropriate experience & parental gates,google-play-families,Google Play Families,families/requirements/ar-safety-warning
 childrens-experience-safeguards,Child-appropriate experience & parental gates,google-play-families,Google Play Families,families/requirements/ar-device
-childrens-ads-monetization,Children’s advertising & monetisation controls,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/ads/no-amazon-programs-to-children
-childrens-ads-monetization,Children’s advertising & monetisation controls,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/ads/child-only-no-amazon-programs
-childrens-ads-monetization,Children’s advertising & monetisation controls,apple-kids,Apple App Store Kids Category,1.3/third-party-advertising
-childrens-ads-monetization,Children’s advertising & monetisation controls,apple-kids,Apple App Store Kids Category,2.5.18/kids-data-targeted-advertising
-childrens-ads-monetization,Children’s advertising & monetisation controls,apple-kids,Apple App Store Kids Category,5.1.4(a)/no-third-party-analytics-advertising
-childrens-ads-monetization,Children’s advertising & monetisation controls,coppa,COPPA,312.5(c)(7)
-childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads/certified-sdk-only
-childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads/no-interest-based-or-remarketing
-childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads/child-appropriate-content
-childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads/legal-and-industry-standards
-childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads-format/no-deceptive-or-inadvertent-clicks
-childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads-format/no-ad-walls
-childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads-format/closeable-after-5-seconds
-childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads-format/no-launch-interstitial
-childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads-format/no-multiple-placements
-childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads-format/distinguishable-from-content
-childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads-format/no-manipulative-tactics
-childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads-format/no-forced-click-through
-childrens-ads-monetization,Children’s advertising & monetisation controls,google-play-families,Google Play Families,families/ads-format/virtual-currency-distinction
+childrens-ads-monetization,Children’s advertising & monetization controls,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/ads/no-amazon-programs-to-children
+childrens-ads-monetization,Children’s advertising & monetization controls,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/ads/child-only-no-amazon-programs
+childrens-ads-monetization,Children’s advertising & monetization controls,apple-kids,Apple App Store Kids Category,1.3/third-party-advertising
+childrens-ads-monetization,Children’s advertising & monetization controls,apple-kids,Apple App Store Kids Category,2.5.18/kids-data-targeted-advertising
+childrens-ads-monetization,Children’s advertising & monetization controls,apple-kids,Apple App Store Kids Category,5.1.4(a)/no-third-party-analytics-advertising
+childrens-ads-monetization,Children’s advertising & monetization controls,coppa,COPPA,312.5(c)(7)
+childrens-ads-monetization,Children’s advertising & monetization controls,google-play-families,Google Play Families,families/ads/certified-sdk-only
+childrens-ads-monetization,Children’s advertising & monetization controls,google-play-families,Google Play Families,families/ads/no-interest-based-or-remarketing
+childrens-ads-monetization,Children’s advertising & monetization controls,google-play-families,Google Play Families,families/ads/child-appropriate-content
+childrens-ads-monetization,Children’s advertising & monetization controls,google-play-families,Google Play Families,families/ads/legal-and-industry-standards
+childrens-ads-monetization,Children’s advertising & monetization controls,google-play-families,Google Play Families,families/ads-format/no-deceptive-or-inadvertent-clicks
+childrens-ads-monetization,Children’s advertising & monetization controls,google-play-families,Google Play Families,families/ads-format/no-ad-walls
+childrens-ads-monetization,Children’s advertising & monetization controls,google-play-families,Google Play Families,families/ads-format/closeable-after-5-seconds
+childrens-ads-monetization,Children’s advertising & monetization controls,google-play-families,Google Play Families,families/ads-format/no-launch-interstitial
+childrens-ads-monetization,Children’s advertising & monetization controls,google-play-families,Google Play Families,families/ads-format/no-multiple-placements
+childrens-ads-monetization,Children’s advertising & monetization controls,google-play-families,Google Play Families,families/ads-format/distinguishable-from-content
+childrens-ads-monetization,Children’s advertising & monetization controls,google-play-families,Google Play Families,families/ads-format/no-manipulative-tactics
+childrens-ads-monetization,Children’s advertising & monetization controls,google-play-families,Google Play Families,families/ads-format/no-forced-click-through
+childrens-ads-monetization,Children’s advertising & monetization controls,google-play-families,Google Play Families,families/ads-format/virtual-currency-distinction
 childrens-sdk-governance,Third-party SDK & API governance for children’s apps,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/sdk/child-suitable
 childrens-sdk-governance,Third-party SDK & API governance for children’s apps,amazon-child-directed,Amazon Appstore Child-Directed Apps,child-directed/sdk/prohibited-terms
 childrens-sdk-governance,Third-party SDK & API governance for children’s apps,apple-kids,Apple App Store Kids Category,1.3/third-party-analytics
@@ -1508,10 +1508,10 @@ privacy-program-accountability,Data protection accountability program,gdpr,GDPR,
 privacy-program-accountability,Data protection accountability program,gdpr,GDPR,Art.24(1)
 lawful-basis-determination,Lawful basis for processing,ai-governance-essentials,AI Governance Essentials,DA.3
 lawful-basis-determination,Lawful basis for processing,gdpr,GDPR,Art.6(1)
-special-category-data-handling,Special category and criminal offence data,gdpr,GDPR,Art.9(1)
-special-category-data-handling,Special category and criminal offence data,gdpr,GDPR,Art.9(2)
-special-category-data-handling,Special category and criminal offence data,gdpr,GDPR,Art.9(3)
-special-category-data-handling,Special category and criminal offence data,gdpr,GDPR,Art.10
+special-category-data-handling,Special category and criminal offense data,gdpr,GDPR,Art.9(1)
+special-category-data-handling,Special category and criminal offense data,gdpr,GDPR,Art.9(2)
+special-category-data-handling,Special category and criminal offense data,gdpr,GDPR,Art.9(3)
+special-category-data-handling,Special category and criminal offense data,gdpr,GDPR,Art.10
 data-subject-request-procedure,Data subject request procedure & deadlines,gdpr,GDPR,Art.11(2)
 data-subject-request-procedure,Data subject request procedure & deadlines,gdpr,GDPR,Art.12(3)
 data-subject-request-procedure,Data subject request procedure & deadlines,gdpr,GDPR,Art.12(4)
