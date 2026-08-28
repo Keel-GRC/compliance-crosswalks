@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "sha256-0a4071e5628b06708f15f2d0c6ba5f4aaba7670096824e6a30042b78c0c24d24",
+    "version": "sha256-3ff6ed7bc0322f06ed3cf30808ae275f7dfe495a51c9f3b41ccce1dfce5fe1a6",
     "name": "Keel compliance crosswalks",
     "description": "Canonical, framework-agnostic security and quality controls, each mapped (crosswalked) to the clauses it satisfies across multiple compliance frameworks. Maintained by Keel.",
     "source": "https://keelgrc.com/open-source/",
@@ -1033,6 +1033,7 @@
         ],
         "pipeda": [
           "4.1.4",
+          "4.2.5",
           "4.7.4"
         ]
       }
@@ -2431,6 +2432,7 @@
           "4.3",
           "4.3.1",
           "4.3.3",
+          "4.3.5",
           "4.3.6",
           "4.3.7",
           "4.3.8",
@@ -2448,7 +2450,9 @@
         ],
         "pipeda": [
           "4.4",
-          "4.4.1"
+          "4.4.1",
+          "4.2.2",
+          "4.4.2"
         ]
       }
     },
@@ -2616,6 +2620,7 @@
         ],
         "pipeda": [
           "4.10",
+          "4.10.1",
           "4.10.2",
           "4.10.3",
           "4.10.4"

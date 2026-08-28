@@ -488,6 +488,7 @@ security-awareness-training,Security awareness training,nist-csf,NIST Cybersecur
 security-awareness-training,Security awareness training,nist-csf,NIST Cybersecurity Framework,PR.AT-02
 security-awareness-training,Security awareness training,pci-dss,PCI DSS,12.6
 security-awareness-training,Security awareness training,pipeda,PIPEDA,4.1.4
+security-awareness-training,Security awareness training,pipeda,PIPEDA,4.2.5
 security-awareness-training,Security awareness training,pipeda,PIPEDA,4.7.4
 security-awareness-training,Security awareness training,soc-2,SOC 2,CC1.4
 security-awareness-training,Security awareness training,sox,SOX (Sarbanes-Oxley) Section 404,P4
@@ -962,6 +963,7 @@ privacy-choice-consent,Choice & consent for personal information,gdpr,GDPR,Art.7
 privacy-choice-consent,Choice & consent for personal information,pipeda,PIPEDA,4.3
 privacy-choice-consent,Choice & consent for personal information,pipeda,PIPEDA,4.3.1
 privacy-choice-consent,Choice & consent for personal information,pipeda,PIPEDA,4.3.3
+privacy-choice-consent,Choice & consent for personal information,pipeda,PIPEDA,4.3.5
 privacy-choice-consent,Choice & consent for personal information,pipeda,PIPEDA,4.3.6
 privacy-choice-consent,Choice & consent for personal information,pipeda,PIPEDA,4.3.7
 privacy-choice-consent,Choice & consent for personal information,pipeda,PIPEDA,4.3.8
@@ -970,6 +972,8 @@ privacy-choice-consent,Choice & consent for personal information,soc-2,SOC 2,P2.
 privacy-choice-consent,Choice & consent for personal information,soc-2,SOC 2,P3.2
 personal-data-collection-limitation,Collection limited to disclosed purposes,pipeda,PIPEDA,4.4
 personal-data-collection-limitation,Collection limited to disclosed purposes,pipeda,PIPEDA,4.4.1
+personal-data-collection-limitation,Collection limited to disclosed purposes,pipeda,PIPEDA,4.2.2
+personal-data-collection-limitation,Collection limited to disclosed purposes,pipeda,PIPEDA,4.4.2
 personal-data-collection-limitation,Collection limited to disclosed purposes,soc-2,SOC 2,P3.1
 personal-data-use-limitation,Use limited to disclosed purposes,gdpr,GDPR,Art.6(4)
 personal-data-use-limitation,Use limited to disclosed purposes,pipeda,PIPEDA,4.5
@@ -1006,6 +1010,7 @@ grievance-mechanism,Grievance & complaint handling,hipaa,HIPAA,164.530(d)(2)
 grievance-mechanism,Grievance & complaint handling,iso-9001,ISO 9001,8.2.1
 grievance-mechanism,Grievance & complaint handling,iso-9001,ISO 9001,10.2.1
 grievance-mechanism,Grievance & complaint handling,pipeda,PIPEDA,4.10
+grievance-mechanism,Grievance & complaint handling,pipeda,PIPEDA,4.10.1
 grievance-mechanism,Grievance & complaint handling,pipeda,PIPEDA,4.10.2
 grievance-mechanism,Grievance & complaint handling,pipeda,PIPEDA,4.10.3
 grievance-mechanism,Grievance & complaint handling,pipeda,PIPEDA,4.10.4
