@@ -2,6 +2,9 @@ control_key,control_name,framework_key,framework_name,clause_ref
 information-security-policy,Information security policy,coppa,COPPA,312.8(a)
 information-security-policy,Information security policy,coppa,COPPA,312.8(b)(1)
 information-security-policy,Information security policy,esg-essentials,ESG Essentials,G.9
+information-security-policy,Information security policy,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PL-1
+information-security-policy,Information security policy,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PL-1
+information-security-policy,Information security policy,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PL-1
 information-security-policy,Information security policy,gdpr,GDPR,Art.24(2)
 information-security-policy,Information security policy,hipaa,HIPAA,164.316(a)
 information-security-policy,Information security policy,hipaa,HIPAA,164.530(i)(1)
@@ -16,6 +19,15 @@ information-security-policy,Information security policy,pipeda,PIPEDA,4.7
 information-security-policy,Information security policy,soc-2,SOC 2,CC5.3
 information-security-policy,Information security policy,sox,SOX (Sarbanes-Oxley) Section 404,P12
 risk-assessment,Risk assessment & treatment,coppa,COPPA,312.8(b)(2)
+risk-assessment,Risk assessment & treatment,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,RA-1
+risk-assessment,Risk assessment & treatment,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,RA-3
+risk-assessment,Risk assessment & treatment,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,RA-7
+risk-assessment,Risk assessment & treatment,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,RA-1
+risk-assessment,Risk assessment & treatment,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,RA-3
+risk-assessment,Risk assessment & treatment,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,RA-7
+risk-assessment,Risk assessment & treatment,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,RA-1
+risk-assessment,Risk assessment & treatment,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,RA-3
+risk-assessment,Risk assessment & treatment,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,RA-7
 risk-assessment,Risk assessment & treatment,gdpr,GDPR,Art.32(2)
 risk-assessment,Risk assessment & treatment,hipaa,HIPAA,164.308(a)(1)(ii)(A)
 risk-assessment,Risk assessment & treatment,hipaa,HIPAA,164.308(a)(1)(ii)(B)
@@ -38,6 +50,27 @@ access-control-policy,Access control policy,cis-controls,CIS Controls,6.6
 access-control-policy,Access control policy,cis-controls,CIS Controls,6.7
 access-control-policy,Access control policy,cis-controls,CIS Controls,6.8
 access-control-policy,Access control policy,coppa,COPPA,312.8(b)(3)
+access-control-policy,Access control policy,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-IAM-ELP
+access-control-policy,Access control policy,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AC-1
+access-control-policy,Access control policy,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AC-2
+access-control-policy,Access control policy,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AC-3
+access-control-policy,Access control policy,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AC-14
+access-control-policy,Access control policy,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-2(9)
+access-control-policy,Access control policy,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-2(5)
+access-control-policy,Access control policy,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-1
+access-control-policy,Access control policy,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-2
+access-control-policy,Access control policy,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-3
+access-control-policy,Access control policy,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-6
+access-control-policy,Access control policy,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-14
+access-control-policy,Access control policy,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-10
+access-control-policy,Access control policy,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-2(11)
+access-control-policy,Access control policy,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-2(9)
+access-control-policy,Access control policy,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-2(5)
+access-control-policy,Access control policy,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-1
+access-control-policy,Access control policy,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-2
+access-control-policy,Access control policy,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-3
+access-control-policy,Access control policy,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-6
+access-control-policy,Access control policy,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-14
 access-control-policy,Access control policy,gdpr,GDPR,Art.32(1)
 access-control-policy,Access control policy,hipaa,HIPAA,164.308(a)(3)(ii)(A)
 access-control-policy,Access control policy,hipaa,HIPAA,164.308(a)(4)(ii)(B)
@@ -66,6 +99,42 @@ user-lifecycle,User provisioning & deprovisioning,cis-controls,CIS Controls,5.5
 user-lifecycle,User provisioning & deprovisioning,cis-controls,CIS Controls,5.6
 user-lifecycle,User provisioning & deprovisioning,cis-controls,CIS Controls,6.1
 user-lifecycle,User provisioning & deprovisioning,cis-controls,CIS Controls,6.2
+user-lifecycle,User provisioning & deprovisioning,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-IAM-AAM
+user-lifecycle,User provisioning & deprovisioning,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-IAM-SUS
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AC-2
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IA-4
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PS-4
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PS-5
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-2
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-2(1)
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-2(2)
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-2(3)
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-2(4)
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-2(13)
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-4
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-4(4)
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-12
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-12(2)
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-12(3)
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-12(5)
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PS-4
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PS-5
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-12(4)
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PS-4(2)
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-2
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-2(1)
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-2(2)
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-2(3)
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-2(4)
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-2(13)
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-4
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-4(4)
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-12
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-12(2)
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-12(3)
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-12(5)
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PS-4
+user-lifecycle,User provisioning & deprovisioning,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PS-5
 user-lifecycle,User provisioning & deprovisioning,gdpr,GDPR,Art.32(1)
 user-lifecycle,User provisioning & deprovisioning,hipaa,HIPAA,164.308(a)(4)(ii)(B)
 user-lifecycle,User provisioning & deprovisioning,hipaa,HIPAA,164.308(a)(4)(ii)(C)
@@ -102,6 +171,24 @@ mfa,Multi-factor authentication,cis-controls,CIS Controls,6.3
 mfa,Multi-factor authentication,cis-controls,CIS Controls,6.4
 mfa,Multi-factor authentication,cis-controls,CIS Controls,6.5
 mfa,Multi-factor authentication,coppa,COPPA,312.8(b)(3)
+mfa,Multi-factor authentication,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-IAM-APM
+mfa,Multi-factor authentication,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IA-2
+mfa,Multi-factor authentication,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IA-2(1)
+mfa,Multi-factor authentication,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IA-2(2)
+mfa,Multi-factor authentication,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IA-2(8)
+mfa,Multi-factor authentication,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IA-11
+mfa,Multi-factor authentication,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-2(6)
+mfa,Multi-factor authentication,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-2
+mfa,Multi-factor authentication,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-2(1)
+mfa,Multi-factor authentication,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-2(2)
+mfa,Multi-factor authentication,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-2(8)
+mfa,Multi-factor authentication,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-11
+mfa,Multi-factor authentication,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-2(6)
+mfa,Multi-factor authentication,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-2
+mfa,Multi-factor authentication,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-2(1)
+mfa,Multi-factor authentication,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-2(2)
+mfa,Multi-factor authentication,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-2(8)
+mfa,Multi-factor authentication,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-11
 mfa,Multi-factor authentication,gdpr,GDPR,Art.32(1)
 mfa,Multi-factor authentication,hipaa,HIPAA,164.312(d)
 mfa,Multi-factor authentication,iso-27001,ISO/IEC 27001,A.8.5
@@ -119,6 +206,28 @@ mfa,Multi-factor authentication,pci-dss,PCI DSS,8.5
 mfa,Multi-factor authentication,soc-2,SOC 2,CC6.1
 mfa,Multi-factor authentication,sox,SOX (Sarbanes-Oxley) Section 404,P11
 credential-management,Password & credential management,cis-controls,CIS Controls,5.2
+credential-management,Password & credential management,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-IAM-APM
+credential-management,Password & credential management,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-IAM-SNU
+credential-management,Password & credential management,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-SVC-ASM
+credential-management,Password & credential management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AC-7
+credential-management,Password & credential management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IA-1
+credential-management,Password & credential management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IA-5
+credential-management,Password & credential management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IA-5(1)
+credential-management,Password & credential management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IA-6
+credential-management,Password & credential management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-7
+credential-management,Password & credential management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-1
+credential-management,Password & credential management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-5
+credential-management,Password & credential management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-5(1)
+credential-management,Password & credential management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-5(6)
+credential-management,Password & credential management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-6
+credential-management,Password & credential management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-5(13)
+credential-management,Password & credential management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-5(8)
+credential-management,Password & credential management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-7
+credential-management,Password & credential management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-1
+credential-management,Password & credential management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-5
+credential-management,Password & credential management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-5(1)
+credential-management,Password & credential management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-5(6)
+credential-management,Password & credential management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-6
 credential-management,Password & credential management,hipaa,HIPAA,164.308(a)(5)(ii)(D)
 credential-management,Password & credential management,iso-27001,ISO/IEC 27001,A.5.17
 credential-management,Password & credential management,nist-800-171,NIST SP 800-171,3.1.8
@@ -139,6 +248,26 @@ encryption,Encryption in transit & at rest,cis-controls,CIS Controls,3.6
 encryption,Encryption in transit & at rest,cis-controls,CIS Controls,3.10
 encryption,Encryption in transit & at rest,cis-controls,CIS Controls,3.11
 encryption,Encryption in transit & at rest,coppa,COPPA,312.8(b)(3)
+encryption,Encryption in transit & at rest,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-SVC-SIN
+encryption,Encryption in transit & at rest,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-SVC-VCM
+encryption,Encryption in transit & at rest,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-SVC-VRI
+encryption,Encryption in transit & at rest,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SC-8
+encryption,Encryption in transit & at rest,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SC-8(1)
+encryption,Encryption in transit & at rest,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SC-13
+encryption,Encryption in transit & at rest,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SC-28
+encryption,Encryption in transit & at rest,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SC-28(1)
+encryption,Encryption in transit & at rest,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-8
+encryption,Encryption in transit & at rest,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-8(1)
+encryption,Encryption in transit & at rest,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-13
+encryption,Encryption in transit & at rest,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-28
+encryption,Encryption in transit & at rest,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-28(1)
+encryption,Encryption in transit & at rest,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-8
+encryption,Encryption in transit & at rest,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-8(1)
+encryption,Encryption in transit & at rest,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-13
+encryption,Encryption in transit & at rest,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-28
+encryption,Encryption in transit & at rest,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-28(1)
+encryption,Encryption in transit & at rest,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CMU-CSO-CAT
+encryption,Encryption in transit & at rest,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CMU-CSO-UVM
 encryption,Encryption in transit & at rest,gdpr,GDPR,Art.32(1)
 encryption,Encryption in transit & at rest,hipaa,HIPAA,164.312(a)(2)(iv)
 encryption,Encryption in transit & at rest,hipaa,HIPAA,164.312(e)(2)(ii)
@@ -178,6 +307,87 @@ logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,13.1
 logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,13.6
 logging-monitoring,Logging & monitoring,cis-controls,CIS Controls,13.11
 logging-monitoring,Logging & monitoring,coppa,COPPA,312.8(b)(3)
+logging-monitoring,Logging & monitoring,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-CMT-LMC
+logging-monitoring,Logging & monitoring,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-MLA-ALA
+logging-monitoring,Logging & monitoring,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-MLA-LET
+logging-monitoring,Logging & monitoring,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-MLA-OSM
+logging-monitoring,Logging & monitoring,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-MLA-RVL
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AU-1
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AU-2
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AU-3
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AU-4
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AU-5
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AU-6
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AU-8
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AU-9
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AU-11
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AU-12
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SI-4
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-2(12)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-45
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-45(1)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-4(1)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-4(16)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AU-1
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AU-2
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AU-3
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AU-3(1)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AU-4
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AU-5
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AU-6
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AU-6(1)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AU-6(3)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AU-7
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AU-7(1)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AU-8
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AU-9
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AU-9(4)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AU-11
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AU-12
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-4
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-4(2)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-4(4)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-4(5)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-2(12)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-10
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-12(1)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-12(3)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-5(1)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-5(2)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-6(4)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-6(5)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-6(6)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-6(7)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-9(2)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-9(3)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-45
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-45(1)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-4(1)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-4(10)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-4(11)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-4(12)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-4(16)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-4(19)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-1
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-2
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-3
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-3(1)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-4
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-5
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-6
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-6(1)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-6(3)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-7
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-7(1)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-8
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-9
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-9(4)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-11
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AU-12
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-4
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-4(2)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-4(4)
+logging-monitoring,Logging & monitoring,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-4(5)
 logging-monitoring,Logging & monitoring,gdpr,GDPR,Art.32(1)
 logging-monitoring,Logging & monitoring,hipaa,HIPAA,164.308(a)(1)(ii)(D)
 logging-monitoring,Logging & monitoring,hipaa,HIPAA,164.308(a)(5)(ii)(C)
@@ -240,6 +450,62 @@ vulnerability-management,Vulnerability management,cis-controls,CIS Controls,7.6
 vulnerability-management,Vulnerability management,cis-controls,CIS Controls,7.7
 vulnerability-management,Vulnerability management,cis-controls,CIS Controls,16.2
 vulnerability-management,Vulnerability management,coppa,COPPA,312.8(b)(4)
+vulnerability-management,Vulnerability management,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-PIY-RVD
+vulnerability-management,Vulnerability management,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-SCR-MON
+vulnerability-management,Vulnerability management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,RA-5
+vulnerability-management,Vulnerability management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,RA-5(2)
+vulnerability-management,Vulnerability management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,RA-5(11)
+vulnerability-management,Vulnerability management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SI-1
+vulnerability-management,Vulnerability management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SI-2
+vulnerability-management,Vulnerability management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,RA-5(3)
+vulnerability-management,Vulnerability management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-2(3)
+vulnerability-management,Vulnerability management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,RA-5
+vulnerability-management,Vulnerability management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,RA-5(2)
+vulnerability-management,Vulnerability management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,RA-5(5)
+vulnerability-management,Vulnerability management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,RA-5(11)
+vulnerability-management,Vulnerability management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-1
+vulnerability-management,Vulnerability management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-2
+vulnerability-management,Vulnerability management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-2(2)
+vulnerability-management,Vulnerability management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,RA-5(3)
+vulnerability-management,Vulnerability management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,RA-5(4)
+vulnerability-management,Vulnerability management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,RA-5(8)
+vulnerability-management,Vulnerability management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-2(3)
+vulnerability-management,Vulnerability management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,RA-5
+vulnerability-management,Vulnerability management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,RA-5(2)
+vulnerability-management,Vulnerability management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,RA-5(5)
+vulnerability-management,Vulnerability management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,RA-5(11)
+vulnerability-management,Vulnerability management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-1
+vulnerability-management,Vulnerability management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-2
+vulnerability-management,Vulnerability management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-2(2)
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VDR-CSO-ADT
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VDR-CSO-AKE
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VDR-CSO-DET
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VDR-CSO-FAV
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VDR-CSO-MSP
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VDR-CSO-RES
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VDR-TFR-KEV
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VDR-TFR-MVF
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VDR-TFR-MVX
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VDR-TFR-NMV
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VDR-TFR-PCD
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VDR-TFR-PDD
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VDR-TFR-PSD
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VDR-TFR-PVR
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VDR-TFR-RMN
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VER-EVA-AIA
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VER-EVA-EFA
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VER-EVA-EFP
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VER-EVA-EIR
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VER-EVA-ELX
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VER-EVA-EPA
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VER-EVA-GRV
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VER-RPT-AVI
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VER-RPT-HLO
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VER-RPT-PER
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VER-RPT-VDT
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VER-TFR-EVU
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VER-TFR-MHR
+vulnerability-management,Vulnerability management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VER-TFR-MRH
 vulnerability-management,Vulnerability management,gdpr,GDPR,Art.32(1)
 vulnerability-management,Vulnerability management,iso-27001,ISO/IEC 27001,A.5.7
 vulnerability-management,Vulnerability management,iso-27001,ISO/IEC 27001,A.8.8
@@ -266,6 +532,13 @@ penetration-testing,Penetration testing program,cis-controls,CIS Controls,18.2
 penetration-testing,Penetration testing program,cis-controls,CIS Controls,18.3
 penetration-testing,Penetration testing program,cis-controls,CIS Controls,18.4
 penetration-testing,Penetration testing program,cis-controls,CIS Controls,18.5
+penetration-testing,Penetration testing program,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CA-8
+penetration-testing,Penetration testing program,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CA-8
+penetration-testing,Penetration testing program,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CA-8(1)
+penetration-testing,Penetration testing program,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CA-8(2)
+penetration-testing,Penetration testing program,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CA-8
+penetration-testing,Penetration testing program,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CA-8(1)
+penetration-testing,Penetration testing program,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CA-8(2)
 penetration-testing,Penetration testing program,nist-csf,NIST Cybersecurity Framework,ID.IM-02
 penetration-testing,Penetration testing program,pci-dss,PCI DSS,11.4
 malware-protection,Malware protection,cis-controls,CIS Controls,9.6
@@ -279,6 +552,13 @@ malware-protection,Malware protection,cis-controls,CIS Controls,10.6
 malware-protection,Malware protection,cis-controls,CIS Controls,10.7
 malware-protection,Malware protection,cis-controls,CIS Controls,13.2
 malware-protection,Malware protection,cis-controls,CIS Controls,13.7
+malware-protection,Malware protection,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SI-3
+malware-protection,Malware protection,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-3
+malware-protection,Malware protection,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-8
+malware-protection,Malware protection,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-8(2)
+malware-protection,Malware protection,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-3
+malware-protection,Malware protection,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-8
+malware-protection,Malware protection,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-8(2)
 malware-protection,Malware protection,hipaa,HIPAA,164.308(a)(5)(ii)(B)
 malware-protection,Malware protection,iso-27001,ISO/IEC 27001,A.8.7
 malware-protection,Malware protection,nist-800-171,NIST SP 800-171,3.14.2
@@ -296,6 +576,25 @@ backups,Backups,cis-controls,CIS Controls,11.2
 backups,Backups,cis-controls,CIS Controls,11.3
 backups,Backups,cis-controls,CIS Controls,11.4
 backups,Backups,cis-controls,CIS Controls,11.5
+backups,Backups,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-RPL-ABO
+backups,Backups,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-RPL-TRC
+backups,Backups,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CP-9
+backups,Backups,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-6
+backups,Backups,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-6(1)
+backups,Backups,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-6(3)
+backups,Backups,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-9
+backups,Backups,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-9(1)
+backups,Backups,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-9(8)
+backups,Backups,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-6(2)
+backups,Backups,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-9(2)
+backups,Backups,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-9(3)
+backups,Backups,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-9(5)
+backups,Backups,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-6
+backups,Backups,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-6(1)
+backups,Backups,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-6(3)
+backups,Backups,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-9
+backups,Backups,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-9(1)
+backups,Backups,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-9(8)
 backups,Backups,gdpr,GDPR,Art.32(1)
 backups,Backups,hipaa,HIPAA,164.308(a)(7)(ii)(A)
 backups,Backups,hipaa,HIPAA,164.310(d)(2)(iv)
@@ -312,6 +611,40 @@ backups,Backups,nist-csf,NIST Cybersecurity Framework,RC.RP-03
 backups,Backups,pipeda,PIPEDA,4.7.1
 backups,Backups,soc-2,SOC 2,A1.2
 backups,Backups,sox,SOX (Sarbanes-Oxley) Section 404,P11
+business-continuity,Business continuity & disaster recovery,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-RPL-ARP
+business-continuity,Business continuity & disaster recovery,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-RPL-RRO
+business-continuity,Business continuity & disaster recovery,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-RPL-TRC
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CP-1
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CP-2
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CP-3
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CP-4
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CP-10
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-1
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-2
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-2(1)
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-2(3)
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-2(8)
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-3
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-4
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-4(1)
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-10
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-10(2)
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,RA-9
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-10(4)
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-2(5)
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-3(1)
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-4(2)
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-1
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-2
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-2(1)
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-2(3)
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-2(8)
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-3
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-4
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-4(1)
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-10
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-10(2)
+business-continuity,Business continuity & disaster recovery,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,RA-9
 business-continuity,Business continuity & disaster recovery,gdpr,GDPR,Art.32(1)
 business-continuity,Business continuity & disaster recovery,hipaa,HIPAA,164.308(a)(7)(ii)(B)
 business-continuity,Business continuity & disaster recovery,hipaa,HIPAA,164.308(a)(7)(ii)(C)
@@ -348,6 +681,55 @@ incident-response,Incident response,cis-controls,CIS Controls,17.7
 incident-response,Incident response,cis-controls,CIS Controls,17.8
 incident-response,Incident response,cis-controls,CIS Controls,17.9
 incident-response,Incident response,coppa,COPPA,312.8(a)
+incident-response,Incident response,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-INR-AAR
+incident-response,Incident response,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-INR-RIR
+incident-response,Incident response,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-INR-RPI
+incident-response,Incident response,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IR-1
+incident-response,Incident response,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IR-2
+incident-response,Incident response,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IR-4
+incident-response,Incident response,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IR-5
+incident-response,Incident response,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IR-6
+incident-response,Incident response,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IR-8
+incident-response,Incident response,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IR-9
+incident-response,Incident response,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IR-9(2)
+incident-response,Incident response,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IR-9(3)
+incident-response,Incident response,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IR-9(4)
+incident-response,Incident response,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IR-1
+incident-response,Incident response,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IR-2
+incident-response,Incident response,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IR-3
+incident-response,Incident response,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IR-3(2)
+incident-response,Incident response,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IR-4
+incident-response,Incident response,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IR-4(1)
+incident-response,Incident response,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IR-5
+incident-response,Incident response,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IR-6
+incident-response,Incident response,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IR-6(1)
+incident-response,Incident response,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IR-8
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-2(1)
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-2(2)
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-4(11)
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-4(2)
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-4(4)
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-4(6)
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-5(1)
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-9
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-9(2)
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-9(3)
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-9(4)
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-1
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-2
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-3
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-3(2)
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-4
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-4(1)
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-5
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-6
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-6(1)
+incident-response,Incident response,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-8
+incident-response,Incident response,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,IEC-CSO-DPR
+incident-response,Incident response,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,IEC-CSO-EFI
+incident-response,Incident response,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,IEC-CSO-EFR
+incident-response,Incident response,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VER-TFR-IRI
+incident-response,Incident response,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VER-TFR-NRI
 incident-response,Incident response,gdpr,GDPR,Art.33(1)
 incident-response,Incident response,gdpr,GDPR,Art.33(3)
 incident-response,Incident response,gdpr,GDPR,Art.33(4)
@@ -400,6 +782,30 @@ incident-response,Incident response,soc-2,SOC 2,CC7.4
 incident-response,Incident response,soc-2,SOC 2,CC7.5
 incident-response,Incident response,soc-2,SOC 2,P6.6
 incident-response,Incident response,sox,SOX (Sarbanes-Oxley) Section 404,P11
+change-management,Change management,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-CMT-LMC
+change-management,Change management,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-CMT-RVP
+change-management,Change management,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-CMT-VTD
+change-management,Change management,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-SVC-PRR
+change-management,Change management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CM-4
+change-management,Change management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CM-5
+change-management,Change management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-5(1)
+change-management,Change management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-5(5)
+change-management,Change management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-3
+change-management,Change management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-3(2)
+change-management,Change management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-3(4)
+change-management,Change management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-4
+change-management,Change management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-4(2)
+change-management,Change management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-5
+change-management,Change management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-3(1)
+change-management,Change management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-5(1)
+change-management,Change management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-5(5)
+change-management,Change management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-3
+change-management,Change management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-3(2)
+change-management,Change management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-3(4)
+change-management,Change management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-4
+change-management,Change management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-4(2)
+change-management,Change management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-5
+change-management,Change management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VDR-CSO-DAC
 change-management,Change management,iso-27001,ISO/IEC 27001,A.8.32
 change-management,Change management,nist-800-171,NIST SP 800-171,3.4.3
 change-management,Change management,nist-800-171,NIST SP 800-171,3.4.4
@@ -426,6 +832,35 @@ vendor-management,Third-party / vendor risk management,cis-controls,CIS Controls
 vendor-management,Third-party / vendor risk management,coppa,COPPA,312.8(c)
 vendor-management,Third-party / vendor risk management,esg-essentials,ESG Essentials,G.7
 vendor-management,Third-party / vendor risk management,esg-essentials,ESG Essentials,E.7
+vendor-management,Third-party / vendor risk management,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-SCR-MIT
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SA-1
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SA-4
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SA-9
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SR-3
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-9(1)
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-9(5)
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-1
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-4
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-4(1)
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-4(2)
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-4(9)
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-9
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-9(2)
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SR-3
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SR-6
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-8(4)
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-4(5)
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-9(1)
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-9(5)
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-1
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-4
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-4(1)
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-4(2)
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-4(9)
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-9
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-9(2)
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SR-3
+vendor-management,Third-party / vendor risk management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SR-6
 vendor-management,Third-party / vendor risk management,gdpr,GDPR,Art.28(1)
 vendor-management,Third-party / vendor risk management,gdpr,GDPR,Art.28(3)
 vendor-management,Third-party / vendor risk management,hipaa,HIPAA,164.308(b)(3)
@@ -471,6 +906,24 @@ security-awareness-training,Security awareness training,cis-controls,CIS Control
 security-awareness-training,Security awareness training,cis-controls,CIS Controls,14.8
 security-awareness-training,Security awareness training,cis-controls,CIS Controls,14.9
 security-awareness-training,Security awareness training,esg-essentials,ESG Essentials,S.5
+security-awareness-training,Security awareness training,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-CED-RAT
+security-awareness-training,Security awareness training,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AT-1
+security-awareness-training,Security awareness training,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AT-2
+security-awareness-training,Security awareness training,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AT-2(2)
+security-awareness-training,Security awareness training,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AT-3
+security-awareness-training,Security awareness training,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AT-4
+security-awareness-training,Security awareness training,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AT-1
+security-awareness-training,Security awareness training,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AT-2
+security-awareness-training,Security awareness training,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AT-2(2)
+security-awareness-training,Security awareness training,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AT-2(3)
+security-awareness-training,Security awareness training,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AT-3
+security-awareness-training,Security awareness training,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AT-4
+security-awareness-training,Security awareness training,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AT-1
+security-awareness-training,Security awareness training,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AT-2
+security-awareness-training,Security awareness training,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AT-2(2)
+security-awareness-training,Security awareness training,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AT-2(3)
+security-awareness-training,Security awareness training,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AT-3
+security-awareness-training,Security awareness training,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AT-4
 security-awareness-training,Security awareness training,gdpr,GDPR,Art.32(4)
 security-awareness-training,Security awareness training,hipaa,HIPAA,164.308(a)(5)(ii)(A)
 security-awareness-training,Security awareness training,hipaa,HIPAA,164.530(b)(2)
@@ -502,6 +955,24 @@ asset-inventory,Asset inventory,cis-controls,CIS Controls,2.1
 asset-inventory,Asset inventory,cis-controls,CIS Controls,2.2
 asset-inventory,Asset inventory,cis-controls,CIS Controls,2.4
 asset-inventory,Asset inventory,cis-controls,CIS Controls,3.2
+asset-inventory,Asset inventory,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-PIY-GIV
+asset-inventory,Asset inventory,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CM-8
+asset-inventory,Asset inventory,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SA-22
+asset-inventory,Asset inventory,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-8
+asset-inventory,Asset inventory,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-8(1)
+asset-inventory,Asset inventory,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-8(3)
+asset-inventory,Asset inventory,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-12
+asset-inventory,Asset inventory,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-12(1)
+asset-inventory,Asset inventory,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-22
+asset-inventory,Asset inventory,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-8(2)
+asset-inventory,Asset inventory,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-8(4)
+asset-inventory,Asset inventory,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-8
+asset-inventory,Asset inventory,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-8(1)
+asset-inventory,Asset inventory,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-8(3)
+asset-inventory,Asset inventory,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-12
+asset-inventory,Asset inventory,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-12(1)
+asset-inventory,Asset inventory,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-22
+asset-inventory,Asset inventory,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,MAS-CSO-IIR
 asset-inventory,Asset inventory,hipaa,HIPAA,164.310(d)(2)(iii)
 asset-inventory,Asset inventory,iso-27001,ISO/IEC 27001,A.5.9
 asset-inventory,Asset inventory,nist-800-171,NIST SP 800-171,3.4.1
@@ -520,6 +991,13 @@ asset-inventory,Asset inventory,sox,SOX (Sarbanes-Oxley) Section 404,P11
 data-classification,Data classification & handling,cis-controls,CIS Controls,3.1
 data-classification,Data classification & handling,cis-controls,CIS Controls,3.7
 data-classification,Data classification & handling,cis-controls,CIS Controls,3.8
+data-classification,Data classification & handling,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,RA-2
+data-classification,Data classification & handling,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,MP-3
+data-classification,Data classification & handling,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,RA-2
+data-classification,Data classification & handling,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MP-3
+data-classification,Data classification & handling,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,RA-2
+data-classification,Data classification & handling,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,MAS-CSO-FLO
+data-classification,Data classification & handling,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,MAS-CSO-MDI
 data-classification,Data classification & handling,gdpr,GDPR,Art.5(1)
 data-classification,Data classification & handling,hipaa,HIPAA,164.530(c)(2)
 data-classification,Data classification & handling,iso-27001,ISO/IEC 27001,A.5.12
@@ -532,6 +1010,29 @@ data-classification,Data classification & handling,pci-dss,PCI DSS,3.1
 data-classification,Data classification & handling,pipeda,PIPEDA,4.3.4
 data-classification,Data classification & handling,pipeda,PIPEDA,4.7.2
 data-classification,Data classification & handling,soc-2,SOC 2,C1.1
+physical-security,Physical security,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PE-1
+physical-security,Physical security,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PE-2
+physical-security,Physical security,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PE-3
+physical-security,Physical security,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PE-6
+physical-security,Physical security,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PE-8
+physical-security,Physical security,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PE-16
+physical-security,Physical security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PE-1
+physical-security,Physical security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PE-2
+physical-security,Physical security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PE-3
+physical-security,Physical security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PE-6
+physical-security,Physical security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PE-6(1)
+physical-security,Physical security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PE-8
+physical-security,Physical security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PE-16
+physical-security,Physical security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-3(1)
+physical-security,Physical security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-6(4)
+physical-security,Physical security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-8(1)
+physical-security,Physical security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-1
+physical-security,Physical security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-2
+physical-security,Physical security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-3
+physical-security,Physical security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-6
+physical-security,Physical security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-6(1)
+physical-security,Physical security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-8
+physical-security,Physical security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-16
 physical-security,Physical security,gdpr,GDPR,Art.32(1)
 physical-security,Physical security,hipaa,HIPAA,164.310(a)(2)(i)
 physical-security,Physical security,hipaa,HIPAA,164.310(a)(2)(ii)
@@ -566,6 +1067,22 @@ secure-development,Secure software development,cis-controls,CIS Controls,16.3
 secure-development,Secure software development,cis-controls,CIS Controls,16.5
 secure-development,Secure software development,cis-controls,CIS Controls,16.9
 secure-development,Secure software development,cis-controls,CIS Controls,16.12
+secure-development,Secure software development,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-CMT-VTD
+secure-development,Secure software development,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-PIY-RSD
+secure-development,Secure software development,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SA-3
+secure-development,Secure software development,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SA-8
+secure-development,Secure software development,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-5(7)
+secure-development,Secure software development,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-3
+secure-development,Secure software development,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-8
+secure-development,Secure software development,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-11
+secure-development,Secure software development,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-15
+secure-development,Secure software development,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-15(3)
+secure-development,Secure software development,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-5(7)
+secure-development,Secure software development,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-3
+secure-development,Secure software development,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-8
+secure-development,Secure software development,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-11
+secure-development,Secure software development,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-15
+secure-development,Secure software development,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-15(3)
 secure-development,Secure software development,iso-27001,ISO/IEC 27001,A.8.25
 secure-development,Secure software development,iso-27001,ISO/IEC 27001,A.8.28
 secure-development,Secure software development,nist-800-53,NIST SP 800-53,SA-3
@@ -592,6 +1109,48 @@ network-security,Network security controls,cis-controls,CIS Controls,13.4
 network-security,Network security controls,cis-controls,CIS Controls,13.8
 network-security,Network security controls,cis-controls,CIS Controls,13.9
 network-security,Network security controls,cis-controls,CIS Controls,13.10
+network-security,Network security controls,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-CNA-MAT
+network-security,Network security controls,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-CNA-RNT
+network-security,Network security controls,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-CNA-RVP
+network-security,Network security controls,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-CNA-ULN
+network-security,Network security controls,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CA-9
+network-security,Network security controls,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SC-1
+network-security,Network security controls,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SC-5
+network-security,Network security controls,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SC-7
+network-security,Network security controls,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SC-20
+network-security,Network security controls,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SC-21
+network-security,Network security controls,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SC-22
+network-security,Network security controls,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-7(18)
+network-security,Network security controls,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-4
+network-security,Network security controls,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CA-9
+network-security,Network security controls,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-3
+network-security,Network security controls,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-1
+network-security,Network security controls,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-5
+network-security,Network security controls,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-7
+network-security,Network security controls,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-7(3)
+network-security,Network security controls,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-7(4)
+network-security,Network security controls,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-7(5)
+network-security,Network security controls,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-10
+network-security,Network security controls,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-20
+network-security,Network security controls,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-21
+network-security,Network security controls,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-22
+network-security,Network security controls,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-4(4)
+network-security,Network security controls,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-7(18)
+network-security,Network security controls,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-7(20)
+network-security,Network security controls,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-4(22)
+network-security,Network security controls,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-4
+network-security,Network security controls,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CA-9
+network-security,Network security controls,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-3
+network-security,Network security controls,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-1
+network-security,Network security controls,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-5
+network-security,Network security controls,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-7
+network-security,Network security controls,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-7(3)
+network-security,Network security controls,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-7(4)
+network-security,Network security controls,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-7(5)
+network-security,Network security controls,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-10
+network-security,Network security controls,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-20
+network-security,Network security controls,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-21
+network-security,Network security controls,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-22
 network-security,Network security controls,iso-27001,ISO/IEC 27001,A.8.20
 network-security,Network security controls,iso-27001,ISO/IEC 27001,A.8.21
 network-security,Network security controls,iso-27001,ISO/IEC 27001,A.8.22
@@ -627,6 +1186,18 @@ network-security,Network security controls,sox,SOX (Sarbanes-Oxley) Section 404,
 data-retention-disposal,Data retention & secure disposal,cis-controls,CIS Controls,3.4
 data-retention-disposal,Data retention & secure disposal,cis-controls,CIS Controls,3.5
 data-retention-disposal,Data retention & secure disposal,coppa,COPPA,312.10
+data-retention-disposal,Data retention & secure disposal,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-SVC-RUD
+data-retention-disposal,Data retention & secure disposal,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,MP-6
+data-retention-disposal,Data retention & secure disposal,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SI-12
+data-retention-disposal,Data retention & secure disposal,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SR-12
+data-retention-disposal,Data retention & secure disposal,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,MP-6
+data-retention-disposal,Data retention & secure disposal,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-12
+data-retention-disposal,Data retention & secure disposal,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SR-12
+data-retention-disposal,Data retention & secure disposal,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MP-6(1)
+data-retention-disposal,Data retention & secure disposal,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MP-6(2)
+data-retention-disposal,Data retention & secure disposal,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MP-6
+data-retention-disposal,Data retention & secure disposal,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-12
+data-retention-disposal,Data retention & secure disposal,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SR-12
 data-retention-disposal,Data retention & secure disposal,gdpr,GDPR,Art.5(1)
 data-retention-disposal,Data retention & secure disposal,hipaa,HIPAA,164.310(d)(2)(i)
 data-retention-disposal,Data retention & secure disposal,hipaa,HIPAA,164.310(d)(2)(ii)
@@ -648,6 +1219,26 @@ data-retention-disposal,Data retention & secure disposal,soc-2,SOC 2,P4.2
 data-retention-disposal,Data retention & secure disposal,soc-2,SOC 2,P4.3
 data-retention-disposal,Data retention & secure disposal,us-employment-federal,US Employment Law (federal baseline),us.recordkeeping.eeo
 data-retention-disposal,Data retention & secure disposal,us-employment-federal,US Employment Law (federal baseline),us.recordkeeping.i9-retention
+hr-security,Personnel security (HR),fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PS-1
+hr-security,Personnel security (HR),fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PS-2
+hr-security,Personnel security (HR),fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PS-3
+hr-security,Personnel security (HR),fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PS-6
+hr-security,Personnel security (HR),fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PS-7
+hr-security,Personnel security (HR),fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PS-9
+hr-security,Personnel security (HR),fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PS-3(3)
+hr-security,Personnel security (HR),fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PS-1
+hr-security,Personnel security (HR),fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PS-2
+hr-security,Personnel security (HR),fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PS-3
+hr-security,Personnel security (HR),fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PS-6
+hr-security,Personnel security (HR),fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PS-7
+hr-security,Personnel security (HR),fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PS-9
+hr-security,Personnel security (HR),fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PS-3(3)
+hr-security,Personnel security (HR),fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PS-1
+hr-security,Personnel security (HR),fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PS-2
+hr-security,Personnel security (HR),fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PS-3
+hr-security,Personnel security (HR),fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PS-6
+hr-security,Personnel security (HR),fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PS-7
+hr-security,Personnel security (HR),fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PS-9
 hr-security,Personnel security (HR),gdpr,GDPR,Art.32(4)
 hr-security,Personnel security (HR),hipaa,HIPAA,164.308(a)(3)(ii)(B)
 hr-security,Personnel security (HR),hipaa,HIPAA,164.308(a)(3)(ii)(C)
@@ -676,13 +1267,31 @@ security-privacy-officers,Named security & privacy officers,pipeda,PIPEDA,4.1
 security-privacy-officers,Named security & privacy officers,pipeda,PIPEDA,4.1.1
 security-privacy-officers,Named security & privacy officers,pipeda,PIPEDA,4.1.2
 security-privacy-officers,Named security & privacy officers,pipeda,PIPEDA,6
+disciplinary-process,Disciplinary & sanctions process,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PS-8
+disciplinary-process,Disciplinary & sanctions process,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PS-8
+disciplinary-process,Disciplinary & sanctions process,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PS-8
 disciplinary-process,Disciplinary & sanctions process,hipaa,HIPAA,164.308(a)(1)(ii)(C)
 disciplinary-process,Disciplinary & sanctions process,hipaa,HIPAA,164.530(e)(2)
 disciplinary-process,Disciplinary & sanctions process,iso-27001,ISO/IEC 27001,A.6.4
 disciplinary-process,Disciplinary & sanctions process,nist-800-53,NIST SP 800-53,PS-8
 data-segregation,Segregation of regulated data inside a larger organization,cis-controls,CIS Controls,3.12
+data-segregation,Segregation of regulated data inside a larger organization,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-4(21)
+data-segregation,Segregation of regulated data inside a larger organization,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-4(21)
+data-segregation,Segregation of regulated data inside a larger organization,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-7(21)
 data-segregation,Segregation of regulated data inside a larger organization,hipaa,HIPAA,164.308(a)(4)(ii)(A)
 endpoint-security,Workstation & endpoint security,cis-controls,CIS Controls,4.3
+endpoint-security,Workstation & endpoint security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-7(12)
+endpoint-security,Workstation & endpoint security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-4(23)
+endpoint-security,Workstation & endpoint security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-2(5)
+endpoint-security,Workstation & endpoint security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-11
+endpoint-security,Workstation & endpoint security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-11(1)
+endpoint-security,Workstation & endpoint security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-12
+endpoint-security,Workstation & endpoint security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-7(12)
+endpoint-security,Workstation & endpoint security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-4(23)
+endpoint-security,Workstation & endpoint security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-2(5)
+endpoint-security,Workstation & endpoint security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-11
+endpoint-security,Workstation & endpoint security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-11(1)
+endpoint-security,Workstation & endpoint security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-12
 endpoint-security,Workstation & endpoint security,hipaa,HIPAA,164.310(b)
 endpoint-security,Workstation & endpoint security,hipaa,HIPAA,164.310(c)
 endpoint-security,Workstation & endpoint security,hipaa,HIPAA,164.312(a)(2)(iii)
@@ -694,6 +1303,18 @@ endpoint-security,Workstation & endpoint security,nist-800-53,NIST SP 800-53,AC-
 endpoint-security,Workstation & endpoint security,nist-800-53,NIST SP 800-53,AC-11
 endpoint-security,Workstation & endpoint security,nist-800-53,NIST SP 800-53,AC-11(1)
 endpoint-security,Workstation & endpoint security,nist-800-53,NIST SP 800-53,AC-12
+data-integrity,Data integrity verification,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-SVC-VCM
+data-integrity,Data integrity verification,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-SVC-VRI
+data-integrity,Data integrity verification,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-6
+data-integrity,Data integrity verification,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-7
+data-integrity,Data integrity verification,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-7(1)
+data-integrity,Data integrity verification,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-7(7)
+data-integrity,Data integrity verification,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-6
+data-integrity,Data integrity verification,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-7(2)
+data-integrity,Data integrity verification,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-7(5)
+data-integrity,Data integrity verification,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-7
+data-integrity,Data integrity verification,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-7(1)
+data-integrity,Data integrity verification,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-7(7)
 data-integrity,Data integrity verification,hipaa,HIPAA,164.312(c)(2)
 data-integrity,Data integrity verification,hipaa,HIPAA,164.312(e)(2)(i)
 data-integrity,Data integrity verification,nist-800-53,NIST SP 800-53,SI-7
@@ -709,6 +1330,7 @@ risk-opportunity-planning,Risk & opportunity planning,iso-42001,ISO/IEC 42001,6.
 risk-opportunity-planning,Risk & opportunity planning,iso-9001,ISO 9001,6.1.1
 risk-opportunity-planning,Risk & opportunity planning,iso-9001,ISO 9001,6.1.2
 risk-opportunity-planning,Risk & opportunity planning,nist-csf,NIST Cybersecurity Framework,GV.RM-07
+document-control,Document & records control,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCG-ENH-VRH
 document-control,Document & records control,hipaa,HIPAA,164.316(b)(2)(i)
 document-control,Document & records control,hipaa,HIPAA,164.316(b)(2)(ii)
 document-control,Document & records control,hipaa,HIPAA,164.316(b)(2)(iii)
@@ -733,6 +1355,20 @@ management-system-awareness,Management-system awareness,iso-27001,ISO/IEC 27001,
 management-system-awareness,Management-system awareness,iso-42001,ISO/IEC 42001,7.3
 management-system-awareness,Management-system awareness,iso-9001,ISO 9001,7.3
 internal-audit-program,Internal audit program,coppa,COPPA,312.8(b)(5)
+internal-audit-program,Internal audit program,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CA-1
+internal-audit-program,Internal audit program,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CA-2
+internal-audit-program,Internal audit program,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CA-2(1)
+internal-audit-program,Internal audit program,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CA-2(3)
+internal-audit-program,Internal audit program,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CA-1
+internal-audit-program,Internal audit program,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CA-2
+internal-audit-program,Internal audit program,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CA-2(1)
+internal-audit-program,Internal audit program,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CA-7(1)
+internal-audit-program,Internal audit program,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CA-2(2)
+internal-audit-program,Internal audit program,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CA-2(3)
+internal-audit-program,Internal audit program,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CA-1
+internal-audit-program,Internal audit program,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CA-2
+internal-audit-program,Internal audit program,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CA-2(1)
+internal-audit-program,Internal audit program,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CA-7(1)
 internal-audit-program,Internal audit program,hipaa,HIPAA,164.308(a)(8)
 internal-audit-program,Internal audit program,iso-27001,ISO/IEC 27001,9.2
 internal-audit-program,Internal audit program,iso-27001,ISO/IEC 27001,A.5.35
@@ -789,6 +1425,7 @@ management-system-processes,Management system processes & interactions,iso-27001
 management-system-processes,Management system processes & interactions,iso-42001,ISO/IEC 42001,4.4
 management-system-processes,Management system processes & interactions,iso-9001,ISO 9001,4.4.1
 management-system-processes,Management system processes & interactions,iso-9001,ISO 9001,4.4.2
+leadership-commitment,Leadership commitment & accountability,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-PIY-RES
 leadership-commitment,Leadership commitment & accountability,iso-27001,ISO/IEC 27001,5.1
 leadership-commitment,Leadership commitment & accountability,iso-42001,ISO/IEC 42001,5.1
 leadership-commitment,Leadership commitment & accountability,iso-9001,ISO 9001,5.1.1
@@ -800,6 +1437,10 @@ security-objectives,Information security objectives & planning,soc-2,SOC 2,CC3.1
 management-system-change-planning,Planned change to the management system,iso-27001,ISO/IEC 27001,6.3
 management-system-change-planning,Planned change to the management system,iso-42001,ISO/IEC 42001,6.3
 management-system-change-planning,Planned change to the management system,iso-9001,ISO 9001,6.3
+management-system-resources,Resources for the management system,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-PIY-RIS
+management-system-resources,Resources for the management system,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SA-2
+management-system-resources,Resources for the management system,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-2
+management-system-resources,Resources for the management system,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-2
 management-system-resources,Resources for the management system,iso-27001,ISO/IEC 27001,7.1
 management-system-resources,Resources for the management system,iso-42001,ISO/IEC 42001,7.1
 management-system-resources,Resources for the management system,iso-9001,ISO 9001,7.1.1
@@ -816,15 +1457,23 @@ management-system-communication,Management system communication plan,soc-2,SOC 2
 operational-planning-control,Operational planning & control,iso-27001,ISO/IEC 27001,8.1
 operational-planning-control,Operational planning & control,iso-42001,ISO/IEC 42001,8.1
 operational-planning-control,Operational planning & control,iso-9001,ISO 9001,8.1
+risk-treatment-plan,Risk treatment plan & residual risk acceptance,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VER-TFR-MAV
 risk-treatment-plan,Risk treatment plan & residual risk acceptance,iso-27001,ISO/IEC 27001,8.3
 risk-treatment-plan,Risk treatment plan & residual risk acceptance,nist-csf,NIST Cybersecurity Framework,GV.RM-04
 risk-treatment-plan,Risk treatment plan & residual risk acceptance,nist-csf,NIST Cybersecurity Framework,ID.RA-06
 risk-treatment-plan,Risk treatment plan & residual risk acceptance,soc-2,SOC 2,CC5.1
+security-performance-measurement,Security performance measurement,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CA-7
+security-performance-measurement,Security performance measurement,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CA-7(4)
+security-performance-measurement,Security performance measurement,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CA-7
+security-performance-measurement,Security performance measurement,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CA-7(4)
+security-performance-measurement,Security performance measurement,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CA-7
+security-performance-measurement,Security performance measurement,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CA-7(4)
 security-performance-measurement,Security performance measurement,iso-27001,ISO/IEC 27001,9.1
 security-performance-measurement,Security performance measurement,nist-800-171,NIST SP 800-171,3.12.3
 security-performance-measurement,Security performance measurement,nist-800-53,NIST SP 800-53,CA-7
 security-performance-measurement,Security performance measurement,nist-800-53,NIST SP 800-53,CA-7(4)
 security-performance-measurement,Security performance measurement,nist-csf,NIST Cybersecurity Framework,GV.OV-03
+continual-improvement,Continual improvement,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-SVC-EIS
 continual-improvement,Continual improvement,iso-27001,ISO/IEC 27001,10.1
 continual-improvement,Continual improvement,iso-42001,ISO/IEC 42001,10.1
 continual-improvement,Continual improvement,iso-9001,ISO 9001,10.1
@@ -931,6 +1580,8 @@ whistleblower-channel,Whistleblower channel,esg-essentials,ESG Essentials,G.5
 whistleblower-channel,Whistleblower channel,pipeda,PIPEDA,27.1(1)
 whistleblower-channel,Whistleblower channel,soc-2,SOC 2,CC2.2
 whistleblower-channel,Whistleblower channel,sox,SOX (Sarbanes-Oxley) Section 404,P14
+delegation-of-authority,Delegation of authority & segregation of duties,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-5
+delegation-of-authority,Delegation of authority & segregation of duties,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-5
 delegation-of-authority,Delegation of authority & segregation of duties,iso-27001,ISO/IEC 27001,A.5.3
 delegation-of-authority,Delegation of authority & segregation of duties,nist-800-171,NIST SP 800-171,3.1.4
 delegation-of-authority,Delegation of authority & segregation of duties,nist-800-53,NIST SP 800-53,AC-5
@@ -948,6 +1599,7 @@ control-accountability,Accountability for control responsibilities,iso-27001,ISO
 control-accountability,Accountability for control responsibilities,nist-csf,NIST Cybersecurity Framework,GV.RR-02
 control-accountability,Accountability for control responsibilities,soc-2,SOC 2,CC1.5
 technology-general-controls,General controls over technology,soc-2,SOC 2,CC5.2
+capacity-management,Capacity management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-2(2)
 capacity-management,Capacity management,iso-27001,ISO/IEC 27001,A.8.6
 capacity-management,Capacity management,nist-csf,NIST Cybersecurity Framework,PR.IR-04
 capacity-management,Capacity management,soc-2,SOC 2,A1.1
@@ -1031,6 +1683,9 @@ responsible-procurement,Responsible purchasing practice,esg-essentials,ESG Essen
 responsible-political-engagement,Responsible political involvement,esg-essentials,ESG Essentials,G.11
 fair-competition,Fair competition,esg-essentials,ESG Essentials,G.12
 property-rights-respect,Respect for property & intellectual property rights,esg-essentials,ESG Essentials,G.13
+property-rights-respect,Respect for property & intellectual property rights,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CM-10
+property-rights-respect,Respect for property & intellectual property rights,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-10
+property-rights-respect,Respect for property & intellectual property rights,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-10
 property-rights-respect,Respect for property & intellectual property rights,iso-27001,ISO/IEC 27001,A.5.32
 property-rights-respect,Respect for property & intellectual property rights,nist-800-53,NIST SP 800-53,CM-10
 ai-system-inventory,AI system inventory,ai-governance-essentials,AI Governance Essentials,GV.3
@@ -1324,6 +1979,10 @@ childrens-social-safety,Online-safety controls for children’s social features,
 childrens-social-safety,Online-safety controls for children’s social features,google-play-families,Google Play Families,families/social/adult-management
 childrens-social-safety,Online-safety controls for children’s social features,google-play-families,Google Play Families,families/social/anonymous-chat
 external-security-contacts,Contact with authorities & security communities,cis-controls,CIS Controls,17.2
+external-security-contacts,Contact with authorities & security communities,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SI-5
+external-security-contacts,Contact with authorities & security communities,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-5
+external-security-contacts,Contact with authorities & security communities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-5(1)
+external-security-contacts,Contact with authorities & security communities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-5
 external-security-contacts,Contact with authorities & security communities,iso-27001,ISO/IEC 27001,A.5.5
 external-security-contacts,Contact with authorities & security communities,iso-27001,ISO/IEC 27001,A.5.6
 external-security-contacts,Contact with authorities & security communities,nist-800-171,NIST SP 800-171,3.14.3
@@ -1332,6 +1991,17 @@ external-security-contacts,Contact with authorities & security communities,nist-
 external-security-contacts,Contact with authorities & security communities,nist-csf,NIST Cybersecurity Framework,DE.AE-07
 external-security-contacts,Contact with authorities & security communities,nist-csf,NIST Cybersecurity Framework,RS.CO-03
 security-in-project-management,Information security in project management,iso-27001,ISO/IEC 27001,A.5.8
+acceptable-use,Acceptable use of information and assets,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AC-20
+acceptable-use,Acceptable use of information and assets,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PL-4
+acceptable-use,Acceptable use of information and assets,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PL-4(1)
+acceptable-use,Acceptable use of information and assets,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-20
+acceptable-use,Acceptable use of information and assets,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-20(1)
+acceptable-use,Acceptable use of information and assets,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PL-4
+acceptable-use,Acceptable use of information and assets,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PL-4(1)
+acceptable-use,Acceptable use of information and assets,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-20
+acceptable-use,Acceptable use of information and assets,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-20(1)
+acceptable-use,Acceptable use of information and assets,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PL-4
+acceptable-use,Acceptable use of information and assets,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PL-4(1)
 acceptable-use,Acceptable use of information and assets,iso-27001,ISO/IEC 27001,A.5.10
 acceptable-use,Acceptable use of information and assets,nist-800-171,NIST SP 800-171,3.1.20
 acceptable-use,Acceptable use of information and assets,nist-800-53,NIST SP 800-53,AC-20
@@ -1339,10 +2009,50 @@ acceptable-use,Acceptable use of information and assets,nist-800-53,NIST SP 800-
 acceptable-use,Acceptable use of information and assets,nist-800-53,NIST SP 800-53,PL-4
 acceptable-use,Acceptable use of information and assets,nist-800-53,NIST SP 800-53,PL-4(1)
 acceptable-use,Acceptable use of information and assets,pci-dss,PCI DSS,12.2
+information-transfer,Information transfer rules & agreements,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CA-3
+information-transfer,Information transfer rules & agreements,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-21
+information-transfer,Information transfer rules & agreements,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CA-3
+information-transfer,Information transfer rules & agreements,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CA-3(6)
+information-transfer,Information transfer rules & agreements,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-21
+information-transfer,Information transfer rules & agreements,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CA-3
 information-transfer,Information transfer rules & agreements,iso-27001,ISO/IEC 27001,A.5.14
 information-transfer,Information transfer rules & agreements,nist-800-53,NIST SP 800-53,AC-21
 information-transfer,Information transfer rules & agreements,nist-800-53,NIST SP 800-53,CA-3
 ict-supply-chain-security,ICT supply chain security,cis-controls,CIS Controls,16.4
+ict-supply-chain-security,ICT supply chain security,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-SCR-MIT
+ict-supply-chain-security,ICT supply chain security,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-SCR-MON
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,RA-3(1)
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SR-1
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SR-2
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SR-2(1)
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SR-5
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SR-8
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SR-10
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SR-11
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SR-11(1)
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IR-6(3)
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,RA-3(1)
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SR-1
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SR-2
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SR-2(1)
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SR-5
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SR-8
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SR-10
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SR-11
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SR-11(1)
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SR-9
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SR-9(1)
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-6(3)
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,RA-3(1)
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SR-1
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SR-2
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SR-2(1)
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SR-5
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SR-8
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SR-10
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SR-11
+ict-supply-chain-security,ICT supply chain security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SR-11(1)
+ict-supply-chain-security,ICT supply chain security,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,MAS-CSO-TPR
 ict-supply-chain-security,ICT supply chain security,iso-27001,ISO/IEC 27001,A.5.21
 ict-supply-chain-security,ICT supply chain security,nist-800-53,NIST SP 800-53,IR-6(3)
 ict-supply-chain-security,ICT supply chain security,nist-800-53,NIST SP 800-53,RA-3(1)
@@ -1371,6 +2081,19 @@ policy-compliance-monitoring,Management review of policy compliance,pci-dss,PCI 
 confidentiality-agreements,Confidentiality & non-disclosure agreements,iso-27001,ISO/IEC 27001,A.6.6
 remote-working-security,Remote and off-site working,cis-controls,CIS Controls,12.7
 remote-working-security,Remote and off-site working,cis-controls,CIS Controls,13.5
+remote-working-security,Remote and off-site working,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AC-17
+remote-working-security,Remote and off-site working,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-17
+remote-working-security,Remote and off-site working,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-17(1)
+remote-working-security,Remote and off-site working,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-17(2)
+remote-working-security,Remote and off-site working,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-17(3)
+remote-working-security,Remote and off-site working,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PE-17
+remote-working-security,Remote and off-site working,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-7(7)
+remote-working-security,Remote and off-site working,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-17
+remote-working-security,Remote and off-site working,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-17(1)
+remote-working-security,Remote and off-site working,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-17(2)
+remote-working-security,Remote and off-site working,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-17(3)
+remote-working-security,Remote and off-site working,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-17
+remote-working-security,Remote and off-site working,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-7(7)
 remote-working-security,Remote and off-site working,iso-27001,ISO/IEC 27001,A.6.7
 remote-working-security,Remote and off-site working,nist-800-171,NIST SP 800-171,3.1.12
 remote-working-security,Remote and off-site working,nist-800-171,NIST SP 800-171,3.1.13
@@ -1385,11 +2108,43 @@ remote-working-security,Remote and off-site working,nist-800-53,NIST SP 800-53,P
 remote-working-security,Remote and off-site working,nist-800-53,NIST SP 800-53,SC-7(7)
 remote-working-security,Remote and off-site working,pci-dss,PCI DSS,1.5
 security-event-reporting,Security event reporting channel,cis-controls,CIS Controls,17.3
+security-event-reporting,Security event reporting channel,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IR-7
+security-event-reporting,Security event reporting channel,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IR-7
+security-event-reporting,Security event reporting channel,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IR-7(1)
+security-event-reporting,Security event reporting channel,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-7
+security-event-reporting,Security event reporting channel,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IR-7(1)
+security-event-reporting,Security event reporting channel,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,IEC-CSO-AIR
+security-event-reporting,Security event reporting channel,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,IEC-CSO-FIR
+security-event-reporting,Security event reporting channel,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,IEC-CSO-IIR
+security-event-reporting,Security event reporting channel,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,IEC-CSO-OIR
 security-event-reporting,Security event reporting channel,iso-27001,ISO/IEC 27001,A.6.8
 security-event-reporting,Security event reporting channel,nist-800-53,NIST SP 800-53,IR-7
 security-event-reporting,Security event reporting channel,nist-800-53,NIST SP 800-53,IR-7(1)
 security-event-reporting,Security event reporting channel,nist-csf,NIST Cybersecurity Framework,DE.AE-06
 security-event-reporting,Security event reporting channel,nist-csf,NIST Cybersecurity Framework,RS.MA-02
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PE-12
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PE-13
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PE-14
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PE-15
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PE-13(2)
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PE-10
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PE-11
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PE-12
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PE-13
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PE-13(1)
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PE-14
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PE-15
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-11(1)
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-13(2)
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-14(2)
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-15(1)
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-10
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-11
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-12
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-13
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-13(1)
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-14
+facility-environmental-controls,Facility environmental protection & utilities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-15
 facility-environmental-controls,Facility environmental protection & utilities,iso-27001,ISO/IEC 27001,A.7.5
 facility-environmental-controls,Facility environmental protection & utilities,iso-27001,ISO/IEC 27001,A.7.11
 facility-environmental-controls,Facility environmental protection & utilities,nist-800-53,NIST SP 800-53,PE-10
@@ -1400,14 +2155,38 @@ facility-environmental-controls,Facility environmental protection & utilities,ni
 facility-environmental-controls,Facility environmental protection & utilities,nist-800-53,NIST SP 800-53,PE-14
 facility-environmental-controls,Facility environmental protection & utilities,nist-800-53,NIST SP 800-53,PE-15
 facility-environmental-controls,Facility environmental protection & utilities,nist-csf,NIST Cybersecurity Framework,PR.IR-02
+secure-area-working,Working in secure areas,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SC-15
+secure-area-working,Working in secure areas,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-15
+secure-area-working,Working in secure areas,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-15
 secure-area-working,Working in secure areas,iso-27001,ISO/IEC 27001,A.7.6
 secure-area-working,Working in secure areas,nist-800-171,NIST SP 800-171,3.13.12
 secure-area-working,Working in secure areas,nist-800-53,NIST SP 800-53,SC-15
+equipment-siting-protection,Equipment siting & protection,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PE-5
+equipment-siting-protection,Equipment siting & protection,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-18
+equipment-siting-protection,Equipment siting & protection,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-5
 equipment-siting-protection,Equipment siting & protection,iso-27001,ISO/IEC 27001,A.7.8
 equipment-siting-protection,Equipment siting & protection,nist-800-53,NIST SP 800-53,PE-5
+off-premises-asset-protection,Security of assets off-premises,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-2(7)
+off-premises-asset-protection,Security of assets off-premises,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-2(7)
 off-premises-asset-protection,Security of assets off-premises,iso-27001,ISO/IEC 27001,A.7.9
 off-premises-asset-protection,Security of assets off-premises,nist-800-53,NIST SP 800-53,CM-2(7)
 storage-media-management,Storage media lifecycle management,cis-controls,CIS Controls,3.9
+storage-media-management,Storage media lifecycle management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,MP-1
+storage-media-management,Storage media lifecycle management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,MP-2
+storage-media-management,Storage media lifecycle management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,MP-7
+storage-media-management,Storage media lifecycle management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-20(2)
+storage-media-management,Storage media lifecycle management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,MP-1
+storage-media-management,Storage media lifecycle management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,MP-2
+storage-media-management,Storage media lifecycle management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,MP-4
+storage-media-management,Storage media lifecycle management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,MP-5
+storage-media-management,Storage media lifecycle management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,MP-7
+storage-media-management,Storage media lifecycle management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MP-6(3)
+storage-media-management,Storage media lifecycle management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-20(2)
+storage-media-management,Storage media lifecycle management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MP-1
+storage-media-management,Storage media lifecycle management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MP-2
+storage-media-management,Storage media lifecycle management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MP-4
+storage-media-management,Storage media lifecycle management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MP-5
+storage-media-management,Storage media lifecycle management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MP-7
 storage-media-management,Storage media lifecycle management,iso-27001,ISO/IEC 27001,A.7.10
 storage-media-management,Storage media lifecycle management,nist-800-171,NIST SP 800-171,3.1.21
 storage-media-management,Storage media lifecycle management,nist-800-171,NIST SP 800-171,3.8.1
@@ -1423,9 +2202,42 @@ storage-media-management,Storage media lifecycle management,nist-800-53,NIST SP 
 storage-media-management,Storage media lifecycle management,nist-800-53,NIST SP 800-53,MP-5
 storage-media-management,Storage media lifecycle management,nist-800-53,NIST SP 800-53,MP-7
 storage-media-management,Storage media lifecycle management,pci-dss,PCI DSS,9.4
+cabling-security,Cabling security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PE-4
+cabling-security,Cabling security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PE-9
+cabling-security,Cabling security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-4
+cabling-security,Cabling security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PE-9
 cabling-security,Cabling security,iso-27001,ISO/IEC 27001,A.7.12
 cabling-security,Cabling security,nist-800-53,NIST SP 800-53,PE-4
 cabling-security,Cabling security,nist-800-53,NIST SP 800-53,PE-9
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,MA-1
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,MA-2
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,MA-4
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,MA-5
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SR-11(2)
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,MA-5(1)
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,MA-1
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,MA-2
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,MA-3
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,MA-3(1)
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,MA-3(2)
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,MA-3(3)
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,MA-4
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,MA-5
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,MA-6
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SR-11(2)
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MA-2(2)
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MA-4(3)
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MA-5(1)
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MA-1
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MA-2
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MA-3
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MA-3(1)
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MA-3(2)
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MA-3(3)
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MA-4
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MA-5
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,MA-6
+equipment-maintenance,Equipment maintenance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SR-11(2)
 equipment-maintenance,Equipment maintenance,iso-27001,ISO/IEC 27001,A.7.13
 equipment-maintenance,Equipment maintenance,nist-800-171,NIST SP 800-171,3.7.1
 equipment-maintenance,Equipment maintenance,nist-800-171,NIST SP 800-171,3.7.2
@@ -1446,6 +2258,29 @@ equipment-maintenance,Equipment maintenance,nist-800-53,NIST SP 800-53,SR-11(2)
 equipment-maintenance,Equipment maintenance,nist-csf,NIST Cybersecurity Framework,PR.PS-03
 privileged-access-management,Privileged access & administrative tooling,cis-controls,CIS Controls,5.4
 privileged-access-management,Privileged access & administrative tooling,cis-controls,CIS Controls,12.8
+privileged-access-management,Privileged access & administrative tooling,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-IAM-ELP
+privileged-access-management,Privileged access & administrative tooling,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-IAM-JIT
+privileged-access-management,Privileged access & administrative tooling,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-IAM-SUS
+privileged-access-management,Privileged access & administrative tooling,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-MLA-ALA
+privileged-access-management,Privileged access & administrative tooling,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-2(7)
+privileged-access-management,Privileged access & administrative tooling,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-6(1)
+privileged-access-management,Privileged access & administrative tooling,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-6(2)
+privileged-access-management,Privileged access & administrative tooling,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-6(5)
+privileged-access-management,Privileged access & administrative tooling,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-6(7)
+privileged-access-management,Privileged access & administrative tooling,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-6(9)
+privileged-access-management,Privileged access & administrative tooling,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-6(10)
+privileged-access-management,Privileged access & administrative tooling,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-17(4)
+privileged-access-management,Privileged access & administrative tooling,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-2(7)
+privileged-access-management,Privileged access & administrative tooling,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-6(3)
+privileged-access-management,Privileged access & administrative tooling,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-6(8)
+privileged-access-management,Privileged access & administrative tooling,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-4(20)
+privileged-access-management,Privileged access & administrative tooling,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-6(1)
+privileged-access-management,Privileged access & administrative tooling,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-6(2)
+privileged-access-management,Privileged access & administrative tooling,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-6(5)
+privileged-access-management,Privileged access & administrative tooling,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-6(7)
+privileged-access-management,Privileged access & administrative tooling,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-6(9)
+privileged-access-management,Privileged access & administrative tooling,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-6(10)
+privileged-access-management,Privileged access & administrative tooling,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-17(4)
 privileged-access-management,Privileged access & administrative tooling,iso-27001,ISO/IEC 27001,A.8.2
 privileged-access-management,Privileged access & administrative tooling,iso-27001,ISO/IEC 27001,A.8.18
 privileged-access-management,Privileged access & administrative tooling,nist-800-171,NIST SP 800-171,3.1.6
@@ -1466,6 +2301,45 @@ secure-configuration-management,Secure configuration & baselines,cis-controls,CI
 secure-configuration-management,Secure configuration & baselines,cis-controls,CIS Controls,4.7
 secure-configuration-management,Secure configuration & baselines,cis-controls,CIS Controls,4.8
 secure-configuration-management,Secure configuration & baselines,cis-controls,CIS Controls,16.7
+secure-configuration-management,Secure configuration & baselines,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-CMT-RMV
+secure-configuration-management,Secure configuration & baselines,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-CNA-DFP
+secure-configuration-management,Secure configuration & baselines,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-CNA-EIS
+secure-configuration-management,Secure configuration & baselines,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-CNA-IBP
+secure-configuration-management,Secure configuration & baselines,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-MLA-EVC
+secure-configuration-management,Secure configuration & baselines,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-SVC-ACM
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CM-1
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CM-2
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CM-6
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CM-7
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SA-5
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-6(1)
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-1
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-2
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-2(2)
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-2(3)
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-6
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-7
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-7(1)
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-9
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-5
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-6(1)
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-6(2)
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-1
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-2
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-2(2)
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-2(3)
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-6
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-7
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-7(1)
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-9
+secure-configuration-management,Secure configuration & baselines,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-5
+secure-configuration-management,Secure configuration & baselines,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCG-CSO-AUP
+secure-configuration-management,Secure configuration & baselines,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCG-CSO-RSC
+secure-configuration-management,Secure configuration & baselines,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCG-CSO-SDF
+secure-configuration-management,Secure configuration & baselines,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCG-ENH-API
+secure-configuration-management,Secure configuration & baselines,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCG-ENH-CMP
+secure-configuration-management,Secure configuration & baselines,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCG-ENH-EXP
+secure-configuration-management,Secure configuration & baselines,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCG-ENH-MRG
 secure-configuration-management,Secure configuration & baselines,iso-27001,ISO/IEC 27001,A.8.9
 secure-configuration-management,Secure configuration & baselines,nist-800-171,NIST SP 800-171,3.4.2
 secure-configuration-management,Secure configuration & baselines,nist-800-171,NIST SP 800-171,3.4.6
@@ -1485,7 +2359,27 @@ data-masking,Data masking & pseudonymization,gdpr,GDPR,Art.89(1)
 data-masking,Data masking & pseudonymization,iso-27001,ISO/IEC 27001,A.8.11
 data-masking,Data masking & pseudonymization,nist-csf,NIST Cybersecurity Framework,PR.DS-10
 data-leakage-prevention,Data leakage prevention,cis-controls,CIS Controls,3.13
+data-leakage-prevention,Data leakage prevention,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-4(18)
+data-leakage-prevention,Data leakage prevention,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-7(10)
+data-leakage-prevention,Data leakage prevention,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-4(18)
 data-leakage-prevention,Data leakage prevention,iso-27001,ISO/IEC 27001,A.8.12
+infrastructure-redundancy,Redundancy of processing facilities,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-CNA-OFA
+infrastructure-redundancy,Redundancy of processing facilities,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-7
+infrastructure-redundancy,Redundancy of processing facilities,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-7(1)
+infrastructure-redundancy,Redundancy of processing facilities,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-7(2)
+infrastructure-redundancy,Redundancy of processing facilities,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-7(3)
+infrastructure-redundancy,Redundancy of processing facilities,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-8
+infrastructure-redundancy,Redundancy of processing facilities,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-8(1)
+infrastructure-redundancy,Redundancy of processing facilities,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CP-8(2)
+infrastructure-redundancy,Redundancy of processing facilities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-7(4)
+infrastructure-redundancy,Redundancy of processing facilities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-8(3)
+infrastructure-redundancy,Redundancy of processing facilities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-7
+infrastructure-redundancy,Redundancy of processing facilities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-7(1)
+infrastructure-redundancy,Redundancy of processing facilities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-7(2)
+infrastructure-redundancy,Redundancy of processing facilities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-7(3)
+infrastructure-redundancy,Redundancy of processing facilities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-8
+infrastructure-redundancy,Redundancy of processing facilities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-8(1)
+infrastructure-redundancy,Redundancy of processing facilities,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CP-8(2)
 infrastructure-redundancy,Redundancy of processing facilities,iso-27001,ISO/IEC 27001,A.8.14
 infrastructure-redundancy,Redundancy of processing facilities,nist-800-53,NIST SP 800-53,CP-7
 infrastructure-redundancy,Redundancy of processing facilities,nist-800-53,NIST SP 800-53,CP-7(1)
@@ -1501,6 +2395,17 @@ software-installation-control,Control of software on operational systems,cis-con
 software-installation-control,Control of software on operational systems,cis-controls,CIS Controls,2.7
 software-installation-control,Control of software on operational systems,cis-controls,CIS Controls,9.1
 software-installation-control,Control of software on operational systems,cis-controls,CIS Controls,9.4
+software-installation-control,Control of software on operational systems,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CM-11
+software-installation-control,Control of software on operational systems,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-7(2)
+software-installation-control,Control of software on operational systems,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-7(5)
+software-installation-control,Control of software on operational systems,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CM-11
+software-installation-control,Control of software on operational systems,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-18
+software-installation-control,Control of software on operational systems,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-14
+software-installation-control,Control of software on operational systems,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-7(15)
+software-installation-control,Control of software on operational systems,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-7(2)
+software-installation-control,Control of software on operational systems,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-7(5)
+software-installation-control,Control of software on operational systems,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-11
+software-installation-control,Control of software on operational systems,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-18
 software-installation-control,Control of software on operational systems,iso-27001,ISO/IEC 27001,A.8.19
 software-installation-control,Control of software on operational systems,nist-800-171,NIST SP 800-171,3.4.8
 software-installation-control,Control of software on operational systems,nist-800-171,NIST SP 800-171,3.4.9
@@ -1513,11 +2418,19 @@ software-installation-control,Control of software on operational systems,nist-cs
 software-installation-control,Control of software on operational systems,nist-csf,NIST Cybersecurity Framework,PR.PS-05
 web-filtering,Web filtering,cis-controls,CIS Controls,9.2
 web-filtering,Web filtering,cis-controls,CIS Controls,9.3
+web-filtering,Web filtering,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-7(8)
+web-filtering,Web filtering,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-7(8)
 web-filtering,Web filtering,iso-27001,ISO/IEC 27001,A.8.23
 web-filtering,Web filtering,nist-800-53,NIST SP 800-53,SC-7(8)
 email-authentication,Email authentication & anti-spoofing,cis-controls,CIS Controls,9.5
 email-authentication,Email authentication & anti-spoofing,pci-dss,PCI DSS,5.4
 application-security-requirements,Application security requirements,cis-controls,CIS Controls,16.14
+application-security-requirements,Application security requirements,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-23
+application-security-requirements,Application security requirements,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-10
+application-security-requirements,Application security requirements,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-11
+application-security-requirements,Application security requirements,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-23
+application-security-requirements,Application security requirements,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-10
+application-security-requirements,Application security requirements,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-11
 application-security-requirements,Application security requirements,iso-27001,ISO/IEC 27001,A.8.26
 application-security-requirements,Application security requirements,nist-800-171,NIST SP 800-171,3.13.15
 application-security-requirements,Application security requirements,nist-800-53,NIST SP 800-53,SC-23
@@ -1525,6 +2438,26 @@ application-security-requirements,Application security requirements,nist-800-53,
 application-security-requirements,Application security requirements,nist-800-53,NIST SP 800-53,SI-11
 secure-architecture-principles,Secure architecture & engineering principles,cis-controls,CIS Controls,16.10
 secure-architecture-principles,Secure architecture & engineering principles,cis-controls,CIS Controls,16.11
+secure-architecture-principles,Secure architecture & engineering principles,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-CNA-DFP
+secure-architecture-principles,Secure architecture & engineering principles,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-CNA-MAT
+secure-architecture-principles,Secure architecture & engineering principles,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-CNA-ULN
+secure-architecture-principles,Secure architecture & engineering principles,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-SVC-PRR
+secure-architecture-principles,Secure architecture & engineering principles,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PL-8
+secure-architecture-principles,Secure architecture & engineering principles,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SC-39
+secure-architecture-principles,Secure architecture & engineering principles,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PL-8
+secure-architecture-principles,Secure architecture & engineering principles,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-2
+secure-architecture-principles,Secure architecture & engineering principles,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-4
+secure-architecture-principles,Secure architecture & engineering principles,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-39
+secure-architecture-principles,Secure architecture & engineering principles,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SI-16
+secure-architecture-principles,Secure architecture & engineering principles,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-17
+secure-architecture-principles,Secure architecture & engineering principles,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-24
+secure-architecture-principles,Secure architecture & engineering principles,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-3
+secure-architecture-principles,Secure architecture & engineering principles,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PL-8
+secure-architecture-principles,Secure architecture & engineering principles,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-2
+secure-architecture-principles,Secure architecture & engineering principles,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-4
+secure-architecture-principles,Secure architecture & engineering principles,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-39
+secure-architecture-principles,Secure architecture & engineering principles,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-16
+secure-architecture-principles,Secure architecture & engineering principles,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VDR-CSO-DFR
 secure-architecture-principles,Secure architecture & engineering principles,iso-27001,ISO/IEC 27001,A.8.27
 secure-architecture-principles,Secure architecture & engineering principles,nist-800-171,NIST SP 800-171,3.13.2
 secure-architecture-principles,Secure architecture & engineering principles,nist-800-171,NIST SP 800-171,3.13.3
@@ -1535,15 +2468,37 @@ secure-architecture-principles,Secure architecture & engineering principles,nist
 secure-architecture-principles,Secure architecture & engineering principles,nist-800-53,NIST SP 800-53,SC-39
 secure-architecture-principles,Secure architecture & engineering principles,nist-800-53,NIST SP 800-53,SI-16
 security-testing-in-development,Security testing in development & acceptance,cis-controls,CIS Controls,16.6
+security-testing-in-development,Security testing in development & acceptance,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-11(1)
+security-testing-in-development,Security testing in development & acceptance,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-11(2)
+security-testing-in-development,Security testing in development & acceptance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-11(1)
+security-testing-in-development,Security testing in development & acceptance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-11(2)
 security-testing-in-development,Security testing in development & acceptance,iso-27001,ISO/IEC 27001,A.8.29
+outsourced-development-oversight,Outsourced development oversight,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-10
+outsourced-development-oversight,Outsourced development oversight,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-16
+outsourced-development-oversight,Outsourced development oversight,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-21
+outsourced-development-oversight,Outsourced development oversight,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-10
 outsourced-development-oversight,Outsourced development oversight,iso-27001,ISO/IEC 27001,A.8.30
 outsourced-development-oversight,Outsourced development oversight,nist-800-53,NIST SP 800-53,SA-10
 environment-separation,"Separation of development, test and production",cis-controls,CIS Controls,16.8
+environment-separation,"Separation of development, test and production",fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-4(1)
 environment-separation,"Separation of development, test and production",iso-27001,ISO/IEC 27001,A.8.31
 test-data-management,Test information management,iso-27001,ISO/IEC 27001,A.8.33
 audit-testing-safeguards,Protection of systems during audit testing,iso-27001,ISO/IEC 27001,A.8.34
+system-use-notification,System use notification,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AC-8
+system-use-notification,System use notification,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-8
+system-use-notification,System use notification,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-8
 system-use-notification,System use notification,nist-800-171,NIST SP 800-171,3.1.9
 system-use-notification,System use notification,nist-800-53,NIST SP 800-53,AC-8
+wireless-network-security,Wireless network security,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AC-18
+wireless-network-security,Wireless network security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-18
+wireless-network-security,Wireless network security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-18(1)
+wireless-network-security,Wireless network security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-18(3)
+wireless-network-security,Wireless network security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-18(4)
+wireless-network-security,Wireless network security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-18(5)
+wireless-network-security,Wireless network security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SI-4(14)
+wireless-network-security,Wireless network security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-18
+wireless-network-security,Wireless network security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-18(1)
+wireless-network-security,Wireless network security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-18(3)
 wireless-network-security,Wireless network security,nist-800-171,NIST SP 800-171,3.1.16
 wireless-network-security,Wireless network security,nist-800-171,NIST SP 800-171,3.1.17
 wireless-network-security,Wireless network security,nist-800-53,NIST SP 800-53,AC-18
@@ -1554,15 +2509,46 @@ wireless-network-security,Wireless network security,pci-dss,PCI DSS,11.2
 mobile-device-security,Mobile device security,cis-controls,CIS Controls,4.10
 mobile-device-security,Mobile device security,cis-controls,CIS Controls,4.11
 mobile-device-security,Mobile device security,cis-controls,CIS Controls,4.12
+mobile-device-security,Mobile device security,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AC-19
+mobile-device-security,Mobile device security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-19
+mobile-device-security,Mobile device security,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-19(5)
+mobile-device-security,Mobile device security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-19
+mobile-device-security,Mobile device security,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-19(5)
 mobile-device-security,Mobile device security,nist-800-171,NIST SP 800-171,3.1.18
 mobile-device-security,Mobile device security,nist-800-171,NIST SP 800-171,3.1.19
 mobile-device-security,Mobile device security,nist-800-53,NIST SP 800-53,AC-19
 mobile-device-security,Mobile device security,nist-800-53,NIST SP 800-53,AC-19(5)
+public-information-review,Review of publicly posted information,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,AC-22
+public-information-review,Review of publicly posted information,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,AC-22
+public-information-review,Review of publicly posted information,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,AC-22
+public-information-review,Review of publicly posted information,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCG-CSO-PUB
+public-information-review,Review of publicly posted information,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,VER-RPT-NID
 public-information-review,Review of publicly posted information,nist-800-171,NIST SP 800-171,3.1.22
 public-information-review,Review of publicly posted information,nist-800-53,NIST SP 800-53,AC-22
 public-information-review,Review of publicly posted information,nist-csf,NIST Cybersecurity Framework,RC.CO-04
+system-authorization,Authorization to operate a system,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,CA-6
+system-authorization,Authorization to operate a system,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,CA-6
+system-authorization,Authorization to operate a system,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CA-6
 system-authorization,Authorization to operate a system,nist-800-53,NIST SP 800-53,CA-6
 system-authorization,Authorization to operate a system,nist-ai-rmf,NIST AI Risk Management Framework,MANAGE-1.1
+external-identity-acceptance,External and federated identity acceptance,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IA-2(12)
+external-identity-acceptance,External and federated identity acceptance,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IA-8
+external-identity-acceptance,External and federated identity acceptance,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IA-8(1)
+external-identity-acceptance,External and federated identity acceptance,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IA-8(2)
+external-identity-acceptance,External and federated identity acceptance,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IA-8(4)
+external-identity-acceptance,External and federated identity acceptance,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SA-4(10)
+external-identity-acceptance,External and federated identity acceptance,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-2(12)
+external-identity-acceptance,External and federated identity acceptance,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-8
+external-identity-acceptance,External and federated identity acceptance,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-8(1)
+external-identity-acceptance,External and federated identity acceptance,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-8(2)
+external-identity-acceptance,External and federated identity acceptance,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-8(4)
+external-identity-acceptance,External and federated identity acceptance,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SA-4(10)
+external-identity-acceptance,External and federated identity acceptance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-2(12)
+external-identity-acceptance,External and federated identity acceptance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-8
+external-identity-acceptance,External and federated identity acceptance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-8(1)
+external-identity-acceptance,External and federated identity acceptance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-8(2)
+external-identity-acceptance,External and federated identity acceptance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-8(4)
+external-identity-acceptance,External and federated identity acceptance,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SA-4(10)
 external-identity-acceptance,External and federated identity acceptance,nist-800-53,NIST SP 800-53,IA-2(12)
 external-identity-acceptance,External and federated identity acceptance,nist-800-53,NIST SP 800-53,IA-8
 external-identity-acceptance,External and federated identity acceptance,nist-800-53,NIST SP 800-53,IA-8(1)
@@ -1570,6 +2556,21 @@ external-identity-acceptance,External and federated identity acceptance,nist-800
 external-identity-acceptance,External and federated identity acceptance,nist-800-53,NIST SP 800-53,IA-8(4)
 external-identity-acceptance,External and federated identity acceptance,nist-800-53,NIST SP 800-53,SA-4(10)
 external-identity-acceptance,External and federated identity acceptance,nist-csf,NIST Cybersecurity Framework,PR.AA-04
+cryptographic-key-management,Cryptographic key management,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-IAM-SNU
+cryptographic-key-management,Cryptographic key management,fedramp-20x,FedRAMP 20x Key Security Indicators,KSI-SVC-ASM
+cryptographic-key-management,Cryptographic key management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,IA-7
+cryptographic-key-management,Cryptographic key management,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,SC-12
+cryptographic-key-management,Cryptographic key management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-5(2)
+cryptographic-key-management,Cryptographic key management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,IA-7
+cryptographic-key-management,Cryptographic key management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-12
+cryptographic-key-management,Cryptographic key management,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,SC-17
+cryptographic-key-management,Cryptographic key management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CM-3(6)
+cryptographic-key-management,Cryptographic key management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-12(1)
+cryptographic-key-management,Cryptographic key management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-5(2)
+cryptographic-key-management,Cryptographic key management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,IA-7
+cryptographic-key-management,Cryptographic key management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-12
+cryptographic-key-management,Cryptographic key management,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,SC-17
+cryptographic-key-management,Cryptographic key management,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CMU-CSO-CMD
 cryptographic-key-management,Cryptographic key management,nist-800-171,NIST SP 800-171,3.13.10
 cryptographic-key-management,Cryptographic key management,nist-800-53,NIST SP 800-53,IA-5(2)
 cryptographic-key-management,Cryptographic key management,nist-800-53,NIST SP 800-53,IA-7
@@ -1577,6 +2578,15 @@ cryptographic-key-management,Cryptographic key management,nist-800-53,NIST SP 80
 cryptographic-key-management,Cryptographic key management,nist-800-53,NIST SP 800-53,SC-17
 cryptographic-key-management,Cryptographic key management,pci-dss,PCI DSS,3.6
 cryptographic-key-management,Cryptographic key management,pci-dss,PCI DSS,3.7
+security-plan-and-baseline,System security plan & control baseline,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PL-2
+security-plan-and-baseline,System security plan & control baseline,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PL-10
+security-plan-and-baseline,System security plan & control baseline,fedramp-rev5-class-b,FedRAMP Rev5 Certification Class B,PL-11
+security-plan-and-baseline,System security plan & control baseline,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PL-2
+security-plan-and-baseline,System security plan & control baseline,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PL-10
+security-plan-and-baseline,System security plan & control baseline,fedramp-rev5-class-c,FedRAMP Rev5 Certification Class C,PL-11
+security-plan-and-baseline,System security plan & control baseline,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PL-2
+security-plan-and-baseline,System security plan & control baseline,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PL-10
+security-plan-and-baseline,System security plan & control baseline,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,PL-11
 security-plan-and-baseline,System security plan & control baseline,nist-800-171,NIST SP 800-171,3.12.4
 security-plan-and-baseline,System security plan & control baseline,nist-800-53,NIST SP 800-53,PL-2
 security-plan-and-baseline,System security plan & control baseline,nist-800-53,NIST SP 800-53,PL-10
@@ -1712,3 +2722,110 @@ wage-hour-records,Time and pay records,us-employment-federal,US Employment Law (
 nursing-employee-break-and-space,Break time and space for nursing employees,us-employment-federal,US Employment Law (federal baseline),us.leave.pump-act
 polygraph-testing-limits,Lie-detector testing limits,us-employment-federal,US Employment Law (federal baseline),us.privacy.polygraph
 employee-monitoring-lawful-basis,Lawful basis for monitoring employee communications,us-employment-federal,US Employment Law (federal baseline),us.privacy.electronic-monitoring
+fedramp-security-inbox,FedRAMP security inbox,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,AFC-CSO-INB
+fedramp-security-inbox,FedRAMP security inbox,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,AFC-CSO-NOC
+fedramp-security-inbox,FedRAMP security inbox,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,AFC-CSO-TFG
+fedramp-security-inbox,FedRAMP security inbox,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,AFC-CSO-RCV
+fedramp-security-inbox,FedRAMP security inbox,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,AFC-CSO-CRA
+fedramp-security-inbox,FedRAMP security inbox,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,AFC-CSO-EMR
+fedramp-security-inbox,FedRAMP security inbox,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,AFC-CSO-IMA
+fedramp-security-inbox,FedRAMP security inbox,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,AFC-CSO-ACK
+fedramp-marketplace-listing,FedRAMP Marketplace listing,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,MKT-CSO-MLR
+fedramp-marketplace-listing,FedRAMP Marketplace listing,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,MKT-CSO-PML
+fedramp-marketplace-listing,FedRAMP Marketplace listing,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,MKT-IIP-AGU
+fedramp-marketplace-listing,FedRAMP Marketplace listing,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,MKT-IIP-DCP
+fedramp-marketplace-listing,FedRAMP Marketplace listing,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,MKT-IIP-DLA
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-CSO-FCP
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-CSO-PKG
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-CSO-JSN
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-CSO-MRA
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-CSO-POP
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-CLA-ASF
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-CLA-EAM
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-CLA-MFR
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-CLA-RFR
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-APP-MLF
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-APP-AFC
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-APP-FCP
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-APP-FIA
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-APP-NTP
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-APS-ATO
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-CCL-UCC
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-CCL-DCC
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-CCL-DNP
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-CSX-VVK
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-CSX-MOT
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-CSX-VVR
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-CSX-MAS
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-CSF-BSL
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-CSF-ACP
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-CSF-FFG
+fedramp-certification-application,FedRAMP certification application,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,FRC-CSF-RDY
+fedramp-certification-package-overview,FedRAMP certification package overview,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CPO-CSO-OVR
+fedramp-certification-package-overview,FedRAMP certification package overview,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CPO-CSO-MTD
+fedramp-certification-package-overview,FedRAMP certification package overview,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CPO-CSO-OSA
+fedramp-certification-package-overview,FedRAMP certification package overview,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CPO-CSX-CPM
+fedramp-certification-package-overview,FedRAMP certification package overview,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CPO-CSF-CPM
+fedramp-certification-data-publication,FedRAMP certification data and trust center,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CDS-CSO-PUB
+fedramp-certification-data-publication,FedRAMP certification data and trust center,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CDS-CSO-SVC
+fedramp-certification-data-publication,FedRAMP certification data and trust center,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CDS-CSO-FID
+fedramp-certification-data-publication,FedRAMP certification data and trust center,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CDS-CSO-FRC
+fedramp-certification-data-publication,FedRAMP certification data and trust center,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CDS-CSO-AVR
+fedramp-certification-data-publication,FedRAMP certification data and trust center,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CDS-CSO-UTC
+fedramp-certification-data-publication,FedRAMP certification data and trust center,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CDS-CSO-CBF
+fedramp-certification-data-publication,FedRAMP certification data and trust center,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CDS-CSO-RIS
+fedramp-certification-data-publication,FedRAMP certification data and trust center,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CDS-CSO-IRP
+fedramp-certification-data-publication,FedRAMP certification data and trust center,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CDS-CSO-HAD
+fedramp-certification-data-publication,FedRAMP certification data and trust center,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CDS-CSO-PSM
+fedramp-certification-data-publication,FedRAMP certification data and trust center,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CDS-TRC-USH
+fedramp-certification-data-publication,FedRAMP certification data and trust center,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CDS-TRC-PAC
+fedramp-certification-data-publication,FedRAMP certification data and trust center,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CDS-TRC-AAI
+fedramp-certification-data-publication,FedRAMP certification data and trust center,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CDS-TRC-ACL
+fedramp-certification-data-publication,FedRAMP certification data and trust center,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CDS-TRC-HMR
+fedramp-certification-data-publication,FedRAMP certification data and trust center,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CDS-TRC-SSM
+fedramp-certification-data-publication,FedRAMP certification data and trust center,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CDS-UTC-AAD
+fedramp-certification-data-publication,FedRAMP certification data and trust center,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CDS-UTC-AGA
+fedramp-certification-data-publication,FedRAMP certification data and trust center,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CDS-CSF-TCM
+fedramp-ongoing-certification-reporting,Ongoing FedRAMP certification reporting,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CCM-OCR-AVL
+fedramp-ongoing-certification-reporting,Ongoing FedRAMP certification reporting,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CCM-OCR-NRD
+fedramp-ongoing-certification-reporting,Ongoing FedRAMP certification reporting,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CCM-OCR-FBM
+fedramp-ongoing-certification-reporting,Ongoing FedRAMP certification reporting,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CCM-OCR-AFS
+fedramp-ongoing-certification-reporting,Ongoing FedRAMP certification reporting,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CCM-OCR-LSI
+fedramp-ongoing-certification-reporting,Ongoing FedRAMP certification reporting,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CCM-OCR-SOR
+fedramp-ongoing-certification-reporting,Ongoing FedRAMP certification reporting,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CCM-QTR-MTG
+fedramp-ongoing-certification-reporting,Ongoing FedRAMP certification reporting,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CCM-QTR-REG
+fedramp-ongoing-certification-reporting,Ongoing FedRAMP certification reporting,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CCM-QTR-NRD
+fedramp-ongoing-certification-reporting,Ongoing FedRAMP certification reporting,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CCM-QTR-NID
+fedramp-ongoing-certification-reporting,Ongoing FedRAMP certification reporting,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CCM-QTR-SAR
+fedramp-ongoing-certification-reporting,Ongoing FedRAMP certification reporting,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CCM-QTR-ACT
+fedramp-ongoing-certification-reporting,Ongoing FedRAMP certification reporting,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CCM-QTR-RTR
+fedramp-ongoing-certification-reporting,Ongoing FedRAMP certification reporting,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,CCM-QTR-RTP
+fedramp-independent-assessment,FedRAMP independent assessment,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,IVV-CSO-FIA
+fedramp-independent-assessment,FedRAMP independent assessment,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,IVV-CSO-SEI
+fedramp-independent-assessment,FedRAMP independent assessment,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,IVV-CSO-SEE
+fedramp-independent-assessment,FedRAMP independent assessment,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,IVV-CSO-ICP
+fedramp-independent-assessment,FedRAMP independent assessment,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,IVV-CSO-DUS
+fedramp-independent-assessment,FedRAMP independent assessment,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,IVV-CSO-STE
+fedramp-independent-assessment,FedRAMP independent assessment,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,IVV-CSX-AIA
+fedramp-independent-assessment,FedRAMP independent assessment,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,IVV-CSF-AIA
+fedramp-independent-assessment,FedRAMP independent assessment,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,IVV-CSF-MCA
+fedramp-independent-assessment,FedRAMP independent assessment,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,IVV-CSF-ACF
+fedramp-independent-assessment,FedRAMP independent assessment,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,IVV-CSF-PCA
+fedramp-significant-change-notification,FedRAMP significant change notification,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCN-CSO-EVA
+fedramp-significant-change-notification,FedRAMP significant change notification,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCN-CSO-MAR
+fedramp-significant-change-notification,FedRAMP significant change notification,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCN-CSO-INF
+fedramp-significant-change-notification,FedRAMP significant change notification,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCN-CSO-HIS
+fedramp-significant-change-notification,FedRAMP significant change notification,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCN-CSO-HRM
+fedramp-significant-change-notification,FedRAMP significant change notification,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCN-ADP-NTF
+fedramp-significant-change-notification,FedRAMP significant change notification,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCN-RTR-NNR
+fedramp-significant-change-notification,FedRAMP significant change notification,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCN-TRF-NIP
+fedramp-significant-change-notification,FedRAMP significant change notification,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCN-TRF-NFP
+fedramp-significant-change-notification,FedRAMP significant change notification,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCN-TRF-NAF
+fedramp-significant-change-notification,FedRAMP significant change notification,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCN-TRF-NAV
+fedramp-significant-change-notification,FedRAMP significant change notification,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCN-TRF-UPD
+fedramp-significant-change-notification,FedRAMP significant change notification,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SCN-TRF-TPR
+fedramp-security-decision-record,FedRAMP Security Decision Record,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SDR-CSO-FRR
+fedramp-security-decision-record,FedRAMP Security Decision Record,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SDR-CSO-MTD
+fedramp-security-decision-record,FedRAMP Security Decision Record,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SDR-CSX-KSI
+fedramp-security-decision-record,FedRAMP Security Decision Record,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SDR-CSX-KMT
+fedramp-security-decision-record,FedRAMP Security Decision Record,fedramp-rules-2026,FedRAMP Consolidated Rules for 2026,SDR-CSF-CTF
