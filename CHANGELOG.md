@@ -29,6 +29,411 @@ disappeared — additions alone are never marked breaking.
 
 ---
 
+## 2026-09-19: 283 controls, 2869 mappings, 27 frameworks
+
+**Version:** `sha256-dce6c2d4090a9feec4b3b89d38f1b9ac997a6ab0eabf534bc9e3dda0f1a02f88`
+
+Previous published state: **283 controls, 2832 mappings, 27 frameworks**
+(`sha256-6920b0584aecbb243c5888f8326e99b2f91f43f66b41288e006a530e7a3db307`, 2026-09-18).
+
+**This entry landed ahead of the data.** This file is written by hand; the dataset reaches
+this repository in a separate sync commit and `keelgrc.com/open-data/` in a separate site
+deploy. If `jq -r '.meta.version' crosswalks.json` does not return `sha256-dce6c2d4…`, the
+copy you are holding predates this entry.
+
+**Nothing was removed, renamed, retyped or re-pointed.** Every control key, control name,
+framework key, framework display name and clause reference published on 2026-09-18 is still
+published, on the same control and spelled the same way. Zero CSV rows were withdrawn.
+
+### What changed, in total
+
+| | |
+|---|---|
+| Controls added | 0 |
+| Controls removed | 0 |
+| Frameworks added or removed | 0 |
+| Control-framework edges added | 3 |
+| Control-framework edges **removed entirely** | 0 |
+| Clause references added | 37 |
+| Clause references **withdrawn** from an existing key | 0 |
+| Clause references **re-pointed** | 0 |
+| Control **names** changed | 0 |
+| Control descriptions reworded | 11 |
+| Edges (control × framework pairs) | 986 → 989 |
+| Mappings | 2832 → 2869 |
+| CSV rows withdrawn / arrived | 0 / 37 |
+
+Mappings per framework, previously published → now. **Twenty-four of the twenty-seven
+frameworks are unchanged**; these three moved, all upward.
+
+| Framework key | Was | Now | |
+|---|---|---|---|
+| `hipaa` | 93 | 117 | +24 |
+| `pipeda` | 92 | 104 | +12 |
+| `eu-ai-act` | 34 | 35 | +1 |
+
+Controls mapping to each: `hipaa` 31 → 32, `pipeda` 30 → 31, `eu-ai-act` 21 → 22.
+
+### What this release is: HIPAA and PIPEDA requirements that had no control
+
+Eleven controls gained clause references. The same eleven had their descriptions reworded
+to state the duty each now carries, so every reworded description belongs to a control
+whose mappings also moved.
+
+| Control | Clause references gained |
+|---|---|
+| `vendor-management` | `hipaa` `164.502(a)(3)`, `164.502(e)(2)`, `164.504(e)(1)(ii)`, `164.504(e)(1)(iii)`, `164.504(e)(2)`, `164.504(e)(5)`; `pipeda` `7.2(1)`, `7.2(2)`, `7.2(3)` |
+| `access-request-fulfillment` | `pipeda` `9(1)`, `9(2.2)(a)`, `9(2.2)(b)`, `9(2.4)(a)`, `9(2.4)(b)`, `9(2.4)(c)`, `9(3)`, `9(5)` |
+| `individual-rights-requests` | `hipaa` `164.502(a)(2)`, `164.502(g)(2)`, `164.502(g)(3)`, `164.502(g)(4)`, `164.502(h)`, `164.514(h)(2)` |
+| `personal-data-disclosure-authorization` | `hipaa` `164.502(a)(5)(ii)`, `164.502(a)(5)(iii)`, `164.514(d)(3)`, `164.514(d)(4)`, `164.514(d)(5)` |
+| `access-control-policy` | `hipaa` `164.502(b)`, `164.514(d)(2)` |
+| `risk-assessment` | `hipaa` `164.306(b)`, `164.306(d)` |
+| `data-retention-disposal` | `hipaa` `164.502(f)` |
+| `internal-audit-program` | `hipaa` `164.306(e)` |
+| `privacy-notice` | `hipaa` `164.502(i)` |
+| `ai-competence-training` | `eu-ai-act` `GEN-1` |
+| `workplace-notices` | `pipeda` `7.3` |
+
+Three of those are **new keys on existing controls**. A consumer that cached
+`crosswalks` for `personal-data-disclosure-authorization` and saw no `hipaa` entry will now
+see one, and the same holds for `ai-competence-training` under `eu-ai-act` and
+`workplace-notices` under `pipeda`. Nothing that returned an array returns anything else.
+
+### How `data-retention-disposal` reads 45 CFR 164.502(f)
+
+The control now carries `164.502(f)`, and its description states that provision as a scope
+window rather than as a retention period. The rule requires a covered entity to comply with
+the subpart for 50 years after an individual dies, which governs how the records are
+handled for as long as they are held. It does not require that they be held. The separate
+six-year period at 164.530(j)(2) runs over the documentation an organization keeps about
+its own compliance, and it does not reach a patient record either, so neither provision
+sets a minimum retention period for a health record.
+
+**No published release of this dataset carried a different reading.** The previous state,
+`sha256-6920b058…`, does not map `164.502(f)` at all, and its description of this control
+does not mention death.
+
+### Nothing else moved
+
+`meta` carries the same eight keys in the same order. All 27 `meta.frameworks` entries are
+identical, key and display name. Every control object still has exactly `key`, `name`,
+`description`, `crosswalks`, and the controls appear in the same order. The CSV header and
+column order are unchanged.
+
+---
+
+## 2026-09-18: 283 controls, 2832 mappings, 27 frameworks
+
+**Version:** `sha256-6920b0584aecbb243c5888f8326e99b2f91f43f66b41288e006a530e7a3db307`
+
+Previous published state: **283 controls, 2830 mappings, 27 frameworks**
+(`sha256-1cfa77bdafc0860e5ee12a7fc331fb0b1a42a16df0f346283eb5ba3109abc53c`, 2026-09-07).
+
+**Backfilled on 2026-09-19.** The release shipped on the date in the heading; this note was
+written afterwards.
+
+**Nothing was removed, renamed, retyped or re-pointed.** Zero CSV rows were withdrawn.
+
+### What changed, in total
+
+| | |
+|---|---|
+| Controls added | 0 |
+| Controls removed | 0 |
+| Frameworks added or removed | 0 |
+| Control-framework edges added | 0 |
+| Control-framework edges **removed entirely** | 0 |
+| Clause references added | 2 |
+| Clause references **withdrawn** from an existing key | 0 |
+| Clause references **re-pointed** | 0 |
+| Control **names** changed | 0 |
+| Control descriptions reworded | 1 |
+| Edges (control × framework pairs) | 986 → 986 |
+| Mappings | 2830 → 2832 |
+| CSV rows withdrawn / arrived | 0 / 2 |
+
+Only `eu-ai-act` moved, 32 → 34 mappings across the same 21 controls. The other 26
+frameworks carry exactly what they carried on 2026-09-07.
+
+### What this release is: two EU AI Act prohibited-practice references
+
+`ai-prohibited-practices-screening` gains `eu-ai-act` `PROH-9` and `PROH-10`. Both land on
+an `eu-ai-act` key the control already had, which is why the edge count did not move, and
+the control's description was reworded to cover them. No other control changed in any way.
+
+### Nothing else moved
+
+`meta` carries the same eight keys in the same order, and the 27 `meta.frameworks` entries
+are identical. Every control object still has exactly `key`, `name`, `description`,
+`crosswalks`, in the same order. The CSV header and column order are unchanged.
+
+---
+
+## 2026-09-07: 283 controls, 2830 mappings, 27 frameworks
+
+**Version:** `sha256-1cfa77bdafc0860e5ee12a7fc331fb0b1a42a16df0f346283eb5ba3109abc53c`
+
+Previous published state: **283 controls, 2830 mappings, 27 frameworks**
+(`sha256-1db863f7bfc33b36245ee20b616a9c590a6f9bef76ca0d0227f793443960e7bb`, 2026-09-06).
+
+**Backfilled on 2026-09-19.** The release shipped on the date in the heading; this note was
+written afterwards.
+
+**The three counts in this heading are identical to the release below it, and both headings
+are correct.** Five control descriptions were reworded and nothing else in the dataset
+changed, so `meta.version` is the only field that separates the two states.
+
+**`crosswalks.csv` is byte-identical across these two versions.** A CSV consumer has
+nothing to do with this release. In the JSON, `meta`, every control key, every control name
+and every `crosswalks` object are identical; those five descriptions and the version are
+the whole difference.
+
+### What changed, in total
+
+| | |
+|---|---|
+| Controls added | 0 |
+| Controls removed | 0 |
+| Frameworks added or removed | 0 |
+| Control-framework edges added or removed | 0 |
+| Clause references added, withdrawn or re-pointed | 0 |
+| Control **names** changed | 0 |
+| Control descriptions reworded | 5 |
+| Edges (control × framework pairs) | 986 → 986 |
+| Mappings | 2830 → 2830 |
+| CSV rows withdrawn / arrived | 0 / 0 |
+
+### What this release is: the word "path" replaced with "certification type"
+
+Keel's FedRAMP content calls Rev5 and 20x **certification types**. Five control
+descriptions still called them paths, which left the dataset using two terms for one
+distinction. Only the term changed; the five descriptions are 8 words shorter for it.
+
+| Was | Now | Occurrences |
+|---|---|---|
+| the Rev5 path | Rev5 | 3 |
+| the 20x path | 20x | 2 |
+| the path, The path taken | the certification type | 3 |
+
+Across the five descriptions, 8 uses of "path" were removed and none added. Counted over
+every description in the dataset, "path" falls from 32 to 24 and "certification type"
+rises from 1 to 4. Both counts, run against either version of the file:
+
+```bash
+jq -r '[.controls[].description] | join(" ")' crosswalks.json | grep -o '\bpath\b' | wc -l
+jq -r '[.controls[].description] | join(" ")' crosswalks.json | grep -o 'certification type' | wc -l
+```
+
+That counts the exact word `path`, case-sensitively. Widening the rule moves both endpoints
+and leaves the difference at 8: `\bpaths?\b` gives 35 to 27, and adding case-insensitivity
+gives 36 to 28, because three unrelated descriptions use "paths" and `malware-protection`
+carries an emphatic "EMAIL PATH" that this release did not touch.
+
+The five controls: `fedramp-certification-application`,
+`fedramp-certification-package-overview`, `fedramp-certification-data-publication`,
+`fedramp-independent-assessment`, `fedramp-security-decision-record`.
+
+If you display or index `description`, the text for those five is not the text you had. If
+you read the CSV, or key on anything other than `description`, this release is a no-op.
+
+---
+
+## 2026-09-06: 283 controls, 2830 mappings, 27 frameworks
+
+**Version:** `sha256-1db863f7bfc33b36245ee20b616a9c590a6f9bef76ca0d0227f793443960e7bb`
+
+Previous published state: **274 controls, 1713 mappings, 22 frameworks**
+(`sha256-3ff6ed7bc0322f06ed3cf30808ae275f7dfe495a51c9f3b41ccce1dfce5fe1a6`, 2026-08-28).
+
+**Backfilled on 2026-09-19.** The release shipped on the date in the heading; this note was
+written afterwards.
+
+**Nothing was removed, renamed, retyped or re-pointed.** Every control key, control name,
+framework key, framework display name and clause reference published on 2026-08-28 is still
+published, on the same control and spelled the same way. Zero CSV rows were withdrawn.
+The mapping count grows by 65% in this release and nothing is lost.
+
+### What changed, in total
+
+| | |
+|---|---|
+| Controls added | 9 |
+| Controls removed | 0 |
+| Frameworks added | 5 |
+| Frameworks removed | 0 |
+| Control-framework edges added | 230 (9 on the new controls, 221 on existing ones) |
+| Control-framework edges **removed entirely** | 0 |
+| Clause references added | 1117 (107 on the new controls, 1010 on existing ones) |
+| Clause references **withdrawn** from an existing key | 0 |
+| Clause references **re-pointed** | 0 |
+| Control **names** changed | 0 |
+| Control descriptions reworded | 7 |
+| Edges (control × framework pairs) | 756 → 986 |
+| Mappings | 1713 → 2830 |
+| CSV rows withdrawn / arrived | 0 / 1117 |
+
+**All 22 frameworks published on 2026-08-28 carry exactly the mappings they carried then.**
+Every one of the 1117 new references sits on one of the five new frameworks.
+
+| New framework key | Display name | Mappings | Controls |
+|---|---|---|---|
+| `fedramp-rev5-class-d` | FedRAMP Rev5 Certification Class D | 410 | 66 |
+| `fedramp-rev5-class-c` | FedRAMP Rev5 Certification Class C | 323 | 64 |
+| `fedramp-rules-2026` | FedRAMP Consolidated Rules for 2026 | 165 | 23 |
+| `fedramp-rev5-class-b` | FedRAMP Rev5 Certification Class B | 156 | 50 |
+| `fedramp-20x` | FedRAMP 20x Key Security Indicators | 63 | 27 |
+
+Each Rev5 class is spelled out rather than published as `fedramp-class-c` or similar,
+because a consumer reading this dataset on its own has no way to tell a FedRAMP
+certification class from an impact level.
+
+### The nine new controls
+
+All nine map to `fedramp-rules-2026` and to nothing else.
+
+| New control key | References |
+|---|---|
+| `fedramp-certification-application` | 26 |
+| `fedramp-certification-data-publication` | 20 |
+| `fedramp-ongoing-certification-reporting` | 14 |
+| `fedramp-significant-change-notification` | 13 |
+| `fedramp-independent-assessment` | 11 |
+| `fedramp-security-inbox` | 8 |
+| `fedramp-marketplace-listing` | 5 |
+| `fedramp-certification-package-overview` | 5 |
+| `fedramp-security-decision-record` | 5 |
+
+The other 221 edges are new keys on controls you already have. A consumer that cached
+`control.crosswalks` for `mfa` and saw no `fedramp-*` entry will now see several. That is an
+addition; nothing that returned an array returns anything else.
+
+**7 control descriptions were reworded**, each on a control that gained FedRAMP references
+in this release, to state the duty it now carries: `user-lifecycle` (36 references gained),
+`vendor-management` (29), `credential-management` (22), `hr-security` (20), `mfa` (18),
+`internal-audit-program` (14), `malware-protection` (7). No key, name or type changed, so
+this is not breaking; if you display or index `description`, the text for those seven is
+not the text you had.
+
+### Nothing else moved
+
+`meta` carries the same eight keys in the same order, and `meta.frameworks` grows from 22
+entries to 27 with the existing 22 unchanged in key, display name and order. Every control
+object still has exactly `key`, `name`, `description`, `crosswalks`. The CSV header and
+column order are unchanged.
+
+---
+
+## 2026-08-28: 274 controls, 1713 mappings, 22 frameworks
+
+**Version:** `sha256-3ff6ed7bc0322f06ed3cf30808ae275f7dfe495a51c9f3b41ccce1dfce5fe1a6`
+
+Previous published state: **274 controls, 1708 mappings, 22 frameworks**
+(`sha256-0a4071e5628b06708f15f2d0c6ba5f4aaba7670096824e6a30042b78c0c24d24`, 2026-08-27).
+
+**Backfilled on 2026-09-19.** The release shipped on the date in the heading; this note was
+written afterwards.
+
+**Nothing was removed, renamed, retyped or re-pointed.** Zero CSV rows were withdrawn.
+
+### What changed, in total
+
+| | |
+|---|---|
+| Controls added | 0 |
+| Controls removed | 0 |
+| Frameworks added or removed | 0 |
+| Control-framework edges added | 0 |
+| Control-framework edges **removed entirely** | 0 |
+| Clause references added | 5 |
+| Clause references **withdrawn** from an existing key | 0 |
+| Clause references **re-pointed** | 0 |
+| Control **names** changed | 0 |
+| Control descriptions reworded | 0 |
+| Edges (control × framework pairs) | 756 → 756 |
+| Mappings | 1708 → 1713 |
+| CSV rows withdrawn / arrived | 0 / 5 |
+
+Only `pipeda` moved, 87 → 92 mappings across the same 30 controls. The other 21 frameworks
+carry exactly what they carried on 2026-08-27.
+
+### What this release is: five PIPEDA references that had no control
+
+| Control | Clause references gained |
+|---|---|
+| `personal-data-collection-limitation` | `pipeda` `4.2.2`, `4.4.2` |
+| `security-awareness-training` | `pipeda` `4.2.5` |
+| `privacy-choice-consent` | `pipeda` `4.3.5` |
+| `grievance-mechanism` | `pipeda` `4.10.1` |
+
+All five land on a `pipeda` key those controls already had, which is why the edge count did
+not move. No description, name or type changed anywhere in the dataset, so a consumer that
+keys on anything other than the clause list sees five new CSV rows and nothing else.
+
+---
+
+## 2026-08-27: 274 controls, 1708 mappings, 22 frameworks
+
+**Version:** `sha256-0a4071e5628b06708f15f2d0c6ba5f4aaba7670096824e6a30042b78c0c24d24`
+
+Previous published state: **274 controls, 1621 mappings, 21 frameworks**
+(`sha256-ca3d7036612697061adace59787e549ad43a8c574b5d727ed22c370687a9b101`, 2026-08-27).
+
+**Backfilled on 2026-09-19.** The release shipped on the date in the heading; this note was
+written afterwards.
+
+**Two releases carry the date 2026-08-27**, this one and the entry directly below it. Their
+counts differ and their versions differ, so `meta.version` tells them apart where the date
+cannot.
+
+**Nothing was removed, renamed, retyped or re-pointed.** Every control key, control name,
+clause reference and framework published in `sha256-ca3d7036…` is still published, spelled
+the same way. Zero CSV rows were withdrawn.
+
+### What changed, in total
+
+| | |
+|---|---|
+| Controls added | 0 |
+| Controls removed | 0 |
+| Frameworks added | 1 |
+| Frameworks removed | 0 |
+| Control-framework edges added | 30 |
+| Control-framework edges **removed entirely** | 0 |
+| Clause references added | 87 |
+| Clause references **withdrawn** from an existing key | 0 |
+| Clause references **re-pointed** | 0 |
+| Control **names** changed | 0 |
+| Control descriptions reworded | 0 |
+| Edges (control × framework pairs) | 726 → 756 |
+| Mappings | 1621 → 1708 |
+| CSV rows withdrawn / arrived | 0 / 87 |
+
+### What this release is: PIPEDA
+
+| New framework key | Display name | Mappings | Controls |
+|---|---|---|---|
+| `pipeda` | PIPEDA | 87 | 30 |
+
+**The 21 frameworks published in `sha256-ca3d7036…` are unchanged**, mapping for mapping.
+Every one of the 87 new references is on `pipeda`, and all 30 edges are a new `pipeda` key
+on a control that already existed. No control was added, renamed or reworded.
+
+Two things change shape for a consumer, both by growing. `meta.frameworks` goes from 21
+entries to 22, with the existing 21 identical in key, display name and order. And 30
+controls that returned no `pipeda` key from `control.crosswalks` now return one.
+
+`PIPEDA` is the display name, matching Keel's catalog. Keel scores Part 1 and Schedule 1 of
+the Act, which is the privacy statute the name refers to; the scope is stated on
+`keelgrc.com/frameworks/pipeda/` rather than in this dataset.
+
+### Nothing else moved
+
+`meta` carries the same eight keys in the same order. Every control object still has exactly
+`key`, `name`, `description`, `crosswalks`, in the same order. The CSV header and column
+order are unchanged.
+
+---
+
 ## 2026-08-27 — 274 controls, 1621 mappings, 21 frameworks — **BREAKING**
 
 **Version:** `sha256-ca3d7036612697061adace59787e549ad43a8c574b5d727ed22c370687a9b101`
