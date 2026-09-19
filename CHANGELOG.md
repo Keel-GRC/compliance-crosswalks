@@ -36,10 +36,17 @@ disappeared — additions alone are never marked breaking.
 Previous published state: **283 controls, 2832 mappings, 27 frameworks**
 (`sha256-6920b0584aecbb243c5888f8326e99b2f91f43f66b41288e006a530e7a3db307`, 2026-09-18).
 
-**This entry landed ahead of the data.** This file is written by hand; the dataset reaches
-this repository in a separate sync commit and `keelgrc.com/open-data/` in a separate site
-deploy. If `jq -r '.meta.version' crosswalks.json` does not return `sha256-dce6c2d4…`, the
-copy you are holding predates this entry.
+**The data for this release arrived before this note.** It reached `main` in `74fa7e6`, and
+at the time of writing `main` and `keelgrc.com/open-data/` served
+`sha256-dce6c2d4…` byte for byte. This file is written by hand while the dataset arrives in
+a separate sync commit and reaches the site in a separate deploy, so an entry and the bytes
+it describes can land in either order. Check which release you are holding:
+
+```bash
+jq -r '.meta.version' crosswalks.json
+```
+
+Anything other than `sha256-dce6c2d4…` predates this release.
 
 **Nothing was removed, renamed, retyped or re-pointed.** Every control key, control name,
 framework key, framework display name and clause reference published on 2026-09-18 is still
