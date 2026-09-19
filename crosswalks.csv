@@ -29,6 +29,8 @@ risk-assessment,Risk assessment & treatment,fedramp-rev5-class-d,FedRAMP Rev5 Ce
 risk-assessment,Risk assessment & treatment,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,RA-3
 risk-assessment,Risk assessment & treatment,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,RA-7
 risk-assessment,Risk assessment & treatment,gdpr,GDPR,Art.32(2)
+risk-assessment,Risk assessment & treatment,hipaa,HIPAA,164.306(b)
+risk-assessment,Risk assessment & treatment,hipaa,HIPAA,164.306(d)
 risk-assessment,Risk assessment & treatment,hipaa,HIPAA,164.308(a)(1)(ii)(A)
 risk-assessment,Risk assessment & treatment,hipaa,HIPAA,164.308(a)(1)(ii)(B)
 risk-assessment,Risk assessment & treatment,iso-27001,ISO/IEC 27001,6.1
@@ -75,6 +77,8 @@ access-control-policy,Access control policy,gdpr,GDPR,Art.32(1)
 access-control-policy,Access control policy,hipaa,HIPAA,164.308(a)(3)(ii)(A)
 access-control-policy,Access control policy,hipaa,HIPAA,164.308(a)(4)(ii)(B)
 access-control-policy,Access control policy,hipaa,HIPAA,164.312(a)(2)(ii)
+access-control-policy,Access control policy,hipaa,HIPAA,164.502(b)
+access-control-policy,Access control policy,hipaa,HIPAA,164.514(d)(2)
 access-control-policy,Access control policy,iso-27001,ISO/IEC 27001,A.5.15
 access-control-policy,Access control policy,nist-800-171,NIST SP 800-171,3.1.1
 access-control-policy,Access control policy,nist-800-171,NIST SP 800-171,3.1.2
@@ -866,6 +870,12 @@ vendor-management,Third-party / vendor risk management,gdpr,GDPR,Art.28(3)
 vendor-management,Third-party / vendor risk management,hipaa,HIPAA,164.308(b)(3)
 vendor-management,Third-party / vendor risk management,hipaa,HIPAA,164.314(a)(2)
 vendor-management,Third-party / vendor risk management,hipaa,HIPAA,164.314(b)(2)
+vendor-management,Third-party / vendor risk management,hipaa,HIPAA,164.502(a)(3)
+vendor-management,Third-party / vendor risk management,hipaa,HIPAA,164.502(e)(2)
+vendor-management,Third-party / vendor risk management,hipaa,HIPAA,164.504(e)(1)(ii)
+vendor-management,Third-party / vendor risk management,hipaa,HIPAA,164.504(e)(1)(iii)
+vendor-management,Third-party / vendor risk management,hipaa,HIPAA,164.504(e)(2)
+vendor-management,Third-party / vendor risk management,hipaa,HIPAA,164.504(e)(5)
 vendor-management,Third-party / vendor risk management,iso-27001,ISO/IEC 27001,A.5.19
 vendor-management,Third-party / vendor risk management,iso-27001,ISO/IEC 27001,A.5.20
 vendor-management,Third-party / vendor risk management,iso-27001,ISO/IEC 27001,A.5.22
@@ -891,6 +901,9 @@ vendor-management,Third-party / vendor risk management,nist-csf,NIST Cybersecuri
 vendor-management,Third-party / vendor risk management,nist-csf,NIST Cybersecurity Framework,ID.AM-04
 vendor-management,Third-party / vendor risk management,pci-dss,PCI DSS,12.8
 vendor-management,Third-party / vendor risk management,pipeda,PIPEDA,4.1.3
+vendor-management,Third-party / vendor risk management,pipeda,PIPEDA,7.2(1)
+vendor-management,Third-party / vendor risk management,pipeda,PIPEDA,7.2(2)
+vendor-management,Third-party / vendor risk management,pipeda,PIPEDA,7.2(3)
 vendor-management,Third-party / vendor risk management,soc-2,SOC 2,CC9.2
 vendor-management,Third-party / vendor risk management,soc-2,SOC 2,P6.4
 vendor-management,Third-party / vendor risk management,soc-2,SOC 2,P6.5
@@ -1201,6 +1214,7 @@ data-retention-disposal,Data retention & secure disposal,fedramp-rev5-class-d,Fe
 data-retention-disposal,Data retention & secure disposal,gdpr,GDPR,Art.5(1)
 data-retention-disposal,Data retention & secure disposal,hipaa,HIPAA,164.310(d)(2)(i)
 data-retention-disposal,Data retention & secure disposal,hipaa,HIPAA,164.310(d)(2)(ii)
+data-retention-disposal,Data retention & secure disposal,hipaa,HIPAA,164.502(f)
 data-retention-disposal,Data retention & secure disposal,iso-27001,ISO/IEC 27001,A.7.14
 data-retention-disposal,Data retention & secure disposal,iso-27001,ISO/IEC 27001,A.8.10
 data-retention-disposal,Data retention & secure disposal,nist-800-171,NIST SP 800-171,3.8.3
@@ -1369,6 +1383,7 @@ internal-audit-program,Internal audit program,fedramp-rev5-class-d,FedRAMP Rev5 
 internal-audit-program,Internal audit program,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CA-2
 internal-audit-program,Internal audit program,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CA-2(1)
 internal-audit-program,Internal audit program,fedramp-rev5-class-d,FedRAMP Rev5 Certification Class D,CA-7(1)
+internal-audit-program,Internal audit program,hipaa,HIPAA,164.306(e)
 internal-audit-program,Internal audit program,hipaa,HIPAA,164.308(a)(8)
 internal-audit-program,Internal audit program,iso-27001,ISO/IEC 27001,9.2
 internal-audit-program,Internal audit program,iso-27001,ISO/IEC 27001,A.5.35
@@ -1535,6 +1550,7 @@ breach-notification,Breach assessment & notification,hipaa,HIPAA,164.410(c)
 breach-notification,Breach assessment & notification,hipaa,HIPAA,164.412
 breach-notification,Breach assessment & notification,hipaa,HIPAA,164.414(a)
 breach-notification,Breach assessment & notification,hipaa,HIPAA,164.414(b)
+privacy-notice,Privacy notice & transparency,hipaa,HIPAA,164.502(i)
 privacy-notice,Privacy notice & transparency,hipaa,HIPAA,164.520(b)
 privacy-notice,Privacy notice & transparency,hipaa,HIPAA,164.520(c)
 privacy-notice,Privacy notice & transparency,hipaa,HIPAA,164.520(d)
@@ -1544,6 +1560,12 @@ privacy-notice,Privacy notice & transparency,pipeda,PIPEDA,4.8
 privacy-notice,Privacy notice & transparency,pipeda,PIPEDA,4.8.1
 privacy-notice,Privacy notice & transparency,pipeda,PIPEDA,4.8.2
 privacy-notice,Privacy notice & transparency,pipeda,PIPEDA,4.8.3
+individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.502(a)(2)
+individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.502(g)(2)
+individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.502(g)(3)
+individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.502(g)(4)
+individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.502(h)
+individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.514(h)(2)
 individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.522(a)(2)
 individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.522(a)(3)
 individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.522(b)(2)
@@ -1632,6 +1654,11 @@ personal-data-use-limitation,Use limited to disclosed purposes,pipeda,PIPEDA,4.5
 personal-data-use-limitation,Use limited to disclosed purposes,pipeda,PIPEDA,4.2.4
 personal-data-use-limitation,Use limited to disclosed purposes,soc-2,SOC 2,P4.1
 personal-data-disclosure-authorization,Authorized disclosure of personal information,gdpr,GDPR,Art.48
+personal-data-disclosure-authorization,Authorized disclosure of personal information,hipaa,HIPAA,164.502(a)(5)(ii)
+personal-data-disclosure-authorization,Authorized disclosure of personal information,hipaa,HIPAA,164.502(a)(5)(iii)
+personal-data-disclosure-authorization,Authorized disclosure of personal information,hipaa,HIPAA,164.514(d)(3)
+personal-data-disclosure-authorization,Authorized disclosure of personal information,hipaa,HIPAA,164.514(d)(4)
+personal-data-disclosure-authorization,Authorized disclosure of personal information,hipaa,HIPAA,164.514(d)(5)
 personal-data-disclosure-authorization,Authorized disclosure of personal information,pipeda,PIPEDA,4.5
 personal-data-disclosure-authorization,Authorized disclosure of personal information,pipeda,PIPEDA,7(3)
 personal-data-disclosure-authorization,Authorized disclosure of personal information,soc-2,SOC 2,P6.1
@@ -1806,6 +1833,7 @@ ai-use-case-definition,AI use case definition & context,nist-ai-rmf,NIST AI Risk
 ai-use-case-definition,AI use case definition & context,nist-ai-rmf,NIST AI Risk Management Framework,MAP-2.1
 ai-use-case-definition,AI use case definition & context,nist-ai-rmf,NIST AI Risk Management Framework,MAP-3.3
 ai-competence-training,AI competence & training,ai-governance-essentials,AI Governance Essentials,HO.3
+ai-competence-training,AI competence & training,eu-ai-act,EU AI Act,GEN-1
 ai-competence-training,AI competence & training,iso-42001,ISO/IEC 42001,A.4.6
 ai-competence-training,AI competence & training,nist-ai-rmf,NIST AI Risk Management Framework,GOVERN-2.2
 ai-competence-training,AI competence & training,nist-ai-rmf,NIST AI Risk Management Framework,MAP-3.4
@@ -1887,6 +1915,7 @@ anti-discrimination-program,Anti-discrimination & accommodation program,us-emplo
 anti-discrimination-program,Anti-discrimination & accommodation program,us-employment-federal,US Employment Law (federal baseline),us.antidiscrim.gina
 anti-discrimination-program,Anti-discrimination & accommodation program,us-employment-federal,US Employment Law (federal baseline),us.antidiscrim.pregnancy
 anti-discrimination-program,Anti-discrimination & accommodation program,us-employment-federal,US Employment Law (federal baseline),us.antidiscrim.pwfa
+workplace-notices,Workplace notices & postings,pipeda,PIPEDA,7.3
 workplace-notices,Workplace notices & postings,us-employment-federal,US Employment Law (federal baseline),us.posting.federal-workplace-posters
 labor-relations-practice,Protected activity & labor relations,esg-essentials,ESG Essentials,S.14
 labor-relations-practice,Protected activity & labor relations,us-employment-federal,US Employment Law (federal baseline),us.labor.nlra-protected-activity
@@ -2629,6 +2658,14 @@ access-request-fulfillment,Fulfilling an access request,gdpr,GDPR,Art.15(3)
 access-request-fulfillment,Fulfilling an access request,gdpr,GDPR,Art.15(4)
 access-request-fulfillment,Fulfilling an access request,pipeda,PIPEDA,4.9.1
 access-request-fulfillment,Fulfilling an access request,pipeda,PIPEDA,4.9.4
+access-request-fulfillment,Fulfilling an access request,pipeda,PIPEDA,9(1)
+access-request-fulfillment,Fulfilling an access request,pipeda,PIPEDA,9(2.2)(a)
+access-request-fulfillment,Fulfilling an access request,pipeda,PIPEDA,9(2.2)(b)
+access-request-fulfillment,Fulfilling an access request,pipeda,PIPEDA,9(2.4)(a)
+access-request-fulfillment,Fulfilling an access request,pipeda,PIPEDA,9(2.4)(b)
+access-request-fulfillment,Fulfilling an access request,pipeda,PIPEDA,9(2.4)(c)
+access-request-fulfillment,Fulfilling an access request,pipeda,PIPEDA,9(3)
+access-request-fulfillment,Fulfilling an access request,pipeda,PIPEDA,9(5)
 access-request-fulfillment,Fulfilling an access request,pipeda,PIPEDA,10
 erasure-and-restriction,Erasure follow-through & restriction of processing,gdpr,GDPR,Art.17(2)
 erasure-and-restriction,Erasure follow-through & restriction of processing,gdpr,GDPR,Art.18(1)
