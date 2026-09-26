@@ -29,6 +29,102 @@ disappeared — additions alone are never marked breaking.
 
 ---
 
+## 2026-09-26: 283 controls, 2878 mappings, 27 frameworks
+
+**Version:** `sha256-a3572f030a60e662b0aa5f8d0ca9c8283c7ca724413e01e3cad2e9375108c793`
+
+Previous published state: **283 controls, 2869 mappings, 27 frameworks**
+(`sha256-dce6c2d4090a9feec4b3b89d38f1b9ac997a6ab0eabf534bc9e3dda0f1a02f88`, 2026-09-19).
+
+This entry and the data it describes reach `main` separately: the data arrives in its own
+sync commit and reaches `keelgrc.com/open-data/` in its own deploy, so for a while one of the
+three may run ahead of the others. To see which release you have:
+
+```bash
+jq -r '.meta.version' crosswalks.json
+```
+
+If that prints `sha256-dce6c2d4…`, you have the previous release.
+
+**Nothing was removed, renamed, retyped or re-pointed.** Every control key, control name,
+framework key, framework display name and clause reference published on 2026-09-19 is still
+published, on the same control and spelled the same way. Zero CSV rows were withdrawn.
+
+### What changed, in total
+
+| | |
+|---|---|
+| Controls added | 0 |
+| Controls removed | 0 |
+| Frameworks added or removed | 0 |
+| Control-framework edges added | 0 |
+| Control-framework edges **removed entirely** | 0 |
+| Clause references added | 9 |
+| Clause references **withdrawn** from an existing key | 0 |
+| Clause references **re-pointed** | 0 |
+| Control **names** changed | 0 |
+| Control descriptions reworded | 2 |
+| Edges (control × framework pairs) | 989 → 989 |
+| Mappings | 2869 → 2878 |
+| CSV rows withdrawn / arrived | 0 / 9 |
+
+Two frameworks moved. The other 25 have exactly the mappings they had on 2026-09-19.
+
+| Framework key | Was | Now | |
+|---|---|---|---|
+| `eu-ai-act` | 35 | 43 | +8 |
+| `hipaa` | 117 | 118 | +1 |
+
+The number of controls mapping to each is unchanged: `eu-ai-act` 22, `hipaa` 32.
+
+### The nine new references
+
+| Control | Clause references gained |
+|---|---|
+| `ai-data-governance` | `eu-ai-act` `GEN-2`, `GEN-3`, `GEN-4`, `GEN-5`, `GEN-6`, `GEN-7`, `GEN-8`, `GEN-9` |
+| `individual-rights-requests` | `hipaa` `164.502(a)(4)` |
+
+`GEN-2` to `GEN-9` are EU AI Act Article 4a, which Regulation (EU) 2026/1744 inserted: when
+special categories of personal data may be processed to detect and correct bias, and under
+which conditions. `164.502(a)(4)` covers the disclosures a HIPAA business associate is
+required to make.
+
+Both controls already had a key for the framework concerned, which is why the edge count did
+not move.
+
+### The two reworded descriptions
+
+Both changes are insertions. No sentence that was in either description on 2026-09-19 was
+edited or removed, and no other control's description changed.
+
+- `ai-data-governance`: a passage is appended after the existing text. It asks the
+  organization to record whether it relies on Article 4a to process special categories of
+  personal data for bias detection and correction, and lists the conditions that processing
+  must meet if it does. It says which paragraph applies to whom: 4a(1) to providers of
+  high-risk systems, 4a(2) to everyone else and only for the harms it names. It also notes
+  that the duty to examine for bias comes from Article 10(2), points (f) and (g), not from
+  Article 4a.
+- `individual-rights-requests`: a passage is inserted after the sentence about producing
+  records the regulator asks for. It states the two disclosures a business associate must
+  make under `164.502(a)(4)`: to the Secretary of Health and Human Services for a compliance
+  investigation, and to the covered entity, the individual or their designee when an
+  individual asks for an electronic copy. It adds that an organization that is not a
+  business associate has nothing to do under that sentence.
+
+Array order: the eight `eu-ai-act` references are appended after `HREQ-2`, so every existing
+position in that array is unchanged. `164.502(a)(4)` goes in at index 1 of the `hipaa` array
+of `individual-rights-requests`, and the nineteen references after it each move down one place.
+The reference strings are the same. Only their positions changed.
+
+### Nothing else moved
+
+`meta` has the same eight keys in the same order. All 27 `meta.frameworks` entries are
+identical, key and display name. Every control object still has exactly `key`, `name`,
+`description`, `crosswalks`, and the controls appear in the same order. The CSV header and
+column order are unchanged.
+
+---
+
 ## 2026-09-19: 283 controls, 2869 mappings, 27 frameworks
 
 **Version:** `sha256-dce6c2d4090a9feec4b3b89d38f1b9ac997a6ab0eabf534bc9e3dda0f1a02f88`
