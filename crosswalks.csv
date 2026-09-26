@@ -1561,6 +1561,7 @@ privacy-notice,Privacy notice & transparency,pipeda,PIPEDA,4.8.1
 privacy-notice,Privacy notice & transparency,pipeda,PIPEDA,4.8.2
 privacy-notice,Privacy notice & transparency,pipeda,PIPEDA,4.8.3
 individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.502(a)(2)
+individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.502(a)(4)
 individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.502(g)(2)
 individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.502(g)(3)
 individual-rights-requests,Individual rights request handling,hipaa,HIPAA,164.502(g)(4)
@@ -1765,6 +1766,14 @@ ai-data-governance,Data governance for AI,ai-governance-essentials,AI Governance
 ai-data-governance,Data governance for AI,ai-governance-essentials,AI Governance Essentials,DA.2
 ai-data-governance,Data governance for AI,ai-governance-essentials,AI Governance Essentials,DA.4
 ai-data-governance,Data governance for AI,eu-ai-act,EU AI Act,HREQ-2
+ai-data-governance,Data governance for AI,eu-ai-act,EU AI Act,GEN-2
+ai-data-governance,Data governance for AI,eu-ai-act,EU AI Act,GEN-3
+ai-data-governance,Data governance for AI,eu-ai-act,EU AI Act,GEN-4
+ai-data-governance,Data governance for AI,eu-ai-act,EU AI Act,GEN-5
+ai-data-governance,Data governance for AI,eu-ai-act,EU AI Act,GEN-6
+ai-data-governance,Data governance for AI,eu-ai-act,EU AI Act,GEN-7
+ai-data-governance,Data governance for AI,eu-ai-act,EU AI Act,GEN-8
+ai-data-governance,Data governance for AI,eu-ai-act,EU AI Act,GEN-9
 ai-data-governance,Data governance for AI,iso-42001,ISO/IEC 42001,A.4.3
 ai-data-governance,Data governance for AI,iso-42001,ISO/IEC 42001,A.7.2
 ai-data-governance,Data governance for AI,iso-42001,ISO/IEC 42001,A.7.3
