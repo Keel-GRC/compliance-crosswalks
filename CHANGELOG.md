@@ -24,8 +24,9 @@ jq '.meta.controlCount' crosswalks.json
 jq '[.controls[].crosswalks | to_entries[].value | length] | add' crosswalks.json
 ```
 
-Entries are newest first. A **BREAKING** heading means an existing key or value changed or
-disappeared — additions alone are never marked breaking.
+Entries are newest first. A **BREAKING** heading means an existing key, name, type, framework
+key or clause reference changed or disappeared. Additions alone are never marked breaking, and
+a reworded `description` is noted in the entry but does not make it breaking.
 
 ---
 
@@ -578,9 +579,9 @@ its 1621 rows now carry a different value.
 - **A JSON consumer keying on `control.key` does not.** No key, type, edge or clause
   reference changed, and every control is present in the same order.
 
-The rule this file states is that a BREAKING heading means an existing key or value changed
-or disappeared. Values changed, so the flag is on. Under-declaring is the only direction
-that costs a consumer anything.
+The rule this file states is that a BREAKING heading means an existing key, name, type,
+framework key or clause reference changed or disappeared. Names changed, so the flag is on.
+Under-declaring is the only direction that costs a consumer anything.
 
 ### BREAKING — three control names
 
