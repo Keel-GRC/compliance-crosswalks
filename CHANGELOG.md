@@ -30,6 +30,63 @@ a reworded `description` is noted in the entry but does not make it breaking.
 
 ---
 
+## 2026-10-17: 283 controls, 2878 mappings, 27 frameworks
+
+**Version:** `sha256-93cc6df60db45c423ba9b695651c95b973d23e3ab5fbf22358464ee71dfc7c19`
+
+Previous published state: **283 controls, 2878 mappings, 27 frameworks**
+(`sha256-a3572f030a60e662b0aa5f8d0ca9c8283c7ca724413e01e3cad2e9375108c793`, 2026-09-26).
+
+This entry and the data it describes reach `main` separately. The data arrived first, in
+sync commit `aa98ac3`, and this entry follows it. To see which release you have:
+
+```bash
+jq -r '.meta.version' crosswalks.json
+```
+
+If that prints `sha256-a3572f03…`, you have the previous release.
+
+**Nothing was removed, renamed, retyped or re-pointed.** Every control key, control name,
+framework key, framework display name and clause reference published on 2026-09-26 is still
+published, on the same control and spelled the same way. Zero CSV rows were withdrawn.
+
+### What changed, in total
+
+| | |
+|---|---|
+| Controls added | 0 |
+| Controls removed | 0 |
+| Frameworks added or removed | 0 |
+| Control-framework edges added | 0 |
+| Control-framework edges **removed entirely** | 0 |
+| Clause references added | 0 |
+| Clause references **withdrawn** from an existing key | 0 |
+| Clause references **re-pointed** | 0 |
+| Control **names** changed | 0 |
+| Control descriptions reworded | 1 |
+| Edges (control × framework pairs) | 989 → 989 |
+| Mappings | 2878 → 2878 |
+| CSV rows withdrawn / arrived | 0 / 0 |
+
+No framework moved. All 27 have exactly the mappings they had on 2026-09-26.
+
+### The one reworded description
+
+- `network-security`: one clause of the first passage is edited. It used to say that devices
+  connecting are authenticated rather than trusted for being on the wire. It now says that
+  each device connecting is uniquely identified and authenticated before the connection is
+  established, rather than trusted for being on the wire. No other sentence in that
+  description changed, and no other control's description changed.
+
+### Nothing else moved
+
+`meta` has the same eight keys in the same order. All 27 `meta.frameworks` entries are
+identical, key and display name. Every control object still has exactly `key`, `name`,
+`description`, `crosswalks`, and the controls appear in the same order. The CSV is
+byte-identical to the 2026-09-26 release.
+
+---
+
 ## 2026-09-26: 283 controls, 2878 mappings, 27 frameworks
 
 **Version:** `sha256-a3572f030a60e662b0aa5f8d0ca9c8283c7ca724413e01e3cad2e9375108c793`
